@@ -11,9 +11,9 @@ using Xamarin.Forms.Xaml;
 namespace hotelFlorencia.View
 {
 	[XamlCompilation(XamlCompilationOptions.Compile)]
-	public partial class LearnTabbedPagePrincipal : Xamarin.Forms.TabbedPage
+	public partial class MenuTabbedPagePrincipal : Xamarin.Forms.TabbedPage
 	{
-		public LearnTabbedPagePrincipal ()
+		public MenuTabbedPagePrincipal()
 		{
 			InitializeComponent ();
             On<Xamarin.Forms.PlatformConfiguration.Android>().SetToolbarPlacement(ToolbarPlacement.Bottom);
