@@ -10,6 +10,14 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="View\Tabs\FavoritoPage.xaml.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Remove="View\Tabs\FavoritoPage.xaml" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Xamarin.Essentials" Version="1.0.0" />
     <PackageReference Include="Xamarin.Forms" Version="4.0.0.8055-pre1" />
     <PackageReference Include="Xamarin.Forms.Maps" Version="4.0.0.8055-pre1" />
@@ -24,9 +32,6 @@
     </Compile>
     <Compile Update="View\eventosSocialesPage.xaml.cs">
       <DependentUpon>EventosSocialesPage.xaml</DependentUpon>
-    </Compile>
-    <Compile Update="View\Tabs\FavoritoPage.xaml.cs">
-      <DependentUpon>FavoritoPage.xaml</DependentUpon>
     </Compile>
     <Compile Update="View\hotelPage.xaml.cs">
       <DependentUpon>HotelPage.xaml</DependentUpon>
@@ -68,9 +73,6 @@
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="View\EventosSocialesPage.xaml">
-      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
-    </EmbeddedResource>
-    <EmbeddedResource Update="View\Tabs\FavoritoPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="View\Restaurante\HamburguesasPage.xaml">

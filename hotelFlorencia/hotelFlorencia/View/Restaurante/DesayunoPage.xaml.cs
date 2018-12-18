@@ -24,7 +24,7 @@ namespace hotelFlorencia.View
 		}
         private async void ListMenus_ItemSelected(object sender, SelectedItemChangedEventArgs e)
         {
-            await App.Current.MainPage.Navigation.PushAsync(new desayunoPage());
+            await App.Current.MainPage.Navigation.PushAsync(new DesayunoPage());
         }
     }
 }
