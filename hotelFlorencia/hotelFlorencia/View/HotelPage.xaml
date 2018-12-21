@@ -37,8 +37,8 @@
                     <RowDefinition Height="auto"/>
                     <RowDefinition Height="auto"/>
                 </Grid.RowDefinitions>
-                <Image Grid.Row="0" Source="piscina.jpg"></Image>
-                <Label Grid.Row="1" Text="Area de Recreacion"></Label>
+                    <Image Grid.Row="0" Source="HabitacionDoble.jpg" />
+                    <Label Grid.Row="1" Text="Area de Recreacion"></Label>
                 <Button Grid.Row="2" Text="Ver Descripcion" BackgroundColor="Maroon"></Button>
             </Grid>
         </Frame>

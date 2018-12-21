@@ -242,4 +242,28 @@
   <ItemGroup>
     <BundleResource Include="Resources\fondoframe.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Postres.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Bebidas.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Camarones.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Carnes.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Cocteles.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Cortes.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Entradas.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Parrilladas.jpg" />
+  </ItemGroup>
 </Project>

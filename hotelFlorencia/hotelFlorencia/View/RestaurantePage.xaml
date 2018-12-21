@@ -6,40 +6,100 @@
              BackgroundColor="Maroon">
     <ScrollView>
         <StackLayout>
-            <Frame Padding="10" Margin="10" HeightRequest="280" BackgroundColor="White">
+            <Frame Padding="10" Margin="10" HeightRequest="300" BackgroundColor="White">
                 <Grid>
                     <Grid.RowDefinitions>
                         <RowDefinition Height="auto"/>
                         <RowDefinition Height="auto"/>
                         <RowDefinition Height="auto"/>
                     </Grid.RowDefinitions>
-                    <Image Grid.Row="0" Source="Suit.jpg"></Image>
-                    <Label Grid.Row="1" Text="Suite de Lujo "></Label>
-                    <Button Grid.Row="2" Text="Ver Descripcion" BackgroundColor="Maroon"></Button>
+                    <Image Grid.Row="0" Source="Entradas.jpg"></Image>
+                    <Label Grid.Row="1" Text="Entradas"></Label>
+                    <Button Grid.Row="2" Text="Ver menu" BackgroundColor="Maroon"></Button>
                 </Grid>
             </Frame>
-            <Frame Padding="10" Margin="10" HeightRequest="280" BackgroundColor="White">
+            <Frame Padding="10" Margin="10" HeightRequest="300" BackgroundColor="White">
                 <Grid>
                     <Grid.RowDefinitions>
                         <RowDefinition Height="auto"/>
                         <RowDefinition Height="auto"/>
                         <RowDefinition Height="auto"/>
                     </Grid.RowDefinitions>
-                    <Image Grid.Row="0" Source="HabitacionDoble.jpg"></Image>
-                    <Label Grid.Row="1" Text="Habitacion Doble"></Label>
-                    <Button Grid.Row="2" Text="Ver Descripcion" BackgroundColor="Maroon"></Button>
+                    <Image Grid.Row="0" Source="Cocteles.jpg"></Image>
+                    <Label Grid.Row="1" Text="Cocteles y Ceviches"></Label>
+                    <Button Grid.Row="2" Text="Ver Menu" BackgroundColor="Maroon"></Button>
                 </Grid>
             </Frame>
-            <Frame Padding="10" Margin="10" HeightRequest="280" BackgroundColor="White">
+            <Frame Padding="10" Margin="10" HeightRequest="300" BackgroundColor="White">
                 <Grid>
                     <Grid.RowDefinitions>
                         <RowDefinition Height="auto"/>
                         <RowDefinition Height="auto"/>
                         <RowDefinition Height="auto"/>
                     </Grid.RowDefinitions>
-                    <Image Grid.Row="0" Source="piscina.jpg"></Image>
-                    <Label Grid.Row="1" Text="Area de Recreacion"></Label>
-                    <Button Grid.Row="2" Text="Ver Descripcion" BackgroundColor="Maroon"></Button>
+                    <Image Grid.Row="0" Source="Carnes.jpg"></Image>
+                    <Label Grid.Row="1" Text="Carnes y Aves"></Label>
+                    <Button Grid.Row="2" Text="Ver Menu" BackgroundColor="Maroon"></Button>
+                </Grid>
+            </Frame>
+            <Frame Padding="10" Margin="10" HeightRequest="300" BackgroundColor="White">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="auto"/>
+                        <RowDefinition Height="auto"/>
+                        <RowDefinition Height="auto"/>
+                    </Grid.RowDefinitions>
+                    <Image Grid.Row="0" Source="Camarones.jpg" ></Image>
+                    <Label Grid.Row="1" Text="Camarones y Pescado"></Label>
+                    <Button Grid.Row="2" Text="Ver Menu" BackgroundColor="Maroon"></Button>
+                </Grid>
+            </Frame>
+            <Frame Padding="10" Margin="10" HeightRequest="300" BackgroundColor="White">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="auto"/>
+                        <RowDefinition Height="auto"/>
+                        <RowDefinition Height="auto"/>
+                    </Grid.RowDefinitions>
+                    <Image Grid.Row="0" Source="Cortes.jpg"></Image>
+                    <Label Grid.Row="1" Text="Cortes Especiales"></Label>
+                    <Button Grid.Row="2" Text="Ver Menu" BackgroundColor="Maroon"></Button>
+                </Grid>
+            </Frame>
+            <Frame Padding="10" Margin="10" HeightRequest="300" BackgroundColor="White">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="auto"/>
+                        <RowDefinition Height="auto"/>
+                        <RowDefinition Height="auto"/>
+                    </Grid.RowDefinitions>
+                    <Image Grid.Row="0" Source="Parrilladas.jpg"></Image>
+                    <Label Grid.Row="1" Text="Parrilladas para Compartir"></Label>
+                    <Button Grid.Row="2" Text="Ver Menu" BackgroundColor="Maroon"></Button>
+                </Grid>
+            </Frame>
+            <Frame Padding="10" Margin="10" HeightRequest="300" BackgroundColor="White">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="auto"/>
+                        <RowDefinition Height="auto"/>
+                        <RowDefinition Height="auto"/>
+                    </Grid.RowDefinitions>
+                    <Image Grid.Row="0" Source="Bebidas.jpg"></Image>
+                    <Label Grid.Row="1" Text="Bebidas"></Label>
+                    <Button Grid.Row="2" Text="Ver Menu" BackgroundColor="Maroon"></Button>
+                </Grid>
+            </Frame>
+            <Frame Padding="10" Margin="10" HeightRequest="300" BackgroundColor="White">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="auto"/>
+                        <RowDefinition Height="auto"/>
+                        <RowDefinition Height="auto"/>
+                    </Grid.RowDefinitions>
+                    <Image Grid.Row="0" Source="Postres.jpg"></Image>
+                    <Label Grid.Row="1" Text="Postres"></Label>
+                    <Button Grid.Row="2" Text="Ver Menu" BackgroundColor="Maroon"></Button>
                 </Grid>
             </Frame>
         </StackLayout>

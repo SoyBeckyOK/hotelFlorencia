@@ -11,8 +11,10 @@
                     <Setter Property="HeightRequest" Value="65"/>
                     <Setter Property="Opacity" Value="0.6"/>
                     <Setter Property="FontSize" Value="Small"/>
-                    <Setter Property="FontAttributes" Value="Bold"/>
-                </Style>
+                <Setter Property="FontAttributes" Value="Bold"/>
+                <Setter Property="BorderColor" Value="Maroon"/>
+                <Setter Property="BorderWidth" Value="10"/>
+            </Style>
             
             <Style x:Key="StyleEditor" TargetType="Editor">
                 <Setter Property="IsEnabled" Value="False"/>
