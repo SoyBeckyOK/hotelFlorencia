@@ -1,12 +1,48 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="hotelFlorencia.View.EventosSocialesPage">
-    <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
-        </StackLayout>
-    </ContentPage.Content>
+             x:Class="hotelFlorencia.View.EventosSocialesPage"
+             Title="Eventos Sociales">
+
+        <ScrollView>
+            <StackLayout>
+                <Frame Padding="10" Margin="10" HeightRequest="300" BackgroundColor="White">
+                    <Grid>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="auto"/>
+                            <RowDefinition Height="auto"/>
+                            <RowDefinition Height="auto"/>
+                        </Grid.RowDefinitions>
+                        <Image Grid.Row="0" Source="bodas.jpg"></Image>
+                        <Label Grid.Row="1" Text="Bodas" FontSize="Large" HorizontalTextAlignment="Center" FontAttributes="Bold"></Label>
+                        <Button Grid.Row="2" Text="Ver Menu" BackgroundColor="RosyBrown"></Button>
+                    </Grid>
+                </Frame>
+                <Frame Padding="10" Margin="10" HeightRequest="300" BackgroundColor="White">
+                    <Grid>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="auto"/>
+                            <RowDefinition Height="auto"/>
+                            <RowDefinition Height="auto"/>
+                        </Grid.RowDefinitions>
+                        <Image Grid.Row="0" Source="babyshower.jpg"></Image>
+                        <Label Grid.Row="1" Text="Baby Shower" FontSize="Large" HorizontalTextAlignment="Center" FontAttributes="Bold"></Label>
+                        <Button Grid.Row="2" Text="Ver Menu" BackgroundColor="RosyBrown"></Button>
+                    </Grid>
+                </Frame>
+                <Frame Padding="10" Margin="10" HeightRequest="250" BackgroundColor="White">
+                    <Grid>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="auto"/>
+                            <RowDefinition Height="auto"/>
+                            <RowDefinition Height="auto"/>
+                        </Grid.RowDefinitions>
+                        <Image Grid.Row="0" Source="fiestarosa.jpg"></Image>
+                        <Label Grid.Row="1" Text="15 años" HorizontalTextAlignment="Center" FontSize="Large" FontAttributes="Bold"></Label>
+                        <Button Grid.Row="2" Text="Ver Menu" BackgroundColor="RosyBrown"></Button>
+                    </Grid>
+                </Frame>
+            </StackLayout>
+        </ScrollView>
+
 </ContentPage>

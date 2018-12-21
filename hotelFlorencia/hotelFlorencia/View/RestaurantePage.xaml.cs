@@ -17,12 +17,10 @@ namespace hotelFlorencia.View
 		{
 			InitializeComponent ();
             ObservableCollection<PlatilloModel> listaPlatillos = new ObservableCollection<PlatilloModel>(new restauranteList().verPlatillo());
-            listPlatos.ItemsSource = listaPlatillos;
+           
         }
 
-        private async void ListPlatos_ItemSelected(object sender, SelectedItemChangedEventArgs e)
-        {
-            await App.Current.MainPage.Navigation.PushAsync(new DesayunoPage());
-        }
+        //private async void ListPlatos_ItemSelected(object sender, SelectedItemChangedEventArgs e)
+        
     }
 }

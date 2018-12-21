@@ -212,4 +212,34 @@
   <ItemGroup>
     <BundleResource Include="Resources\fondohotel.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\LogoFlorencia.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\brasador.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\images.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Suit.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\HabitacionDoble.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\piscina.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\babyshower.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\bodas.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\fiestarosa.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\fondoframe.jpg" />
+  </ItemGroup>
 </Project>

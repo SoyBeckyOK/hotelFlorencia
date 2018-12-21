@@ -27,7 +27,7 @@
     <Compile Update="View\MenuTabbedPagePrincipal.xaml.cs">
       <DependentUpon>MenuTabbedPagePrincipal.xaml</DependentUpon>
     </Compile>
-    <Compile Update="View\Tabs\ContactoPage.xaml.cs">
+    <Compile Update="View\ContactoPage.xaml.cs">
       <DependentUpon>ContactoPage.xaml</DependentUpon>
     </Compile>
     <Compile Update="View\EventosNegociosPage.xaml.cs">
@@ -45,28 +45,19 @@
     <Compile Update="View\Restaurante\PastasPage.xaml.cs">
       <DependentUpon>%(Filename)</DependentUpon>
     </Compile>
-    <Compile Update="View\Tabs\UbicacionPage.xaml.cs">
+    <Compile Update="View\UbicacionPage.xaml.cs">
       <DependentUpon>UbicacionPage.xaml</DependentUpon>
     </Compile>
   </ItemGroup>
 
   <ItemGroup>
-    <EmbeddedResource Update="View\Tabs\NosotrosPage.xaml">
-      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
-    </EmbeddedResource>
-    <EmbeddedResource Update="View\Restaurante\AcompañamientosPage.xaml">
+    <EmbeddedResource Update="View\NosotrosPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="View\Restaurante\BebidasPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="View\Tabs\ContactoPage.xaml">
-      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
-    </EmbeddedResource>
-    <EmbeddedResource Update="View\Restaurante\DesayunoPage.xaml">
-      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
-    </EmbeddedResource>
-    <EmbeddedResource Update="View\Restaurante\EnsaladasPage.xaml">
+    <EmbeddedResource Update="View\ContactoPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="View\Restaurante\EntradasPage.xaml">
@@ -76,9 +67,6 @@
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="View\EventosSocialesPage.xaml">
-      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
-    </EmbeddedResource>
-    <EmbeddedResource Update="View\Restaurante\HamburguesasPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="View\HotelPage.xaml">
@@ -93,16 +81,13 @@
     <EmbeddedResource Update="View\Restaurante\PostresPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="View\Tabs\PrincipalPage.xaml">
+    <EmbeddedResource Update="View\PrincipalPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="View\RestaurantePage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="View\Tabs\UbicacionPage.xaml">
-      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
-    </EmbeddedResource>
-    <EmbeddedResource Update="View\Restaurante\VinosPage.xaml">
+    <EmbeddedResource Update="View\UbicacionPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
   </ItemGroup>
@@ -111,5 +96,6 @@
     <Folder Include="View\Hotel\" />
     <Folder Include="View\EventosSociales\" />
     <Folder Include="View\EventosNegocio\" />
+    <Folder Include="View\Tabs\" />
   </ItemGroup>
 </Project>

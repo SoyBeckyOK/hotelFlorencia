@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="hotelFlorencia.View.NosotrosPage"
+             Icon="about.png"
+             NavigationPage.HasNavigationBar="False">
+    <StackLayout>
+     
+    <ScrollView>
+           
+        <StackLayout>
+                <Frame>
+                    <StackLayout>
+                        <Image Source="hotelInterior.jpg"/>
+                        <Label Text="Hotel Florencia en San Miguel,  dispone de cómodas habitaciones completamente equipadas para hacer de su alojamiento una experiencia agradable."
+                               FontAttributes="Bold"
+                               HorizontalTextAlignment="Start"/>
+                        <Label Text="CONOCENOS"/>
+                    </StackLayout>
+
+                </Frame>
+                <Frame>
+                    <StackLayout>
+                    <Label Text="Arquitectura"
+                           FontAttributes="Bold"/>
+                    <Editor Text="Cuenta con una arquitectura tipo colonial; edificio construido en tres cuerpos de dos niveles y está ubicado en una tranquila zona residencial; la cual se encuentra alejada del bullicio de la ciudad, a tan solo cinco minutos del centro de San Miguel y a 25 minutos de las mejores playas de las costas Salvadoreñas como lo son playa el cuco, el Tamarindo, las Flores, las Tunas; entre otras." Style="{StaticResource StyleEditor}"/> 
+                    <Label Text="Amplios Salones" 
+                           FontAttributes="Bold"/>
+                    <Editor Text="Cuenta con tres amplios y cómodos salones para conferencias que pueden acomodar desde 15 hasta 350 personas(Áreas externas están disponibles con capacidad para 500 personas) ; ya sea para reuniones, banquetes, recepciones, conferencias o cualquier tipo de evento; nuestras ejecutivas de venta están a su disposición para asistirle con información y servicio personalizado ya sea para su evento o alojamiento." Style="{StaticResource StyleEditor}"/>
+                    <Label Text="Servicios"
+                           FontAttributes="Bold"/>
+                    <Editor Text="Dispone con servicios audiovisuales, Internet inalámbrico en todo el hotel. Puede disfrutar también de áreas de esparcimiento como nuestro Bar y alberca, HOTEL FLORENCIA es el indicado para disfrutar el arte del buen comer; ya que nuestra experiencia en gastronomía y servicio profesional." Style="{StaticResource StyleEditor}"/>
+                    <Label Text="Restaurante"
+                           FontAttributes="Bold"/>
+                    <Editor Text="Podrá deleitarse de exquisitos platillos con la especialidad Argentina en nuestro restaurante El Brasador el cual ha sido galardonado en muchas ocasiones en los mejores festivales gastronómicos del país, así como los mejores platillos para toda clase de eventos y reuniones." Style="{StaticResource StyleEditor}"/>
+                    <Editor Text="Si está pensando viajar a San Miguel, El Salvador hotel Florencia pueden ser un opción para alojarse, recordar que esta ciudad tiene varios lugares turísticos que puede visitar." Style="{StaticResource StyleEditor}" />
+                </StackLayout>
+               </Frame>
+            </StackLayout>
+           
+        </ScrollView>
+       
+    </StackLayout>
+</ContentPage>

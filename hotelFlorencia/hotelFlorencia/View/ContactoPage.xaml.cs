@@ -1,5 +1,8 @@
-﻿using System;
+﻿using hotelFlorencia.clasesHotel;
+using hotelFlorencia.Model;
+using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -10,11 +13,13 @@ using Xamarin.Forms.Xaml;
 namespace hotelFlorencia.View
 {
 	[XamlCompilation(XamlCompilationOptions.Compile)]
-	public partial class VinosPage : ContentPage
+	public partial class ContactoPage : ContentPage
 	{
-		public VinosPage()
+		public ContactoPage()
 		{
 			InitializeComponent ();
-		}
+         
+          
+        }
 	}
 }

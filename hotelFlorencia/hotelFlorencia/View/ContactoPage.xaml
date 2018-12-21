@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="hotelFlorencia.View.ContactoPage" 
+             Icon="contact.png"
+             NavigationPage.HasNavigationBar="False">
+
+    <ContentPage.Content>
+        <StackLayout>
+            <StackLayout >
+                <StackLayout Orientation="Horizontal">
+                    <Image Source="LogoFacebook1.png" HeightRequest="75"></Image>
+                    <StackLayout>
+                        <Label Text="Facebook" TextColor="Blue" FontAttributes="Bold"></Label>
+                        <Label Text="Hotel Florencia"></Label>
+                    </StackLayout>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal">
+                    <Image Source="LogoInstagram.png" HeightRequest="75"></Image>
+                    <StackLayout>
+                        <Label Text="Instagram" TextColor="Blue" FontAttributes="Bold"></Label>
+                        <Label Text="@HotelFlorencia"></Label>
+                    </StackLayout>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal">
+                    <Image Source="LogoTelefono.png" HeightRequest="75"></Image>
+                    <StackLayout>
+                        <Label Text="Telefono" TextColor="Blue" FontAttributes="Bold"></Label>
+                        <Label Text="2665 5500"></Label>
+                    </StackLayout>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal">
+                    <Image Source="LogoEmail.png" HeightRequest="75"></Image>
+                    <StackLayout>
+                        <Label Text="Correo Electronico" TextColor="Blue" FontAttributes="Bold"></Label>
+                        <Label Text="hotelFlorencia@gmail.com"></Label>
+                    </StackLayout>
+                </StackLayout>
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

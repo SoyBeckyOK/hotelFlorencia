@@ -4,9 +4,10 @@
              x:Class="hotelFlorencia.View.PostresPage">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
+            <Label Text="hello" 
                 VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+                HorizontalOptions="CenterAndExpand" 
+                x:Name="ItemPostres"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

@@ -2,28 +2,46 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="hotelFlorencia.View.RestaurantePage"
-             Title="Restaurante">
-    
-    <ListView x:Name="listPlatos" HasUnevenRows="True" ItemSelected="ListPlatos_ItemSelected">
-        <ListView.ItemTemplate>
-            <DataTemplate>
-                <ViewCell>
-                    <Frame Margin="10" Padding="10" HeightRequest="220">
-                        <Grid Margin="1" BackgroundColor="White" RowSpacing="0" HeightRequest="200">
-                        <Grid.RowDefinitions>
-                            <RowDefinition Height="Auto"/>
-                            <RowDefinition Height="Auto"/>
-                        </Grid.RowDefinitions>
-                        <Image Grid.Row="0" Source="{Binding Foto}"></Image>
-                        <Label Grid.Row="1" Text="{Binding Nombre}" HorizontalTextAlignment="Start"></Label>
-                    </Grid>
-                    </Frame>
-                    <!--<StackLayout>
-                        <Image  Source="{Binding foto}"></Image>
-                        <Label Text="{Binding nombre}"></Label>
-                    </StackLayout>-->
-                </ViewCell>
-            </DataTemplate>
-        </ListView.ItemTemplate>
-    </ListView>
+             Title="Restaurante"
+             BackgroundColor="Maroon">
+    <ScrollView>
+        <StackLayout>
+            <Frame Padding="10" Margin="10" HeightRequest="280" BackgroundColor="White">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="auto"/>
+                        <RowDefinition Height="auto"/>
+                        <RowDefinition Height="auto"/>
+                    </Grid.RowDefinitions>
+                    <Image Grid.Row="0" Source="Suit.jpg"></Image>
+                    <Label Grid.Row="1" Text="Suite de Lujo "></Label>
+                    <Button Grid.Row="2" Text="Ver Descripcion" BackgroundColor="Maroon"></Button>
+                </Grid>
+            </Frame>
+            <Frame Padding="10" Margin="10" HeightRequest="280" BackgroundColor="White">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="auto"/>
+                        <RowDefinition Height="auto"/>
+                        <RowDefinition Height="auto"/>
+                    </Grid.RowDefinitions>
+                    <Image Grid.Row="0" Source="HabitacionDoble.jpg"></Image>
+                    <Label Grid.Row="1" Text="Habitacion Doble"></Label>
+                    <Button Grid.Row="2" Text="Ver Descripcion" BackgroundColor="Maroon"></Button>
+                </Grid>
+            </Frame>
+            <Frame Padding="10" Margin="10" HeightRequest="280" BackgroundColor="White">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="auto"/>
+                        <RowDefinition Height="auto"/>
+                        <RowDefinition Height="auto"/>
+                    </Grid.RowDefinitions>
+                    <Image Grid.Row="0" Source="piscina.jpg"></Image>
+                    <Label Grid.Row="1" Text="Area de Recreacion"></Label>
+                    <Button Grid.Row="2" Text="Ver Descripcion" BackgroundColor="Maroon"></Button>
+                </Grid>
+            </Frame>
+        </StackLayout>
+    </ScrollView>
 </ContentPage>

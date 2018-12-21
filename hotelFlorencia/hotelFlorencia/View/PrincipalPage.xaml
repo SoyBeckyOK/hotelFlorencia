@@ -8,22 +8,20 @@
              RelativeLayout.HeightConstraint="{ConstraintExpression Type=RelativeToParent, Property=Height}"
              Icon="home.png">
       
- 
-
     <ContentPage.Content>
         <ScrollView>
             <StackLayout Margin="0,20,0,0">
                 <StackLayout>
-                    <Label Text="Hotel Florencia" 
-                           FontFamily="{StaticResource BoldFont}"
-                           FontSize="25"
+                    <Image Source="LogoFlorencia.png"
                            HorizontalOptions="Center"
-                           FontAttributes="Bold" 
-                           TextColor="White"/>
+                           HeightRequest="150"
+                           WidthRequest="150"/>
+                 
                 
                 </StackLayout>
+                <Frame BackgroundColor="RosyBrown">
                 <StackLayout Margin="0,50,0,0" Orientation="Vertical" VerticalOptions="Center">
-
+                    
                         <Button Text="Restaurante"
                             Style="{StaticResource BotonesMenu}"
                             Clicked="Button_Clicked"/>
@@ -32,16 +30,17 @@
                             Style="{StaticResource BotonesMenu}"
                             Clicked="Button_Clicked_1"/>
 
-                        <Button Text="Eventos"
+                        <Button Text="Eventos Sociales"
                             Style="{StaticResource BotonesMenu}"
                             Clicked="Button_Clicked_2"/>
 
-                        <Button Text="Negocios"
+                        <Button Text="Eventos de Negocios"
                             Style="{StaticResource BotonesMenu}"
                             Clicked="Button_Clicked_3"/>
-                
+
+                   
                 </StackLayout>
-             
+                </Frame>
             </StackLayout>
             
         </ScrollView>

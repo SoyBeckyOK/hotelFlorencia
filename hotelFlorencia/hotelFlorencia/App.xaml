@@ -13,6 +13,10 @@
                     <Setter Property="FontSize" Value="Small"/>
                     <Setter Property="FontAttributes" Value="Bold"/>
                 </Style>
+            
+            <Style x:Key="StyleEditor" TargetType="Editor">
+                <Setter Property="IsEnabled" Value="False"/>
+            </Style>
 
             </ResourceDictionary>
         <ResourceDictionary>
