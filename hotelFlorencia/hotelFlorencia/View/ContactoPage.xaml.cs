@@ -19,5 +19,10 @@ namespace hotelFlorencia.View
          
           
         }
-	}
+
+        private void Button_Clicked(object sender, EventArgs e)
+        {
+            Device.OpenUri(new Uri("https://goo.gl/maps/XxbYfkhXCR12"));
+        }
+    }
 }
