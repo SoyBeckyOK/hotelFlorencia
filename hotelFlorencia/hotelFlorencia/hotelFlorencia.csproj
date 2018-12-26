@@ -18,7 +18,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="Xamarin.Essentials" Version="1.0.0" />
     <PackageReference Include="Xamarin.Forms" Version="4.0.0.8055-pre1" />
     <PackageReference Include="Xamarin.Forms.Maps" Version="4.0.0.8055-pre1" />
   </ItemGroup>

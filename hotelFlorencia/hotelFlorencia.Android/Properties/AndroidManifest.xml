@@ -9,6 +9,6 @@
 	<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 	<uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
 	<application android:label="hotelFlorencia.Android">
-		<meta-data android:name="com.google.android.geo.API_KEY" android:hardwareAccelerated="false" android:largeHeap="true" android:value="AIzaSyDTpaG1SbywqoCzBU82d4jSBGLCpB_gzgg" />
+		<!--<meta-data android:name="com.google.android.geo.API_KEY" android:hardwareAccelerated="false" android:largeHeap="true" android:value="AIzaSyDTpaG1SbywqoCzBU82d4jSBGLCpB_gzgg" />-->
 	</application>
 </manifest>

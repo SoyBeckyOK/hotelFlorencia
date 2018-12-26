@@ -6,7 +6,7 @@
              NavigationPage.HasNavigationBar="False"
              BarBackgroundColor="SandyBrown">
     <local:PrincipalPage></local:PrincipalPage>
-    <local:UbicacionPage></local:UbicacionPage>
+    <!--<local:UbicacionPage></local:UbicacionPage>-->
     <local:ContactoPage></local:ContactoPage>
     <local:NosotrosPage></local:NosotrosPage>
 </TabbedPage>
