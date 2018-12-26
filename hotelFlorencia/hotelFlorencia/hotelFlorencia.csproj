@@ -19,7 +19,6 @@
 
   <ItemGroup>
     <PackageReference Include="Xamarin.Forms" Version="4.0.0.8055-pre1" />
-    <PackageReference Include="Xamarin.Forms.Maps" Version="4.0.0.8055-pre1" />
   </ItemGroup>
 
   <ItemGroup>
@@ -43,9 +42,6 @@
     </Compile>
     <Compile Update="View\Restaurante\PastasPage.xaml.cs">
       <DependentUpon>%(Filename)</DependentUpon>
-    </Compile>
-    <Compile Update="View\UbicacionPage.xaml.cs">
-      <DependentUpon>UbicacionPage.xaml</DependentUpon>
     </Compile>
   </ItemGroup>
 
@@ -84,9 +80,6 @@
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="View\RestaurantePage.xaml">
-      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
-    </EmbeddedResource>
-    <EmbeddedResource Update="View\UbicacionPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
   </ItemGroup>
