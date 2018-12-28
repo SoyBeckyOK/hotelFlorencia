@@ -2,14 +2,14 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="hotelFlorencia.View.PrincipalPage"
-             BackgroundColor="White"
+             BackgroundImage="FondoPrincipal.jpg"
              NavigationPage.HasNavigationBar="False"
              RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToParent, Property=Width}" 
              RelativeLayout.HeightConstraint="{ConstraintExpression Type=RelativeToParent, Property=Height}"
              Icon="home.png">
       
     <ContentPage.Content>
-        <ScrollView BackgroundColor="Maroon">
+        <ScrollView>
             <StackLayout Margin="0,20,0,0">
                 <StackLayout >
                     <Image Source="LogoFlorencia.png"
@@ -19,7 +19,7 @@
                  
                 
                 </StackLayout>
-                <Frame BackgroundColor="SandyBrown" Padding="10,10" >
+                
                 <StackLayout  Orientation="Vertical" VerticalOptions="Center">
                     
                         <Button Text="Restaurante"
@@ -41,7 +41,7 @@
 
                    
                 </StackLayout>
-                </Frame>
+               
             </StackLayout>
             
         </ScrollView>

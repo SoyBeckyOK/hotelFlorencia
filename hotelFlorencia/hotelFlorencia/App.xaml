@@ -9,11 +9,11 @@
                     <Setter Property="BackgroundColor" Value="SandyBrown"/>
                     <Setter Property="TextColor" Value="Black"/>
                     <Setter Property="HeightRequest" Value="65"/>
-                    <Setter Property="Opacity" Value="0.6"/>
+                    <Setter Property="Opacity" Value="0.8"/>
                     <Setter Property="FontSize" Value="Small"/>
                 <Setter Property="FontAttributes" Value="Bold"/>
                 <Setter Property="BorderColor" Value="Maroon"/>
-                <Setter Property="BorderWidth" Value="10"/>
+                <Setter Property="BorderWidth" Value="0.80"/>
             </Style>
             
             <Style x:Key="StyleEditor" TargetType="Editor">

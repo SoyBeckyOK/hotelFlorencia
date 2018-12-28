@@ -6,7 +6,7 @@
 
     <ScrollView>
     <StackLayout>
-        <Frame Padding="10" Margin="10" HeightRequest="280" BackgroundColor="White">
+        <Frame Padding="10" Margin="10" HeightRequest="300" BackgroundColor="White">
             <Grid>
                 <Grid.RowDefinitions>
                     <RowDefinition Height="auto"/>
@@ -14,11 +14,11 @@
                     <RowDefinition Height="auto"/>
                 </Grid.RowDefinitions>
                 <Image Grid.Row="0" Source="Suit.jpg"></Image>
-                <Label Grid.Row="1" Text="Suite de Lujo "></Label>
-                <Button Grid.Row="2" Text="Ver Descripcion" BackgroundColor="Maroon"></Button>
+                    <Label Grid.Row="1" Text="Suite de Lujo " FontSize="Large" HorizontalTextAlignment="Center" FontAttributes="Bold"></Label>
+                    <Button Grid.Row="2" Text="Ver Descripcion" BackgroundColor="SandyBrown"></Button>
             </Grid>
         </Frame>
-        <Frame Padding="10" Margin="10" HeightRequest="280" BackgroundColor="White">
+        <Frame Padding="10" Margin="10" HeightRequest="300" BackgroundColor="White">
             <Grid>
                 <Grid.RowDefinitions>
                     <RowDefinition Height="auto"/>
@@ -26,22 +26,11 @@
                     <RowDefinition Height="auto"/>
                 </Grid.RowDefinitions>
                 <Image Grid.Row="0" Source="HabitacionDoble.jpg"></Image>
-                <Label Grid.Row="1" Text="Habitacion Doble"></Label>
-                <Button Grid.Row="2" Text="Ver Descripcion" BackgroundColor="Maroon"></Button>
+                    <Label Grid.Row="1" Text="Habitacion Doble" FontSize="Large" HorizontalTextAlignment="Center" FontAttributes="Bold"></Label>
+                    <Button Grid.Row="2" Text="Ver Descripcion" BackgroundColor="SandyBrown"></Button>
             </Grid>
         </Frame>
-        <Frame Padding="10" Margin="10" HeightRequest="280" BackgroundColor="White">
-            <Grid>
-                <Grid.RowDefinitions>
-                    <RowDefinition Height="auto"/>
-                    <RowDefinition Height="auto"/>
-                    <RowDefinition Height="auto"/>
-                </Grid.RowDefinitions>
-                    <Image Grid.Row="0" Source="HabitacionDoble.jpg" />
-                    <Label Grid.Row="1" Text="Area de Recreacion"></Label>
-                <Button Grid.Row="2" Text="Ver Descripcion" BackgroundColor="Maroon"></Button>
-            </Grid>
-        </Frame>
+   
     </StackLayout>
    </ScrollView>
 </ContentPage>
