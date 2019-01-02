@@ -3,8 +3,9 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="hotelFlorencia.View.NosotrosPage"
              Icon="about.png"
+             BackgroundImage="FondoPrincipal.jpg"
              NavigationPage.HasNavigationBar="False">
-    <StackLayout>
+    <StackLayout Padding="10">
      
     <ScrollView>
            

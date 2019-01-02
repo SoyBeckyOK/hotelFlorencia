@@ -94,8 +94,8 @@
   <ItemGroup>
     <Folder Include="Resources\drawable-hdpi\" />
     <Folder Include="Resources\drawable-xhdpi\" />
-    <Folder Include="Resources\drawable-xxhdpi\" />
     <Folder Include="Resources\drawable-xxxhdpi\" />
+    <Folder Include="Resources\drawable\" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\hotelFlorencia\hotelFlorencia.csproj">
@@ -104,136 +104,106 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\logo.jpg" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\Suit.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\ho.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\about.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\re.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\babyshower.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\res.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\Bebidas.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\so.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\bodas.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\hotel.jpg" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\Camarones.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\fondo.jpg" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\Carnes.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\facebuk.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\Cocteles.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\instagram.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\contact.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\fondoPantalla.jpg" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\Cortes.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\fondop.jpg" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\Entradas.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\fon.jpg" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\favorite.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\fondito.jpg" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\fiestarosa.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\about.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\fondito.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\contact.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\fondo.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\favorite.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\fondoframe.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\home.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\fondohotel.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\location.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\fondoPantalla.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\fondohotel.jpg" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\FondoPrincipal.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\LogoFlorencia.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\HabitacionDoble.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\brasador.jpg" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\home.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\images.jpg" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\hotel.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\Suit.jpg" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\hotelInterior.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\HabitacionDoble.jpg" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\location.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\piscina.jpg" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\location2.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\hotelInterior.jpg" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\LogoEmail.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\LogoTelefono.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\LogoFacebook1.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\LogoInstagram.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\LogoFlorencia.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\LogoEmail.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\LogoInstagram.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\LogoFacebook1.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\LogoTelefono.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\babyshower.jpg" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\Parrilladas.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\bodas.jpg" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\piscina.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\fiestarosa.jpg" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\Postres.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\fondoframe.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <AndroidResource Include="Resources\drawable\Postres.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <AndroidResource Include="Resources\drawable\Bebidas.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <AndroidResource Include="Resources\drawable\Camarones.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <AndroidResource Include="Resources\drawable\Carnes.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <AndroidResource Include="Resources\drawable\Cocteles.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <AndroidResource Include="Resources\drawable\Cortes.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <AndroidResource Include="Resources\drawable\Entradas.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <AndroidResource Include="Resources\drawable\Parrilladas.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <AndroidResource Include="Resources\drawable\location2.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <AndroidResource Include="Resources\drawable\FondoPrincipal.jpg" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\LogoOficialHotel.png" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
 </Project>
