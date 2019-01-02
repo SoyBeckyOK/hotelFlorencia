@@ -8,10 +8,10 @@
 
     <ContentPage.Content>
         <ScrollView>
-        <StackLayout Padding="10">
+        <StackLayout Padding="10" Opacity="0.7">
             <Frame>
                    
-            <StackLayout >
+            <StackLayout>
                         <Label Text="Contactos" HorizontalTextAlignment="Center" HorizontalOptions="Center" FontAttributes="Bold" TextColor="Black"></Label>
                     <Frame >
                 <StackLayout Orientation="Horizontal">

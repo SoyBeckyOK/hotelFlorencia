@@ -8,10 +8,10 @@
     <StackLayout Padding="10">
      
     <ScrollView>
-           
-        <StackLayout>
+
+            <StackLayout Opacity="0.8">
                 <Frame>
-                    <StackLayout>
+                    <StackLayout >
                         <Image Source="hotelInterior.jpg"/>
                         <Label Text="Hotel Florencia en San Miguel,  dispone de cómodas habitaciones completamente equipadas para hacer de su alojamiento una experiencia agradable."
                                FontAttributes="Bold"
@@ -33,7 +33,7 @@
                     <Editor Text="Dispone con servicios audiovisuales, Internet inalámbrico en todo el hotel. Puede disfrutar también de áreas de esparcimiento como nuestro Bar y alberca, HOTEL FLORENCIA es el indicado para disfrutar el arte del buen comer; ya que nuestra experiencia en gastronomía y servicio profesional." Style="{StaticResource StyleEditor}"/>
                     <Label Text="Restaurante"
                            FontAttributes="Bold"/>
-                    <Editor Text="Podrá deleitarse de exquisitos platillos con la especialidad Argentina en nuestro restaurante El Brasador el cual ha sido galardonado en muchas ocasiones en los mejores festivales gastronómicos del país, así como los mejores platillos para toda clase de eventos y reuniones." Style="{StaticResource StyleEditor}"/>
+                    <Editor TextColor="Black" Text="Podrá deleitarse de exquisitos platillos con la especialidad Argentina en nuestro restaurante El Brasador el cual ha sido galardonado en muchas ocasiones en los mejores festivales gastronómicos del país, así como los mejores platillos para toda clase de eventos y reuniones." Style="{StaticResource StyleEditor}"/>
                     <Editor Text="Si está pensando viajar a San Miguel, El Salvador hotel Florencia pueden ser un opción para alojarse, recordar que esta ciudad tiene varios lugares turísticos que puede visitar." Style="{StaticResource StyleEditor}" />
                 </StackLayout>
                </Frame>

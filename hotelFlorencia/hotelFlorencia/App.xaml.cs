@@ -11,7 +11,7 @@ namespace hotelFlorencia
         {
             InitializeComponent();
            
-           MainPage = new NavigationPage (new View.MenuTabbedPagePrincipal());
+           MainPage = new NavigationPage (new SplashPage());
         }
 
         protected override void OnStart()
