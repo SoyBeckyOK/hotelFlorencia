@@ -4,8 +4,8 @@
              x:Class="hotelFlorencia.View.EventosNegociosPage">
     <ContentPage.Content>
         <ScrollView>
-            <StackLayout>
-                <Frame Padding="10" Margin="10" HeightRequest="300" BackgroundColor="White">
+            <StackLayout BackgroundColor="LightBlue">
+                <Frame Padding="10" Margin="10" HeightRequest="250" BackgroundColor="White">
                     <Grid>
                         <Grid.RowDefinitions>
                             <RowDefinition Height="auto"/>
@@ -13,11 +13,11 @@
                             <RowDefinition Height="auto"/>
                         </Grid.RowDefinitions>
                         <Image Grid.Row="0" Source="bodas.jpg"></Image>
-                        <Label Grid.Row="1" Text="Reuniones de Negocios" FontSize="Large" HorizontalTextAlignment="Center" FontAttributes="Bold"></Label>
-                        <Button Grid.Row="2" Text="Ver Menu" BackgroundColor="SandyBrown"></Button>
+                        <Label Grid.Row="1" Text="Reuniones de Negocios" FontSize="Small" HorizontalTextAlignment="Center" FontAttributes="Bold"></Label>
+                        <Button Grid.Row="2" Text="Ver Menu" TextColor="White" BackgroundColor="DarkBlue"></Button>
                     </Grid>
                 </Frame>
-                <Frame Padding="10" Margin="10" HeightRequest="300" BackgroundColor="White">
+                <Frame Padding="10" Margin="10" HeightRequest="250" BackgroundColor="White">
                     <Grid>
                         <Grid.RowDefinitions>
                             <RowDefinition Height="auto"/>
@@ -25,8 +25,8 @@
                             <RowDefinition Height="auto"/>
                         </Grid.RowDefinitions>
                         <Image Grid.Row="0" Source="babyshower.jpg"></Image>
-                        <Label Grid.Row="1" Text="Reuniones Religiosas" FontSize="Large" HorizontalTextAlignment="Center" FontAttributes="Bold"></Label>
-                        <Button Grid.Row="2" Text="Ver Menu" BackgroundColor="SandyBrown"></Button>
+                        <Label Grid.Row="1" Text="Reuniones Religiosas" FontSize="Small" HorizontalTextAlignment="Center" FontAttributes="Bold"></Label>
+                        <Button Grid.Row="2" Text="Ver Menu" TextColor="White" BackgroundColor="DarkBlue"></Button>
                     </Grid>
                 </Frame>
              

@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="hotelFlorencia.View.EventosSociales.MenuMariscosEventospage">
+    <ScrollView>
+        <StackLayout>
+            <Label Text="Menu de Cenas o Almuerzos de Mariscos" HorizontalOptions="Center" FontAttributes="Bold" TextColor="Black" FontSize="Large" HorizontalTextAlignment="Center" VerticalTextAlignment="Center"></Label>
+            <Frame Padding="10" Margin="10" HeightRequest="300" BackgroundColor="White">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="auto"/>
+                        <RowDefinition Height="auto"/>
+                        <RowDefinition Height="auto"/>
+                    </Grid.RowDefinitions>
+                    <Image Grid.Row="0" Source="Entradas.jpg"></Image>
+                    <Label Grid.Row="1" Text="Curvina al Ajillo... $14.25" FontSize="Small" HorizontalTextAlignment="Center" FontAttributes="Bold"></Label>
+                    <Label Grid.Row="2" Text="Es una exquisita curvina a la plancha bañada con aceite oliva y ajos, acompañada de vegetales al estilo juliana con puré de papa."></Label>
+                </Grid>
+            </Frame>
+            <Frame Padding="10" Margin="10" HeightRequest="300" BackgroundColor="White">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="auto"/>
+                        <RowDefinition Height="auto"/>
+                        <RowDefinition Height="auto"/>
+                    </Grid.RowDefinitions>
+                    <Image Grid.Row="0" Source="Entradas.jpg"></Image>
+                    <Label Grid.Row="1" Text="Curvina con Salsa de Puerro y Apio... $14.25" FontSize="Small" HorizontalTextAlignment="Center" FontAttributes="Bold"></Label>
+                    <Label Grid.Row="2" Text="Es una exquisita Curvina a la plancha bañada con una deliciosa salsa de puerro y apio, acompañados con arroz a la jardinera  y vegetales al vapor."></Label>
+                </Grid>
+            </Frame>
+            <Frame Padding="10" Margin="10" HeightRequest="300" BackgroundColor="White">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="auto"/>
+                        <RowDefinition Height="auto"/>
+                        <RowDefinition Height="auto"/>
+                    </Grid.RowDefinitions>
+                    <Image Grid.Row="0" Source="Entradas.jpg"></Image>
+                    <Label Grid.Row="1" Text="Camarones en salsa Criolla... $17.50" FontSize="Small" HorizontalTextAlignment="Center" FontAttributes="Bold"></Label>
+                    <Label Grid.Row="2" Text="Es una combinación de camarones a la plancha bañada con una deliciosa salsa  criolla de nuestro país, acompañados con arroz verde gratinado y vegetal al vapor."></Label>
+                </Grid>
+            </Frame>
+            <Frame Padding="10" Margin="10" HeightRequest="300" BackgroundColor="White">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="auto"/>
+                        <RowDefinition Height="auto"/>
+                        <RowDefinition Height="auto"/>
+                    </Grid.RowDefinitions>
+                    <Image Grid.Row="0" Source="Entradas.jpg"></Image>
+                    <Label Grid.Row="1" Text="Camarones Romanos... $17.50" FontSize="Small" HorizontalTextAlignment="Center" FontAttributes="Bold"></Label>
+                    <Label Grid.Row="2" Text="Son unos exquisitos camarones jumbos empanizados a los estilos romanos con salsa tártara, acompañados con arroz verde y una ensalada fresca de cangrejos."></Label>
+                </Grid>
+            </Frame>
+            <Frame Padding="10" Margin="10" HeightRequest="300" BackgroundColor="White">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="auto"/>
+                        <RowDefinition Height="auto"/>
+                        <RowDefinition Height="auto"/>
+                    </Grid.RowDefinitions>
+                    <Image Grid.Row="0" Source="Entradas.jpg"></Image>
+                    <Label Grid.Row="1" Text="Brocheta de Camarones... $17.50" FontSize="Small" HorizontalTextAlignment="Center" FontAttributes="Bold"></Label>
+                    <Label Grid.Row="2" Text="Es una deliciosa brocheta con camarones jumbos y una combinación de vegetales frescos al estilo Florencia, acompañados de ensalada cesar y puré de papa."></Label>
+                </Grid>
+            </Frame>
+            <Frame Padding="10" Margin="10" HeightRequest="300" BackgroundColor="White">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="auto"/>
+                        <RowDefinition Height="auto"/>
+                        <RowDefinition Height="auto"/>
+                    </Grid.RowDefinitions>
+                    <Image Grid.Row="0" Source="Entradas.jpg"></Image>
+                    <Label Grid.Row="1" Text="Cielo, Mar y Tierra... $17.50" FontSize="Small" HorizontalTextAlignment="Center" FontAttributes="Bold"></Label>
+                    <Label Grid.Row="2" Text="Es una combinación de carne de lomo de aguja (tender loins), pollo y camarones jumbos a la parrilla al estilo Florencia, acompañada de ensalada romana y puré de papa."></Label>
+                </Grid>
+            </Frame>
+        </StackLayout>
+
+    </ScrollView>
+</ContentPage>

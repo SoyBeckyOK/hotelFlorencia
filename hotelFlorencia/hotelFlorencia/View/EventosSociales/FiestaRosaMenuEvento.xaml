@@ -1,0 +1,168 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="hotelFlorencia.View.EventosSociales.FiestaRosaMenuEvento">
+    <ScrollView>
+        <StackLayout BackgroundColor="LightBlue">
+            <Label Text="Menu para eventos Sociales" FontAttributes="Bold" TextColor="Black" FontSize="Large" HorizontalTextAlignment="Center" VerticalTextAlignment="Center"></Label>
+            <Frame Padding="0.5" Margin="0.5" HeightRequest="300" BackgroundColor="White">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="auto"/>
+                        <RowDefinition Height="auto"/>
+                        <RowDefinition Height="auto"/>
+                        <RowDefinition Height="auto"/>
+                    </Grid.RowDefinitions>
+                    <Image Grid.Row="0" Source="bodas.jpg"></Image>
+                    <Label Grid.Row="1" Text="Reserva de 100 a 150 personas" FontSize="Small" HorizontalTextAlignment="Center" FontAttributes="Bold"></Label>
+                    <Label Grid.Row="2" Text="* Una noche de alojamiento el día del evento para dos personas con derecho a desayuno buffet."></Label>
+                    <Label Grid.Row="3" Text="* 2 menús de degustación al confirmar su reservación."></Label>
+                </Grid>
+            </Frame>
+            <Frame Padding="0.5" Margin="0.5" HeightRequest="400" BackgroundColor="White">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="auto"/>
+                        <RowDefinition Height="auto"/>
+                        <RowDefinition Height="auto"/>
+                        <RowDefinition Height="auto"/>
+                        <RowDefinition Height="auto"/>
+                    </Grid.RowDefinitions>
+                    <Image Grid.Row="0" Source="bodas.jpg"></Image>
+                    <Label Grid.Row="1" Text="Reserva de 151 a 200 personas" FontSize="Small" HorizontalTextAlignment="Center" FontAttributes="Bold"></Label>
+                    <Label Grid.Row="2" Text="* Una noche de alojamiento el día del evento, con derecho a desayuno buffet."></Label>
+                    <Label Grid.Row="3" Text="* 3 menús de degustación al confirmar su reservación" ></Label>
+                    <Label Grid.Row="4" Text="* Descorche gratis  en vino, champagne o licor. (No incluye soda, hielo y limón)" ></Label>
+                    <Label Grid.Row="5" Text="* TE para 15 personas ( no incluye forro ni lazas )" ></Label>
+                </Grid>
+            </Frame>
+            <Frame Padding="0.5" Margin="0.5" HeightRequest="400" BackgroundColor="White">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="auto"/>
+                        <RowDefinition Height="auto"/>
+                        <RowDefinition Height="auto"/>
+                        <RowDefinition Height="auto"/>
+                        <RowDefinition Height="auto"/>
+                    </Grid.RowDefinitions>
+                    <Image Grid.Row="0" Source="bodas.jpg"></Image>
+                    <Label Grid.Row="1" Text="Reserva de 200 personas o mas" FontSize="Small" HorizontalTextAlignment="Center" FontAttributes="Bold"></Label>
+                    <Label Grid.Row="2" Text="* Una noche de alojamiento el día del evento, con derecho a desayuno buffet."></Label>
+                    <Label Grid.Row="3" Text="* 4 menús de degustación al confirmar su reservación" ></Label>
+                    <Label Grid.Row="4" Text="* Descorche gratis  en vino, champagne o licor. (No incluye soda, hielo y limón)" ></Label>
+                    <Label Grid.Row="5" Text="* TE para 15 personas ( no incluye forro ni lazas )" ></Label>
+                </Grid>
+            </Frame>
+            <Frame Padding="0.5" Margin="0.5" HeightRequest="250" BackgroundColor="White">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="auto"/>
+                        <RowDefinition Height="auto"/>
+                        <RowDefinition Height="auto"/>
+                    </Grid.RowDefinitions>
+                    <Image Grid.Row="0" Source="Entradas.jpg"></Image>
+                    <Label Grid.Row="1" Text="Boquitas" FontSize="Small"  FontAttributes="Bold"></Label>
+                    <Button Grid.Row="2" Text="Ver Menu" TextColor="White" BackgroundColor="DarkBlue" FontSize="Small"  FontAttributes="Bold" HorizontalOptions="Center" Clicked="Button_Clicked"></Button>
+                </Grid>
+            </Frame>
+            <Frame Padding="0.5" Margin="0.5" HeightRequest="300" BackgroundColor="White">
+                        <Grid>
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="auto"/>
+                                <RowDefinition Height="auto"/>
+                                <RowDefinition Height="auto"/>
+                                <RowDefinition Height="auto"/>
+                                <RowDefinition Height="auto"/>
+                                <RowDefinition Height="auto"/>
+                                <RowDefinition Height="auto"/>
+                            </Grid.RowDefinitions>
+                            <Image Grid.Row="0" Source="Bebidas.jpg"></Image>
+                            <Label Grid.Row="1" Text="Precios de Bebidas" FontSize="Small" HorizontalTextAlignment="Start" FontAttributes="Bold"></Label>
+                            <Label Grid.Row="2" Text="Cerveza Extranjera $2.00" FontSize="Small" HorizontalTextAlignment="Start" ></Label>
+                            <Label Grid.Row="3" Text="Soda $0.85" FontSize="Small" HorizontalTextAlignment="Start" ></Label>
+                            <Label Grid.Row="4" Text="Descorche  $7.95 por botella" FontSize="Small" HorizontalTextAlignment="Start" ></Label>
+                            <Label Grid.Row="5" Text="Cerveza Nacional  $1.25" FontSize="Small" HorizontalTextAlignment="Start" ></Label>
+                            <Label Grid.Row="6" Text="Champagne  $7.95" FontSize="Small" HorizontalTextAlignment="Start" ></Label>
+                        </Grid>
+               </Frame>
+            <Frame Padding="0.5" Margin="0.5" HeightRequest="230" BackgroundColor="White">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="auto"/>
+                        <RowDefinition Height="auto"/>
+                        <RowDefinition Height="auto"/>
+                    </Grid.RowDefinitions>
+                    <Image Grid.Row="0" Source="Entradas.jpg"></Image>
+                    <Label Grid.Row="1" Text="Menu para Niños" FontSize="Small" HorizontalOptions="Center" FontAttributes="Bold"></Label>
+                    <Button Grid.Row="2" Text="Ver Menu" TextColor="White" BackgroundColor="DarkBlue" FontSize="Small"  FontAttributes="Bold" HorizontalOptions="Center" Clicked="Button_Clicked_1"></Button>
+                </Grid>
+            </Frame>
+            <Frame Padding="0.5" Margin="0.5" HeightRequest="250" BackgroundColor="White">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="auto"/>
+                        <RowDefinition Height="auto"/>
+                        <RowDefinition Height="auto"/>
+                    </Grid.RowDefinitions>
+                    <Image Grid.Row="0" Source="Entradas.jpg"></Image>
+                    <Label Grid.Row="1" Text="Menu de Cena o Almuerzo de Pollo" FontSize="Small" HorizontalOptions="Center" FontAttributes="Bold"></Label>
+                    <Button Grid.Row="2" Text="Ver Menu" TextColor="White" BackgroundColor="DarkBlue" FontSize="Small"  FontAttributes="Bold" HorizontalOptions="Center" Clicked="Button_Clicked_2"></Button>
+                </Grid>
+            </Frame>
+
+            <Frame Padding="0.5" Margin="0.5" HeightRequest="250" BackgroundColor="White">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="auto"/>
+                        <RowDefinition Height="auto"/>
+                        <RowDefinition Height="auto"/>
+                    </Grid.RowDefinitions>
+                    <Image Grid.Row="0" Source="Entradas.jpg"></Image>
+                    <Label Grid.Row="1" Text="Menu de Cenas o Almuerzos Carnes" FontSize="Small" HorizontalOptions="Center"  FontAttributes="Bold"></Label>
+                    <Button Grid.Row="2" Text="Ver Menu" TextColor="White" BackgroundColor="DarkBlue" FontSize="Small"  FontAttributes="Bold" HorizontalOptions="Center" Clicked="Button_Clicked_3"></Button>
+                </Grid>
+            </Frame>
+            <Frame Padding="0.5" Margin="0.5" HeightRequest="230" BackgroundColor="White">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="auto"/>
+                        <RowDefinition Height="auto"/>
+                        <RowDefinition Height="auto"/>
+                    </Grid.RowDefinitions>
+                    <Image Grid.Row="0" Source="Entradas.jpg"></Image>
+                    <Label Grid.Row="1" Text="Menu de Cenas o Almuerzos Mixtos" FontSize="Small" HorizontalOptions="Center" FontAttributes="Bold"></Label>
+                    <Button Grid.Row="2" Text="Ver Menu" TextColor="White" BackgroundColor="DarkBlue" FontSize="Small"  FontAttributes="Bold" HorizontalOptions="Center" Clicked="Button_Clicked_4"></Button>
+                </Grid>
+            </Frame>
+            <Frame Padding="0.5" Margin="0.5" HeightRequest="240" BackgroundColor="White">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="auto"/>
+                        <RowDefinition Height="auto"/>
+                        <RowDefinition Height="auto"/>
+                    </Grid.RowDefinitions>
+                    <Image Grid.Row="0" Source="Entradas.jpg"></Image>
+                    <Label Grid.Row="1" Text="Menu de Cenas o Almuerzos de Mariscos" FontSize="Small" VerticalTextAlignment="Center" HorizontalOptions="Center" FontAttributes="Bold"></Label>
+                    <Button Grid.Row="2" Text="Ver Menu" TextColor="White"  BackgroundColor="DarkBlue" FontSize="Small"  FontAttributes="Bold" HorizontalOptions="Center" Clicked="Button_Clicked_5"></Button>
+                </Grid>
+            </Frame>
+            <Frame Padding="0.5" Margin="0.5" HeightRequest="450" BackgroundColor="White">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="auto"/>
+                        <RowDefinition Height="auto"/>
+                        <RowDefinition Height="auto"/>
+                        <RowDefinition Height="auto"/>
+                        <RowDefinition Height="auto"/>
+                    </Grid.RowDefinitions>
+                    <Image Grid.Row="0" Source="Entradas.jpg"></Image>
+                    <Label Grid.Row="1" Text="Nota: " FontSize="Large"  FontAttributes="Bold"></Label>
+                    <Label Grid.Row="2" Text="* Todos los menús incluyen una entrada: Crema de brócoli con champiñones. Crema de tomate, Crema de esparrago o Consomé." FontSize="Small"  FontAttributes="Bold"></Label>
+                    <Label Grid.Row="3" Text="* Si es domicilio de entrada incluye Dips de Queso con palitos (1 por mesa de 10 pax).." FontSize="Small"  FontAttributes="Bold"></Label>
+                    <Label Grid.Row="4" Text="* Vaso de soda y pan ." FontSize="Small"  FontAttributes="Bold"></Label>
+                    <Label Grid.Row="5" Text="* Todos nuestros precios incluyen IVA, agregar 10 % de servicio." FontSize="Small"  FontAttributes="Bold"></Label>
+                </Grid>
+            </Frame>
+        </StackLayout>
+    </ScrollView>
+</ContentPage>

@@ -5,8 +5,8 @@
              Title="Restaurante"
              >
     <ScrollView>
-        <StackLayout>
-            <Frame Padding="10" Margin="10" HeightRequest="300" BackgroundColor="White">
+        <StackLayout BackgroundColor="LightBlue">
+            <Frame Padding="10" Margin="10" HeightRequest="250" BackgroundColor="White">
                 <Grid>
                     <Grid.RowDefinitions>
                         <RowDefinition Height="auto"/>
@@ -15,10 +15,10 @@
                     </Grid.RowDefinitions>
                     <Image Grid.Row="0" Source="Entradas.jpg"></Image>
                     <Label Grid.Row="1" Text="Entradas" FontSize="Large" HorizontalTextAlignment="Center" FontAttributes="Bold"></Label>
-                    <Button Grid.Row="2" Text="Ver menu" BackgroundColor="SandyBrown"></Button>
+                    <Button Grid.Row="2" TextColor="White" Text="Ver menu" BackgroundColor="DarkBlue"></Button>
                 </Grid>
             </Frame>
-            <Frame Padding="10" Margin="10" HeightRequest="300" BackgroundColor="White">
+            <Frame Padding="10" Margin="10" HeightRequest="200" BackgroundColor="White">
                 <Grid>
                     <Grid.RowDefinitions>
                         <RowDefinition Height="auto"/>
@@ -26,11 +26,11 @@
                         <RowDefinition Height="auto"/>
                     </Grid.RowDefinitions>
                     <Image Grid.Row="0" Source="Cocteles.jpg"></Image>
-                    <Label Grid.Row="1" Text="Cocteles y Ceviches" FontSize="Large" HorizontalTextAlignment="Center" FontAttributes="Bold"></Label>
-                    <Button Grid.Row="2" Text="Ver Menu" BackgroundColor="SandyBrown"></Button>
+                    <Label Grid.Row="1" Text="Cocteles y Ceviches" FontSize="Small" HorizontalTextAlignment="Center" FontAttributes="Bold"></Label>
+                    <Button Grid.Row="2" TextColor="White" Text="Ver Menu" BackgroundColor="DarkBlue"></Button>
                 </Grid>
             </Frame>
-            <Frame Padding="10" Margin="10" HeightRequest="300" BackgroundColor="White">
+            <Frame Padding="10" Margin="10" HeightRequest="250" BackgroundColor="White">
                 <Grid>
                     <Grid.RowDefinitions>
                         <RowDefinition Height="auto"/>
@@ -38,11 +38,11 @@
                         <RowDefinition Height="auto"/>
                     </Grid.RowDefinitions>
                     <Image Grid.Row="0" Source="Carnes.jpg"></Image>
-                    <Label Grid.Row="1" Text="Carnes y Aves" FontSize="Large" HorizontalTextAlignment="Center" FontAttributes="Bold"></Label>
-                    <Button Grid.Row="2" Text="Ver Menu" BackgroundColor="SandyBrown"></Button>
+                    <Label Grid.Row="1" Text="Carnes y Aves" FontSize="Small" HorizontalTextAlignment="Center" FontAttributes="Bold"></Label>
+                    <Button Grid.Row="2" TextColor="White" Text="Ver Menu" BackgroundColor="DarkBlue"></Button>
                 </Grid>
             </Frame>
-            <Frame Padding="10" Margin="10" HeightRequest="300" BackgroundColor="White">
+            <Frame Padding="10" Margin="10" HeightRequest="250" BackgroundColor="White">
                 <Grid>
                     <Grid.RowDefinitions>
                         <RowDefinition Height="auto"/>
@@ -50,11 +50,11 @@
                         <RowDefinition Height="auto"/>
                     </Grid.RowDefinitions>
                     <Image Grid.Row="0" Source="Camarones.jpg" ></Image>
-                    <Label Grid.Row="1" Text="Camarones y Pescado" FontSize="Large" HorizontalTextAlignment="Center" FontAttributes="Bold"></Label>
-                    <Button Grid.Row="2" Text="Ver Menu" BackgroundColor="SandyBrown"></Button>
+                    <Label Grid.Row="1" Text="Camarones y Pescado" FontSize="Small" HorizontalTextAlignment="Center" FontAttributes="Bold"></Label>
+                    <Button Grid.Row="2" TextColor="White" Text="Ver Menu" BackgroundColor="DarkBlue"></Button>
                 </Grid>
             </Frame>
-            <Frame Padding="10" Margin="10" HeightRequest="300" BackgroundColor="White">
+            <Frame Padding="10" Margin="10" HeightRequest="250" BackgroundColor="White">
                 <Grid>
                     <Grid.RowDefinitions>
                         <RowDefinition Height="auto"/>
@@ -62,11 +62,11 @@
                         <RowDefinition Height="auto"/>
                     </Grid.RowDefinitions>
                     <Image Grid.Row="0" Source="Cortes.jpg"></Image>
-                    <Label Grid.Row="1" Text="Cortes Especiales" FontSize="Large" HorizontalTextAlignment="Center" FontAttributes="Bold"></Label>
-                    <Button Grid.Row="2" Text="Ver Menu" BackgroundColor="SandyBrown"></Button>
+                    <Label Grid.Row="1" Text="Cortes Especiales" FontSize="Small" HorizontalTextAlignment="Center" FontAttributes="Bold"></Label>
+                    <Button Grid.Row="2" TextColor="White" Text="Ver Menu" BackgroundColor="DarkBlue"></Button>
                 </Grid>
             </Frame>
-            <Frame Padding="10" Margin="10" HeightRequest="300" BackgroundColor="White">
+            <Frame Padding="10" Margin="10" HeightRequest="250" BackgroundColor="White">
                 <Grid>
                     <Grid.RowDefinitions>
                         <RowDefinition Height="auto"/>
@@ -74,11 +74,11 @@
                         <RowDefinition Height="auto"/>
                     </Grid.RowDefinitions>
                     <Image Grid.Row="0" Source="Parrilladas.jpg"></Image>
-                    <Label Grid.Row="1" Text="Parrilladas para Compartir" FontSize="Large" HorizontalTextAlignment="Center" FontAttributes="Bold"></Label>
-                    <Button Grid.Row="2" Text="Ver Menu" BackgroundColor="SandyBrown"></Button>
+                    <Label Grid.Row="1" Text="Parrilladas para Compartir" FontSize="Small" HorizontalTextAlignment="Center" FontAttributes="Bold"></Label>
+                    <Button Grid.Row="2" TextColor="White" Text="Ver Menu" BackgroundColor="DarkBlue"></Button>
                 </Grid>
             </Frame>
-            <Frame Padding="10" Margin="10" HeightRequest="300" BackgroundColor="White">
+            <Frame Padding="10" Margin="10" HeightRequest="200" BackgroundColor="White">
                 <Grid>
                     <Grid.RowDefinitions>
                         <RowDefinition Height="auto"/>
@@ -86,11 +86,11 @@
                         <RowDefinition Height="auto"/>
                     </Grid.RowDefinitions>
                     <Image Grid.Row="0" Source="Bebidas.jpg"></Image>
-                    <Label Grid.Row="1" Text="Bebidas" FontSize="Large" HorizontalTextAlignment="Center" FontAttributes="Bold"></Label>
-                    <Button Grid.Row="2" Text="Ver Menu" BackgroundColor="SandyBrown"></Button>
+                    <Label Grid.Row="1" Text="Bebidas" FontSize="Small" HorizontalTextAlignment="Center" FontAttributes="Bold"></Label>
+                    <Button Grid.Row="2" TextColor="White" Text="Ver Menu" BackgroundColor="DarkBlue"></Button>
                 </Grid>
             </Frame>
-            <Frame Padding="10" Margin="10" HeightRequest="300" BackgroundColor="White">
+            <Frame  Padding="10" Margin="10" HeightRequest="250" BackgroundColor="White">
                 <Grid>
                     <Grid.RowDefinitions>
                         <RowDefinition Height="auto"/>
@@ -98,8 +98,8 @@
                         <RowDefinition Height="auto"/>
                     </Grid.RowDefinitions>
                     <Image Grid.Row="0" Source="Postres.jpg"></Image>
-                    <Label Grid.Row="1" Text="Postres" FontSize="Large" HorizontalTextAlignment="Center" FontAttributes="Bold"></Label>
-                    <Button Grid.Row="2" Text="Ver Menu" BackgroundColor="SandyBrown"></Button>
+                    <Label Grid.Row="1" Text="Postres" FontSize="Small" HorizontalTextAlignment="Center" FontAttributes="Bold"></Label>
+                    <Button Grid.Row="2" TextColor="White" Text="Ver Menu" BackgroundColor="DarkBlue"></Button>
                 </Grid>
             </Frame>
         </StackLayout>

@@ -4,7 +4,7 @@
              x:Class="hotelFlorencia.View.MenuTabbedPagePrincipal"
              xmlns:local="clr-namespace:hotelFlorencia.View"
              NavigationPage.HasNavigationBar="False"
-             BarBackgroundColor="SandyBrown">
+             BarBackgroundColor="LightBlue">
     <local:PrincipalPage></local:PrincipalPage>
     <!--<local:UbicacionPage></local:UbicacionPage>-->
     <local:ContactoPage></local:ContactoPage>

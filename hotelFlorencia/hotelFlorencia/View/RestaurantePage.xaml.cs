@@ -18,7 +18,9 @@ namespace hotelFlorencia.View
 			InitializeComponent ();          
         }
 
-      
-        
+        private void Button_Clicked()
+        {
+
+        }
     }
 }

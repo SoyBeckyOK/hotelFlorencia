@@ -6,13 +6,12 @@
         
             <ResourceDictionary>
                 <Style x:Key="BotonesMenu" TargetType="Button">
-                    <Setter Property="BackgroundColor" Value="SandyBrown"/>
-                    <Setter Property="TextColor" Value="Black"/>
+                <Setter Property="BackgroundColor" Value="White"/>
+                <Setter Property="TextColor" Value="Black"/>
                 <Setter Property="HeightRequest" Value="40"/>
                 <Setter Property="Opacity" Value="0.8"/>
                 <Setter Property="FontSize" Value="Small"/>
                 <Setter Property="FontAttributes" Value="Bold"/>
-                <Setter Property="BorderColor" Value="Maroon"/>
                 <Setter Property="BorderWidth" Value="0.80"/>
             </Style>
             

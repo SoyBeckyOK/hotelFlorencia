@@ -34,9 +34,9 @@ namespace hotelFlorencia
 
         protected override async void OnAppearing()
         {
-            await SplashImage.ScaleTo(1, 2000);
-            await SplashImage.ScaleTo(0.9, 1500);
-            await SplashImage.ScaleTo(150, 1200);
+            await SplashImage.ScaleTo(1, 800);
+            await SplashImage.ScaleTo(0.9, 600);
+            await SplashImage.ScaleTo(110, 700);
             Application.Current.MainPage = new NavigationPage(new View.MenuTabbedPagePrincipal());
         }
     }

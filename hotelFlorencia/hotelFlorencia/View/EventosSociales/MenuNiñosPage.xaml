@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="hotelFlorencia.View.EventosSociales.MenuNiñosPage">
+    <ScrollView>
+        <StackLayout>
+            <Label Text="Menu Para Niños" FontAttributes="Bold" TextColor="Black" FontSize="Small" HorizontalOptions="Center" HorizontalTextAlignment="Center" VerticalTextAlignment="Center"></Label>
+            <Frame Padding="10" Margin="10" HeightRequest="250" BackgroundColor="White">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="auto"/>
+                        <RowDefinition Height="auto"/>
+                        <RowDefinition Height="auto"/>
+                    </Grid.RowDefinitions>
+                    <Image Grid.Row="0" Source="Entradas.jpg"></Image>
+                    <Label Grid.Row="1" Text="Pollo a la Plancha... $7.95" FontSize="Small" HorizontalTextAlignment="Center" FontAttributes="Bold"></Label>
+                    <Label Grid.Row="2" Text="4 onzas de pollo a la plancha con salsa, arroz, vegetales y soda"></Label>
+                </Grid>
+            </Frame>
+            <Frame Padding="10" Margin="10" HeightRequest="250" BackgroundColor="White">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="auto"/>
+                        <RowDefinition Height="auto"/>
+                        <RowDefinition Height="auto"/>
+                    </Grid.RowDefinitions>
+                    <Image Grid.Row="0" Source="Entradas.jpg"></Image>
+                    <Label Grid.Row="1" Text="Carne a la parrilla... $7.95" FontSize="Small" HorizontalTextAlignment="Center" FontAttributes="Bold"></Label>
+                    <Label Grid.Row="2" Text="4 onzas de carne a la parrilla con salsa, arroz, vegetales y soda"></Label>
+                </Grid>
+            </Frame>
+            <Frame Padding="10" Margin="10" HeightRequest="250" BackgroundColor="White">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="auto"/>
+                        <RowDefinition Height="auto"/>
+                        <RowDefinition Height="auto"/>
+                    </Grid.RowDefinitions>
+                    <Image Grid.Row="0" Source="Entradas.jpg"></Image>
+                    <Label Grid.Row="1" Text="Hamburguesa de Res... $6.95" FontSize="Small" HorizontalTextAlignment="Center" FontAttributes="Bold"></Label>
+                    <Label Grid.Row="2" Text="Hamburguesa de res acompañada de papas fritas  y soda"></Label>
+                </Grid>
+            </Frame>
+        </StackLayout>
+
+    </ScrollView>
+</ContentPage>
