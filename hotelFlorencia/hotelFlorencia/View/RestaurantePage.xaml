@@ -6,7 +6,7 @@
              >
     <ScrollView>
         <StackLayout BackgroundColor="LightBlue">
-            <Frame Padding="10" Margin="10" HeightRequest="250" BackgroundColor="White">
+            <Frame Padding="10" Margin="10" HeightRequest="300" BackgroundColor="White">
                 <Grid>
                     <Grid.RowDefinitions>
                         <RowDefinition Height="auto"/>
@@ -18,7 +18,7 @@
                     <Button Grid.Row="2" TextColor="White" Text="Ver menu" BackgroundColor="DarkBlue"></Button>
                 </Grid>
             </Frame>
-            <Frame Padding="10" Margin="10" HeightRequest="200" BackgroundColor="White">
+            <Frame Padding="10" Margin="10" HeightRequest="300" BackgroundColor="White">
                 <Grid>
                     <Grid.RowDefinitions>
                         <RowDefinition Height="auto"/>
@@ -30,7 +30,7 @@
                     <Button Grid.Row="2" TextColor="White" Text="Ver Menu" BackgroundColor="DarkBlue"></Button>
                 </Grid>
             </Frame>
-            <Frame Padding="10" Margin="10" HeightRequest="250" BackgroundColor="White">
+            <Frame Padding="10" Margin="10" HeightRequest="300" BackgroundColor="White">
                 <Grid>
                     <Grid.RowDefinitions>
                         <RowDefinition Height="auto"/>
@@ -42,7 +42,7 @@
                     <Button Grid.Row="2" TextColor="White" Text="Ver Menu" BackgroundColor="DarkBlue"></Button>
                 </Grid>
             </Frame>
-            <Frame Padding="10" Margin="10" HeightRequest="250" BackgroundColor="White">
+            <Frame Padding="10" Margin="10" HeightRequest="300" BackgroundColor="White">
                 <Grid>
                     <Grid.RowDefinitions>
                         <RowDefinition Height="auto"/>
@@ -54,7 +54,7 @@
                     <Button Grid.Row="2" TextColor="White" Text="Ver Menu" BackgroundColor="DarkBlue"></Button>
                 </Grid>
             </Frame>
-            <Frame Padding="10" Margin="10" HeightRequest="250" BackgroundColor="White">
+            <Frame Padding="10" Margin="10" HeightRequest="300" BackgroundColor="White">
                 <Grid>
                     <Grid.RowDefinitions>
                         <RowDefinition Height="auto"/>
@@ -66,7 +66,7 @@
                     <Button Grid.Row="2" TextColor="White" Text="Ver Menu" BackgroundColor="DarkBlue"></Button>
                 </Grid>
             </Frame>
-            <Frame Padding="10" Margin="10" HeightRequest="250" BackgroundColor="White">
+            <Frame Padding="10" Margin="10" HeightRequest="300" BackgroundColor="White">
                 <Grid>
                     <Grid.RowDefinitions>
                         <RowDefinition Height="auto"/>
@@ -78,7 +78,7 @@
                     <Button Grid.Row="2" TextColor="White" Text="Ver Menu" BackgroundColor="DarkBlue"></Button>
                 </Grid>
             </Frame>
-            <Frame Padding="10" Margin="10" HeightRequest="200" BackgroundColor="White">
+            <Frame Padding="10" Margin="10" HeightRequest="300" BackgroundColor="White">
                 <Grid>
                     <Grid.RowDefinitions>
                         <RowDefinition Height="auto"/>
@@ -90,7 +90,7 @@
                     <Button Grid.Row="2" TextColor="White" Text="Ver Menu" BackgroundColor="DarkBlue"></Button>
                 </Grid>
             </Frame>
-            <Frame  Padding="10" Margin="10" HeightRequest="250" BackgroundColor="White">
+            <Frame  Padding="10" Margin="10" HeightRequest="300" BackgroundColor="White">
                 <Grid>
                     <Grid.RowDefinitions>
                         <RowDefinition Height="auto"/>

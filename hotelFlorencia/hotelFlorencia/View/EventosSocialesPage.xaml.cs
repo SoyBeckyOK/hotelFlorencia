@@ -31,5 +31,10 @@ namespace hotelFlorencia.View
         {
             await App.Current.MainPage.Navigation.PushAsync(new BodaMenuEventoPage());
         }
+
+        private async void Btn_Graduaciones_Clicked(object sender, EventArgs e)
+        {
+            await App.Current.MainPage.Navigation.PushAsync(new GraduacionMenuEventos());
+        }
     }
 }

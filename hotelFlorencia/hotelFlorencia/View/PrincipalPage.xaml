@@ -15,10 +15,10 @@
                     <StackLayout >
                     <Image Source="LogoFlorencia.png"
                            HorizontalOptions="Center"
-                           HeightRequest="130"
-                           WidthRequest="130"/>
+                           HeightRequest="150"
+                           WidthRequest="150"/>
                 </StackLayout>
-                <Frame Padding="10" Margin="10" BackgroundColor="DarkBlue" Resources="fondo.jpg">
+                <Frame Padding="10" Margin="10" BackgroundColor="DarkBlue" Resources="fondo.jpg" HeightRequest="300">
                     <StackLayout  Orientation="Vertical" VerticalOptions="Center">
 
                         <Button Text="Restaurante"

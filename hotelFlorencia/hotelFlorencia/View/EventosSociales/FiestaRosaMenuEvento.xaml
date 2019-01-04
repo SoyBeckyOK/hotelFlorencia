@@ -5,7 +5,7 @@
     <ScrollView>
         <StackLayout BackgroundColor="LightBlue">
             <Label Text="Menu para eventos Sociales" FontAttributes="Bold" TextColor="Black" FontSize="Large" HorizontalTextAlignment="Center" VerticalTextAlignment="Center"></Label>
-            <Frame Padding="0.5" Margin="0.5" HeightRequest="300" BackgroundColor="White">
+            <Frame Padding="0.5" Margin="0.5" HeightRequest="400" BackgroundColor="White">
                 <Grid>
                     <Grid.RowDefinitions>
                         <RowDefinition Height="auto"/>
@@ -53,7 +53,7 @@
                     <Label Grid.Row="5" Text="* TE para 15 personas ( no incluye forro ni lazas )" ></Label>
                 </Grid>
             </Frame>
-            <Frame Padding="0.5" Margin="0.5" HeightRequest="250" BackgroundColor="White">
+            <Frame Padding="0.5" Margin="0.5" HeightRequest="330" BackgroundColor="White">
                 <Grid>
                     <Grid.RowDefinitions>
                         <RowDefinition Height="auto"/>
@@ -65,7 +65,7 @@
                     <Button Grid.Row="2" Text="Ver Menu" TextColor="White" BackgroundColor="DarkBlue" FontSize="Small"  FontAttributes="Bold" HorizontalOptions="Center" Clicked="Button_Clicked"></Button>
                 </Grid>
             </Frame>
-            <Frame Padding="0.5" Margin="0.5" HeightRequest="300" BackgroundColor="White">
+            <Frame Padding="0.5" Margin="0.5" HeightRequest="450" BackgroundColor="White">
                         <Grid>
                             <Grid.RowDefinitions>
                                 <RowDefinition Height="auto"/>
@@ -85,7 +85,7 @@
                             <Label Grid.Row="6" Text="Champagne  $7.95" FontSize="Small" HorizontalTextAlignment="Start" ></Label>
                         </Grid>
                </Frame>
-            <Frame Padding="0.5" Margin="0.5" HeightRequest="230" BackgroundColor="White">
+            <Frame Padding="0.5" Margin="0.5" HeightRequest="330" BackgroundColor="White">
                 <Grid>
                     <Grid.RowDefinitions>
                         <RowDefinition Height="auto"/>
@@ -97,7 +97,7 @@
                     <Button Grid.Row="2" Text="Ver Menu" TextColor="White" BackgroundColor="DarkBlue" FontSize="Small"  FontAttributes="Bold" HorizontalOptions="Center" Clicked="Button_Clicked_1"></Button>
                 </Grid>
             </Frame>
-            <Frame Padding="0.5" Margin="0.5" HeightRequest="250" BackgroundColor="White">
+            <Frame Padding="0.5" Margin="0.5" HeightRequest="330" BackgroundColor="White">
                 <Grid>
                     <Grid.RowDefinitions>
                         <RowDefinition Height="auto"/>
@@ -110,7 +110,7 @@
                 </Grid>
             </Frame>
 
-            <Frame Padding="0.5" Margin="0.5" HeightRequest="250" BackgroundColor="White">
+            <Frame Padding="0.5" Margin="0.5" HeightRequest="330" BackgroundColor="White">
                 <Grid>
                     <Grid.RowDefinitions>
                         <RowDefinition Height="auto"/>
@@ -122,7 +122,7 @@
                     <Button Grid.Row="2" Text="Ver Menu" TextColor="White" BackgroundColor="DarkBlue" FontSize="Small"  FontAttributes="Bold" HorizontalOptions="Center" Clicked="Button_Clicked_3"></Button>
                 </Grid>
             </Frame>
-            <Frame Padding="0.5" Margin="0.5" HeightRequest="230" BackgroundColor="White">
+            <Frame Padding="0.5" Margin="0.5" HeightRequest="330" BackgroundColor="White">
                 <Grid>
                     <Grid.RowDefinitions>
                         <RowDefinition Height="auto"/>
@@ -134,7 +134,7 @@
                     <Button Grid.Row="2" Text="Ver Menu" TextColor="White" BackgroundColor="DarkBlue" FontSize="Small"  FontAttributes="Bold" HorizontalOptions="Center" Clicked="Button_Clicked_4"></Button>
                 </Grid>
             </Frame>
-            <Frame Padding="0.5" Margin="0.5" HeightRequest="240" BackgroundColor="White">
+            <Frame Padding="0.5" Margin="0.5" HeightRequest="330" BackgroundColor="White">
                 <Grid>
                     <Grid.RowDefinitions>
                         <RowDefinition Height="auto"/>

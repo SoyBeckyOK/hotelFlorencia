@@ -9,7 +9,7 @@
      
     <ScrollView>
 
-            <StackLayout Opacity="0.8">
+            <StackLayout>
                 <Frame>
                     <StackLayout >
                         <Image Source="hotelInterior.jpg"/>

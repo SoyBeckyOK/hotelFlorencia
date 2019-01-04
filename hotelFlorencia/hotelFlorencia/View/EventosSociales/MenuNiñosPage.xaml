@@ -4,8 +4,8 @@
              x:Class="hotelFlorencia.View.EventosSociales.MenuNiñosPage">
     <ScrollView>
         <StackLayout>
-            <Label Text="Menu Para Niños" FontAttributes="Bold" TextColor="Black" FontSize="Small" HorizontalOptions="Center" HorizontalTextAlignment="Center" VerticalTextAlignment="Center"></Label>
-            <Frame Padding="10" Margin="10" HeightRequest="250" BackgroundColor="White">
+            <Label Text="Menu Para Niños" FontAttributes="Bold" TextColor="Black" FontSize="Large" HorizontalOptions="Center" HorizontalTextAlignment="Center" VerticalTextAlignment="Center"></Label>
+            <Frame Padding="10" Margin="10" HeightRequest="300" BackgroundColor="White">
                 <Grid>
                     <Grid.RowDefinitions>
                         <RowDefinition Height="auto"/>
@@ -17,7 +17,7 @@
                     <Label Grid.Row="2" Text="4 onzas de pollo a la plancha con salsa, arroz, vegetales y soda"></Label>
                 </Grid>
             </Frame>
-            <Frame Padding="10" Margin="10" HeightRequest="250" BackgroundColor="White">
+            <Frame Padding="10" Margin="10" HeightRequest="300" BackgroundColor="White">
                 <Grid>
                     <Grid.RowDefinitions>
                         <RowDefinition Height="auto"/>
@@ -29,7 +29,7 @@
                     <Label Grid.Row="2" Text="4 onzas de carne a la parrilla con salsa, arroz, vegetales y soda"></Label>
                 </Grid>
             </Frame>
-            <Frame Padding="10" Margin="10" HeightRequest="250" BackgroundColor="White">
+            <Frame Padding="10" Margin="10" HeightRequest="300" BackgroundColor="White">
                 <Grid>
                     <Grid.RowDefinitions>
                         <RowDefinition Height="auto"/>

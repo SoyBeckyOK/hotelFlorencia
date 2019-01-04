@@ -6,7 +6,7 @@
 
         <ScrollView>
             <StackLayout BackgroundColor="LightBlue">
-                <Frame Padding="10" Margin="10" HeightRequest="250" BackgroundColor="White">
+                <Frame Padding="10" Margin="10" HeightRequest="300" BackgroundColor="White">
                     <Grid>
                         <Grid.RowDefinitions>
                             <RowDefinition Height="auto"/>
@@ -18,7 +18,7 @@
                     <Button Grid.Row="2" TextColor="White" Text="Ver Opciones" BackgroundColor="DarkBlue" x:Name="btn_Boda" Clicked="Btn_Boda_Clicked"></Button>
                     </Grid>
                 </Frame>
-                <Frame Padding="10" Margin="10" HeightRequest="250" BackgroundColor="White">
+                <Frame Padding="10" Margin="10" HeightRequest="300" BackgroundColor="White">
                     <Grid>
                         <Grid.RowDefinitions>
                             <RowDefinition Height="auto"/>
@@ -30,7 +30,7 @@
                     <Button Grid.Row="2" TextColor="White" Text="Ver Opciones" BackgroundColor="DarkBlue" x:Name="btn_BabyShower" Clicked="Btn_BabyShower_Clicked"></Button>
                     </Grid>
                 </Frame>
-                <Frame Padding="10" Margin="10" HeightRequest="200" BackgroundColor="White">
+                <Frame Padding="10" Margin="10" HeightRequest="250" BackgroundColor="White">
                     <Grid>
                         <Grid.RowDefinitions>
                             <RowDefinition Height="auto"/>
@@ -38,10 +38,22 @@
                             <RowDefinition Height="auto"/>
                         </Grid.RowDefinitions>
                         <Image Grid.Row="0" Source="fiestarosa.jpg"></Image>
-                        <Label Grid.Row="1" Text="15 años" HorizontalTextAlignment="Center" FontSize="Small" FontAttributes="Bold"></Label>
+                        <Label Grid.Row="1" Text="Fiestas Rosa" HorizontalTextAlignment="Center" FontSize="Small" FontAttributes="Bold"></Label>
                     <Button Grid.Row="2" TextColor="White" Text="Ver Opciones" BackgroundColor="DarkBlue" x:Name="btn_FiestaRosa" Clicked="Btn_FiestaRosa_Clicked"></Button>
                     </Grid>
                 </Frame>
+            <Frame Padding="10" Margin="10" HeightRequest="250" BackgroundColor="White">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="auto"/>
+                        <RowDefinition Height="auto"/>
+                        <RowDefinition Height="auto"/>
+                    </Grid.RowDefinitions>
+                    <Image Grid.Row="0" Source="fiestarosa.jpg"></Image>
+                    <Label Grid.Row="1" Text="Graduaciones" HorizontalTextAlignment="Center" FontSize="Small" FontAttributes="Bold"></Label>
+                    <Button Grid.Row="2" TextColor="White" Text="Ver Opciones" BackgroundColor="DarkBlue" x:Name="btn_Graduaciones" Clicked="Btn_Graduaciones_Clicked"></Button>
+                </Grid>
+            </Frame>
             <Frame Padding="10" Margin="10" HeightRequest="450" BackgroundColor="White">
                 <Grid>
                     <Grid.RowDefinitions>
