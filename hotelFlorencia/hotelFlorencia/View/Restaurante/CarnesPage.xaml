@@ -2,11 +2,82 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="hotelFlorencia.View.Restaurante.CarnesPage">
-    <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+    <ScrollView>
+        <StackLayout BackgroundColor="LightBlue">
+            <Label Text="Menu de Cenas o Almuerzos de Pollo" HorizontalOptions="Center" FontAttributes="Bold" TextColor="Black" FontSize="Large" HorizontalTextAlignment="Center" VerticalTextAlignment="Center"></Label>
+            <Frame Padding="10" Margin="10" HeightRequest="300" BackgroundColor="White">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="auto"/>
+                        <RowDefinition Height="auto"/>
+                        <RowDefinition Height="auto"/>
+                    </Grid.RowDefinitions>
+                    <Image Grid.Row="0" Source="Entradas.jpg"></Image>
+                    <Label Grid.Row="1" Text="Pollo en Salsa de Cilantro... $13.50" FontSize="Small" HorizontalTextAlignment="Center" FontAttributes="Bold"></Label>
+                    <Label Grid.Row="2" Text="Es un exquisito  filete de pollo en salsa  de cilantro, acompañado de arroz primavera y vegetales a la peperonata."></Label>
+                </Grid>
+            </Frame>
+            <Frame Padding="10" Margin="10" HeightRequest="300" BackgroundColor="White">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="auto"/>
+                        <RowDefinition Height="auto"/>
+                        <RowDefinition Height="auto"/>
+                    </Grid.RowDefinitions>
+                    <Image Grid.Row="0" Source="Entradas.jpg"></Image>
+                    <Label Grid.Row="1" Text="Pollo en Salsa de Hongos... $13.50" FontSize="Small" HorizontalTextAlignment="Center" FontAttributes="Bold"></Label>
+                    <Label Grid.Row="2" Text="Es un exquisito filete de pollo en salsa de champiñones al vino tinto, acompañado de vegetales tipo oriental, arroz ecuatoriano."></Label>
+                </Grid>
+            </Frame>
+            <Frame Padding="10" Margin="10" HeightRequest="300" BackgroundColor="White">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="auto"/>
+                        <RowDefinition Height="auto"/>
+                        <RowDefinition Height="auto"/>
+                    </Grid.RowDefinitions>
+                    <Image Grid.Row="0" Source="Entradas.jpg"></Image>
+                    <Label Grid.Row="1" Text="Pollo con Albahaca... $13.95" FontSize="Small" HorizontalTextAlignment="Center" FontAttributes="Bold"></Label>
+                    <Label Grid.Row="2" Text="Es un exquisito filete de pollo relleno de albahaca y queso mozarela bañado con salsa al vino blanco, acompañado con vegetales salteados a la mantequilla y arroz  a la jardinera."></Label>
+                </Grid>
+            </Frame>
+            <Frame Padding="10" Margin="10" HeightRequest="300" BackgroundColor="White">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="auto"/>
+                        <RowDefinition Height="auto"/>
+                        <RowDefinition Height="auto"/>
+                    </Grid.RowDefinitions>
+                    <Image Grid.Row="0" Source="Entradas.jpg"></Image>
+                    <Label Grid.Row="1" Text="Pollo Florentina... $13.95" FontSize="Small" HorizontalTextAlignment="Center" FontAttributes="Bold"></Label>
+                    <Label Grid.Row="2" Text="Es un exquisito filete de pollo relleno de espinaca con queso mozarela bañado en salsa de semilla de marañón, acompañado con vegetales y pimiento relleno de arroz gratinado."></Label>
+                </Grid>
+            </Frame>
+            <Frame Padding="10" Margin="10" HeightRequest="300" BackgroundColor="White">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="auto"/>
+                        <RowDefinition Height="auto"/>
+                        <RowDefinition Height="auto"/>
+                    </Grid.RowDefinitions>
+                    <Image Grid.Row="0" Source="Entradas.jpg"></Image>
+                    <Label Grid.Row="1" Text="Pollo Doña Margarita... $13.95" FontSize="Small" HorizontalTextAlignment="Center" FontAttributes="Bold"></Label>
+                    <Label Grid.Row="2" Text="Es un delicioso filete de pollo marinado con especias y luego rellenado con chipilín, tocino ahumado y queso mozarela, acompañado de una salsa al vino blanco, papa William y vegetales al vapor."></Label>
+                </Grid>
+            </Frame>
+            <Frame Padding="10" Margin="10" HeightRequest="300" BackgroundColor="White">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="auto"/>
+                        <RowDefinition Height="auto"/>
+                        <RowDefinition Height="auto"/>
+                    </Grid.RowDefinitions>
+                    <Image Grid.Row="0" Source="Entradas.jpg"></Image>
+                    <Label Grid.Row="1" Text="Pollo Cordon Blue... $13.95" FontSize="Small" HorizontalTextAlignment="Center" FontAttributes="Bold"></Label>
+                    <Label Grid.Row="2" Text="Es un exquisito filete de pollo relleno de jamón  y queso craff  bañado con salsa de hongo, acompañado con vegetales chinos y arroz ecuatoriano."></Label>
+                </Grid>
+            </Frame>
         </StackLayout>
-    </ContentPage.Content>
+
+    </ScrollView>
 </ContentPage>
