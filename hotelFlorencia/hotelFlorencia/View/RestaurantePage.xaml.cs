@@ -22,5 +22,10 @@ namespace hotelFlorencia.View
         {
 
         }
+
+        private void Button_Clicked_1()
+        {
+
+        }
     }
 }

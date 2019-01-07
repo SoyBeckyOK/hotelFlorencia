@@ -7,12 +7,12 @@ using System.Threading.Tasks;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
-namespace hotelFlorencia.View
+namespace hotelFlorencia.View.Restaurante
 {
 	[XamlCompilation(XamlCompilationOptions.Compile)]
-	public partial class PastasPage : ContentPage
+	public partial class ParrilladaPage : ContentPage
 	{
-		public PastasPage()
+		public ParrilladaPage ()
 		{
 			InitializeComponent ();
 		}
