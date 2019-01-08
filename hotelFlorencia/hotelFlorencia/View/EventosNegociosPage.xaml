@@ -18,19 +18,7 @@
                         <Button Grid.Row="2" Text="Ver Menu" TextColor="White" BackgroundColor="DarkBlue"></Button>
                     </Grid>
                 </Frame>
-                <Frame Padding="10" Margin="10" HeightRequest="300" BackgroundColor="White">
-                    <Grid>
-                        <Grid.RowDefinitions>
-                            <RowDefinition Height="auto"/>
-                            <RowDefinition Height="auto"/>
-                            <RowDefinition Height="auto"/>
-                        </Grid.RowDefinitions>
-                        <Image Grid.Row="0" Source="babyshower.jpg"></Image>
-                        <Label Grid.Row="1" Text="Reuniones Religiosas" FontSize="Small" HorizontalTextAlignment="Center" FontAttributes="Bold"></Label>
-                        <Button Grid.Row="2" Text="Ver Menu" TextColor="White" BackgroundColor="DarkBlue"></Button>
-                    </Grid>
-                </Frame>
-             
+               
             </StackLayout>
         </ScrollView>
     </ContentPage.Content>

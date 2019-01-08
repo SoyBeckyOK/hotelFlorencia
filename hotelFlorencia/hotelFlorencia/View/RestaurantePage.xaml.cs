@@ -60,7 +60,7 @@ namespace hotelFlorencia.View
 
         private async void Button_Clicked_8(object sender, EventArgs e)
         {
-            await App.Current.MainPage.Navigation.PushAsync(new PostresPage());
+            await App.Current.MainPage.Navigation.PushAsync(new PostresRestaurantePage());
         }
     }
 }

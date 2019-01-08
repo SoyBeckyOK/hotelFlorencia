@@ -10,40 +10,46 @@
       
     <ContentPage.Content>
         <ScrollView>
-          
-                <StackLayout>
-                    <StackLayout >
+
+            <StackLayout>
+                <StackLayout >
                     <Image Source="LogoFlorencia.png"
                            HorizontalOptions="Center"
                            HeightRequest="150"
                            WidthRequest="150"/>
                 </StackLayout>
-                <Frame Padding="10" Margin="10" BackgroundColor="DarkBlue" Resources="fondo.jpg" HeightRequest="300">
-                    <StackLayout  Orientation="Vertical" VerticalOptions="Center">
 
-                        <Button Text="Restaurante"
+                <StackLayout>
+                    <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
+                        <StackLayout>
+                            <Button Text="Restaurante"
                             Style="{StaticResource BotonesMenu}"
                             Clicked="Button_Clicked"
                             />
-
-                        <Button Text="Hotel"
+                        </StackLayout>
+                        <StackLayout>
+                            <Button Text="Hotel"
                             Style="{StaticResource BotonesMenu}"
                             Clicked="Button_Clicked_1"/>
+                        </StackLayout>
+                    </StackLayout>
 
-                        <Button Text="Eventos Sociales"
+                    <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
+                        <StackLayout>
+                            <Button Text="Eventos Sociales"
                             Style="{StaticResource BotonesMenu}"
                             Clicked="Button_Clicked_2"/>
-
-                        <Button Text="Eventos de Negocios"
+                        </StackLayout>
+                        <StackLayout>
+                            <Button Text="Eventos de Negocios"
                             Style="{StaticResource BotonesMenu}"
                             Clicked="Button_Clicked_3"/>
-
-
+                        </StackLayout>
                     </StackLayout>
-            </Frame>
+                                      
+                </StackLayout>
             </StackLayout>
-            
-                       
+
         </ScrollView>
     </ContentPage.Content>
 

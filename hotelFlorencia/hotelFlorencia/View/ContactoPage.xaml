@@ -8,12 +8,12 @@
 
     <ContentPage.Content>
         <ScrollView>
-        <StackLayout>
-            <Frame>
+        
+        
                    
             <StackLayout>
-                        <Label Text="Contactos" HorizontalTextAlignment="Center" HorizontalOptions="Center" FontAttributes="Bold" TextColor="Black"></Label>
-                    <Frame >
+                        <Label Text="Contactos" FontSize="Large" HorizontalTextAlignment="Center" HorizontalOptions="Center" FontAttributes="Bold" TextColor="Black"></Label>
+                    <Frame WidthRequest="150" >
                 <StackLayout Orientation="Horizontal">
                         <Image Source="LogoFacebook1.png" WidthRequest="75"></Image>
                     <StackLayout>
@@ -60,8 +60,7 @@
                     </Frame>
                 </StackLayout>
                 
-            </Frame>
-        </StackLayout>
+      
         </ScrollView>
     </ContentPage.Content>
 </ContentPage>
