@@ -6,7 +6,7 @@
         <StackLayout BackgroundColor="LightBlue">
             <Label Text="Cocteles y Ceviches" HorizontalOptions="Center" FontAttributes="Bold" TextColor="Black" FontSize="Large" HorizontalTextAlignment="Center" VerticalTextAlignment="Center"></Label>
             <Frame Padding="10" Margin="10" HeightRequest="300" BackgroundColor="White">
-                <Grid>
+                <Grid  HorizontalOptions="Center">
                     <Grid.RowDefinitions>
                         <RowDefinition Height="auto"/>
                         <RowDefinition Height="auto"/>
@@ -14,21 +14,20 @@
                         <RowDefinition Height="auto"/>
                     </Grid.RowDefinitions>
                     <Image Grid.Row="0" Source="Coctel.jpg"></Image>
-                    <Label Grid.Row="1" Text="Coctel de Camarones" FontSize="Small" HorizontalTextAlignment="Center" FontAttributes="Bold"></Label>
+                    <Label Grid.Row="1" Text="Coctel de Camarones" FontSize="Small" FontAttributes="Bold"></Label>
                     <Label Grid.Row="2" Text="Mediano $6.95"></Label>
-                    <Label Grid.Row="3" Text="Mediano $8.95"></Label>
+                    <Label Grid.Row="3" Text="Grande $8.95"></Label>
                 </Grid>
             </Frame>
-            <Frame Padding="10" Margin="10" HeightRequest="450" BackgroundColor="White">
-                <Grid>
+            <Frame Padding="10" Margin="10" HeightRequest="470" BackgroundColor="White">
+                <Grid HorizontalOptions="Center">
                     <Grid.RowDefinitions>
                         <RowDefinition Height="Auto"/>
                         <RowDefinition Height="*"/>
                         <RowDefinition Height="*"/>
                         <RowDefinition Height="*"/>
                         <RowDefinition Height="*"/>
-                        <RowDefinition Height="*"/>
-                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="2*"/>
                     </Grid.RowDefinitions>
                     <Grid.ColumnDefinitions>
                         <ColumnDefinition Width="*"/>
@@ -36,45 +35,66 @@
                         <ColumnDefinition Width="*"/>
                     </Grid.ColumnDefinitions>
                     <Image Grid.Row="0" Grid.ColumnSpan="3" Source="Coctel.jpg"></Image>
-                    <Label Grid.Row="1" Grid.Column="0" Text="Cocteles" FontSize="Small" HorizontalTextAlignment="Center" FontAttributes="Bold"></Label>
+                    <Label Grid.Row="1" Grid.Column="0" Text="Cocteles" FontSize="Small"  FontAttributes="Bold"></Label>
                     <Label Grid.Row="1" Grid.Column="1" Text="Mediano"></Label>
                     <Label Grid.Row="1" Grid.Column="2" Text="Grande"></Label>
-                    <Label Grid.Row="2" Grid.Column="0"  Text="Conchas"></Label>
+                    <Label Grid.Row="2" Grid.Column="0"  Text="Conchas" FontAttributes="Bold"></Label>
                     <Label Grid.Row="2" Grid.Column="1"  Text="$5.95"></Label>
                     <Label Grid.Row="2" Grid.Column="2"  Text="$8.95"></Label>
-                    <Label Grid.Row="3" Grid.Column="0"  Text="Cmaron en Salsa Rosada"></Label>
+                    <Label Grid.Row="3" Grid.Column="0"  Text="Camaron en Salsa Rosada" FontAttributes="Bold"></Label>
                     <Label Grid.Row="3" Grid.Column="1"  Text="$6.95"></Label>
                     <Label Grid.Row="3" Grid.Column="2"  Text="$8.95"></Label>
-                    <Label Grid.Row="4" Grid.Column="0"  Text="Camaron en Salsa Roja"></Label>
+                    <Label Grid.Row="4" Grid.Column="0"  Text="Camaron en Salsa Roja" FontAttributes="Bold"></Label>
                     <Label Grid.Row="4" Grid.Column="1"  Text="$6.95"></Label>
                     <Label Grid.Row="4" Grid.Column="2"  Text="$8.95"></Label>
-                    <Label Grid.Row="5" Grid.Column="0"  Text="Camaron en Salsa Rosada con Aguacate"></Label>
+                    <Label Grid.Row="5" Grid.Column="0"  Text="Camaron en Salsa Rosada con Aguacate" FontAttributes="Bold"></Label>
                     <Label Grid.Row="5" Grid.Column="1"  Text="$7.95"></Label>
                     <Label Grid.Row="5" Grid.Column="2"  Text="$8.95"></Label>
                 </Grid>
             </Frame>
-            <Frame Padding="10" Margin="10" HeightRequest="470" BackgroundColor="White">
-                <Grid>
+            <Frame Padding="10" Margin="10" HeightRequest="630" BackgroundColor="White">
+                <Grid  HorizontalOptions="Center">
                     <Grid.RowDefinitions>
-                        <RowDefinition Height="auto"/>
-                        <RowDefinition Height="auto"/>
-                        <RowDefinition Height="auto"/>
-                        <RowDefinition Height="auto"/>
-                        <RowDefinition Height="auto"/>
-                        <RowDefinition Height="auto"/>
-                        <RowDefinition Height="auto"/>
-                        <RowDefinition Height="auto"/>
-                        <RowDefinition Height="auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="3*"/>
+                        <RowDefinition Height="3*"/>
+                        <RowDefinition Height="3*"/>
+                        <RowDefinition Height="3*"/>
+                        <RowDefinition Height="4*"/>
+                        <RowDefinition Height="4*"/>
+                        <RowDefinition Height="4*"/>
+                        <RowDefinition Height="5*"/>
                     </Grid.RowDefinitions>
-                    <Image Grid.Row="0" Source="Coctel.jpg"></Image>
-                    <Label Grid.Row="1" Text="Mixtos" FontSize="Small" HorizontalTextAlignment="Center" FontAttributes="Bold"></Label>
-                    <Label Grid.Row="2" Text="Conchas - Camaron $7.50(Mediano), $7.95(Grande)"></Label>
-                    <Label Grid.Row="3" Text="Conchas - Calamar $7.50(Mediano), $7.95(Grande)"></Label>
-                    <Label Grid.Row="4" Text="Camaron - Calamar $7.50(Mediano), $7.95(Grande)"></Label>
-                    <Label Grid.Row="5" Text="Conchas - Ceviche de Pescado $7.50(Mediano), $7.25(Grande)"></Label>
-                    <Label Grid.Row="6" Text="Conchas - Camaron - Calamar $8.25(Grande)"></Label>
-                    <Label Grid.Row="7" Text="Conchas - Camaron - Pescado $8.25(Grande)"></Label>
-                    <Label Grid.Row="8" Text="Ceviche Florencia en Salsa roja Gourmet $8.95(Grande)"></Label>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+                    <Image Grid.Row="0" Grid.ColumnSpan="3" Source="Coctel.jpg"></Image>
+                    <Label Grid.Row="1" Grid.Column="0" Text="Mixtos" FontSize="Small"  FontAttributes="Bold"></Label>
+                    <Label Grid.Row="1" Grid.Column="1" Text="Mediano"></Label>
+                    <Label Grid.Row="1" Grid.Column="2" Text="Grande"></Label>
+                    <Label Grid.Row="2" Grid.Column="0"  Text="Conchas - Camaron" FontAttributes="Bold"></Label>
+                    <Label Grid.Row="2" Grid.Column="1"  Text="$7.50"></Label>
+                    <Label Grid.Row="2" Grid.Column="2"  Text="$7.95"></Label>
+                    <Label Grid.Row="3" Grid.Column="0"  Text="Conchas - Calamar" FontAttributes="Bold"></Label>
+                    <Label Grid.Row="3" Grid.Column="1"  Text="$7.50"></Label>
+                    <Label Grid.Row="3" Grid.Column="2"  Text="$7.95"></Label>
+                    <Label Grid.Row="4" Grid.Column="0"  Text="Camaron - Calamar" FontAttributes="Bold"></Label>
+                    <Label Grid.Row="4" Grid.Column="1"  Text="$7.50"></Label>
+                    <Label Grid.Row="4" Grid.Column="2"  Text="$7.95"></Label>
+                    <Label Grid.Row="5" Grid.Column="0"  Text="Conchas - Ceviche  de Pescado" FontAttributes="Bold"></Label>
+                    <Label Grid.Row="5" Grid.Column="1"  Text="$7.50"></Label>
+                    <Label Grid.Row="5" Grid.Column="2"  Text="$7.25"></Label>
+                    <Label Grid.Row="6" Grid.Column="0"  Text="Conchas - Camaron - Calamar" FontAttributes="Bold"></Label>
+                    <Label Grid.Row="6" Grid.Column="1"  Text=""></Label>
+                    <Label Grid.Row="6" Grid.Column="2"  Text="$8.25"></Label>
+                    <Label Grid.Row="7" Grid.Column="0"  Text="Conchas - Camaron - Pescado" FontAttributes="Bold"></Label>
+                    <Label Grid.Row="7" Grid.Column="1"  Text=""></Label>
+                    <Label Grid.Row="7" Grid.Column="2"  Text="$8.25"></Label>
+                    <Label Grid.Row="8" Grid.Column="0"  Text="Ceviche Florencia en Salsa roja Gourmet" FontAttributes="Bold"></Label>
+                    <Label Grid.Row="8" Grid.Column="1"  Text=""></Label>
+                    <Label Grid.Row="8" Grid.Column="2"  Text="$8.95"></Label>
                 </Grid>
             </Frame>
         </StackLayout>

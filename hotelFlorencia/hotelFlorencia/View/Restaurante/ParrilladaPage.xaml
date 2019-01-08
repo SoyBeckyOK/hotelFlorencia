@@ -2,11 +2,132 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="hotelFlorencia.View.Restaurante.ParrilladaPage">
-    <ContentPage.Content>
+    <ScrollView>
         <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+            <Label Text="Parrilladas para Compartir" FontAttributes="Bold" HorizontalOptions="Center" TextColor="Black" FontSize="Large" HorizontalTextAlignment="Center" VerticalTextAlignment="Center"></Label>
+            <Label Text="Parrilladas para tres o cuatro Personas" FontAttributes="Bold" HorizontalOptions="Center" TextColor="Black" FontSize="Small" HorizontalTextAlignment="Center" VerticalTextAlignment="Center"></Label>
+            <Frame Padding="1.0" Margin="1.0" HeightRequest="300" BackgroundColor="White">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="auto"/>
+                        <RowDefinition Height="auto"/>
+                        <RowDefinition Height="auto"/>
+                        <RowDefinition Height="auto"/>
+                    </Grid.RowDefinitions>
+                    <Image Grid.Row="0" Source="Parrilladas.jpg"></Image>
+                    <Label Grid.Row="1" Text="Parrillada de Cerdo" FontSize="Medium" FontAttributes="Bold" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" ></Label>
+                    <Label Grid.Row="2" Text="1 1/2 Libra de Cerdo a la Parrilla"></Label>
+                    <Label Grid.Row="3" Text="$19.95 ($6.65 por persona)"></Label>
+                </Grid>
+            </Frame>
+            <Frame Padding="1.0" Margin="1.0" HeightRequest="300" BackgroundColor="White">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="auto"/>
+                        <RowDefinition Height="auto"/>
+                        <RowDefinition Height="auto"/>
+                        <RowDefinition Height="auto"/>
+                    </Grid.RowDefinitions>
+                    <Image Grid.Row="0" Source="Parrilladas.jpg"></Image>
+                    <Label Grid.Row="1" Text="Parrillada de Pollo" FontSize="Medium" HorizontalTextAlignment="Center" FontAttributes="Bold"></Label>
+                    <Label Grid.Row="2" Text="1 1/2 Libra de Pollo a la Parrilla"/>
+                    <Label Grid.Row="3" Text="$19.95 ($6.65 por persona)"/>
+                </Grid>
+            </Frame>
+            <Frame Padding="1.0" Margin="1.0" HeightRequest="300" BackgroundColor="White">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="auto"/>
+                        <RowDefinition Height="auto"/>
+                        <RowDefinition Height="auto"/>
+                    </Grid.RowDefinitions>
+                    <Image Grid.Row="0" Source="Parrilladas.jpg"></Image>
+                    <Label Grid.Row="1" Text="Parrillada La Estancia" FontSize="Medium" HorizontalTextAlignment="Center" FontAttributes="Bold"></Label>
+                    <Label Grid.Row="2" Text="3/4 Libra de Puyazo, 3/4 libra de Pollo"></Label>
+                    <Label Grid.Row="3" Text="$14.95"></Label>
+                </Grid>
+            </Frame>
+            <Frame Padding="1.0" Margin="1.0" HeightRequest="350" BackgroundColor="White">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="auto"/>
+                        <RowDefinition Height="auto"/>
+                        <RowDefinition Height="auto"/>
+                        <RowDefinition Height="auto"/>
+                    </Grid.RowDefinitions>
+                    <Image Grid.Row="0" Source="Parrilladas.jpg"></Image>
+                    <Label Grid.Row="1" Text="Parrillada el Brasador" FontSize="Medium" HorizontalTextAlignment="Center" FontAttributes="Bold"></Label>
+                    <Label Grid.Row="2" Text="1/2 libra de Puyazo, 1/2 libra de Pollo, 1/2 libra de Cerdo"></Label>
+                    <Label Grid.Row="3" Text="$24.95 ($8.31 por persona)"></Label>
+                </Grid>
+            </Frame>
+            <Frame Padding="1.0" Margin="1.0" HeightRequest="300" BackgroundColor="White">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="auto"/>
+                        <RowDefinition Height="auto"/>
+                        <RowDefinition Height="auto"/>
+                        <RowDefinition Height="auto"/>
+                    </Grid.RowDefinitions>
+                    <Image Grid.Row="0" Source="Parrilladas.jpg"></Image>
+                    <Label Grid.Row="1" Text="Parrillada Gaucha" FontSize="Medium" HorizontalTextAlignment="Center" FontAttributes="Bold"></Label>
+                    <Label Grid.Row="2" Text="1 1/2 libra de Puyazo Importado"></Label>
+                    <Label Grid.Row="3" Text="$24.95 ($8.31 por persona)"></Label>
+                </Grid>
+            </Frame>
+            <Frame Padding="1.0" Margin="1.0" HeightRequest="350" BackgroundColor="White">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="auto"/>
+                        <RowDefinition Height="auto"/>
+                        <RowDefinition Height="auto"/>
+                        <RowDefinition Height="auto"/>
+                    </Grid.RowDefinitions>
+                    <Image Grid.Row="0" Source="Parrilladas.jpg"></Image>
+                    <Label Grid.Row="1" Text="Parrillada Argentina" FontSize="Medium" HorizontalTextAlignment="Center" FontAttributes="Bold"></Label>
+                    <Label Grid.Row="2" Text="1/2 libra de Lomo, 1/2 libra de Pollo, 1/2 libra de Cerdo, dos Chorizos argentinos"></Label>
+                    <Label Grid.Row="3" Text="$25.95 ($8.65 por persona)"></Label>
+                </Grid>
+            </Frame>
+            <StackLayout>
+                <Label Text="Todos los platos van acompañados de: una ensalada para compartir, 1 1/2 libra de Papa asada, tres panes, tres bebidas, (soda o té), tres consome de res y salsas para aderezar" FontAttributes="Italic" FontSize="Small"></Label>
+            </StackLayout>
+
+            <StackLayout>
+                <Label Text="Parrilladas para tres o cuatro Personas" FontAttributes="Bold" HorizontalOptions="Center" TextColor="Black" FontSize="Small" HorizontalTextAlignment="Center" VerticalTextAlignment="Center"></Label>
+                <Frame Padding="1.0" Margin="1.0" HeightRequest="300" BackgroundColor="White">
+                    <Grid>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="auto"/>
+                            <RowDefinition Height="auto"/>
+                            <RowDefinition Height="auto"/>
+                            <RowDefinition Height="auto"/>
+                        </Grid.RowDefinitions>
+                        <Image Grid.Row="0" Source="Parrilladas.jpg"></Image>
+                        <Label Grid.Row="1" Text="Super parrillada Brasador" FontSize="Medium" FontAttributes="Bold" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" ></Label>
+                        <Label Grid.Row="2" Text="1/2 libra de lomo, 1/2 libra de pollo, 1/2 libra de cerdo, 1 libra de costilla de cerdo"></Label>
+                        <Label Grid.Row="3" Text="$31.95 ($7.98 por persona)"></Label>
+                    </Grid>
+                </Frame>
+                <Frame Padding="1.0" Margin="1.0" HeightRequest="300" BackgroundColor="White">
+                    <Grid>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="auto"/>
+                            <RowDefinition Height="auto"/>
+                            <RowDefinition Height="auto"/>
+                            <RowDefinition Height="auto"/>
+                        </Grid.RowDefinitions>
+                        <Image Grid.Row="0" Source="Parrilladas.jpg"></Image>
+                        <Label Grid.Row="1" Text="Super Parrillada Gaucha" FontSize="Medium" HorizontalTextAlignment="Center" FontAttributes="Bold"></Label>
+                        <Label Grid.Row="2" Text="1/2 libra de lomo, 1/2 libra de pollo, 1/2 libra de cerdo, 1/2 libra de Camaron, dos chorizos argentinos"/>
+                        <Label Grid.Row="3" Text= "$35.95 ($8.98 por persona)"/>
+                    </Grid>
+                </Frame>
+                <StackLayout>
+                    <Label Text="Todos los platos van acompañados de: una ensalada para compartir, 2 libra de Papa asada, cuatro panes, cuatro bebidas, (soda o té), cuatro consome de res y salsas para aderezar" FontAttributes="Bold" FontSize="Small"></Label>
+                </StackLayout>
+            </StackLayout>
         </StackLayout>
-    </ContentPage.Content>
+
+    </ScrollView>
 </ContentPage>

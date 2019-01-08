@@ -4,77 +4,131 @@
              x:Class="hotelFlorencia.View.Restaurante.CarnesPage">
     <ScrollView>
         <StackLayout BackgroundColor="LightBlue">
-            <Label Text="Menu de Cenas o Almuerzos de Pollo" HorizontalOptions="Center" FontAttributes="Bold" TextColor="Black" FontSize="Large" HorizontalTextAlignment="Center" VerticalTextAlignment="Center"></Label>
-            <Frame Padding="10" Margin="10" HeightRequest="300" BackgroundColor="White">
+            <Label Text="Carnes y Aves" HorizontalOptions="Center" FontAttributes="Bold" TextColor="Black" FontSize="Large" HorizontalTextAlignment="Center" VerticalTextAlignment="Center"></Label>
+            <Frame Padding="10" Margin="10" HeightRequest="250" BackgroundColor="White">
                 <Grid>
                     <Grid.RowDefinitions>
                         <RowDefinition Height="auto"/>
                         <RowDefinition Height="auto"/>
                         <RowDefinition Height="auto"/>
+                        <RowDefinition Height="auto"/>
                     </Grid.RowDefinitions>
-                    <Image Grid.Row="0" Source="Entradas.jpg"></Image>
-                    <Label Grid.Row="1" Text="Pollo en Salsa de Cilantro... $13.50" FontSize="Small" HorizontalTextAlignment="Center" FontAttributes="Bold"></Label>
-                    <Label Grid.Row="2" Text="Es un exquisito  filete de pollo en salsa  de cilantro, acompañado de arroz primavera y vegetales a la peperonata."></Label>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+                    <Image Grid.Row="0" Grid.ColumnSpan="2" Source="Carnes.jpg"></Image>
+                    <Label Grid.Row="1" Grid.ColumnSpan="2" Text="Lomo a la Parrilla" FontSize="Medium" HorizontalTextAlignment="Center" FontAttributes="Bold"></Label>
+                    <Label Grid.Row="2" Grid.Column="0" Text="$8. 55 1/2 Libra " HorizontalOptions="End"></Label>
+                    <Label Grid.Row="2" Grid.Column="1" Text="$12.45 1 Libra " HorizontalOptions="Start"></Label>
                 </Grid>
             </Frame>
-            <Frame Padding="10" Margin="10" HeightRequest="300" BackgroundColor="White">
+            <Frame Padding="10" Margin="10" HeightRequest="250" BackgroundColor="White">
                 <Grid>
                     <Grid.RowDefinitions>
                         <RowDefinition Height="auto"/>
                         <RowDefinition Height="auto"/>
                         <RowDefinition Height="auto"/>
+                        <RowDefinition Height="auto"/>
                     </Grid.RowDefinitions>
-                    <Image Grid.Row="0" Source="Entradas.jpg"></Image>
-                    <Label Grid.Row="1" Text="Pollo en Salsa de Hongos... $13.50" FontSize="Small" HorizontalTextAlignment="Center" FontAttributes="Bold"></Label>
-                    <Label Grid.Row="2" Text="Es un exquisito filete de pollo en salsa de champiñones al vino tinto, acompañado de vegetales tipo oriental, arroz ecuatoriano."></Label>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+                    <Image Grid.Row="0" Grid.ColumnSpan="2" Source="Carnes.jpg"></Image>
+                    <Label Grid.Row="1" Grid.ColumnSpan="2" Text="Filete de pollo a la Parrilla" FontSize="Medium" HorizontalTextAlignment="Center" FontAttributes="Bold"></Label>
+                    <Label Grid.Row="2" Grid.Column="0" Text="$7. 95 1/2 Libra " HorizontalOptions="End"></Label>
+                    <Label Grid.Row="2" Grid.Column="1" Text="$12.05 1 Libra " HorizontalOptions="Start"></Label>
                 </Grid>
             </Frame>
-            <Frame Padding="10" Margin="10" HeightRequest="300" BackgroundColor="White">
+            <Frame Padding="10" Margin="10" HeightRequest="250" BackgroundColor="White">
                 <Grid>
                     <Grid.RowDefinitions>
                         <RowDefinition Height="auto"/>
                         <RowDefinition Height="auto"/>
                         <RowDefinition Height="auto"/>
+                        <RowDefinition Height="auto"/>
                     </Grid.RowDefinitions>
-                    <Image Grid.Row="0" Source="Entradas.jpg"></Image>
-                    <Label Grid.Row="1" Text="Pollo con Albahaca... $13.95" FontSize="Small" HorizontalTextAlignment="Center" FontAttributes="Bold"></Label>
-                    <Label Grid.Row="2" Text="Es un exquisito filete de pollo relleno de albahaca y queso mozarela bañado con salsa al vino blanco, acompañado con vegetales salteados a la mantequilla y arroz  a la jardinera."></Label>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+                    <Image Grid.Row="0" Grid.ColumnSpan="2" Source="Carnes.jpg"></Image>
+                    <Label Grid.Row="1" Grid.ColumnSpan="2" Text="Puyaso Importado" FontSize="Medium" HorizontalTextAlignment="Center" FontAttributes="Bold"></Label>
+                    <Label Grid.Row="2" Grid.Column="0" Text="$8. 55 1/2 Libra " HorizontalOptions="End"></Label>
+                    <Label Grid.Row="2" Grid.Column="1" Text="$12.45 1 Libra " HorizontalOptions="Start"></Label>
                 </Grid>
             </Frame>
-            <Frame Padding="10" Margin="10" HeightRequest="300" BackgroundColor="White">
+            <Frame Padding="10" Margin="10" HeightRequest="250" BackgroundColor="White">
                 <Grid>
                     <Grid.RowDefinitions>
                         <RowDefinition Height="auto"/>
                         <RowDefinition Height="auto"/>
                         <RowDefinition Height="auto"/>
+                        <RowDefinition Height="auto"/>
                     </Grid.RowDefinitions>
-                    <Image Grid.Row="0" Source="Entradas.jpg"></Image>
-                    <Label Grid.Row="1" Text="Pollo Florentina... $13.95" FontSize="Small" HorizontalTextAlignment="Center" FontAttributes="Bold"></Label>
-                    <Label Grid.Row="2" Text="Es un exquisito filete de pollo relleno de espinaca con queso mozarela bañado en salsa de semilla de marañón, acompañado con vegetales y pimiento relleno de arroz gratinado."></Label>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+                    <Image Grid.Row="0" Grid.ColumnSpan="2" Source="Carnes.jpg"></Image>
+                    <Label Grid.Row="1" Grid.ColumnSpan="2" Text="Fajitas de Res" FontSize="Medium" HorizontalTextAlignment="Center" FontAttributes="Bold"></Label>
+                    <Label Grid.Row="2" Grid.Column="0" Text="$8. 55 1/2 Libra " HorizontalOptions="End"></Label>
+                    <Label Grid.Row="2" Grid.Column="1" Text="$12.45 1 Libra " HorizontalOptions="Start"></Label>
                 </Grid>
             </Frame>
-            <Frame Padding="10" Margin="10" HeightRequest="300" BackgroundColor="White">
+            <Frame Padding="10" Margin="10" HeightRequest="250" BackgroundColor="White">
                 <Grid>
                     <Grid.RowDefinitions>
                         <RowDefinition Height="auto"/>
                         <RowDefinition Height="auto"/>
                         <RowDefinition Height="auto"/>
+                        <RowDefinition Height="auto"/>
                     </Grid.RowDefinitions>
-                    <Image Grid.Row="0" Source="Entradas.jpg"></Image>
-                    <Label Grid.Row="1" Text="Pollo Doña Margarita... $13.95" FontSize="Small" HorizontalTextAlignment="Center" FontAttributes="Bold"></Label>
-                    <Label Grid.Row="2" Text="Es un delicioso filete de pollo marinado con especias y luego rellenado con chipilín, tocino ahumado y queso mozarela, acompañado de una salsa al vino blanco, papa William y vegetales al vapor."></Label>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+                    <Image Grid.Row="0" Grid.ColumnSpan="2" Source="Carnes.jpg"></Image>
+                    <Label Grid.Row="1" Grid.ColumnSpan="2" Text="Lomo de Cerdo Importado" FontSize="Medium" HorizontalTextAlignment="Center" FontAttributes="Bold"></Label>
+                    <Label Grid.Row="2" Grid.Column="0" Text="$8. 55 1/2 Libra " HorizontalOptions="End"></Label>
+                    <Label Grid.Row="2" Grid.Column="1" Text="$12.45 1 Libra " HorizontalOptions="Start"></Label>
                 </Grid>
             </Frame>
-            <Frame Padding="10" Margin="10" HeightRequest="300" BackgroundColor="White">
+            <Frame Padding="10" Margin="10" HeightRequest="250" BackgroundColor="White">
                 <Grid>
                     <Grid.RowDefinitions>
                         <RowDefinition Height="auto"/>
                         <RowDefinition Height="auto"/>
                         <RowDefinition Height="auto"/>
+                        <RowDefinition Height="auto"/>
                     </Grid.RowDefinitions>
-                    <Image Grid.Row="0" Source="Entradas.jpg"></Image>
-                    <Label Grid.Row="1" Text="Pollo Cordon Blue... $13.95" FontSize="Small" HorizontalTextAlignment="Center" FontAttributes="Bold"></Label>
-                    <Label Grid.Row="2" Text="Es un exquisito filete de pollo relleno de jamón  y queso craff  bañado con salsa de hongo, acompañado con vegetales chinos y arroz ecuatoriano."></Label>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+                    <Image Grid.Row="0" Grid.ColumnSpan="2" Source="Carnes.jpg"></Image>
+                    <Label Grid.Row="1" Grid.ColumnSpan="2" Text="Lomo de Aguja a la Parrilla" FontSize="Medium" HorizontalTextAlignment="Center" FontAttributes="Bold"></Label>
+                    <Label Grid.Row="2" Grid.Column="0" Text="$10.95 1/2 Libra " HorizontalOptions="End"></Label>
+                    <Label Grid.Row="2" Grid.Column="1" Text="$12.45 1 Libra " HorizontalOptions="Start"></Label>
+                </Grid>
+            </Frame>
+            <Frame Padding="10" Margin="10" HeightRequest="250" BackgroundColor="White">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="auto"/>
+                        <RowDefinition Height="auto"/>
+                        <RowDefinition Height="auto"/>
+                        <RowDefinition Height="auto"/>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+                    <Image Grid.Row="0" Grid.ColumnSpan="2" Source="Carnes.jpg"></Image>
+                    <Label Grid.Row="1" Grid.ColumnSpan="2" Text="Churrasco Brasador" FontSize="Medium" HorizontalTextAlignment="Center" FontAttributes="Bold"></Label>
+                    <Label Grid.Row="2" Grid.Column="0" Text="$10. 55 1/2 Libra" HorizontalOptions="End"></Label>
+                    <Label Grid.Row="2" Grid.Column="1" Text="" HorizontalOptions="Start"></Label>
                 </Grid>
             </Frame>
         </StackLayout>
