@@ -30,7 +30,7 @@
                     <Button Grid.Row="2" TextColor="White" Text="Ver Opciones" BackgroundColor="DarkBlue" x:Name="btn_BabyShower" Clicked="Btn_BabyShower_Clicked"></Button>
                     </Grid>
                 </Frame>
-                <Frame Padding="10" Margin="10" HeightRequest="250" BackgroundColor="White">
+                <Frame Padding="10" Margin="10" HeightRequest="200" BackgroundColor="White">
                     <Grid>
                         <Grid.RowDefinitions>
                             <RowDefinition Height="auto"/>
@@ -42,7 +42,7 @@
                     <Button Grid.Row="2" TextColor="White" Text="Ver Opciones" BackgroundColor="DarkBlue" x:Name="btn_FiestaRosa" Clicked="Btn_FiestaRosa_Clicked"></Button>
                     </Grid>
                 </Frame>
-            <Frame Padding="10" Margin="10" HeightRequest="250" BackgroundColor="White">
+            <Frame Padding="10" Margin="10" HeightRequest="200" BackgroundColor="White">
                 <Grid>
                     <Grid.RowDefinitions>
                         <RowDefinition Height="auto"/>

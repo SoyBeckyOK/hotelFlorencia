@@ -13,9 +13,9 @@
                             <RowDefinition Height="auto"/>
                             <RowDefinition Height="auto"/>
                         </Grid.RowDefinitions>
-                        <Image Grid.Row="0" Source="bodas.jpg"></Image>
+                        <Image Grid.Row="0" Source="NegociosImage.jpg"></Image>
                         <Label Grid.Row="1" Text="Reuniones de Negocios" FontSize="Small" HorizontalTextAlignment="Center" FontAttributes="Bold"></Label>
-                        <Button Grid.Row="2" Text="Ver Menu" TextColor="White" BackgroundColor="DarkBlue"></Button>
+                        <Button Grid.Row="2" Text="Ver Menu" TextColor="White" BackgroundColor="DarkBlue" Clicked="Button_Clicked"></Button>
                     </Grid>
                 </Frame>
                

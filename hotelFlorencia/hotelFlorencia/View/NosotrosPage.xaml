@@ -4,7 +4,8 @@
              x:Class="hotelFlorencia.View.NosotrosPage"
              Icon="about.png"
              BackgroundImage="FondoPrincipal.jpg"
-             NavigationPage.HasNavigationBar="False">
+             NavigationPage.HasNavigationBar="False"
+             Title="Nosotros">
     <ScrollView>
     <StackLayout Padding="10">
      

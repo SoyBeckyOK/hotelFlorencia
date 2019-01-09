@@ -1,10 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="hotelFlorencia.View.MariscosPage">
+             x:Class="hotelFlorencia.View.MariscosPage"
+             Title="Camarones y Pescado">
     <ScrollView>
         <StackLayout BackgroundColor="LightBlue">
-            <Label Text="Camarones y Pescado" HorizontalOptions="Center" FontAttributes="Bold" TextColor="Black" FontSize="Large" HorizontalTextAlignment="Center" VerticalTextAlignment="Center"></Label>
             <Frame Padding="10" Margin="10" HeightRequest="300" BackgroundColor="White">
                 <Grid>
                     <Grid.RowDefinitions>
@@ -45,7 +45,7 @@
                     <Grid.RowDefinitions>
                         <RowDefinition Height="auto"/>
                         <RowDefinition Height="auto"/>
-                        <RowDefinition Height="auto"/>
+
 
                     </Grid.RowDefinitions>
                     <Grid.ColumnDefinitions>
@@ -54,7 +54,7 @@
                     </Grid.ColumnDefinitions>
                     <Image Grid.Row="0" Grid.ColumnSpan="2" Source="Camarones.jpg"></Image>
                     <Label Grid.Row="1" Grid.Column="0" Text="Pescado Frito Entero" FontSize="Medium" HorizontalTextAlignment="Center" FontAttributes="Bold"></Label>
-                    <Label Grid.Row="2" Grid.Column="1" Text="$8.25 1 Libra" FontSize="Medium" HorizontalTextAlignment="Center" FontAttributes="Bold"></Label>
+                    <Label Grid.Row="1" Grid.Column="1" Text="$8.25 1 Libra" FontSize="Medium" HorizontalTextAlignment="Center" FontAttributes="Bold"></Label>
                 </Grid>
             </Frame>
             <StackLayout>

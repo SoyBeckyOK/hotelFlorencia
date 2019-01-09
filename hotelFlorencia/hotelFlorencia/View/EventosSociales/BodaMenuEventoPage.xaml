@@ -1,10 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="hotelFlorencia.View.EventosSociales.BodaMenuEventoPage">
+             x:Class="hotelFlorencia.View.EventosSociales.BodaMenuEventoPage"
+             Title="Menu Eventos Sociales">
     <ScrollView>
         <StackLayout BackgroundColor="LightBlue">
-            <Label Text="Menu para eventos Sociales" FontAttributes="Bold" TextColor="Black" FontSize="Large" HorizontalTextAlignment="Center" VerticalTextAlignment="Center"></Label>
             <Frame Padding="1.0" Margin="1.0" HeightRequest="400" BackgroundColor="White">
                 <Grid>
                     <Grid.RowDefinitions>
@@ -64,7 +64,7 @@
                         <RowDefinition Height="auto"/>
                     </Grid.RowDefinitions>
                     <Image Grid.Row="0" Source="Entradas.jpg"></Image>
-                    <Label Grid.Row="1" Text="Boquitas" FontSize="Small"  FontAttributes="Bold"></Label>
+                    <Label Grid.Row="1" Text="Boquitas" FontSize="Small" HorizontalOptions="Center" FontAttributes="Bold"></Label>
                     <Button Grid.Row="2" Text="Ver Menu" FontSize="Small" TextColor="White" FontAttributes="Bold" HorizontalOptions="Center" BackgroundColor="DarkBlue" Clicked="Button_Clicked"></Button>
                 </Grid>
             </Frame>
@@ -80,7 +80,7 @@
                         <RowDefinition Height="auto"/>
                     </Grid.RowDefinitions>
                     <Image Grid.Row="0" Source="Bebidas.jpg"></Image>
-                    <Label Grid.Row="1" Text="Precios de Bebidas" FontSize="Small" HorizontalTextAlignment="Start" FontAttributes="Bold"></Label>
+                    <Label Grid.Row="1" Text="Precios de Bebidas" FontSize="Small" HorizontalTextAlignment="Center" FontAttributes="Bold"></Label>
                     <Label Grid.Row="2" Text="Cerveza Extranjera $2.00" FontSize="Small" HorizontalTextAlignment="Start" ></Label>
                     <Label Grid.Row="3" Text="Soda $0.85" FontSize="Small" HorizontalTextAlignment="Start" ></Label>
                     <Label Grid.Row="4" Text="Descorche  $7.95 por botella" FontSize="Small" HorizontalTextAlignment="Start" ></Label>

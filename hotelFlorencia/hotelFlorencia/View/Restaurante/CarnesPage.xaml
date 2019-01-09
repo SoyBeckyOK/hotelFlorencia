@@ -1,10 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="hotelFlorencia.View.Restaurante.CarnesPage">
+             x:Class="hotelFlorencia.View.Restaurante.CarnesPage"
+             Title="Carnes y Aves">
     <ScrollView>
         <StackLayout BackgroundColor="LightBlue">
-            <Label Text="Carnes y Aves" HorizontalOptions="Center" FontAttributes="Bold" TextColor="Black" FontSize="Large" HorizontalTextAlignment="Center" VerticalTextAlignment="Center"></Label>
             <Frame Padding="10" Margin="10" HeightRequest="250" BackgroundColor="White">
                 <Grid>
                     <Grid.RowDefinitions>

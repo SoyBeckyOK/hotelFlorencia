@@ -1,10 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="hotelFlorencia.View.EventosSociales.MenuNiñosPage">
+             x:Class="hotelFlorencia.View.EventosSociales.MenuNiñosPage"
+             Title="Menu Para Niños">
     <ScrollView>
         <StackLayout>
-            <Label Text="Menu Para Niños" FontAttributes="Bold" TextColor="Black" FontSize="Large" HorizontalOptions="Center" HorizontalTextAlignment="Center" VerticalTextAlignment="Center"></Label>
             <Frame Padding="10" Margin="10" HeightRequest="300" BackgroundColor="White">
                 <Grid>
                     <Grid.RowDefinitions>

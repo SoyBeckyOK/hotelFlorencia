@@ -1,10 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="hotelFlorencia.View.Restaurante.CortesEspecialesPage">
+             x:Class="hotelFlorencia.View.Restaurante.CortesEspecialesPage"
+             Title="Cortes Especiales">
     <ScrollView>
         <StackLayout>
-            <Label Text="Cortes Especiales" FontAttributes="Bold" HorizontalOptions="Center" TextColor="Black" FontSize="Medium" HorizontalTextAlignment="Center" VerticalTextAlignment="Center"></Label>
             <Frame Padding="1.0" Margin="1.0" HeightRequest="330" BackgroundColor="White">
                 <Grid>
                     <Grid.RowDefinitions>

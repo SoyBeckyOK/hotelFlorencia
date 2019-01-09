@@ -1,12 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="hotelFlorencia.View.EventosSociales.BoquitasEventosPage">
+             x:Class="hotelFlorencia.View.EventosSociales.BoquitasEventosPage"
+             Title="Boquitas">
     <ScrollView>
     <StackLayout>
-        <Label Text="Boquitas" FontAttributes="Bold" TextColor="Black" FontSize="Large" VerticalTextAlignment="Center"></Label>
         <Label Text="$70.00 (Cien Unidades) " FontAttributes="Bold" TextColor="Black" FontSize="Medium" VerticalTextAlignment="Center"></Label>
-        <Frame Padding="10" Margin="10" HeightRequest="200" BackgroundColor="White">
+        <Frame Padding="10" Margin="10" HeightRequest="250" BackgroundColor="White">
             <Grid>
                 <Grid.RowDefinitions>
                     <RowDefinition Height="auto"/>
@@ -18,7 +18,7 @@
                 <Label Grid.Row="1" Text="Cheeses Sticks" FontSize="Large" HorizontalTextAlignment="Center" FontAttributes="Bold"></Label>
             </Grid>
         </Frame>
-        <Frame Padding="10" Margin="10" HeightRequest="200" BackgroundColor="White">
+            <Frame Padding="10" Margin="10" HeightRequest="250" BackgroundColor="White">
             <Grid>
                 <Grid.RowDefinitions>
                     <RowDefinition Height="auto"/>
@@ -28,7 +28,7 @@
                 <Label Grid.Row="1" Text="Rollos de Jamon y Palmito" FontSize="Large" HorizontalTextAlignment="Center" FontAttributes="Bold"></Label>
             </Grid>
         </Frame>
-        <Frame Padding="10" Margin="10" HeightRequest="200" BackgroundColor="White">
+            <Frame Padding="10" Margin="10" HeightRequest="250" BackgroundColor="White">
             <Grid>
                 <Grid.RowDefinitions>
                     <RowDefinition Height="auto"/>
@@ -38,7 +38,7 @@
                 <Label Grid.Row="1" Text="Pinchos de res" FontSize="Large" HorizontalTextAlignment="Center" FontAttributes="Bold"></Label>
             </Grid>
         </Frame>
-        <Frame Padding="10" Margin="10" HeightRequest="200" BackgroundColor="White">
+            <Frame Padding="10" Margin="10" HeightRequest="250" BackgroundColor="White">
             <Grid>
                 <Grid.RowDefinitions>
                     <RowDefinition Height="auto"/>
@@ -48,7 +48,7 @@
                 <Label Grid.Row="1" Text="Pinchos de Pollo" FontSize="Large" HorizontalTextAlignment="Center" FontAttributes="Bold"></Label>
             </Grid>
         </Frame>
-        <Frame Padding="10" Margin="10" HeightRequest="200" BackgroundColor="White">
+            <Frame Padding="10" Margin="10" HeightRequest="250" BackgroundColor="White">
             <Grid>
                 <Grid.RowDefinitions>
                     <RowDefinition Height="auto"/>
@@ -58,7 +58,7 @@
                 <Label Grid.Row="1" Text="Colas de Camaron empanizados" FontSize="Large" HorizontalTextAlignment="Center" FontAttributes="Bold"></Label>
             </Grid>
         </Frame>
-        <Frame Padding="10" Margin="10" HeightRequest="200" BackgroundColor="White">
+            <Frame Padding="10" Margin="10" HeightRequest="250" BackgroundColor="White">
             <Grid>
                 <Grid.RowDefinitions>
                     <RowDefinition Height="auto"/>
@@ -68,7 +68,7 @@
                 <Label Grid.Row="1" Text="Suckini empanizado" FontSize="Large" HorizontalTextAlignment="Center" FontAttributes="Bold"></Label>
             </Grid>
         </Frame>
-        <Frame Padding="10" Margin="10" HeightRequest="200" BackgroundColor="White">
+            <Frame Padding="10" Margin="10" HeightRequest="250" BackgroundColor="White">
             <Grid>
                 <Grid.RowDefinitions>
                     <RowDefinition Height="auto"/>
@@ -78,7 +78,7 @@
                 <Label Grid.Row="1" Text="Hongos al Ajillo" FontSize="Large" HorizontalTextAlignment="Center" FontAttributes="Bold"></Label>
             </Grid>
         </Frame>
-        <Frame Padding="10" Margin="10" HeightRequest="200" BackgroundColor="White">
+            <Frame Padding="10" Margin="10" HeightRequest="250" BackgroundColor="White">
             <Grid>
                 <Grid.RowDefinitions>
                     <RowDefinition Height="auto"/>
@@ -88,7 +88,7 @@
                 <Label Grid.Row="1" Text="Plátanos  Azteca" FontSize="Large" HorizontalTextAlignment="Center" FontAttributes="Bold"></Label>
             </Grid>
         </Frame>
-        <Frame Padding="10" Margin="10" HeightRequest="200" BackgroundColor="White">
+            <Frame Padding="10" Margin="10" HeightRequest="250" BackgroundColor="White">
             <Grid>
                 <Grid.RowDefinitions>
                     <RowDefinition Height="auto"/>
@@ -98,7 +98,7 @@
                 <Label Grid.Row="1" Text="Rollitos de jamón y queso" FontSize="Large" HorizontalTextAlignment="Center" FontAttributes="Bold"></Label>
             </Grid>
         </Frame>
-        <Frame Padding="10" Margin="10" HeightRequest="200" BackgroundColor="White">
+            <Frame Padding="10" Margin="10" HeightRequest="250" BackgroundColor="White">
             <Grid>
                 <Grid.RowDefinitions>
                     <RowDefinition Height="auto"/>
@@ -108,7 +108,7 @@
                 <Label Grid.Row="1" Text="Aros de cebolla empanizados" FontSize="Large" HorizontalTextAlignment="Center" FontAttributes="Bold"></Label>
             </Grid>
         </Frame>
-        <Frame Padding="10" Margin="10" HeightRequest="200" BackgroundColor="White">
+            <Frame Padding="10" Margin="10" HeightRequest="250" BackgroundColor="White">
             <Grid>
                 <Grid.RowDefinitions>
                     <RowDefinition Height="auto"/>
@@ -118,7 +118,7 @@
                 <Label Grid.Row="1" Text="Papa ajío" FontSize="Large" HorizontalTextAlignment="Center" FontAttributes="Bold"></Label>
             </Grid>
         </Frame>
-        <Frame Padding="10" Margin="10" HeightRequest="200" BackgroundColor="White">
+            <Frame Padding="10" Margin="10" HeightRequest="250" BackgroundColor="White">
             <Grid>
                 <Grid.RowDefinitions>
                     <RowDefinition Height="auto"/>
@@ -128,7 +128,7 @@
                 <Label Grid.Row="1" Text="Chicken  Wings" FontSize="Large" HorizontalTextAlignment="Center" FontAttributes="Bold"></Label>
             </Grid>
         </Frame>
-        <Frame Padding="10" Margin="10" HeightRequest="200" BackgroundColor="White">
+            <Frame Padding="10" Margin="10" HeightRequest="250" BackgroundColor="White">
             <Grid>
                 <Grid.RowDefinitions>
                     <RowDefinition Height="auto"/>
@@ -138,7 +138,7 @@
                 <Label Grid.Row="1" Text="Canapé de Atún" FontSize="Large" HorizontalTextAlignment="Center" FontAttributes="Bold"></Label>
             </Grid>
         </Frame>
-        <Frame Padding="10" Margin="10" HeightRequest="200" BackgroundColor="White">
+            <Frame Padding="10" Margin="10" HeightRequest="250" BackgroundColor="White">
             <Grid>
                 <Grid.RowDefinitions>
                     <RowDefinition Height="auto"/>
@@ -148,7 +148,7 @@
                 <Label Grid.Row="1" Text="Mini sándwich de jamón y queso" FontSize="Large" HorizontalTextAlignment="Center" FontAttributes="Bold"></Label>
             </Grid>
         </Frame>
-        <Frame Padding="10" Margin="10" HeightRequest="200" BackgroundColor="White">
+            <Frame Padding="10" Margin="10" HeightRequest="250" BackgroundColor="White">
             <Grid>
                 <Grid.RowDefinitions>
                     <RowDefinition Height="auto"/>

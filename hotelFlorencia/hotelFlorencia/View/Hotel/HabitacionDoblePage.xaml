@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="hotelFlorencia.View.Hotel.HabitacionDoblePage"
+             Title="Habitacion Doble">
+    <ScrollView>
+        <StackLayout>
+            <Frame>
+                <Image Source="HabitacionDoble1.jpg"></Image>
+            </Frame>
+            <Frame>
+                <Image Source="HabitacionDoble2.jpg" ></Image>
+            </Frame>
+            <Frame>
+                <Image Source="HabitacionDoble3.jpg"></Image>
+            </Frame>
+            <Frame>
+                <Image Source="HabitacionDoble4.jpgg"></Image>
+            </Frame>
+            <Frame>
+                <Image Source="HabitacionDoble5.jpgg"></Image>
+            </Frame>
+        </StackLayout>
+    </ScrollView>
+</ContentPage>

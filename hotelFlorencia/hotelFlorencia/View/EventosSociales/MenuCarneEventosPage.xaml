@@ -1,10 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="hotelFlorencia.View.EventosSociales.MenuCarneEventosPage">
+             x:Class="hotelFlorencia.View.EventosSociales.MenuCarneEventosPage"
+             Title="Menu Cenas  o Almuerzos de Carne">
     <ScrollView>
         <StackLayout>
-            <Label Text="Menu Cenas  o Almuerzos de Carne" FontAttributes="Bold" HorizontalOptions="Center" TextColor="Black" FontSize="Small" HorizontalTextAlignment="Center" VerticalTextAlignment="Center"></Label>
             <Frame Padding="1.0" Margin="1.0" HeightRequest="300" BackgroundColor="White">
                 <Grid>
                     <Grid.RowDefinitions>
@@ -17,7 +17,7 @@
                     <Label Grid.Row="2" Text="Es un exquisito steak de lomito de res en salsa de champiñones al vino tinto, acompañado de arroz primavera, vegetales tipo oriental."></Label>
                 </Grid>
             </Frame>
-            <Frame Padding="1.0" Margin="1.0" HeightRequest="300" BackgroundColor="White">
+            <Frame Padding="1.0" Margin="1.0" HeightRequest="330" BackgroundColor="White">
                 <Grid>
                     <Grid.RowDefinitions>
                         <RowDefinition Height="auto"/>
@@ -29,7 +29,7 @@
                     <Label Grid.Row="2" Text="Es un exquisito lomo de aguja (tender loins) al estilo Florencia enrollado con una lasca de tocino ahumado y bañado con una salsa de champiñones, acompañado de vegetales a la mantequilla y papa rellena."></Label>
                 </Grid>
             </Frame>
-            <Frame Padding="1.0" Margin="1.0" HeightRequest="300" BackgroundColor="White">
+            <Frame Padding="1.0" Margin="1.0" HeightRequest="330" BackgroundColor="White">
                 <Grid>
                     <Grid.RowDefinitions>
                         <RowDefinition Height="auto"/>
@@ -41,7 +41,7 @@
                     <Label Grid.Row="2" Text="Es un delicioso lomo de aguja (tender loins)  con una salsa de tamarindo regional, acompañado con babys patatas al horno con especias y vegetales al ajillo."></Label>
                 </Grid>
             </Frame>
-            <Frame Padding="1.0" Margin="1.0" HeightRequest="300" BackgroundColor="White">
+            <Frame Padding="1.0" Margin="1.0" HeightRequest="330" BackgroundColor="White">
                 <Grid>
                     <Grid.RowDefinitions>
                         <RowDefinition Height="auto"/>
