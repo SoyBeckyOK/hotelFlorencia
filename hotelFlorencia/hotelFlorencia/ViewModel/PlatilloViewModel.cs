@@ -8,12 +8,6 @@ namespace hotelFlorencia.ViewModel
 {
   public  class PlatilloViewModel
     {
-        private ObservableCollection<Plato> menuPlatos_BFM;
-
-
-        public PlatilloViewModel()
-        {
-                
-        }
+               
     }
 }

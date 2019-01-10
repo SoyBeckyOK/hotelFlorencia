@@ -9,17 +9,12 @@ using Xamarin.Forms.Xaml;
 
 namespace hotelFlorencia.View
 {
-	[XamlCompilation(XamlCompilationOptions.Compile)]
-	public partial class EventosNegociosPage : ContentPage
-	{
-		public EventosNegociosPage()
-		{
-			InitializeComponent ();
-		}
-
-        private async void Button_Clicked(object sender, EventArgs e)
+    [XamlCompilation(XamlCompilationOptions.Compile)]
+    public partial class EventosNegociosPage : ContentPage
+    {
+        public EventosNegociosPage()
         {
-            await App.Current.MainPage.Navigation.PushAsync(new EventosNegociosImagePage());
+            InitializeComponent();
         }
     }
 }

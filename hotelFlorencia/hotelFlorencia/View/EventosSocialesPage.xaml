@@ -1,91 +1,33 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:Xamarin.Forms.BehaviorsPack;assembly=Xamarin.Forms.BehaviorsPack"
              x:Class="hotelFlorencia.View.EventosSocialesPage"
+             xmlns:vm="clr-namespace:hotelFlorencia.ViewModel"
              Title="Eventos Sociales">
+    <ContentPage.BindingContext>
+        <vm:SocialesViewModel/>
+    </ContentPage.BindingContext>
+    <ListView ItemsSource="{Binding sociales}" RowHeight="100" HasUnevenRows="True" Footer="">
+        <ListView.Behaviors>
+            <local:SelectedItemBehavior Command="{Binding DetalleMenu}"/>
 
-        <ScrollView>
-            <StackLayout BackgroundColor="LightBlue">
-                <Frame Padding="10" Margin="10" HeightRequest="300" BackgroundColor="White">
-                    <Grid>
-                        <Grid.RowDefinitions>
-                            <RowDefinition Height="auto"/>
-                            <RowDefinition Height="auto"/>
-                            <RowDefinition Height="auto"/>
-                        </Grid.RowDefinitions>
-                        <Image Grid.Row="0" Source="bodas.jpg"></Image>
-                        <Label Grid.Row="1" Text="Bodas" FontSize="Small" HorizontalTextAlignment="Center" FontAttributes="Bold"></Label>
-                    <Button Grid.Row="2" TextColor="White" Text="Ver Opciones" BackgroundColor="DarkBlue" x:Name="btn_Boda" Clicked="Btn_Boda_Clicked"></Button>
-                    </Grid>
-                </Frame>
-                <Frame Padding="10" Margin="10" HeightRequest="300" BackgroundColor="White">
-                    <Grid>
-                        <Grid.RowDefinitions>
-                            <RowDefinition Height="auto"/>
-                            <RowDefinition Height="auto"/>
-                            <RowDefinition Height="auto"/>
-                        </Grid.RowDefinitions>
-                        <Image Grid.Row="0" Source="babyshower.jpg"></Image>
-                        <Label Grid.Row="1" Text="Baby Shower" FontSize="Small" HorizontalTextAlignment="Center" FontAttributes="Bold"></Label>
-                    <Button Grid.Row="2" TextColor="White" Text="Ver Opciones" BackgroundColor="DarkBlue" x:Name="btn_BabyShower" Clicked="Btn_BabyShower_Clicked"></Button>
-                    </Grid>
-                </Frame>
-                <Frame Padding="10" Margin="10" HeightRequest="200" BackgroundColor="White">
-                    <Grid>
-                        <Grid.RowDefinitions>
-                            <RowDefinition Height="auto"/>
-                            <RowDefinition Height="auto"/>
-                            <RowDefinition Height="auto"/>
-                        </Grid.RowDefinitions>
-                        <Image Grid.Row="0" Source="fiestarosa.jpg"></Image>
-                        <Label Grid.Row="1" Text="Fiestas Rosa" HorizontalTextAlignment="Center" FontSize="Small" FontAttributes="Bold"></Label>
-                    <Button Grid.Row="2" TextColor="White" Text="Ver Opciones" BackgroundColor="DarkBlue" x:Name="btn_FiestaRosa" Clicked="Btn_FiestaRosa_Clicked"></Button>
-                    </Grid>
-                </Frame>
-            <Frame Padding="10" Margin="10" HeightRequest="200" BackgroundColor="White">
-                <Grid>
-                    <Grid.RowDefinitions>
-                        <RowDefinition Height="auto"/>
-                        <RowDefinition Height="auto"/>
-                        <RowDefinition Height="auto"/>
-                    </Grid.RowDefinitions>
-                    <Image Grid.Row="0" Source="fiestarosa.jpg"></Image>
-                    <Label Grid.Row="1" Text="Graduaciones" HorizontalTextAlignment="Center" FontSize="Small" FontAttributes="Bold"></Label>
-                    <Button Grid.Row="2" TextColor="White" Text="Ver Opciones" BackgroundColor="DarkBlue" x:Name="btn_Graduaciones" Clicked="Btn_Graduaciones_Clicked"></Button>
-                </Grid>
-            </Frame>
-            <Frame Padding="10" Margin="10" HeightRequest="300" BackgroundColor="White">
-                <Grid>
-                    <Grid.RowDefinitions>
-                        <RowDefinition Height="auto"/>
-                        <RowDefinition Height="auto"/>
-                        <RowDefinition Height="auto"/>
-                    </Grid.RowDefinitions>
-                    <Image Grid.Row="0" Source="babyshower.jpg"></Image>
-                    <Label Grid.Row="1" Text="Reuniones Religiosas" FontSize="Small" HorizontalTextAlignment="Center" FontAttributes="Bold"></Label>
-                    <Button Grid.Row="2" Text="Ver Menu" TextColor="White" BackgroundColor="DarkBlue"></Button>
-                </Grid>
-            </Frame>
-
-            <Frame Padding="10" Margin="10" HeightRequest="450" BackgroundColor="White">
-                <Grid>
-                    <Grid.RowDefinitions>
-                        <RowDefinition Height="auto"/>
-                        <RowDefinition Height="auto"/>
-                        <RowDefinition Height="auto"/>
-                        <RowDefinition Height="auto"/>
-                        <RowDefinition Height="auto"/>
-                    </Grid.RowDefinitions>
-                    <Image Grid.Row="0" Source="bodas.jpg"></Image>
-                    <Label Grid.Row="1" Text="Nota: Importante" FontSize="Small" HorizontalTextAlignment="Center" FontAttributes="Bold"></Label>
-                    <Label Grid.Row="2" Text="- Recargo por uso de  Energía  si trae Disco…. $125.00  y  si es Grupo  pequeño……$175.00"></Label>
-                    <Label Grid.Row="3" Text="- Si se pasa de la hora estipulada de su evento habrá un recargo de $75.00 por hora." ></Label>
-                    <Label Grid.Row="4" Text="- Para tener segura su reserva se solicita un anticipo de $500.00 luego tres días antes de su evento cancelar la diferencia del mínimo reservado." ></Label>
-                    <Label Grid.Row="5" Text="- RENTA DE CAÑON POR HORA $10.00" ></Label>
-                </Grid>
-            </Frame>
-                
-        </StackLayout>
-        </ScrollView>
+        </ListView.Behaviors>
+        <ListView.ItemTemplate>
+            <DataTemplate>
+                <ViewCell>
+                    <StackLayout Orientation="Vertical">
+                        <Frame>
+                            <StackLayout Orientation="Vertical">
+                                <Label Text="{Binding Name}" FontSize="Medium" FontAttributes="Bold"></Label>
+                                <Image Source="{Binding Image}" HeightRequest="220" WidthRequest="502"></Image>
+                            </StackLayout>
+                        </Frame>
+                    </StackLayout>
+                  
+                </ViewCell>
+            </DataTemplate>
+        </ListView.ItemTemplate>
+    </ListView>
 
 </ContentPage>

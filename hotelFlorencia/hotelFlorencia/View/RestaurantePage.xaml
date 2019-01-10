@@ -8,7 +8,11 @@
     <ContentPage.BindingContext>
         <vm:RestaurantViewModel/>
     </ContentPage.BindingContext>
-    <ListView ItemsSource="{Binding Menus}" RowHeight="100" HasUnevenRows="True" Footer="">
+    <ListView ItemsSource="{Binding Menus}"
+              SelectedItem="{Binding SelectedMenu}"
+              RowHeight="100"
+              HasUnevenRows="True" 
+              Footer="">
         <ListView.Behaviors>
             <local:SelectedItemBehavior Command="{Binding DetalleMenu}"/>
             
@@ -16,19 +20,14 @@
         <ListView.ItemTemplate>
             <DataTemplate>
                 <ViewCell>
-                    <Grid Padding="20" VerticalOptions="CenterAndExpand">
-                       <Grid.RowDefinitions>
-                            <RowDefinition Height="*"/>
-                            <RowDefinition Height="*"/>
-                        </Grid.RowDefinitions>
-                        <Grid.ColumnDefinitions>
-                            <ColumnDefinition Width="*"/>
-                            <ColumnDefinition Width="*"/>
-                        </Grid.ColumnDefinitions>
-                            <Image Grid.RowSpan="2" Grid.Column="0" Source="{Binding Image}" WidthRequest="85" HeightRequest="85"></Image>
-                            <Label Grid.Row="0" Grid.Column="1" Text="{Binding Name}" FontSize="Medium" HorizontalTextAlignment="Center" FontAttributes="Bold"></Label>
-                        </Grid>
-                   
+                    <StackLayout Orientation="Vertical">
+                        <Frame>
+                            <StackLayout Orientation="Vertical">
+                                <Label Text="{Binding Name}" FontSize="Medium" FontAttributes="Bold"></Label>
+                                <Image Source="{Binding Image}" HeightRequest="220" WidthRequest="502"></Image>
+                            </StackLayout>
+                        </Frame>
+                    </StackLayout>
                 </ViewCell>
             </DataTemplate>
         </ListView.ItemTemplate>

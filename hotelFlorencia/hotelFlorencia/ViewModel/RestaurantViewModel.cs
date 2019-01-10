@@ -4,15 +4,16 @@ using System.Collections.ObjectModel;
 using System.Text;
 using hotelFlorencia.Model;
 
+
 namespace hotelFlorencia.ViewModel
 {
-   public class RestaurantViewModel
+    public class RestaurantViewModel
     {
         private ObservableCollection<Menu> Menus_BF;
         public ObservableCollection<Menu> Menus
         {
             get { return Menus_BF; }
-            set { Menus_BF = value;}
+            set { Menus_BF = value; }
         }
 
         public RestaurantViewModel()
@@ -34,6 +35,13 @@ namespace hotelFlorencia.ViewModel
                 new Menu{Image="Bebidas.jpg", Name="Bebidas"},
                 new Menu{Image="Postres.jpg", Name="Postres"}
             };
+                 
         }
+
+        #region Propiedades
+        public Menu menuSelected { get; set; }
+        #endregion
     }
-}
+
+}         
+
