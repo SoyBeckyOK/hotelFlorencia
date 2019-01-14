@@ -85,7 +85,7 @@
                     <Label Grid.Row="4" Grid.Column="2"  Text="$7.95"></Label>
                     <Label Grid.Row="5" Grid.Column="0"  Text="Conchas - Ceviche  de Pescado" FontAttributes="Bold"></Label>
                     <Label Grid.Row="5" Grid.Column="1"  Text="$7.50"></Label>
-                    <Label Grid.Row="5" Grid.Column="2"  Text="$7.25"></Label>
+                    <Label Grid.Row="5" Grid.Column="2"  Text="$8.25"></Label>
                     <Label Grid.Row="6" Grid.Column="0"  Text="Conchas - Camaron - Calamar" FontAttributes="Bold"></Label>
                     <Label Grid.Row="6" Grid.Column="1"  Text=""></Label>
                     <Label Grid.Row="6" Grid.Column="2"  Text="$8.25"></Label>

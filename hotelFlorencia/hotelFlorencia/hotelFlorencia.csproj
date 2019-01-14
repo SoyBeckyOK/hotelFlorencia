@@ -41,6 +41,9 @@
     <Compile Update="View\RestaurantePage.xaml.cs">
       <DependentUpon>RestaurantePage.xaml</DependentUpon>
     </Compile>
+    <Compile Update="View\Restaurante\PlatoMenuDetail.xaml.cs">
+      <DependentUpon>%(Filename)</DependentUpon>
+    </Compile>
   </ItemGroup>
 
   <ItemGroup>

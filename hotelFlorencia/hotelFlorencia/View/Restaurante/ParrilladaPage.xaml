@@ -45,7 +45,7 @@
                     <Image Grid.Row="0" Source="Parrilladas.jpg"></Image>
                     <Label Grid.Row="1" Text="Parrillada La Estancia" FontSize="Medium" HorizontalTextAlignment="Center" FontAttributes="Bold"></Label>
                     <Label Grid.Row="2" Text="3/4 Libra de Puyazo, 3/4 libra de Pollo"></Label>
-                    <Label Grid.Row="3" Text="$14.95"></Label>
+                    <Label Grid.Row="3" Text="$23.95"></Label>
                 </Grid>
             </Frame>
             <Frame Padding="1.0" Margin="1.0" HeightRequest="350" BackgroundColor="White">

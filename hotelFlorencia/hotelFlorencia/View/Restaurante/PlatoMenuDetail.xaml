@@ -1,24 +1,14 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             xmlns:local="clr-namespace:Xamarin.Forms.BehaviorsPack;assembly=Xamarin.Forms.BehaviorsPack"
              xmlns:vm="clr-namespace:hotelFlorencia.ViewModel"
-             x:Class="hotelFlorencia.View.RestaurantePage"
-             Title="Restaurante">
-    <ContentPage.BindingContext>
-        <vm:RestaurantViewModel/>
-    </ContentPage.BindingContext>
-    <ContentPage.Content>
-    <StackLayout>
-        
-    <ListView ItemsSource="{Binding Menus}"
-              SelectedItem="{Binding menuSelected}"
+             x:Class="hotelFlorencia.View.PlatoMenuDetail"
+             Title="Platos">
+   
+    <ListView ItemsSource="{Binding Platos}"
               RowHeight="100"
               HasUnevenRows="True" 
               Footer="">
-        <ListView.Behaviors>
-            <local:SelectedItemBehavior Command="{Binding DetailMenu}"/>
-        </ListView.Behaviors>
         <ListView.ItemTemplate>
             <DataTemplate>
                 <ViewCell>
@@ -27,6 +17,9 @@
                             <StackLayout Orientation="Vertical">
                                 <Label Text="{Binding Name}" FontSize="Medium" FontAttributes="Bold"></Label>
                                 <Image Source="{Binding Image}" HeightRequest="220" WidthRequest="502"></Image>
+                                <Label Text="{Binding Price}" FontSize="Medium" FontAttributes="Bold"></Label>
+                                <Label Text="{Binding Price2}" FontSize="Medium" FontAttributes="Bold"></Label>
+                                <Label Text="{Binding Description}" FontSize="Medium" FontAttributes="Bold"></Label>
                             </StackLayout>
                         </Frame>
                     </StackLayout>
@@ -34,6 +27,4 @@
             </DataTemplate>
         </ListView.ItemTemplate>
     </ListView>
-    </StackLayout>
-    </ContentPage.Content>
 </ContentPage>
