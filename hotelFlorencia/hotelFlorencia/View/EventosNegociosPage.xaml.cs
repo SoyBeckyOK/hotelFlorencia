@@ -16,5 +16,10 @@ namespace hotelFlorencia.View
         {
             InitializeComponent();
         }
+
+        private async void Button_Clicked(object sender, EventArgs e)
+        {
+            await App.Current.MainPage.Navigation.PushAsync(new EventosNegociosImagePage());
+        }
     }
 }

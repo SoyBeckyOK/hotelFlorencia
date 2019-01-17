@@ -5,35 +5,109 @@
              xmlns:vm="clr-namespace:hotelFlorencia.ViewModel"
              x:Class="hotelFlorencia.View.RestaurantePage"
              Title="Restaurante">
-    <ContentPage.BindingContext>
-        <vm:RestaurantViewModel/>
-    </ContentPage.BindingContext>
-    <ContentPage.Content>
-    <StackLayout>
-        
-    <ListView ItemsSource="{Binding Menus}"
-              SelectedItem="{Binding menuSelected}"
-              RowHeight="100"
-              HasUnevenRows="True" 
-              Footer="">
-        <ListView.Behaviors>
-            <local:SelectedItemBehavior Command="{Binding DetailMenu}"/>
-        </ListView.Behaviors>
-        <ListView.ItemTemplate>
-            <DataTemplate>
-                <ViewCell>
-                    <StackLayout Orientation="Vertical">
-                        <Frame>
-                            <StackLayout Orientation="Vertical">
-                                <Label Text="{Binding Name}" FontSize="Medium" FontAttributes="Bold"></Label>
-                                <Image Source="{Binding Image}" HeightRequest="220" WidthRequest="502"></Image>
-                            </StackLayout>
-                        </Frame>
-                    </StackLayout>
-                </ViewCell>
-            </DataTemplate>
-        </ListView.ItemTemplate>
-    </ListView>
-    </StackLayout>
-    </ContentPage.Content>
+    <ScrollView>
+
+        <StackLayout BackgroundColor="LightBlue">
+            <StackLayout>
+                <Image Source="LogoRestaurante.png"></Image>
+            </StackLayout>
+            <Frame Padding="10" Margin="10" HeightRequest="260" BackgroundColor="White">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="auto"/>
+                        <RowDefinition Height="auto"/>
+                        <RowDefinition Height="auto"/>
+                    </Grid.RowDefinitions>
+                    <Image Grid.Row="0" Source="Entradas.jpg"></Image>
+                    <Label Grid.Row="1" Text="Entradas" FontSize="Small" HorizontalTextAlignment="Center" FontAttributes="Bold"></Label>
+                    <Button Grid.Row="2" TextColor="White" Text="Ver Menu" BackgroundColor="DarkBlue" Clicked="Button_Clicked"></Button>
+                </Grid>
+            </Frame>
+            <Frame Padding="10" Margin="10" HeightRequest="260" BackgroundColor="White">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="auto"/>
+                        <RowDefinition Height="auto"/>
+                        <RowDefinition Height="auto"/>
+                    </Grid.RowDefinitions>
+                    <Image Grid.Row="0" Source="Cocteles.jpg"></Image>
+                    <Label Grid.Row="1" Text="Cocteles y Ceviches" FontSize="Small" HorizontalTextAlignment="Center" FontAttributes="Bold"></Label>
+                    <Button Grid.Row="2" TextColor="White" Text="Ver Menu" BackgroundColor="DarkBlue" Clicked="Button_Clicked_1"></Button>
+                </Grid>
+            </Frame>
+            <Frame Padding="10" Margin="10" HeightRequest="260" BackgroundColor="White">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="auto"/>
+                        <RowDefinition Height="auto"/>
+                        <RowDefinition Height="auto"/>
+                    </Grid.RowDefinitions>
+                    <Image Grid.Row="0" Source="Carnes.jpg"></Image>
+                    <Label Grid.Row="1" Text="Carnes y Aves" HorizontalTextAlignment="Center" FontSize="Small" FontAttributes="Bold"></Label>
+                    <Button Grid.Row="2" TextColor="White" Text="Ver Menu" BackgroundColor="DarkBlue" Clicked="Button_Clicked_2"></Button>
+                </Grid>
+            </Frame>
+            <Frame Padding="10" Margin="10" HeightRequest="260" BackgroundColor="White">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="auto"/>
+                        <RowDefinition Height="auto"/>
+                        <RowDefinition Height="auto"/>
+                    </Grid.RowDefinitions>
+                    <Image Grid.Row="0" Source="Camarones.jpg"></Image>
+                    <Label Grid.Row="1" Text="Camarones y Pescado" HorizontalTextAlignment="Center" FontSize="Small" FontAttributes="Bold"></Label>
+                    <Button Grid.Row="2" TextColor="White" Text="Ver Menu" BackgroundColor="DarkBlue" Clicked="Button_Clicked_7"></Button>
+                </Grid>
+            </Frame>
+            <Frame Padding="10" Margin="10" HeightRequest="260" BackgroundColor="White">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="auto"/>
+                        <RowDefinition Height="auto"/>
+                        <RowDefinition Height="auto"/>
+                    </Grid.RowDefinitions>
+                    <Image Grid.Row="0" Source="Carnes.jpg"></Image>
+                    <Label Grid.Row="1" Text="Cortes Especiales" HorizontalTextAlignment="Center" FontSize="Small" FontAttributes="Bold"></Label>
+                    <Button Grid.Row="2" TextColor="White" Text="Ver Menu" BackgroundColor="DarkBlue" Clicked="Button_Clicked_3"></Button>
+                </Grid>
+            </Frame>
+            <Frame Padding="10" Margin="10" HeightRequest="260" BackgroundColor="White">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="auto"/>
+                        <RowDefinition Height="auto"/>
+                        <RowDefinition Height="auto"/>
+                    </Grid.RowDefinitions>
+                    <Image Grid.Row="0" Source="Parrilladas.jpg"></Image>
+                    <Label Grid.Row="1" Text="Parrilladas para Compartir" FontSize="Small" HorizontalTextAlignment="Center" FontAttributes="Bold"></Label>
+                    <Button Grid.Row="2" Text="Ver Menu" TextColor="White" BackgroundColor="DarkBlue" Clicked="Button_Clicked_4"></Button>
+                </Grid>
+            </Frame>
+            <Frame Padding="10" Margin="10" HeightRequest="210" BackgroundColor="White">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="auto"/>
+                        <RowDefinition Height="auto"/>
+                        <RowDefinition Height="auto"/>
+                    </Grid.RowDefinitions>
+                    <Image Grid.Row="0" Source="Bebidas.jpg"></Image>
+                    <Label Grid.Row="1" Text="Bebidas" FontSize="Small" HorizontalTextAlignment="Center" FontAttributes="Bold"></Label>
+                    <Button Grid.Row="2" Text="Ver Menu" TextColor="White" BackgroundColor="DarkBlue" Clicked="Button_Clicked_5"></Button>
+                </Grid>
+            </Frame>
+            <Frame Padding="10" Margin="10" HeightRequest="260" BackgroundColor="White">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="auto"/>
+                        <RowDefinition Height="auto"/>
+                        <RowDefinition Height="auto"/>
+                    </Grid.RowDefinitions>
+                    <Image Grid.Row="0" Source="Postres.jpg"></Image>
+                    <Label Grid.Row="1" Text="Postres" FontSize="Small" HorizontalTextAlignment="Center" FontAttributes="Bold"></Label>
+                    <Button Grid.Row="2" Text="Ver Menu" TextColor="White" BackgroundColor="DarkBlue" Clicked="Button_Clicked_6"></Button>
+                </Grid>
+            </Frame>
+
+        </StackLayout>
+    </ScrollView>
 </ContentPage>

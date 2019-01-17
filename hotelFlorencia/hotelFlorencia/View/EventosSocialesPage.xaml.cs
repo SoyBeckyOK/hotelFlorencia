@@ -9,13 +9,13 @@ using Xamarin.Forms.Xaml;
 
 namespace hotelFlorencia.View
 {
-	[XamlCompilation(XamlCompilationOptions.Compile)]
-	public partial class EventosSocialesPage : ContentPage
-	{
-		public EventosSocialesPage ()
-		{
-			InitializeComponent ();
-		}
+    [XamlCompilation(XamlCompilationOptions.Compile)]
+    public partial class EventosSocialesPage : ContentPage
+    {
+        public EventosSocialesPage()
+        {
+            InitializeComponent();
+        }
 
         private async void Btn_FiestaRosa_Clicked(object sender, EventArgs e)
         {
@@ -36,5 +36,7 @@ namespace hotelFlorencia.View
         {
             await App.Current.MainPage.Navigation.PushAsync(new GraduacionMenuEventos());
         }
+
+        
     }
 }

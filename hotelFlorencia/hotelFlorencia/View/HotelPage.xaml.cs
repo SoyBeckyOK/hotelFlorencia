@@ -9,13 +9,13 @@ using Xamarin.Forms.Xaml;
 
 namespace hotelFlorencia.View
 {
-	[XamlCompilation(XamlCompilationOptions.Compile)]
-	public partial class HotelPage : ContentPage
-	{
-		public HotelPage()
-		{
-			InitializeComponent ();
-		}
+    [XamlCompilation(XamlCompilationOptions.Compile)]
+    public partial class HotelPage : ContentPage
+    {
+        public HotelPage()
+        {
+            InitializeComponent();
+        }
 
         private async void Button_Clicked(object sender, EventArgs e)
         {

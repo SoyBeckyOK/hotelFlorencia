@@ -9,13 +9,13 @@ using Xamarin.Forms.Xaml;
 
 namespace hotelFlorencia.View.EventosSociales
 {
-	[XamlCompilation(XamlCompilationOptions.Compile)]
-	public partial class FiestaRosaMenuEvento : ContentPage
-	{
-		public FiestaRosaMenuEvento ()
-		{
-			InitializeComponent ();
-		}
+    [XamlCompilation(XamlCompilationOptions.Compile)]
+    public partial class FiestaRosaMenuEvento : ContentPage
+    {
+        public FiestaRosaMenuEvento()
+        {
+            InitializeComponent();
+        }
 
         private async void Button_Clicked(object sender, EventArgs e)
         {

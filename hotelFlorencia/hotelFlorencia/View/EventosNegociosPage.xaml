@@ -5,26 +5,23 @@
              xmlns:local="clr-namespace:Xamarin.Forms.BehaviorsPack;assembly=Xamarin.Forms.BehaviorsPack"
              xmlns:vm="clr-namespace:hotelFlorencia.ViewModel"
              Title="Eventos de Negocios">
-    <ContentPage.BindingContext>
-        <vm:NegociosViewModel/>
-    </ContentPage.BindingContext>
-    <ListView ItemsSource="{Binding negocios}" RowHeight="50" HasUnevenRows="True" Footer="">
-        <ListView.Behaviors>
-            <local:SelectedItemBehavior Command="{Binding DetalleMenu}"/>
-        </ListView.Behaviors>
-        <ListView.ItemTemplate>
-            <DataTemplate>
-                <ViewCell>
-                    <StackLayout Orientation="Vertical">
-                        <Frame>
-                            <StackLayout Orientation="Vertical">
-                                <Label Text="{Binding Name}" FontSize="Medium" FontAttributes="Bold"></Label>
-                                <Image Source="{Binding Image}" HeightRequest="220" WidthRequest="502"></Image>
-                            </StackLayout>
-                        </Frame>
-                    </StackLayout>
-                </ViewCell>
-            </DataTemplate>
-        </ListView.ItemTemplate>
-    </ListView>
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout BackgroundColor="LightBlue">
+                <Frame Padding="10" Margin="10" HeightRequest="300" BackgroundColor="White">
+                    <Grid>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="auto"/>
+                            <RowDefinition Height="auto"/>
+                            <RowDefinition Height="auto"/>
+                        </Grid.RowDefinitions>
+                        <Image Grid.Row="0" Source="NegociosImage.jpg"></Image>
+                        <Label Grid.Row="1" Text="Reuniones de Negocios" FontSize="Small" HorizontalTextAlignment="Center" FontAttributes="Bold"></Label>
+                        <Button Grid.Row="2" Text="Ver Menu" TextColor="White" BackgroundColor="DarkBlue" Clicked="Button_Clicked"></Button>
+                    </Grid>
+                </Frame>
+
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
 </ContentPage>

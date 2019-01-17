@@ -21,7 +21,7 @@
                         <RowDefinition Height="auto"/>
                     </Grid.RowDefinitions>
                     <Image Grid.Row="0" Source="bodas.jpg"></Image>
-                    <Label Grid.Row="1" Text="Beneficios de Realizar una Graduacion con Nosotros" FontSize="Small" HorizontalTextAlignment="Center" FontAttributes="Bold"></Label>
+                    <Label Grid.Row="1" Text="Beneficios de Realizar una Graduacion con Nosotros" FontSize="Medium" HorizontalTextAlignment="Center" FontAttributes="Bold"></Label>
                     <Label Grid.Row="2" Text="* Personal calificado y con deseos de servirle."></Label>
                     <Label Grid.Row="3" Text="* Instalaciones con aire acondicionado."></Label>
                     <Label Grid.Row="4" Text="* Mantelería a su elección "></Label>
@@ -55,7 +55,7 @@
             <StackLayout>
                 <Label Text="Menus de Platillos y Boquitas" HorizontalOptions="Center" FontAttributes="Bold" FontSize="Large"></Label>
             </StackLayout>
-            
+
             <Frame Padding="1.0" Margin="1.0" HeightRequest="450" BackgroundColor="White">
                 <Grid>
                     <Grid.RowDefinitions>
@@ -81,7 +81,7 @@
                         <RowDefinition Height="auto"/>
                     </Grid.RowDefinitions>
                     <Image Grid.Row="0" Source="Entradas.jpg"></Image>
-                    <Label Grid.Row="1" Text="Boquitas" FontSize="Small"  FontAttributes="Bold"></Label>
+                    <Label Grid.Row="1" Text="Boquitas" FontSize="Medium"  FontAttributes="Bold"></Label>
                     <Button Grid.Row="2" Text="Ver Menu" FontSize="Small" TextColor="White" FontAttributes="Bold" HorizontalOptions="Center" BackgroundColor="DarkBlue" Clicked="Button_Clicked"></Button>
                 </Grid>
             </Frame>
@@ -97,7 +97,7 @@
                         <RowDefinition Height="auto"/>
                     </Grid.RowDefinitions>
                     <Image Grid.Row="0" Source="Bebidas.jpg"></Image>
-                    <Label Grid.Row="1" Text="Precios de Bebidas" FontSize="Small" HorizontalTextAlignment="Start" FontAttributes="Bold"></Label>
+                    <Label Grid.Row="1" Text="Precios de Bebidas" FontSize="Medium" HorizontalTextAlignment="Start" FontAttributes="Bold"></Label>
                     <Label Grid.Row="2" Text="Cerveza Extranjera $2.00" FontSize="Small" HorizontalTextAlignment="Start" ></Label>
                     <Label Grid.Row="3" Text="Soda $0.85" FontSize="Small" HorizontalTextAlignment="Start" ></Label>
                     <Label Grid.Row="4" Text="Descorche  $7.95 por botella" FontSize="Small" HorizontalTextAlignment="Start" ></Label>
@@ -113,7 +113,7 @@
                         <RowDefinition Height="auto"/>
                     </Grid.RowDefinitions>
                     <Image Grid.Row="0" Source="Entradas.jpg"></Image>
-                    <Label Grid.Row="1" Text="Menu para Niños" FontSize="Small" HorizontalOptions="Center" FontAttributes="Bold"></Label>
+                    <Label Grid.Row="1" Text="Menu para Niños" FontSize="Medium" HorizontalOptions="Center" FontAttributes="Bold"></Label>
                     <Button Grid.Row="2" Text="Ver Menu" TextColor="White" BackgroundColor="DarkBlue" FontSize="Small"  FontAttributes="Bold" HorizontalOptions="Center" Clicked="Button_Clicked_1"></Button>
                 </Grid>
             </Frame>
@@ -125,7 +125,7 @@
                         <RowDefinition Height="auto"/>
                     </Grid.RowDefinitions>
                     <Image Grid.Row="0" Source="Entradas.jpg"></Image>
-                    <Label Grid.Row="1" Text="Menu de Cena o Almuerzo de Pollo" FontSize="Small" HorizontalOptions="Center" FontAttributes="Bold"></Label>
+                    <Label Grid.Row="1" Text="Menu de Cena o Almuerzo de Pollo" FontSize="Medium" HorizontalOptions="Center" FontAttributes="Bold"></Label>
                     <Button Grid.Row="2" Text="Ver Menu" TextColor="White" BackgroundColor="DarkBlue" FontSize="Small"  FontAttributes="Bold" HorizontalOptions="Center" Clicked="Button_Clicked_2"></Button>
                 </Grid>
             </Frame>
@@ -138,7 +138,7 @@
                         <RowDefinition Height="auto"/>
                     </Grid.RowDefinitions>
                     <Image Grid.Row="0" Source="Entradas.jpg"></Image>
-                    <Label Grid.Row="1" Text="Menu de Cenas o Almuerzos Carnes" FontSize="Small" HorizontalOptions="Center"  FontAttributes="Bold"></Label>
+                    <Label Grid.Row="1" Text="Menu de Cenas o Almuerzos Carnes" FontSize="Medium" HorizontalOptions="Center"  FontAttributes="Bold"></Label>
                     <Button Grid.Row="2" Text="Ver Menu" TextColor="White" BackgroundColor="DarkBlue" FontSize="Small"  FontAttributes="Bold" HorizontalOptions="Center" Clicked="Button_Clicked_3" ></Button>
                 </Grid>
             </Frame>
@@ -150,7 +150,7 @@
                         <RowDefinition Height="auto"/>
                     </Grid.RowDefinitions>
                     <Image Grid.Row="0" Source="Entradas.jpg"></Image>
-                    <Label Grid.Row="1" Text="Menu de Cenas o Almuerzos Mixtos" FontSize="Small" HorizontalOptions="Center" FontAttributes="Bold"></Label>
+                    <Label Grid.Row="1" Text="Menu de Cenas o Almuerzos Mixtos" FontSize="Medium" HorizontalOptions="Center" FontAttributes="Bold"></Label>
                     <Button Grid.Row="2" Text="Ver Menu" TextColor="White" BackgroundColor="DarkBlue" FontSize="Small"  FontAttributes="Bold" HorizontalOptions="Center" Clicked="Button_Clicked_4"></Button>
                 </Grid>
             </Frame>
@@ -162,7 +162,7 @@
                         <RowDefinition Height="auto"/>
                     </Grid.RowDefinitions>
                     <Image Grid.Row="0" Source="Entradas.jpg"></Image>
-                    <Label Grid.Row="1" Text="Menu de Cenas o Almuerzos de Mariscos" FontSize="Small" VerticalTextAlignment="Center" HorizontalOptions="Center" FontAttributes="Bold"></Label>
+                    <Label Grid.Row="1" Text="Menu de Cenas o Almuerzos de Mariscos" FontSize="Medium" VerticalTextAlignment="Center" HorizontalOptions="Center" FontAttributes="Bold"></Label>
                     <Button Grid.Row="2" Text="Ver Menu" TextColor="White"  BackgroundColor="DarkBlue" FontSize="Small"  FontAttributes="Bold" HorizontalOptions="Center" Clicked="Button_Clicked_5"></Button>
                 </Grid>
             </Frame>

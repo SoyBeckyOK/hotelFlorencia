@@ -9,12 +9,12 @@ using Xamarin.Forms.Xaml;
 
 namespace hotelFlorencia.View.EventosSociales
 {
-	[XamlCompilation(XamlCompilationOptions.Compile)]
-	public partial class BoquitasEventosPage : ContentPage
-	{
-		public BoquitasEventosPage ()
-		{
-			InitializeComponent ();
-		}
-	}
+    [XamlCompilation(XamlCompilationOptions.Compile)]
+    public partial class BoquitasEventosPage : ContentPage
+    {
+        public BoquitasEventosPage()
+        {
+            InitializeComponent();
+        }
+    }
 }
