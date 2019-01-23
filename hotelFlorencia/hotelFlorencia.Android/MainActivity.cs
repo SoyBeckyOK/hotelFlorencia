@@ -7,7 +7,8 @@ using Android.Views;
 using Android.Widget;
 using Android.OS;
 using Xamarin.Forms;
-
+using System.Threading.Tasks;
+using Android.Content;
 
 namespace hotelFlorencia.Droid
 {
@@ -16,6 +17,7 @@ namespace hotelFlorencia.Droid
     {
         protected override void OnCreate(Bundle savedInstanceState)
         {
+            Current = this;
             TabLayoutResource = Resource.Layout.Tabbar;
             ToolbarResource = Resource.Layout.Toolbar;
 
@@ -24,6 +26,29 @@ namespace hotelFlorencia.Droid
             LoadApplication(new App());
 
 
+        }
+        public static MainActivity Current { private set; get; }
+
+        public static readonly int PickImageId = 1000;
+
+        public TaskCompletionSource<string> PickImageTaskCompletionSource { set; get; }
+
+        protected override void OnActivityResult(int requestCode, Result resultCode, Intent data)
+        {
+            base.OnActivityResult(requestCode, resultCode, data);
+
+            if (requestCode == PickImageId)
+            {
+                if ((resultCode == Result.Ok) && (data != null))
+                {
+                    // Set the filename as the completion of the Task
+                    PickImageTaskCompletionSource.SetResult(data.DataString);
+                }
+                else
+                {
+                    PickImageTaskCompletionSource.SetResult(null);
+                }
+            }
         }
     }
 }

@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="hotelFlorencia.Vistas.MenuTabbedPagePrincipal"
+             xmlns:local="clr-namespace:hotelFlorencia.Vistas"
+             NavigationPage.HasNavigationBar="False"
+             BarBackgroundColor="LightBlue">
+    <local:PrincipalPage></local:PrincipalPage>
+    <!--<local:UbicacionPage></local:UbicacionPage>-->
+    <local:ContactoPage></local:ContactoPage>
+    <local:NosotrosPage></local:NosotrosPage>
+</TabbedPage>

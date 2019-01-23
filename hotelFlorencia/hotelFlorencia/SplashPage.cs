@@ -37,7 +37,7 @@ namespace hotelFlorencia
             await SplashImage.ScaleTo(1, 800);
             await SplashImage.ScaleTo(3, 600);
             //await SplashImage.ScaleTo(110, 700);
-            Application.Current.MainPage = new NavigationPage(new View.MenuTabbedPagePrincipal());
+            Application.Current.MainPage = new NavigationPage(new Vistas.MenuTabbedPagePrincipal());
         }
     }
 }

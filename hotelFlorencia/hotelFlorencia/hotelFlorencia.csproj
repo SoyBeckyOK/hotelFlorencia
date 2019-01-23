@@ -10,136 +10,239 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Compile Remove="View\Tabs\FavoritoPage.xaml.cs" />
+    <Compile Remove="Vistas\Tabs\FavoritoPage.xaml.cs" />
   </ItemGroup>
 
   <ItemGroup>
-    <EmbeddedResource Remove="View\Tabs\FavoritoPage.xaml" />
+    <EmbeddedResource Remove="Vistas\Tabs\FavoritoPage.xaml" />
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="Xamarin.Forms" Version="4.0.0.8055-pre1" />
+    <PackageReference Include="Xamarin.Essentials" Version="1.0.1" />
+    <PackageReference Include="Xamarin.Forms" Version="3.4.0.1009999" />
     <PackageReference Include="Xamarin.Forms.BehaviorsPack" Version="2.0.0" />
   </ItemGroup>
 
   <ItemGroup>
-    <Compile Update="View\MenuTabbedPagePrincipal.xaml.cs">
+    <Compile Update="Vistas\MenuTabbedPagePrincipal.xaml.cs">
       <DependentUpon>MenuTabbedPagePrincipal.xaml</DependentUpon>
     </Compile>
-    <Compile Update="View\ContactoPage.xaml.cs">
+    <Compile Update="Vistas\ContactoPage.xaml.cs">
       <DependentUpon>ContactoPage.xaml</DependentUpon>
     </Compile>
-    <Compile Update="View\EventosNegociosPage.xaml.cs">
+    <Compile Update="Vistas\EventosNegociosPage.xaml.cs">
       <DependentUpon>EventosNegociosPage.xaml</DependentUpon>
     </Compile>
-    <Compile Update="View\eventosSocialesPage.xaml.cs">
+    <Compile Update="Vistas\EventosSocialesPage.xaml.cs">
       <DependentUpon>EventosSocialesPage.xaml</DependentUpon>
     </Compile>
-    <Compile Update="View\hotelPage.xaml.cs">
+    <Compile Update="Vistas\HotelPage.xaml.cs">
       <DependentUpon>HotelPage.xaml</DependentUpon>
     </Compile>
-    <Compile Update="View\RestaurantePage.xaml.cs">
+    <Compile Update="Vistas\RestaurantePage.xaml.cs">
       <DependentUpon>RestaurantePage.xaml</DependentUpon>
     </Compile>
-    <Compile Update="View\Restaurante\PlatoMenuDetail.xaml.cs">
-      <DependentUpon>%(Filename)</DependentUpon>
-    </Compile>
   </ItemGroup>
 
   <ItemGroup>
-    <EmbeddedResource Update="View\EventosNegocio\EventosNegociosImagePage.xaml">
+    <EmbeddedResource Update="Vistas\EventosNegocio\EventosNegociosImagePage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="View\EventosSociales\BabyShowerMenuEvento.xaml">
+    <EmbeddedResource Update="Vistas\EventosSociales\BabyShowerMenuEvento.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="View\EventosSociales\BodaMenuEventoPage.xaml">
+    <EmbeddedResource Update="Vistas\EventosSociales\BodaMenuEventoPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="View\EventosSociales\BoquitasEventosPage.xaml">
+    <EmbeddedResource Update="Vistas\EventosSociales\BoquitasEventosPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="View\EventosSociales\FiestaRosaMenuEvento.xaml">
+    <EmbeddedResource Update="Vistas\EventosSociales\FiestaRosaMenuEvento.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="View\EventosSociales\GraduacionMenuEventos.xaml">
+    <EmbeddedResource Update="Vistas\EventosSociales\GraduacionMenuEventos.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="View\EventosSociales\MenuCarneEventosPage.xaml">
+    <EmbeddedResource Update="Vistas\EventosSociales\MenuCarneEventosPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="View\EventosSociales\MenuCenasEventos.xaml">
+    <EmbeddedResource Update="Vistas\EventosSociales\MenuCenasEventos.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="View\EventosSociales\MenuMariscosEventospage.xaml">
+    <EmbeddedResource Update="Vistas\EventosSociales\MenuMariscosEventospage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="View\EventosSociales\MenuNiñosPage.xaml">
+    <EmbeddedResource Update="Vistas\EventosSociales\MenuNiñosPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="View\EventosSociales\MenuPolloEventosPage.xaml">
+    <EmbeddedResource Update="Vistas\EventosSociales\MenuPolloEventosPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="View\Hotel\HabitacionDoblePage.xaml">
+    <EmbeddedResource Update="Vistas\Hotel\HabitacionDoblePage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="View\Hotel\HabitacionLujoPage.xaml">
+    <EmbeddedResource Update="Vistas\Hotel\HabitacionLujoPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="View\Hotel\HabitacionTriplePage.xaml">
+    <EmbeddedResource Update="Vistas\Hotel\HabitacionTriplePage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="View\NosotrosPage.xaml">
+    <EmbeddedResource Update="Vistas\NosotrosPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="View\Restaurante\BebidasPage.xaml">
+    <EmbeddedResource Update="Vistas\Restaurante\BebidasPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="View\ContactoPage.xaml">
+    <EmbeddedResource Update="Vistas\ContactoPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="View\Restaurante\CarnesPage.xaml">
+    <EmbeddedResource Update="Vistas\Restaurante\CarnesPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="View\Restaurante\CevichesPage.xaml">
+    <EmbeddedResource Update="Vistas\Restaurante\CevichesPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="View\Restaurante\CortesEspecialesPage.xaml">
+    <EmbeddedResource Update="Vistas\Restaurante\CortesEspecialesPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="View\Restaurante\EntradasPage.xaml">
+    <EmbeddedResource Update="Vistas\Restaurante\EntradasPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="View\EventosNegociosPage.xaml">
+    <EmbeddedResource Update="Vistas\EventosNegociosPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="View\EventosSocialesPage.xaml">
+    <EmbeddedResource Update="Vistas\EventosSocialesPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="View\HotelPage.xaml">
+    <EmbeddedResource Update="Vistas\HotelPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="View\MenuTabbedPagePrincipal.xaml">
+    <EmbeddedResource Update="Vistas\MenuTabbedPagePrincipal.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="View\Restaurante\MariscosPage.xaml">
+    <EmbeddedResource Update="Vistas\Restaurante\MariscosPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="View\Restaurante\ParrilladaPage.xaml">
+    <EmbeddedResource Update="Vistas\Restaurante\ParrilladaPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="View\PrincipalPage.xaml">
+    <EmbeddedResource Update="Vistas\PrincipalPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="View\RestaurantePage.xaml">
+    <EmbeddedResource Update="Vistas\RestaurantePage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="View\Restaurante\PostresRestaurantePage.xaml">
+    <EmbeddedResource Update="Vistas\Restaurante\PostresRestaurantePage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="View\Tabs\" />
+    <Folder Include="Vistas\Tabs\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="App.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </None>
+    <None Update="MainPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </None>
+    <None Update="Vistas\ContactoPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </None>
+    <None Update="Vistas\EventosNegociosPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </None>
+    <None Update="Vistas\EventosNegocio\EventosNegociosImagePage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </None>
+    <None Update="Vistas\EventosSocialesPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </None>
+    <None Update="Vistas\EventosSociales\BabyShowerMenuEvento.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </None>
+    <None Update="Vistas\EventosSociales\BodaMenuEventoPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </None>
+    <None Update="Vistas\EventosSociales\BoquitasEventosPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </None>
+    <None Update="Vistas\EventosSociales\FiestaRosaMenuEvento.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </None>
+    <None Update="Vistas\EventosSociales\GraduacionMenuEventos.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </None>
+    <None Update="Vistas\EventosSociales\MenuCarneEventosPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </None>
+    <None Update="Vistas\EventosSociales\MenuCenasEventos.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </None>
+    <None Update="Vistas\EventosSociales\MenuMariscosEventospage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </None>
+    <None Update="Vistas\EventosSociales\MenuNiñosPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </None>
+    <None Update="Vistas\EventosSociales\MenuPolloEventosPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </None>
+    <None Update="Vistas\HotelPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </None>
+    <None Update="Vistas\Hotel\HabitacionDoblePage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </None>
+    <None Update="Vistas\Hotel\HabitacionLujoPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </None>
+    <None Update="Vistas\Hotel\HabitacionTriplePage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </None>
+    <None Update="Vistas\MenuTabbedPagePrincipal.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </None>
+    <None Update="Vistas\NosotrosPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </None>
+    <None Update="Vistas\PrincipalPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </None>
+    <None Update="Vistas\RestaurantePage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </None>
+    <None Update="Vistas\Restaurante\BebidasPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </None>
+    <None Update="Vistas\Restaurante\CarnesPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </None>
+    <None Update="Vistas\Restaurante\CevichesPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </None>
+    <None Update="Vistas\Restaurante\CortesEspecialesPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </None>
+    <None Update="Vistas\Restaurante\EntradasPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </None>
+    <None Update="Vistas\Restaurante\MariscosPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </None>
+    <None Update="Vistas\Restaurante\ParrilladaPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </None>
+    <None Update="Vistas\Restaurante\PostresRestaurantePage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </None>
+    <None Update="Vistas\Tabs\FavoritoPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </None>
+    <None Update="Vistas\VideoPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </None>
   </ItemGroup>
 </Project>

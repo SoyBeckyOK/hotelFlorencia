@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:Xamarin.Forms.BehaviorsPack;assembly=Xamarin.Forms.BehaviorsPack"
+             x:Class="hotelFlorencia.Vistas.HotelPage"
+             xmlns:vm="clr-namespace:hotelFlorencia.ViewModel"
+             BackgroundColor="White"
+             Title="Hotel">
+
+    <ScrollView>
+        <StackLayout BackgroundColor="LightBlue">
+            <StackLayout>
+                <Image Source="LogoOficialHotel.png"></Image>
+            </StackLayout>
+            <Frame Padding="10" Margin="10" HeightRequest="250" BackgroundColor="White">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="auto"/>
+                        <RowDefinition Height="auto"/>
+                        <RowDefinition Height="auto"/>
+                    </Grid.RowDefinitions>
+                    <Image Grid.Row="0" Source="Suit.jpg"></Image>
+                    <Label Grid.Row="1" Text="Suite de Lujo " FontSize="Small" HorizontalTextAlignment="Center" FontAttributes="Bold"></Label>
+                    <Button Grid.Row="2" Text="Ver Descripcion" BackgroundColor="DarkBlue" TextColor="White" Clicked="Button_Clicked"></Button>
+                </Grid>
+            </Frame>
+            <Frame Padding="10" Margin="10" HeightRequest="250" BackgroundColor="White">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="auto"/>
+                        <RowDefinition Height="auto"/>
+                        <RowDefinition Height="auto"/>
+                    </Grid.RowDefinitions>
+                    <Image Grid.Row="0" Source="HabitacionDoble.jpg"></Image>
+                    <Label Grid.Row="1" Text="Habitacion Doble" FontSize="Small" HorizontalTextAlignment="Center" FontAttributes="Bold"></Label>
+                    <Button Grid.Row="2" Text="Ver Descripcion" BackgroundColor="DarkBlue" TextColor="White" Clicked="Button_Clicked_1"></Button>
+                </Grid>
+            </Frame>
+            <Frame Padding="10" Margin="10" HeightRequest="300" BackgroundColor="White">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="auto"/>
+                        <RowDefinition Height="auto"/>
+                        <RowDefinition Height="auto"/>
+                    </Grid.RowDefinitions>
+                    <Image Grid.Row="0" Source="HabitacionTriple.jpg"></Image>
+                    <Label Grid.Row="1" Text="Habitacion Triple" FontSize="Small" HorizontalTextAlignment="Center" FontAttributes="Bold"></Label>
+                    <Button Grid.Row="2" Text="Ver Descripcion" BackgroundColor="DarkBlue" TextColor="White" Clicked="Button_Clicked_2"></Button>
+                </Grid>
+            </Frame>
+
+        </StackLayout>
+    </ScrollView>
+
+</ContentPage>

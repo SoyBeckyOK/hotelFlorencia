@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="hotelFlorencia.Vistas.Restaurante.CortesEspecialesPage"
+             Title="Cortes Especiales">
+    <ScrollView>
+        <StackLayout>
+            <Frame Padding="1.0" Margin="1.0" HeightRequest="330" BackgroundColor="White">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="auto"/>
+                        <RowDefinition Height="auto"/>
+                        <RowDefinition Height="auto"/>
+                        <RowDefinition Height="auto"/>
+                    </Grid.RowDefinitions>
+                    <Image Grid.Row="0" Source="Cortes.jpg"></Image>
+                    <Label Grid.Row="1" Text="Punta Jalapeña" FontSize="Medium" FontAttributes="Bold" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" ></Label>
+                    <Label Grid.Row="2" Text="9 onzas del mejor corte de lomo de aguja, con su tradicional salsa jalapeña"></Label>
+                    <Label Grid.Row="3" Text="$13.95"></Label>
+                </Grid>
+            </Frame>
+            <Frame Padding="1.0" Margin="1.0" HeightRequest="300" BackgroundColor="White">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="auto"/>
+                        <RowDefinition Height="auto"/>
+                        <RowDefinition Height="auto"/>
+                        <RowDefinition Height="auto"/>
+                    </Grid.RowDefinitions>
+                    <Image Grid.Row="0" Source="Cortes.jpg"></Image>
+                    <Label Grid.Row="1" Text="Mixto Florencia" FontSize="Medium" HorizontalTextAlignment="Center" FontAttributes="Bold"></Label>
+                    <Label Grid.Row="2" Text="Combinacion de lomo de aguja y pollo a la parrilla"/>
+                    <Label Grid.Row="3" Text="$13.95"/>
+                </Grid>
+            </Frame>
+            <Frame Padding="1.0" Margin="1.0" HeightRequest="300" BackgroundColor="White">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="auto"/>
+                        <RowDefinition Height="auto"/>
+                        <RowDefinition Height="auto"/>
+                    </Grid.RowDefinitions>
+                    <Image Grid.Row="0" Source="Cortes.jpg"></Image>
+                    <Label Grid.Row="1" Text="Mar y Tierra" FontSize="Medium" HorizontalTextAlignment="Center" FontAttributes="Bold"></Label>
+                    <Label Grid.Row="2" Text="Camarones y lomo de aguja a la parrilla"></Label>
+                    <Label Grid.Row="3" Text="$14.95"></Label>
+                </Grid>
+            </Frame>
+            <Frame Padding="1.0" Margin="1.0" HeightRequest="330" BackgroundColor="White">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="auto"/>
+                        <RowDefinition Height="auto"/>
+                        <RowDefinition Height="auto"/>
+                        <RowDefinition Height="auto"/>
+                    </Grid.RowDefinitions>
+                    <Image Grid.Row="0" Source="Cortes.jpg"></Image>
+                    <Label Grid.Row="1" Text="Medallones en Salsa Marcelo" FontSize="Medium" HorizontalTextAlignment="Center" FontAttributes="Bold"></Label>
+                    <Label Grid.Row="2" Text="Deliciosos medallones de filete de pollo, lomo de aguja, y camarones a la parrilla"></Label>
+                    <Label Grid.Row="3" Text="$16.95"></Label>
+                </Grid>
+            </Frame>
+            <Label Text="Todos los platos van acompañados de: vegetales salteados, papas rellena o arroz, pan y concome de res" FontAttributes="Bold" FontSize="Small"></Label>
+        </StackLayout>
+
+    </ScrollView>
+</ContentPage>
