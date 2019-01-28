@@ -64,8 +64,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="MainActivity.cs" />
-    <Compile Include="Renders\VideoPicker.cs" />
-    <Compile Include="Renders\VideoPlayerRenderer.cs" />
+    <Compile Include="FormsVideoLibrary\VideoPicker.cs" />
+    <Compile Include="FormsVideoLibrary\VideoPlayerRenderer.cs" />
     <Compile Include="Resources\Resource.designer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -265,8 +265,7 @@
     <AndroidResource Include="Resources\drawable-xxhdpi\LogoRestaurante.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Resources\raw\HotelVideo.mp4" />
-    <Content Include="Resources\raw\VideoHotel.mp4" />
+    <AndroidResource Include="Resources\raw\HotelVideo.mp4" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
 </Project>

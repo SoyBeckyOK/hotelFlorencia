@@ -11,14 +11,16 @@
         
         
                    
-            <StackLayout>
-                        <Label Text="Contactos" FontSize="Large" HorizontalTextAlignment="Center" HorizontalOptions="Center" FontAttributes="Bold" TextColor="Black"></Label>
-                    <Frame WidthRequest="150" >
+            <StackLayout Opacity="0.8">
+                       
+                    <Frame >
                 <StackLayout Orientation="Horizontal">
                         <Image Source="LogoFacebook1.png" WidthRequest="75"></Image>
-                    <StackLayout>
+                    <StackLayout HorizontalOptions="EndAndExpand">
                         <Label Text="Facebook" TextColor="Blue" FontAttributes="Bold"></Label>
                         <Label Text="Hotel Florencia"></Label>
+                    </StackLayout>
+                    <StackLayout HorizontalOptions="EndAndExpand">
                         <Button Text="Visitar" Clicked="Button_Clicked_2"></Button>
                     </StackLayout>
                 </StackLayout>
@@ -26,9 +28,12 @@
                     <Frame>
                     <StackLayout Orientation="Horizontal">
                         <Image Source="LogoInstagram.png" WidthRequest="75"></Image>
-                    <StackLayout>
+                    <StackLayout HorizontalOptions="EndAndExpand">
                         <Label Text="Instagram" TextColor="Blue" FontAttributes="Bold"></Label>
                             <Label Text="hotelflorencia_sanmiguel"></Label>
+                           
+                        </StackLayout>
+                        <StackLayout HorizontalOptions="EndAndExpand">
                             <Button Text="Visitar" Clicked="Button_Clicked_1"></Button>
                         </StackLayout>
                 </StackLayout>
@@ -36,21 +41,27 @@
                 <Frame>
                     <StackLayout Orientation="Horizontal">
                         <Image Source="LogoTelefono.png" WidthRequest="75"></Image>
-                        <StackLayout>
+                        <StackLayout HorizontalOptions="EndAndExpand">
                             <Label Text="Telefono" TextColor="Blue" FontAttributes="Bold"></Label>
                             <Label Text="2665 5500"></Label>
-                            <Button Text="Llamar" Clicked="Button_Clicked_3"/>
+                            
 
+                        </StackLayout>
+                        <StackLayout HorizontalOptions="EndAndExpand">
+                            <Button Text="Llamar" Clicked="Button_Clicked_3"/>
                         </StackLayout>
                     </StackLayout>
                 </Frame>
                 <Frame>
                     <StackLayout Orientation="Horizontal">
                         <Image Source="location2.png" WidthRequest="75"></Image>
-                    <StackLayout>
+                        <StackLayout HorizontalOptions="EndAndExpand">
                         <Label Text="Ubicación" TextColor="Blue" FontAttributes="Bold"></Label>
-                        <Button Text="Acceder" Clicked="Button_Clicked"></Button>
+                       
                     </StackLayout>
+                        <StackLayout HorizontalOptions="EndAndExpand">
+                            <Button Text="Acceder" Clicked="Button_Clicked"></Button>
+                        </StackLayout>
                 </StackLayout>
                     </Frame>
                 </StackLayout>

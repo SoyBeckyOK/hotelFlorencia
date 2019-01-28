@@ -26,6 +26,7 @@ namespace hotelFlorencia.Droid
             LoadApplication(new App());
 
 
+            
         }
         public static MainActivity Current { private set; get; }
 
