@@ -20,10 +20,6 @@ namespace hotelFlorencia.Vistas
 
         }
 
-        private async void Button_Clicked(object sender, EventArgs e)
-        {
-            await App.Current.MainPage.Navigation.PushAsync(new VideoHotelPage());
-
-        }
+      
     }
 }

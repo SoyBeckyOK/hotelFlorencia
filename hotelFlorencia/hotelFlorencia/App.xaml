@@ -6,7 +6,7 @@
         
             <ResourceDictionary>
                 <Style x:Key="BotonesMenu" TargetType="Button">
-                <Setter Property="BackgroundColor" Value="White"/>
+                <Setter Property="BackgroundColor" Value="LightBlue"/>
                 <Setter Property="TextColor" Value="Black"/>
                 <Setter Property="HeightRequest" Value="70"/>
                 <Setter Property="Opacity" Value="0.7"/>

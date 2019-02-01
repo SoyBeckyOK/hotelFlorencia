@@ -39,5 +39,11 @@ namespace hotelFlorencia.Vistas
         {
             PhoneDialer.Open("26655500");
         }
+
+        private async void Button_Clicked_4(object sender, EventArgs e)
+        {
+            await App.Current.MainPage.Navigation.PushAsync(new EmailSendPage());
+            
+        }
     }
 }

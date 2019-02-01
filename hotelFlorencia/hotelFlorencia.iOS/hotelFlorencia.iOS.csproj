@@ -265,4 +265,16 @@
   <ItemGroup>
     <BundleResource Include="Resources\Parrilladas.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\about.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\contact.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\home.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\video.png" />
+  </ItemGroup>
 </Project>

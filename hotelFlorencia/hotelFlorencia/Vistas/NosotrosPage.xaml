@@ -36,7 +36,7 @@
                     <Label Text="Amplios Salones" 
                            FontAttributes="Bold"/>
                     <Editor Text="Cuenta con tres amplios y cómodos salones para conferencias que pueden acomodar desde 15 hasta 350 personas(Áreas externas están disponibles con capacidad para 500 personas) ; ya sea para reuniones, banquetes, recepciones, conferencias o cualquier tipo de evento; nuestras ejecutivas de venta están a su disposición para asistirle con información y servicio personalizado ya sea para su evento o alojamiento." Style="{StaticResource StyleEditor}"/>
-                    <Button Text="Ver Video" Clicked="Button_Clicked"></Button>
+                   
                 </StackLayout>
             </Frame>
             <Frame>

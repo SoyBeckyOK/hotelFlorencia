@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="hotelFlorencia.Vistas.EmailSendPage"
+             Title="Envianos tus dudas."
+             BackgroundColor="LightBlue">
+    <ContentPage.Content>
+        <StackLayout>
+            
+                
+                <Label HorizontalOptions="Center" Text="" FontSize="Large" FontAttributes="Bold"></Label>
+         
+            
+                <Label Text="Para:" TextColor="Blue" FontSize="Medium"></Label>
+                <Entry Text="hotelflorencia06@yahoo.com" x:Name="EntryRecipients"></Entry>
+            
+            
+                <Label Text="Asunto: " TextColor="Blue" FontSize="Medium"></Label>
+                <Entry Placeholder="Agregar Asunto" x:Name="EntrySubject"></Entry>
+            
+           
+            <Entry Placeholder="Escribe tus preguntas" x:Name="EntryBody"></Entry>
+            <Button Text="Send" x:Name="ButtonSend" Clicked="ButtonSend_Clicked" BackgroundColor="DarkBlue"></Button>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

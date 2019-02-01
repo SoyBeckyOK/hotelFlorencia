@@ -54,6 +54,20 @@
                 </Frame>
                 <Frame>
                     <StackLayout Orientation="Horizontal">
+                        <Image Source="LogoEmail.png" WidthRequest="75"></Image>
+                        <StackLayout HorizontalOptions="EndAndExpand">
+                            <Label Text="Correo Electronico" TextColor="Blue" FontAttributes="Bold"></Label>
+                            <Label Text="hotelflorencia06@yahoo.com"></Label>
+
+
+                        </StackLayout>
+                        <StackLayout HorizontalOptions="EndAndExpand">
+                            <Button Text="Enviar" Clicked="Button_Clicked_4"/>
+                        </StackLayout>
+                    </StackLayout>
+                </Frame>
+                <Frame>
+                    <StackLayout Orientation="Horizontal">
                         <Image Source="location2.png" WidthRequest="75"></Image>
                         <StackLayout HorizontalOptions="EndAndExpand">
                         <Label Text="Ubicación" TextColor="Blue" FontAttributes="Bold"></Label>

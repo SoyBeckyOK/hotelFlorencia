@@ -22,23 +22,23 @@
                         <ColumnDefinition Width="*"/>
                     </Grid.ColumnDefinitions>
                     <Image Grid.Row="0" Grid.ColumnSpan="2" Source="Postres.jpg"></Image>
-                    <Label Grid.Row="1" Grid.ColumnSpan="2" Text="Postres" FontSize="Medium" FontAttributes="Bold" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" ></Label>
-                    <Label Grid.Row="2" Grid.Column="0" Text="Flan de Queso"></Label>
+                    <Label Grid.Row="1" Grid.ColumnSpan="2" Text="Postres" FontSize="Large" FontAttributes="Bold" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" ></Label>
+                    <Label Grid.Row="2" Grid.Column="0" Text="Flan de Queso" FontSize="Small" FontAttributes="Bold"></Label>
                     <Label Grid.Row="2" Grid.Column="1" Text="$2.30" HorizontalOptions="End"></Label>
-                    <Label Grid.Row="3" Grid.Column="0" Text="Flan de Caramelo"></Label>
+                    <Label Grid.Row="3" Grid.Column="0" Text="Flan de Caramelo" FontSize="Small" FontAttributes="Bold"></Label>
                     <Label Grid.Row="3" Grid.Column="1" Text="$2.30" HorizontalOptions="End"></Label>
-                    <Label Grid.Row="4" Grid.Column="0" Text="Pastel de Higo"></Label>
+                    <Label Grid.Row="4" Grid.Column="0" Text="Pastel de Higo" FontSize="Small" FontAttributes="Bold"></Label>
                     <Label Grid.Row="4" Grid.Column="1" Text="$2.30" HorizontalOptions="End"></Label>
-                    <Label Grid.Row="5" Grid.Column="0" Text="Tres Leches"></Label>
+                    <Label Grid.Row="5" Grid.Column="0" Text="Tres Leches" FontSize="Small" FontAttributes="Bold"></Label>
                     <Label Grid.Row="5" Grid.Column="1" Text="$2.30" HorizontalOptions="End"></Label>
-                    <Label Grid.Row="6" Grid.Column="0" Text="Pastel de Queso"></Label>
+                    <Label Grid.Row="6" Grid.Column="0" Text="Pastel de Queso" FontSize="Small" FontAttributes="Bold"></Label>
                     <Label Grid.Row="6" Grid.Column="1" Text="$2.30" HorizontalOptions="End"></Label>
-                    <Label Grid.Row="7" Grid.Column="0" Text="Cocktail de Frutas"></Label>
+                    <Label Grid.Row="7" Grid.Column="0" Text="Cocktail de Frutas" FontSize="Small" FontAttributes="Bold"></Label>
                     <Label Grid.Row="7" Grid.Column="1" Text="$2.30" HorizontalOptions="End"></Label>
                 </Grid>
             </Frame>
             <Frame>
-                <Label Text="Todos nuestros postres incluyen Café" FontAttributes="Italic" HorizontalOptions="Center" FontSize="Small"></Label>
+                <Label  Text="Todos nuestros postres incluyen Café" FontAttributes="Italic" HorizontalOptions="Center" FontSize="Small"></Label>
             </Frame>
         </StackLayout>
 

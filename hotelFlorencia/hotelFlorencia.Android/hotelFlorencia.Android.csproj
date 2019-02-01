@@ -145,9 +145,6 @@
     <AndroidResource Include="Resources\drawable-xxhdpi\hotelInterior.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable-xxhdpi\location.png" />
-  </ItemGroup>
-  <ItemGroup>
     <AndroidResource Include="Resources\drawable-xxhdpi\location2.png" />
   </ItemGroup>
   <ItemGroup>
@@ -266,6 +263,9 @@
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\raw\HotelVideo.mp4" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable-xxhdpi\video.png" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
 </Project>

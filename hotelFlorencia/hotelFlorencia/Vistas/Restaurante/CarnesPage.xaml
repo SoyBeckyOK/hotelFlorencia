@@ -19,8 +19,8 @@
                     </Grid.ColumnDefinitions>
                     <Image Grid.Row="0" Grid.ColumnSpan="2" Source="Carnes.jpg"></Image>
                     <Label Grid.Row="1" Grid.ColumnSpan="2" Text="Lomo a la Parrilla" FontSize="Medium" HorizontalTextAlignment="Center" FontAttributes="Bold"></Label>
-                    <Label Grid.Row="2" Grid.Column="0" Text="$8. 55 1/2 Libra " HorizontalOptions="End"></Label>
-                    <Label Grid.Row="2" Grid.Column="1" Text="$12.45 1 Libra " HorizontalOptions="Start"></Label>
+                    <Label Grid.Row="2" Grid.Column="0" Text="$8. 55 (1/2 Libra) " HorizontalOptions="End"></Label>
+                    <Label Grid.Row="2" Grid.Column="1" Text="$12.45 (1 Libra)" HorizontalOptions="Start"></Label>
                 </Grid>
             </Frame>
             <Frame Padding="10" Margin="10" HeightRequest="250" BackgroundColor="White">
@@ -37,8 +37,8 @@
                     </Grid.ColumnDefinitions>
                     <Image Grid.Row="0" Grid.ColumnSpan="2" Source="Carnes.jpg"></Image>
                     <Label Grid.Row="1" Grid.ColumnSpan="2" Text="Filete de pollo a la Parrilla" FontSize="Medium" HorizontalTextAlignment="Center" FontAttributes="Bold"></Label>
-                    <Label Grid.Row="2" Grid.Column="0" Text="$7. 95 1/2 Libra " HorizontalOptions="End"></Label>
-                    <Label Grid.Row="2" Grid.Column="1" Text="$12.05 1 Libra " HorizontalOptions="Start"></Label>
+                    <Label Grid.Row="2" Grid.Column="0" Text="$7. 95 (1/2 Libra) " HorizontalOptions="End"></Label>
+                    <Label Grid.Row="2" Grid.Column="1" Text="$12.05 (1 Libra) " HorizontalOptions="Start"></Label>
                 </Grid>
             </Frame>
             <Frame Padding="10" Margin="10" HeightRequest="250" BackgroundColor="White">
@@ -55,8 +55,8 @@
                     </Grid.ColumnDefinitions>
                     <Image Grid.Row="0" Grid.ColumnSpan="2" Source="Carnes.jpg"></Image>
                     <Label Grid.Row="1" Grid.ColumnSpan="2" Text="Puyaso Importado" FontSize="Medium" HorizontalTextAlignment="Center" FontAttributes="Bold"></Label>
-                    <Label Grid.Row="2" Grid.Column="0" Text="$8. 55 1/2 Libra " HorizontalOptions="End"></Label>
-                    <Label Grid.Row="2" Grid.Column="1" Text="$12.45 1 Libra " HorizontalOptions="Start"></Label>
+                    <Label Grid.Row="2" Grid.Column="0" Text="$8. 55 (1/2 Libra) " HorizontalOptions="End"></Label>
+                    <Label Grid.Row="2" Grid.Column="1" Text="$12.45 (1 Libra) " HorizontalOptions="Start"></Label>
                 </Grid>
             </Frame>
             <Frame Padding="10" Margin="10" HeightRequest="250" BackgroundColor="White">
@@ -73,8 +73,8 @@
                     </Grid.ColumnDefinitions>
                     <Image Grid.Row="0" Grid.ColumnSpan="2" Source="Carnes.jpg"></Image>
                     <Label Grid.Row="1" Grid.ColumnSpan="2" Text="Fajitas de Res" FontSize="Medium" HorizontalTextAlignment="Center" FontAttributes="Bold"></Label>
-                    <Label Grid.Row="2" Grid.Column="0" Text="$8. 55 1/2 Libra " HorizontalOptions="End"></Label>
-                    <Label Grid.Row="2" Grid.Column="1" Text="$12.45 1 Libra " HorizontalOptions="Start"></Label>
+                    <Label Grid.Row="2" Grid.Column="0" Text="$8. 55 (1/2 Libra) " HorizontalOptions="End"></Label>
+                    <Label Grid.Row="2" Grid.Column="1" Text="$12.45 (1 Libra) " HorizontalOptions="Start"></Label>
                 </Grid>
             </Frame>
             <Frame Padding="10" Margin="10" HeightRequest="250" BackgroundColor="White">
@@ -91,8 +91,8 @@
                     </Grid.ColumnDefinitions>
                     <Image Grid.Row="0" Grid.ColumnSpan="2" Source="Carnes.jpg"></Image>
                     <Label Grid.Row="1" Grid.ColumnSpan="2" Text="Lomo de Cerdo Importado" FontSize="Medium" HorizontalTextAlignment="Center" FontAttributes="Bold"></Label>
-                    <Label Grid.Row="2" Grid.Column="0" Text="$8. 55 1/2 Libra " HorizontalOptions="End"></Label>
-                    <Label Grid.Row="2" Grid.Column="1" Text="$12.45 1 Libra " HorizontalOptions="Start"></Label>
+                    <Label Grid.Row="2" Grid.Column="0" Text="$8. 55 (1/2 Libra) " HorizontalOptions="End"></Label>
+                    <Label Grid.Row="2" Grid.Column="1" Text="$12.45 (1 Libra) " HorizontalOptions="Start"></Label>
                 </Grid>
             </Frame>
             <Frame Padding="10" Margin="10" HeightRequest="250" BackgroundColor="White">
@@ -109,8 +109,8 @@
                     </Grid.ColumnDefinitions>
                     <Image Grid.Row="0" Grid.ColumnSpan="2" Source="Carnes.jpg"></Image>
                     <Label Grid.Row="1" Grid.ColumnSpan="2" Text="Lomo de Aguja a la Parrilla" FontSize="Medium" HorizontalTextAlignment="Center" FontAttributes="Bold"></Label>
-                    <Label Grid.Row="2" Grid.Column="0" Text="$10.95 1/2 Libra " HorizontalOptions="End"></Label>
-                    <Label Grid.Row="2" Grid.Column="1" Text="$12.45 1 Libra " HorizontalOptions="Start"></Label>
+                    <Label Grid.Row="2" Grid.Column="0" Text="$10.95 (1/2 Libra) " HorizontalOptions="End"></Label>
+                    <Label Grid.Row="2" Grid.Column="1" Text="$12.45 (1 Libra) " HorizontalOptions="Start"></Label>
                 </Grid>
             </Frame>
             <Frame Padding="10" Margin="10" HeightRequest="250" BackgroundColor="White">
@@ -127,7 +127,7 @@
                     </Grid.ColumnDefinitions>
                     <Image Grid.Row="0" Grid.ColumnSpan="2" Source="Carnes.jpg"></Image>
                     <Label Grid.Row="1" Grid.ColumnSpan="2" Text="Churrasco Brasador" FontSize="Medium" HorizontalTextAlignment="Center" FontAttributes="Bold"></Label>
-                    <Label Grid.Row="2" Grid.Column="0" Text="$10. 55 1/2 Libra" HorizontalOptions="End"></Label>
+                    <Label Grid.Row="2" Grid.Column="0" Text="$10. 55 (1/2 Libra)" HorizontalOptions="End"></Label>
                     <Label Grid.Row="2" Grid.Column="1" Text="" HorizontalOptions="Start"></Label>
                 </Grid>
             </Frame>
