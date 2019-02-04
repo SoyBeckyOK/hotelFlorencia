@@ -20,7 +20,7 @@
                         <RowDefinition Height="auto"/>
                     </Grid.RowDefinitions>
                     <Image Grid.Row="0" Source="Suit.jpg"></Image>
-                    <Label Grid.Row="1" Text="Suite de Lujo " FontSize="Small" HorizontalTextAlignment="Center" FontAttributes="Bold"></Label>
+                    <Label Grid.Row="1" Text="Habitacion Sencilla" FontSize="Small" HorizontalTextAlignment="Center" FontAttributes="Bold"></Label>
                     <Button Grid.Row="2" Text="Ver Descripcion" BackgroundColor="DarkBlue" TextColor="White" Clicked="Button_Clicked"></Button>
                 </Grid>
             </Frame>

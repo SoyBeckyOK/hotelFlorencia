@@ -95,13 +95,11 @@
     <None Include="Entitlements.plist" />
     <None Include="Info.plist" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <BundleResource Include="Resources\Shrikhand-Regular.ttf" />
   </ItemGroup>
   <ItemGroup>
     <ImageAsset Include="Assets.xcassets\LaunchImages.launchimage\Contents.json">
       <Visible>false</Visible>
     </ImageAsset>
-    <InterfaceDefinition Include="Resources\LaunchScreen.storyboard" />
     <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Contents.json">
       <Visible>false</Visible>
     </ImageAsset>
@@ -170,82 +168,19 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <BundleResource Include="Resources\hotel.jpg" />
+    <BundleResource Include="Resources\Default.png" />
   </ItemGroup>
   <ItemGroup>
-    <BundleResource Include="Resources\logo.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <BundleResource Include="Resources\ho.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <BundleResource Include="Resources\re.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <BundleResource Include="Resources\res.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <BundleResource Include="Resources\so.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <BundleResource Include="Resources\fondo.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <BundleResource Include="Resources\facebuk.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <BundleResource Include="Resources\instagram.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <BundleResource Include="Resources\fondoPantalla.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <BundleResource Include="Resources\fondop.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <BundleResource Include="Resources\fon.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <BundleResource Include="Resources\fondito.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <BundleResource Include="Resources\fondohotel.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <BundleResource Include="Resources\LogoFlorencia.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <BundleResource Include="Resources\brasador.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <BundleResource Include="Resources\images.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <BundleResource Include="Resources\Suit.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <BundleResource Include="Resources\HabitacionDoble.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <BundleResource Include="Resources\piscina.jpg" />
+    <BundleResource Include="Resources\about.png" />
   </ItemGroup>
   <ItemGroup>
     <BundleResource Include="Resources\babyshower.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <BundleResource Include="Resources\bodas.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <BundleResource Include="Resources\fiestarosa.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <BundleResource Include="Resources\fondoframe.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <BundleResource Include="Resources\Postres.jpg" />
-  </ItemGroup>
-  <ItemGroup>
     <BundleResource Include="Resources\Bebidas.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\bodas.jpg" />
   </ItemGroup>
   <ItemGroup>
     <BundleResource Include="Resources\Camarones.jpg" />
@@ -254,7 +189,13 @@
     <BundleResource Include="Resources\Carnes.jpg" />
   </ItemGroup>
   <ItemGroup>
+    <BundleResource Include="Resources\Coctel.jpg" />
+  </ItemGroup>
+  <ItemGroup>
     <BundleResource Include="Resources\Cocteles.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\contact.png" />
   </ItemGroup>
   <ItemGroup>
     <BundleResource Include="Resources\Cortes.jpg" />
@@ -263,18 +204,126 @@
     <BundleResource Include="Resources\Entradas.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <BundleResource Include="Resources\Parrilladas.jpg" />
+    <BundleResource Include="Resources\favorite.png" />
   </ItemGroup>
   <ItemGroup>
-    <BundleResource Include="Resources\about.png" />
+    <BundleResource Include="Resources\fiestarosa.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <BundleResource Include="Resources\contact.png" />
+    <BundleResource Include="Resources\fondito.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\fondo.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\fondoframe.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\fondohotel.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\fondoPantalla.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FondoPrincipal.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Graduaciones.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\HabitacionDoble.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\HabitacionDoble1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\HabitacionDoble2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\HabitacionDoble3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\HabitacionDoble4.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\HabitacionDoble5.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\HabitacionTriple.jpg" />
   </ItemGroup>
   <ItemGroup>
     <BundleResource Include="Resources\home.png" />
   </ItemGroup>
   <ItemGroup>
+    <BundleResource Include="Resources\hotelInterior.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\ImageSuite1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\ImageSuite2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\ImageSuite3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\ImageSuite4.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\location2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\LogoEmail.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\LogoFacebook1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\LogoFlorencia.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\LogoInstagram.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\LogoOficialHotel.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\LogoRestaurante.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\LogoTelefono.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\NegociosImage.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Parrilladas.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\piscina.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Postres.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Restaurante.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Suit.jpg" />
+  </ItemGroup>
+  <ItemGroup>
     <BundleResource Include="Resources\video.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Default%402x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Default-568h%402x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Default-Portrait.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Default-Portrait%402x.png" />
   </ItemGroup>
 </Project>
