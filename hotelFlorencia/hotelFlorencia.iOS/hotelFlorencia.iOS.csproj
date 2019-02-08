@@ -163,12 +163,13 @@
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
   <ItemGroup>
     <ProjectReference Include="..\hotelFlorencia\hotelFlorencia.csproj">
-      <Project>{9AFB117D-7DDF-4DB9-97D2-75788EBE431E}</Project>
+      <Project>{07A127AC-3D58-4C46-AAAA-1D807F2C564C}</Project>
       <Name>hotelFlorencia</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <BundleResource Include="Resources\Default.png" />
+    <BundleResource Include="Resources\LogoRestaurante.jpg" />
   </ItemGroup>
   <ItemGroup>
     <BundleResource Include="Resources\about.png" />
@@ -286,9 +287,6 @@
   </ItemGroup>
   <ItemGroup>
     <BundleResource Include="Resources\LogoOficialHotel.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <BundleResource Include="Resources\LogoRestaurante.jpg" />
   </ItemGroup>
   <ItemGroup>
     <BundleResource Include="Resources\LogoTelefono.png" />
