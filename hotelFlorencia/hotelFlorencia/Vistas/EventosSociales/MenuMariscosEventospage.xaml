@@ -5,7 +5,13 @@
              Title="Menu de Cenas o Almuerzos de Mariscos">
     <ScrollView>
         <StackLayout>
-            <Frame Padding="10" Margin="10" HeightRequest="300" BackgroundColor="White">
+            <Frame Padding="10" Margin="10" BackgroundColor="White">
+                <Frame.HeightRequest>
+                    <OnPlatform x:TypeArguments="x:Double">
+                        <On Platform="iOS">300</On>
+                        <On Platform="Android">240</On>
+                    </OnPlatform>
+                </Frame.HeightRequest>
                 <Grid>
                     <Grid.RowDefinitions>
                         <RowDefinition Height="auto"/>
@@ -17,7 +23,13 @@
                     <Label Grid.Row="2" Text="Es una exquisita curvina a la plancha bañada con aceite oliva y ajos, acompañada de vegetales al estilo juliana con puré de papa."></Label>
                 </Grid>
             </Frame>
-            <Frame Padding="10" Margin="10" HeightRequest="300" BackgroundColor="White">
+            <Frame Padding="10" Margin="10" BackgroundColor="White">
+                <Frame.HeightRequest>
+                    <OnPlatform x:TypeArguments="x:Double">
+                        <On Platform="iOS">300</On>
+                        <On Platform="Android">240</On>
+                    </OnPlatform>
+                </Frame.HeightRequest>
                 <Grid>
                     <Grid.RowDefinitions>
                         <RowDefinition Height="auto"/>
@@ -29,7 +41,13 @@
                     <Label Grid.Row="2" Text="Es una exquisita Curvina a la plancha bañada con una deliciosa salsa de puerro y apio, acompañados con arroz a la jardinera  y vegetales al vapor."></Label>
                 </Grid>
             </Frame>
-            <Frame Padding="10" Margin="10" HeightRequest="300" BackgroundColor="White">
+            <Frame Padding="10" Margin="10" BackgroundColor="White">
+                <Frame.HeightRequest>
+                    <OnPlatform x:TypeArguments="x:Double">
+                        <On Platform="iOS">300</On>
+                        <On Platform="Android">240</On>
+                    </OnPlatform>
+                </Frame.HeightRequest>
                 <Grid>
                     <Grid.RowDefinitions>
                         <RowDefinition Height="auto"/>
@@ -41,7 +59,13 @@
                     <Label Grid.Row="2" Text="Es una combinación de camarones a la plancha bañada con una deliciosa salsa  criolla de nuestro país, acompañados con arroz verde gratinado y vegetal al vapor."></Label>
                 </Grid>
             </Frame>
-            <Frame Padding="10" Margin="10" HeightRequest="300" BackgroundColor="White">
+            <Frame Padding="10" Margin="10"  BackgroundColor="White">
+                <Frame.HeightRequest>
+                    <OnPlatform x:TypeArguments="x:Double">
+                        <On Platform="iOS">300</On>
+                        <On Platform="Android">240</On>
+                    </OnPlatform>
+                </Frame.HeightRequest>
                 <Grid>
                     <Grid.RowDefinitions>
                         <RowDefinition Height="auto"/>
@@ -53,7 +77,13 @@
                     <Label Grid.Row="2" Text="Son unos exquisitos camarones jumbos empanizados a los estilos romanos con salsa tártara, acompañados con arroz verde y una ensalada fresca de cangrejos."></Label>
                 </Grid>
             </Frame>
-            <Frame Padding="10" Margin="10" HeightRequest="300" BackgroundColor="White">
+            <Frame Padding="10" Margin="10" BackgroundColor="White">
+                <Frame.HeightRequest>
+                    <OnPlatform x:TypeArguments="x:Double">
+                        <On Platform="iOS">300</On>
+                        <On Platform="Android">240</On>
+                    </OnPlatform>
+                </Frame.HeightRequest>
                 <Grid>
                     <Grid.RowDefinitions>
                         <RowDefinition Height="auto"/>
@@ -65,7 +95,13 @@
                     <Label Grid.Row="2" Text="Es una deliciosa brocheta con camarones jumbos y una combinación de vegetales frescos al estilo Florencia, acompañados de ensalada cesar y puré de papa."></Label>
                 </Grid>
             </Frame>
-            <Frame Padding="10" Margin="10" HeightRequest="300" BackgroundColor="White">
+            <Frame Padding="10" Margin="10" BackgroundColor="White">
+                <Frame.HeightRequest>
+                    <OnPlatform x:TypeArguments="x:Double">
+                        <On Platform="iOS">300</On>
+                        <On Platform="Android">240</On>
+                    </OnPlatform>
+                </Frame.HeightRequest>
                 <Grid>
                     <Grid.RowDefinitions>
                         <RowDefinition Height="auto"/>

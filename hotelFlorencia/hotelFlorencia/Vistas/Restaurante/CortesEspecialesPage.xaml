@@ -5,7 +5,7 @@
              Title="Cortes Especiales">
     <ScrollView>
         <StackLayout>
-            <Frame Padding="1.0" Margin="1.0" HeightRequest="330" BackgroundColor="White">
+            <Frame  Padding="10" Margin="10" HeightRequest="330" BackgroundColor="White">
                 <Grid>
                     <Grid.RowDefinitions>
                         <RowDefinition Height="auto"/>

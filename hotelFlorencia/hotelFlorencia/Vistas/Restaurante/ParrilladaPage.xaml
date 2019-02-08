@@ -7,7 +7,7 @@
         <StackLayout>
             <StackLayout>
             <Label Text="Parrilladas para tres o cuatro Personas" FontAttributes="Bold" HorizontalOptions="Center" TextColor="Black" FontSize="Medium" HorizontalTextAlignment="Center" VerticalTextAlignment="Center"></Label>
-            <Frame Padding="1.0" Margin="1.0" HeightRequest="300" BackgroundColor="White">
+                <Frame  Padding="10" Margin="10" HeightRequest="300" BackgroundColor="White">
                 <Grid>
                     <Grid.RowDefinitions>
                         <RowDefinition Height="auto"/>

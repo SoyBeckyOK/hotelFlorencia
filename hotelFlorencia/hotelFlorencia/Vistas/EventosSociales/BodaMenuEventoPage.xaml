@@ -5,7 +5,13 @@
              Title="Menu Eventos Sociales">
     <ScrollView>
         <StackLayout BackgroundColor="LightBlue">
-            <Frame Padding="1.0" Margin="1.0" HeightRequest="400" BackgroundColor="White">
+            <Frame Padding="1.0" Margin="1.0" BackgroundColor="White">
+                <Frame.HeightRequest>
+                    <OnPlatform x:TypeArguments="x:Double">
+                        <On Platform="iOS">400</On>
+                        <On Platform="Android">350</On>
+                    </OnPlatform>
+                </Frame.HeightRequest>
                 <Grid>
                     <Grid.RowDefinitions>
                         <RowDefinition Height="auto"/>
@@ -19,7 +25,13 @@
                     <Label Grid.Row="3" Text="* 2 menús de degustación al confirmar su reservación." FontSize="Small"></Label>
                 </Grid>
             </Frame>
-            <Frame Padding="1.0" Margin="1.0" HeightRequest="400" BackgroundColor="White">
+            <Frame Padding="1.0" Margin="1.0" BackgroundColor="White">
+                <Frame.HeightRequest>
+                    <OnPlatform x:TypeArguments="x:Double">
+                        <On Platform="iOS">400</On>
+                        <On Platform="Android">350</On>
+                    </OnPlatform>
+                </Frame.HeightRequest>
                 <Grid>
                     <Grid.RowDefinitions>
                         <RowDefinition Height="auto"/>
@@ -36,7 +48,13 @@
                     <Label Grid.Row="5" Text="* TE para 15 personas ( no incluye forro ni lazas )" FontSize="Small"></Label>
                 </Grid>
             </Frame>
-            <Frame Padding="1.0" Margin="1.0" HeightRequest="400" BackgroundColor="White">
+            <Frame Padding="1.0" Margin="1.0" BackgroundColor="White">
+                <Frame.HeightRequest>
+                    <OnPlatform x:TypeArguments="x:Double">
+                        <On Platform="iOS">400</On>
+                        <On Platform="Android">350</On>
+                    </OnPlatform>
+                </Frame.HeightRequest>
                 <Grid>
                     <Grid.RowDefinitions>
                         <RowDefinition Height="auto"/>
@@ -56,7 +74,13 @@
             <StackLayout>
                 <Label Text="Menu de Platillos, Bebidas y Boquitas para Boda" VerticalOptions="Center" HorizontalOptions="Center" FontSize="Large" FontAttributes="Bold"></Label>
             </StackLayout>
-            <Frame Padding="1.0" Margin="1.0" HeightRequest="330" BackgroundColor="White">
+            <Frame Padding="1.0" Margin="1.0"  BackgroundColor="White">
+                <Frame.HeightRequest>
+                    <OnPlatform x:TypeArguments="x:Double">
+                        <On Platform="iOS">330</On>
+                        <On Platform="Android">280</On>
+                    </OnPlatform>
+                </Frame.HeightRequest>
                 <Grid>
                     <Grid.RowDefinitions>
                         <RowDefinition Height="auto"/>
@@ -68,7 +92,13 @@
                     <Button Grid.Row="2" Text="Ver Menu" FontSize="Small" TextColor="White" FontAttributes="Bold" HorizontalOptions="Center" BackgroundColor="DarkBlue" Clicked="Button_Clicked"></Button>
                 </Grid>
             </Frame>
-            <Frame Padding="1.0" Margin="1.0" HeightRequest="330" BackgroundColor="White">
+            <Frame Padding="1.0" Margin="1.0" BackgroundColor="White">
+                <Frame.HeightRequest>
+                    <OnPlatform x:TypeArguments="x:Double">
+                        <On Platform="iOS">330</On>
+                        <On Platform="Android">280</On>
+                    </OnPlatform>
+                </Frame.HeightRequest>
                 <Grid>
                     <Grid.RowDefinitions>
                         <RowDefinition Height="auto"/>
@@ -88,7 +118,13 @@
                     <Label Grid.Row="6" Text="Champagne  $7.95" FontSize="Small" HorizontalTextAlignment="Start" ></Label>
                 </Grid>
             </Frame>
-            <Frame Padding="1.0" Margin="1.0" HeightRequest="330" BackgroundColor="White">
+            <Frame Padding="1.0" Margin="1.0" BackgroundColor="White">
+                <Frame.HeightRequest>
+                    <OnPlatform x:TypeArguments="x:Double">
+                        <On Platform="iOS">330</On>
+                        <On Platform="Android">280</On>
+                    </OnPlatform>
+                </Frame.HeightRequest>
                 <Grid>
                     <Grid.RowDefinitions>
                         <RowDefinition Height="auto"/>
@@ -100,7 +136,13 @@
                     <Button Grid.Row="2" Text="Ver Menu" TextColor="White" BackgroundColor="DarkBlue" FontSize="Small"  FontAttributes="Bold" HorizontalOptions="Center" Clicked="Button_Clicked_2"></Button>
                 </Grid>
             </Frame>
-            <Frame Padding="1.0" Margin="1.0" HeightRequest="330" BackgroundColor="White">
+            <Frame Padding="1.0" Margin="1.0" BackgroundColor="White">
+                <Frame.HeightRequest>
+                    <OnPlatform x:TypeArguments="x:Double">
+                        <On Platform="iOS">330</On>
+                        <On Platform="Android">280</On>
+                    </OnPlatform>
+                </Frame.HeightRequest>
                 <Grid>
                     <Grid.RowDefinitions>
                         <RowDefinition Height="auto"/>
@@ -113,7 +155,13 @@
                 </Grid>
             </Frame>
 
-            <Frame Padding="1.0" Margin="1.0" HeightRequest="330" BackgroundColor="White">
+            <Frame Padding="1.0" Margin="1.0" BackgroundColor="White">
+                <Frame.HeightRequest>
+                    <OnPlatform x:TypeArguments="x:Double">
+                        <On Platform="iOS">330</On>
+                        <On Platform="Android">280</On>
+                    </OnPlatform>
+                </Frame.HeightRequest>
                 <Grid>
                     <Grid.RowDefinitions>
                         <RowDefinition Height="auto"/>
@@ -125,7 +173,13 @@
                     <Button Grid.Row="2" Text="Ver Menu" TextColor="White" BackgroundColor="DarkBlue" FontSize="Small"  FontAttributes="Bold" HorizontalOptions="Center" Clicked="Button_Clicked_4"></Button>
                 </Grid>
             </Frame>
-            <Frame Padding="1.0" Margin="1.0" HeightRequest="330" BackgroundColor="White">
+            <Frame Padding="1.0" Margin="1.0" BackgroundColor="White">
+                <Frame.HeightRequest>
+                    <OnPlatform x:TypeArguments="x:Double">
+                        <On Platform="iOS">330</On>
+                        <On Platform="Android">280</On>
+                    </OnPlatform>
+                </Frame.HeightRequest>
                 <Grid>
                     <Grid.RowDefinitions>
                         <RowDefinition Height="auto"/>
@@ -137,7 +191,13 @@
                     <Button Grid.Row="2" Text="Ver Menu" TextColor="White" BackgroundColor="DarkBlue" FontSize="Small"  FontAttributes="Bold" HorizontalOptions="Center" Clicked="Button_Clicked_5"></Button>
                 </Grid>
             </Frame>
-            <Frame Padding="1.0" Margin="1.0" HeightRequest="330" BackgroundColor="White">
+            <Frame Padding="1.0" Margin="1.0"  BackgroundColor="White">
+                <Frame.HeightRequest>
+                    <OnPlatform x:TypeArguments="x:Double">
+                        <On Platform="iOS">330</On>
+                        <On Platform="Android">280</On>
+                    </OnPlatform>
+                </Frame.HeightRequest>
                 <Grid>
                     <Grid.RowDefinitions>
                         <RowDefinition Height="auto"/>
@@ -149,7 +209,13 @@
                     <Button Grid.Row="2" Text="Ver Menu" TextColor="White"  BackgroundColor="DarkBlue" FontSize="Small"  FontAttributes="Bold" HorizontalOptions="Center" Clicked="Button_Clicked_6"></Button>
                 </Grid>
             </Frame>
-            <Frame Padding="1.0" Margin="1.0" HeightRequest="450" BackgroundColor="White">
+            <Frame Padding="1.0" Margin="1.0" BackgroundColor="White">
+                <Frame.HeightRequest>
+                    <OnPlatform x:TypeArguments="x:Double">
+                        <On Platform="iOS">450</On>
+                        <On Platform="Android">390</On>
+                    </OnPlatform>
+                </Frame.HeightRequest>
                 <Grid>
                     <Grid.RowDefinitions>
                         <RowDefinition Height="auto"/>

@@ -6,7 +6,13 @@
     <ContentPage.Content>
         <ScrollView>
             <StackLayout BackgroundColor="LightBlue">
-                <Frame Padding="10" Margin="10" HeightRequest="300" BackgroundColor="White">
+                <Frame Padding="10" Margin="10" BackgroundColor="White">
+                    <Frame.HeightRequest>
+                        <OnPlatform x:TypeArguments="x:Double">
+                            <On Platform="iOS">300</On>
+                            <On Platform="Android">260</On>
+                        </OnPlatform>
+                    </Frame.HeightRequest>
                     <Grid>
                         <Grid.RowDefinitions>
                             <RowDefinition Height="auto"/>

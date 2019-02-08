@@ -5,7 +5,7 @@
              Title="Bebidas">
     <ScrollView>
         <StackLayout>
-            <Frame Padding="1.0" Margin="1.0" HeightRequest="520" BackgroundColor="White">
+            <Frame  Padding="10" Margin="10" HeightRequest="520" BackgroundColor="White">
                 <Grid HorizontalOptions="Center">
                     <Grid.RowDefinitions>
                         <RowDefinition Height="auto"/>

@@ -9,10 +9,21 @@
 
     <ScrollView>
         <StackLayout BackgroundColor="LightBlue">
+            <StackLayout.Margin>
+                <OnPlatform x:TypeArguments="Thickness">
+                    <On Platform="iOS" Value="0,0,0,0" />
+                </OnPlatform>
+            </StackLayout.Margin>
             <StackLayout>
                 <Image Source="LogoOficialHotel.png"></Image>
             </StackLayout>
-            <Frame Padding="10" Margin="10" HeightRequest="250" BackgroundColor="White">
+            <Frame Padding="10" Margin="10" BackgroundColor="White">
+                <Frame.HeightRequest>
+                    <OnPlatform x:TypeArguments="x:Double">
+                        <On Platform="iOS">300</On>
+                        <On Platform="Android">240</On>
+                    </OnPlatform>
+                </Frame.HeightRequest>
                 <Grid>
                     <Grid.RowDefinitions>
                         <RowDefinition Height="auto"/>
@@ -24,7 +35,13 @@
                     <Button Grid.Row="2" Text="Ver Descripcion" BackgroundColor="DarkBlue" TextColor="White" Clicked="Button_Clicked"></Button>
                 </Grid>
             </Frame>
-            <Frame Padding="10" Margin="10" HeightRequest="250" BackgroundColor="White">
+            <Frame Padding="10" Margin="10" BackgroundColor="White">
+                <Frame.HeightRequest>
+                    <OnPlatform x:TypeArguments="x:Double">
+                        <On Platform="iOS">300</On>
+                        <On Platform="Android">240</On>
+                    </OnPlatform>
+                </Frame.HeightRequest>
                 <Grid>
                     <Grid.RowDefinitions>
                         <RowDefinition Height="auto"/>
@@ -36,7 +53,13 @@
                     <Button Grid.Row="2" Text="Ver Descripcion" BackgroundColor="DarkBlue" TextColor="White" Clicked="Button_Clicked_1"></Button>
                 </Grid>
             </Frame>
-            <Frame Padding="10" Margin="10" HeightRequest="300" BackgroundColor="White">
+            <Frame Padding="10" Margin="10"  BackgroundColor="White">
+                <Frame.HeightRequest>
+                    <OnPlatform x:TypeArguments="x:Double">
+                        <On Platform="iOS">300</On>
+                        <On Platform="Android">240</On>
+                    </OnPlatform>
+                </Frame.HeightRequest>
                 <Grid>
                     <Grid.RowDefinitions>
                         <RowDefinition Height="auto"/>

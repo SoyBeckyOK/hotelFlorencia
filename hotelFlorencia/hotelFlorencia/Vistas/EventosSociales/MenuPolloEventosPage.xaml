@@ -5,7 +5,13 @@
              Title="Menu de Cenas o Almuerzos de Pollo">
     <ScrollView>
         <StackLayout BackgroundColor="LightBlue">
-            <Frame Padding="10" Margin="10" HeightRequest="300" BackgroundColor="White">
+            <Frame Padding="10" Margin="10" BackgroundColor="White">
+                <Frame.HeightRequest>
+                    <OnPlatform x:TypeArguments="x:Double">
+                        <On Platform="iOS">300</On>
+                        <On Platform="Android">240</On>
+                    </OnPlatform>
+                </Frame.HeightRequest>
                 <Grid>
                     <Grid.RowDefinitions>
                         <RowDefinition Height="auto"/>
@@ -17,7 +23,13 @@
                     <Label Grid.Row="2" Text="Es un exquisito  filete de pollo en salsa  de cilantro, acompañado de arroz primavera y vegetales a la peperonata."></Label>
                 </Grid>
             </Frame>
-            <Frame Padding="10" Margin="10" HeightRequest="300" BackgroundColor="White">
+            <Frame Padding="10" Margin="10" BackgroundColor="White">
+                <Frame.HeightRequest>
+                    <OnPlatform x:TypeArguments="x:Double">
+                        <On Platform="iOS">300</On>
+                        <On Platform="Android">240</On>
+                    </OnPlatform>
+                </Frame.HeightRequest>
                 <Grid>
                     <Grid.RowDefinitions>
                         <RowDefinition Height="auto"/>
@@ -29,7 +41,13 @@
                     <Label Grid.Row="2" Text="Es un exquisito filete de pollo en salsa de champiñones al vino tinto, acompañado de vegetales tipo oriental, arroz ecuatoriano."></Label>
                 </Grid>
             </Frame>
-            <Frame Padding="10" Margin="10" HeightRequest="300" BackgroundColor="White">
+            <Frame Padding="10" Margin="10" BackgroundColor="White">
+                <Frame.HeightRequest>
+                    <OnPlatform x:TypeArguments="x:Double">
+                        <On Platform="iOS">300</On>
+                        <On Platform="Android">240</On>
+                    </OnPlatform>
+                </Frame.HeightRequest>
                 <Grid>
                     <Grid.RowDefinitions>
                         <RowDefinition Height="auto"/>
@@ -41,7 +59,13 @@
                     <Label Grid.Row="2" Text="Es un exquisito filete de pollo relleno de albahaca y queso mozarela bañado con salsa al vino blanco, acompañado con vegetales salteados a la mantequilla y arroz  a la jardinera."></Label>
                 </Grid>
             </Frame>
-            <Frame Padding="10" Margin="10" HeightRequest="300" BackgroundColor="White">
+            <Frame Padding="10" Margin="10" BackgroundColor="White">
+                <Frame.HeightRequest>
+                    <OnPlatform x:TypeArguments="x:Double">
+                        <On Platform="iOS">300</On>
+                        <On Platform="Android">240</On>
+                    </OnPlatform>
+                </Frame.HeightRequest>
                 <Grid>
                     <Grid.RowDefinitions>
                         <RowDefinition Height="auto"/>
@@ -53,7 +77,13 @@
                     <Label Grid.Row="2" Text="Es un exquisito filete de pollo relleno de espinaca con queso mozarela bañado en salsa de semilla de marañón, acompañado con vegetales y pimiento relleno de arroz gratinado."></Label>
                 </Grid>
             </Frame>
-            <Frame Padding="10" Margin="10" HeightRequest="300" BackgroundColor="White">
+            <Frame Padding="10" Margin="10" BackgroundColor="White">
+                <Frame.HeightRequest>
+                    <OnPlatform x:TypeArguments="x:Double">
+                        <On Platform="iOS">300</On>
+                        <On Platform="Android">240</On>
+                    </OnPlatform>
+                </Frame.HeightRequest>
                 <Grid>
                     <Grid.RowDefinitions>
                         <RowDefinition Height="auto"/>
@@ -65,7 +95,13 @@
                     <Label Grid.Row="2" Text="Es un delicioso filete de pollo marinado con especias y luego rellenado con chipilín, tocino ahumado y queso mozarela, acompañado de una salsa al vino blanco, papa William y vegetales al vapor."></Label>
                 </Grid>
             </Frame>
-            <Frame Padding="10" Margin="10" HeightRequest="300" BackgroundColor="White">
+            <Frame Padding="10" Margin="10" BackgroundColor="White">
+                <Frame.HeightRequest>
+                    <OnPlatform x:TypeArguments="x:Double">
+                        <On Platform="iOS">300</On>
+                        <On Platform="Android">240</On>
+                    </OnPlatform>
+                </Frame.HeightRequest>
                 <Grid>
                     <Grid.RowDefinitions>
                         <RowDefinition Height="auto"/>

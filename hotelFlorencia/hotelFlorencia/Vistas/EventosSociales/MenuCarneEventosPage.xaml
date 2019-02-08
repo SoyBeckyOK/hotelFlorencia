@@ -5,7 +5,13 @@
              Title="Menu Cenas  o Almuerzos de Carne">
     <ScrollView>
         <StackLayout>
-            <Frame Padding="1.0" Margin="1.0" HeightRequest="300" BackgroundColor="White">
+            <Frame Padding="1.0" Margin="1.0" BackgroundColor="White">
+                <Frame.HeightRequest>
+                    <OnPlatform x:TypeArguments="x:Double">
+                        <On Platform="iOS">300</On>
+                        <On Platform="Android">240</On>
+                    </OnPlatform>
+                </Frame.HeightRequest>
                 <Grid>
                     <Grid.RowDefinitions>
                         <RowDefinition Height="auto"/>
@@ -17,7 +23,13 @@
                     <Label Grid.Row="2" Text="Es un exquisito steak de lomito de res en salsa de champiñones al vino tinto, acompañado de arroz primavera, vegetales tipo oriental."></Label>
                 </Grid>
             </Frame>
-            <Frame Padding="1.0" Margin="1.0" HeightRequest="330" BackgroundColor="White">
+            <Frame Padding="1.0" Margin="1.0" BackgroundColor="White">
+                <Frame.HeightRequest>
+                    <OnPlatform x:TypeArguments="x:Double">
+                        <On Platform="iOS">330</On>
+                        <On Platform="Android">270</On>
+                    </OnPlatform>
+                </Frame.HeightRequest>
                 <Grid>
                     <Grid.RowDefinitions>
                         <RowDefinition Height="auto"/>
@@ -29,7 +41,13 @@
                     <Label Grid.Row="2" Text="Es un exquisito lomo de aguja (tender loins) al estilo Florencia enrollado con una lasca de tocino ahumado y bañado con una salsa de champiñones, acompañado de vegetales a la mantequilla y papa rellena."></Label>
                 </Grid>
             </Frame>
-            <Frame Padding="1.0" Margin="1.0" HeightRequest="330" BackgroundColor="White">
+            <Frame Padding="1.0" Margin="1.0" BackgroundColor="White">
+                <Frame.HeightRequest>
+                    <OnPlatform x:TypeArguments="x:Double">
+                        <On Platform="iOS">330</On>
+                        <On Platform="Android">270</On>
+                    </OnPlatform>
+                </Frame.HeightRequest>
                 <Grid>
                     <Grid.RowDefinitions>
                         <RowDefinition Height="auto"/>
@@ -41,7 +59,13 @@
                     <Label Grid.Row="2" Text="Es un delicioso lomo de aguja (tender loins)  con una salsa de tamarindo regional, acompañado con babys patatas al horno con especias y vegetales al ajillo."></Label>
                 </Grid>
             </Frame>
-            <Frame Padding="1.0" Margin="1.0" HeightRequest="330" BackgroundColor="White">
+            <Frame Padding="1.0" Margin="1.0"  BackgroundColor="White">
+                <Frame.HeightRequest>
+                    <OnPlatform x:TypeArguments="x:Double">
+                        <On Platform="iOS">330</On>
+                        <On Platform="Android">270</On>
+                    </OnPlatform>
+                </Frame.HeightRequest>
                 <Grid>
                     <Grid.RowDefinitions>
                         <RowDefinition Height="auto"/>
