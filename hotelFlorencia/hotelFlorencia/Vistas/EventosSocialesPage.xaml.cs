@@ -24,7 +24,7 @@ namespace hotelFlorencia.Vistas
 
         private async void Btn_BabyShower_Clicked(object sender, EventArgs e)
         {
-            await App.Current.MainPage.Navigation.PushAsync(new BabyShowerMenuEvento());
+          //  await App.Current.MainPage.Navigation.PushAsync(new BabyShowerMenuEvento());
         }
 
         private async void Btn_Boda_Clicked(object sender, EventArgs e)
