@@ -10,7 +10,7 @@
 	<key>UISupportedInterfaceOrientations</key>
 	<array>
 		<string>UIInterfaceOrientationPortrait</string>
-		<string>UIInterfaceOrientationLandscapeLeft</string>
+		<string>UIInterfaceOrientationPortraitUpsideDown</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
 	<key>UISupportedInterfaceOrientations~ipad</key>
@@ -23,7 +23,7 @@
 	<key>MinimumOSVersion</key>
 	<string>8.0</string>
 	<key>CFBundleDisplayName</key>
-	<string>hotelFlorencia</string>
+	<string>Hotel Florencia APP</string>
 	<key>CFBundleIdentifier</key>
 	<string>com.companyname.hotelFlorencia</string>
 	<key>CFBundleVersion</key>
@@ -51,14 +51,11 @@
 	</array>
 	<key>XSLaunchImageAssets</key>
 	<string>Assets.xcassets/LaunchImages.launchimage</string>
-
-	 <key>NSLocationUsageDescription</key>
-    <string>AIzaSyDTpaG1SbywqoCzBU82d4jSBGLCpB_gzgg</string>
-
-    <key>NSLocationAlwaysUsageDescription</key>
-    <string>AIzaSyDTpaG1SbywqoCzBU82d4jSBGLCpB_gzgg</string>
-	
-    <key>NSLocationWhenInUseUsageDescription</key>
-    <string>AIzaSyDTpaG1SbywqoCzBU82d4jSBGLCpB_gzgg</string>
+	<key>NSLocationUsageDescription</key>
+	<string>AIzaSyDTpaG1SbywqoCzBU82d4jSBGLCpB_gzgg</string>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>AIzaSyDTpaG1SbywqoCzBU82d4jSBGLCpB_gzgg</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>AIzaSyDTpaG1SbywqoCzBU82d4jSBGLCpB_gzgg</string>
 </dict>
 </plist>
