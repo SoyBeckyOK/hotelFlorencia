@@ -9,7 +9,7 @@
                 <Frame.HeightRequest>
                     <OnPlatform x:TypeArguments="x:Double">
                         <On Platform="iOS">350</On>
-                        <On Platform="Android">260</On>
+                        <On Platform="Android">330</On>
                     </OnPlatform>
                 </Frame.HeightRequest>
                 <Grid>
@@ -18,7 +18,7 @@
                         <RowDefinition Height="auto"/>
                         <RowDefinition Height="auto"/>
                     </Grid.RowDefinitions>
-                    <Image Grid.Row="0" Source="bodas.jpg"></Image>
+                    <Image Grid.Row="0" Source="eventos2.jpg"></Image>
                     <Label Grid.Row="1" Text="Bodas" FontSize="Small" HorizontalTextAlignment="Center" FontAttributes="Bold"></Label>
                     <Button Grid.Row="2" TextColor="White" Text="Ver Opciones" BackgroundColor="DarkBlue" x:Name="btn_Boda" Clicked="Btn_Boda_Clicked"></Button>
                 </Grid>
@@ -28,7 +28,7 @@
                 <Frame.HeightRequest>
                     <OnPlatform x:TypeArguments="x:Double">
                         <On Platform="iOS">250</On>
-                        <On Platform="Android">180</On>
+                        <On Platform="Android">330</On>
                     </OnPlatform>
                 </Frame.HeightRequest>
                 <Grid>
@@ -37,7 +37,7 @@
                         <RowDefinition Height="auto"/>
                         <RowDefinition Height="auto"/>
                     </Grid.RowDefinitions>
-                    <Image Grid.Row="0" Source="fiestarosa.jpg"></Image>
+                    <Image Grid.Row="0" Source="eventos24.jpg" ></Image>
                     <Label Grid.Row="1" Text="Fiestas Rosa" HorizontalTextAlignment="Center" FontSize="Small" FontAttributes="Bold"></Label>
                     <Button Grid.Row="2" TextColor="White" Text="Ver Opciones" BackgroundColor="DarkBlue" x:Name="btn_FiestaRosa" Clicked="Btn_FiestaRosa_Clicked"></Button>
                 </Grid>
@@ -46,7 +46,7 @@
                 <Frame.HeightRequest>
                     <OnPlatform x:TypeArguments="x:Double">
                         <On Platform="iOS">350</On>
-                        <On Platform="Android">260</On>
+                        <On Platform="Android">350</On>
                     </OnPlatform>
                 </Frame.HeightRequest>
                 <Grid>
@@ -55,7 +55,7 @@
                         <RowDefinition Height="auto"/>
                         <RowDefinition Height="auto"/>
                     </Grid.RowDefinitions>
-                    <Image Grid.Row="0" Source="Graduaciones.jpg"></Image>
+                    <Image Grid.Row="0" Source="eventos17.jpg" WidthRequest="300"></Image>
                     <Label Grid.Row="1" Text="Graduaciones" HorizontalTextAlignment="Center" FontSize="Small" FontAttributes="Bold"></Label>
                     <Button Grid.Row="2" TextColor="White" Text="Ver Opciones" BackgroundColor="DarkBlue" x:Name="btn_Graduaciones" Clicked="Btn_Graduaciones_Clicked"></Button>
                 </Grid>
@@ -65,7 +65,7 @@
                 <Frame.HeightRequest>
                     <OnPlatform x:TypeArguments="x:Double">
                         <On Platform="iOS">480</On>
-                        <On Platform="Android">330</On>
+                        <On Platform="Android">400</On>
                     </OnPlatform>
                 </Frame.HeightRequest>
                 <Grid>
@@ -76,7 +76,7 @@
                         <RowDefinition Height="auto"/>
                         <RowDefinition Height="auto"/>
                     </Grid.RowDefinitions>
-                    <Image Grid.Row="0" Source="bodas.jpg"></Image>
+                    <Image Grid.Row="0" Source="eventos21.jpg"></Image>
                     <Label Grid.Row="1" Text="Nota: Importante" FontSize="Small" HorizontalTextAlignment="Center" FontAttributes="Bold"></Label>
                     <Label Grid.Row="2" Text="- Recargo por uso de  Energía  si trae Disco…. $125.00  y  si es Grupo  pequeño……$175.00"></Label>
                     <Label Grid.Row="3" Text="- Si se pasa de la hora estipulada de su evento habrá un recargo de $75.00 por hora." ></Label>

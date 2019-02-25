@@ -28,7 +28,7 @@ namespace hotelFlorencia
 
             sub.Children.Add(SplashImage);
 
-            this.BackgroundImage = "fondo.jpg";
+            this.BackgroundImage = "habitaciones1.jpg";
             this.Content = sub;
         }
 

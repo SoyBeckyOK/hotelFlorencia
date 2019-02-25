@@ -40,7 +40,7 @@
                         <RowDefinition Height="auto"/>
                         <RowDefinition Height="auto"/>
                     </Grid.RowDefinitions>
-                    <Image Grid.Row="0" Source="bodas.jpg"></Image>
+                    <Image Grid.Row="0" Source="eventos9.jpg"></Image>
                     <Label Grid.Row="1" Text="Reserva de 151 a 200 personas" FontSize="Medium" HorizontalTextAlignment="Center" FontAttributes="Bold"></Label>
                     <Label Grid.Row="2" Text="* Una noche de alojamiento el día del evento, con derecho a desayuno buffet." FontSize="Small"></Label>
                     <Label Grid.Row="3" Text="* 3 menús de degustación al confirmar su reservación" FontSize="Small" ></Label>
@@ -75,7 +75,7 @@
                 <Frame.HeightRequest>
                     <OnPlatform x:TypeArguments="x:Double">
                         <On Platform="iOS">360</On>
-                        <On Platform="Android">280</On>
+                        <On Platform="Android">300</On>
                     </OnPlatform>
                 </Frame.HeightRequest>
                 <Grid>
@@ -119,7 +119,7 @@
                 <Frame.HeightRequest>
                     <OnPlatform x:TypeArguments="x:Double">
                         <On Platform="iOS">360</On>
-                        <On Platform="Android">280</On>
+                        <On Platform="Android">300</On>
                     </OnPlatform>
                 </Frame.HeightRequest>
                 <Grid>
@@ -137,7 +137,7 @@
                 <Frame.HeightRequest>
                     <OnPlatform x:TypeArguments="x:Double">
                         <On Platform="iOS">360</On>
-                        <On Platform="Android">280</On>
+                        <On Platform="Android">300</On>
                     </OnPlatform>
                 </Frame.HeightRequest>
                 <Grid>
@@ -156,7 +156,7 @@
                 <Frame.HeightRequest>
                     <OnPlatform x:TypeArguments="x:Double">
                         <On Platform="iOS">360</On>
-                        <On Platform="Android">280</On>
+                        <On Platform="Android">300</On>
                     </OnPlatform>
                 </Frame.HeightRequest>
                 <Grid>
@@ -174,7 +174,7 @@
                 <Frame.HeightRequest>
                     <OnPlatform x:TypeArguments="x:Double">
                         <On Platform="iOS">360</On>
-                        <On Platform="Android">280</On>
+                        <On Platform="Android">300</On>
                     </OnPlatform>
                 </Frame.HeightRequest>
                 <Grid>
@@ -192,7 +192,7 @@
                 <Frame.HeightRequest>
                     <OnPlatform x:TypeArguments="x:Double">
                         <On Platform="iOS">360</On>
-                        <On Platform="Android">280</On>
+                        <On Platform="Android">300</On>
                     </OnPlatform>
                 </Frame.HeightRequest>
                 <Grid>
@@ -210,7 +210,7 @@
                 <Frame.HeightRequest>
                     <OnPlatform x:TypeArguments="x:Double">
                         <On Platform="iOS">470</On>
-                        <On Platform="Android">390</On>
+                        <On Platform="Android">300</On>
                     </OnPlatform>
                 </Frame.HeightRequest>
                 <Grid>

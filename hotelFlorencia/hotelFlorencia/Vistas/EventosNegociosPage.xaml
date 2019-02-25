@@ -10,7 +10,7 @@
                     <Frame.HeightRequest>
                         <OnPlatform x:TypeArguments="x:Double">
                             <On Platform="iOS">350</On>
-                            <On Platform="Android">260</On>
+                            <On Platform="Android">280</On>
                         </OnPlatform>
                     </Frame.HeightRequest>
                     <Grid>
@@ -19,7 +19,7 @@
                             <RowDefinition Height="auto"/>
                             <RowDefinition Height="auto"/>
                         </Grid.RowDefinitions>
-                        <Image Grid.Row="0" Source="NegociosImage.jpg"></Image>
+                        <Image Grid.Row="0" Source="eventos27.png"></Image>
                         <Label Grid.Row="1" Text="Reuniones de Negocios" FontSize="Small" HorizontalTextAlignment="Center" FontAttributes="Bold"></Label>
                         <Button Grid.Row="2" Text="Ver Menu" TextColor="White" BackgroundColor="DarkBlue" Clicked="Button_Clicked"></Button>
                     </Grid>

@@ -26,7 +26,7 @@
                         <RowDefinition Height="auto"/>
                         <RowDefinition Height="auto"/>
                     </Grid.RowDefinitions>
-                    <Image Grid.Row="0" Source="bodas.jpg"></Image>
+                    <Image Grid.Row="0" Source="eventos22.jpg"></Image>
                     <Label Grid.Row="1" Text="Beneficios de Realizar una Graduacion con Nosotros" FontSize="Medium" HorizontalTextAlignment="Center" FontAttributes="Bold"></Label>
                     <Label Grid.Row="2" Text="* Personal calificado y con deseos de servirle."></Label>
                     <Label Grid.Row="3" Text="* Instalaciones con aire acondicionado."></Label>
@@ -42,7 +42,7 @@
                 <Frame.HeightRequest>
                     <OnPlatform x:TypeArguments="x:Double">
                         <On Platform="iOS">330</On>
-                        <On Platform="Android">240</On>
+                        <On Platform="Android">260</On>
                     </OnPlatform>
                 </Frame.HeightRequest>
                 <Grid>
@@ -72,7 +72,7 @@
                 <Frame.HeightRequest>
                     <OnPlatform x:TypeArguments="x:Double">
                         <On Platform="iOS">470</On>
-                        <On Platform="Android">390</On>
+                        <On Platform="Android">420</On>
                     </OnPlatform>
                 </Frame.HeightRequest>
                 <Grid>
@@ -83,7 +83,7 @@
                         <RowDefinition Height="auto"/>
                         <RowDefinition Height="auto"/>
                     </Grid.RowDefinitions>
-                    <Image Grid.Row="0" Source="Entradas.jpg"></Image>
+                    <Image Grid.Row="0" Source="eventos25.jpg"></Image>
                     <Label Grid.Row="1" Text="Nota: " FontSize="Large"  FontAttributes="Bold"></Label>
                     <Label Grid.Row="2" Text="* Todos los menús incluyen una entrada: Crema de brócoli con champiñones. Crema de tomate, Crema de esparrago o Consomé." FontSize="Small"  FontAttributes="Bold"></Label>
                     <Label Grid.Row="3" Text="* Si es domicilio de entrada incluye Dips de Queso con palitos (1 por mesa de 10 pax).." FontSize="Small"  FontAttributes="Bold"></Label>
@@ -95,7 +95,7 @@
                 <Frame.HeightRequest>
                     <OnPlatform x:TypeArguments="x:Double">
                         <On Platform="iOS">360</On>
-                        <On Platform="Android">260</On>
+                        <On Platform="Android">300</On>
                     </OnPlatform>
                 </Frame.HeightRequest>
                 <Grid>
@@ -113,7 +113,7 @@
                 <Frame.HeightRequest>
                     <OnPlatform x:TypeArguments="x:Double">
                         <On Platform="iOS">380</On>
-                        <On Platform="Android">290</On>
+                        <On Platform="Android">320</On>
                     </OnPlatform>
                 </Frame.HeightRequest>
                 <Grid>
@@ -139,7 +139,7 @@
                 <Frame.HeightRequest>
                     <OnPlatform x:TypeArguments="x:Double">
                         <On Platform="iOS">360</On>
-                        <On Platform="Android">290</On>
+                        <On Platform="Android">320</On>
                     </OnPlatform>
                 </Frame.HeightRequest>
                 <Grid>
@@ -148,7 +148,7 @@
                         <RowDefinition Height="auto"/>
                         <RowDefinition Height="auto"/>
                     </Grid.RowDefinitions>
-                    <Image Grid.Row="0" Source="Entradas.jpg"></Image>
+                    <Image Grid.Row="0" Source="comidas3.jpg"></Image>
                     <Label Grid.Row="1" Text="Menu para Niños" FontSize="Medium" HorizontalOptions="Center" FontAttributes="Bold"></Label>
                     <Button Grid.Row="2" Text="Ver Menu" TextColor="White" BackgroundColor="DarkBlue" FontSize="Small"  FontAttributes="Bold" HorizontalOptions="Center" Clicked="Button_Clicked_1"></Button>
                 </Grid>
@@ -157,7 +157,7 @@
                 <Frame.HeightRequest>
                     <OnPlatform x:TypeArguments="x:Double">
                         <On Platform="iOS">360</On>
-                        <On Platform="Android">290</On>
+                        <On Platform="Android">320</On>
                     </OnPlatform>
                 </Frame.HeightRequest>
                 <Grid>
@@ -166,7 +166,7 @@
                         <RowDefinition Height="auto"/>
                         <RowDefinition Height="auto"/>
                     </Grid.RowDefinitions>
-                    <Image Grid.Row="0" Source="Entradas.jpg"></Image>
+                    <Image Grid.Row="0" Source="comidas8.jpg"></Image>
                     <Label Grid.Row="1" Text="Menu de Cena o Almuerzo de Pollo" FontSize="Medium" HorizontalOptions="Center" FontAttributes="Bold"></Label>
                     <Button Grid.Row="2" Text="Ver Menu" TextColor="White" BackgroundColor="DarkBlue" FontSize="Small"  FontAttributes="Bold" HorizontalOptions="Center" Clicked="Button_Clicked_2"></Button>
                 </Grid>
@@ -176,7 +176,7 @@
                 <Frame.HeightRequest>
                     <OnPlatform x:TypeArguments="x:Double">
                         <On Platform="iOS">360</On>
-                        <On Platform="Android">290</On>
+                        <On Platform="Android">320</On>
                     </OnPlatform>
                 </Frame.HeightRequest>
                 <Grid>
@@ -185,7 +185,7 @@
                         <RowDefinition Height="auto"/>
                         <RowDefinition Height="auto"/>
                     </Grid.RowDefinitions>
-                    <Image Grid.Row="0" Source="Entradas.jpg"></Image>
+                    <Image Grid.Row="0" Source="comidas6.jpg"></Image>
                     <Label Grid.Row="1" Text="Menu de Cenas o Almuerzos Carnes" FontSize="Medium" HorizontalOptions="Center"  FontAttributes="Bold"></Label>
                     <Button Grid.Row="2" Text="Ver Menu" TextColor="White" BackgroundColor="DarkBlue" FontSize="Small"  FontAttributes="Bold" HorizontalOptions="Center" Clicked="Button_Clicked_3" ></Button>
                 </Grid>
@@ -194,7 +194,7 @@
                 <Frame.HeightRequest>
                     <OnPlatform x:TypeArguments="x:Double">
                         <On Platform="iOS">360</On>
-                        <On Platform="Android">290</On>
+                        <On Platform="Android">320</On>
                     </OnPlatform>
                 </Frame.HeightRequest>
                 <Grid>
@@ -203,7 +203,7 @@
                         <RowDefinition Height="auto"/>
                         <RowDefinition Height="auto"/>
                     </Grid.RowDefinitions>
-                    <Image Grid.Row="0" Source="Entradas.jpg"></Image>
+                    <Image Grid.Row="0" Source="comidas7.jpg"></Image>
                     <Label Grid.Row="1" Text="Menu de Cenas o Almuerzos Mixtos" FontSize="Medium" HorizontalOptions="Center" FontAttributes="Bold"></Label>
                     <Button Grid.Row="2" Text="Ver Menu" TextColor="White" BackgroundColor="DarkBlue" FontSize="Small"  FontAttributes="Bold" HorizontalOptions="Center" Clicked="Button_Clicked_4"></Button>
                 </Grid>
@@ -212,7 +212,7 @@
                 <Frame.HeightRequest>
                     <OnPlatform x:TypeArguments="x:Double">
                         <On Platform="iOS">360</On>
-                        <On Platform="Android">290</On>
+                        <On Platform="Android">330</On>
                     </OnPlatform>
                 </Frame.HeightRequest>
                 <Grid>
@@ -221,7 +221,7 @@
                         <RowDefinition Height="auto"/>
                         <RowDefinition Height="auto"/>
                     </Grid.RowDefinitions>
-                    <Image Grid.Row="0" Source="Entradas.jpg"></Image>
+                    <Image Grid.Row="0" Source="comidas5.jpg"></Image>
                     <Label Grid.Row="1" Text="Menu de Cenas o Almuerzos de Mariscos" FontSize="Medium" VerticalTextAlignment="Center" HorizontalOptions="Center" FontAttributes="Bold"></Label>
                     <Button Grid.Row="2" Text="Ver Menu" TextColor="White"  BackgroundColor="DarkBlue" FontSize="Small"  FontAttributes="Bold" HorizontalOptions="Center" Clicked="Button_Clicked_5"></Button>
                 </Grid>

@@ -21,7 +21,7 @@
                 <Frame.HeightRequest>
                     <OnPlatform x:TypeArguments="x:Double">
                         <On Platform="iOS">350</On>
-                        <On Platform="Android">240</On>
+                        <On Platform="Android">380</On>
                     </OnPlatform>
                 </Frame.HeightRequest>
                 <Grid>
@@ -30,7 +30,7 @@
                         <RowDefinition Height="auto"/>
                         <RowDefinition Height="auto"/>
                     </Grid.RowDefinitions>
-                    <Image Grid.Row="0" Source="Suit.jpg"></Image>
+                    <Image Grid.Row="0" Source="habitaciones1.jpg" HeightRequest="300"></Image>
                     <Label Grid.Row="1" Text="Habitacion Sencilla" FontSize="Small" HorizontalTextAlignment="Center" FontAttributes="Bold"></Label>
                     <Button Grid.Row="2" Text="Ver Descripcion" BackgroundColor="DarkBlue" TextColor="White" Clicked="Button_Clicked"></Button>
                 </Grid>
@@ -39,7 +39,7 @@
                 <Frame.HeightRequest>
                     <OnPlatform x:TypeArguments="x:Double">
                         <On Platform="iOS">350</On>
-                        <On Platform="Android">240</On>
+                        <On Platform="Android">280</On>
                     </OnPlatform>
                 </Frame.HeightRequest>
                 <Grid>
@@ -48,7 +48,7 @@
                         <RowDefinition Height="auto"/>
                         <RowDefinition Height="auto"/>
                     </Grid.RowDefinitions>
-                    <Image Grid.Row="0" Source="HabitacionDoble.jpg"></Image>
+                    <Image Grid.Row="0" Source="HabitacionDoble.jpg" WidthRequest="300"></Image>
                     <Label Grid.Row="1" Text="Habitacion Doble" FontSize="Small" HorizontalTextAlignment="Center" FontAttributes="Bold"></Label>
                     <Button Grid.Row="2" Text="Ver Descripcion" BackgroundColor="DarkBlue" TextColor="White" Clicked="Button_Clicked_1"></Button>
                 </Grid>
@@ -57,7 +57,7 @@
                 <Frame.HeightRequest>
                     <OnPlatform x:TypeArguments="x:Double">
                         <On Platform="iOS">360</On>
-                        <On Platform="Android">240</On>
+                        <On Platform="Android">300</On>
                     </OnPlatform>
                 </Frame.HeightRequest>
                 <Grid>
@@ -66,7 +66,7 @@
                         <RowDefinition Height="auto"/>
                         <RowDefinition Height="auto"/>
                     </Grid.RowDefinitions>
-                    <Image Grid.Row="0" Source="HabitacionTriple.jpg"></Image>
+                    <Image Grid.Row="0" Source="HabitacionTriple.jpg" WidthRequest="300"></Image>
                     <Label Grid.Row="1" Text="Habitacion Triple" FontSize="Small" HorizontalTextAlignment="Center" FontAttributes="Bold"></Label>
                     <Button Grid.Row="2" Text="Ver Descripcion" BackgroundColor="DarkBlue" TextColor="White" Clicked="Button_Clicked_2"></Button>
                 </Grid>
@@ -75,7 +75,10 @@
                 <Label Text="Area de Piscina" HorizontalOptions="Center" FontSize="Large" FontAttributes="Bold"/>
             </Frame>
             <Frame>
-                <Image Source=""></Image>
+                <Image Source="piscina.jpg" WidthRequest="300"></Image>
+            </Frame>
+            <Frame>
+                <Image Source="Piscina2.jpg" WidthRequest="300"></Image>
             </Frame>
         </StackLayout>
     </ScrollView>

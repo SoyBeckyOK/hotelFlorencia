@@ -223,15 +223,6 @@
     <BundleResource Include="Resources\favorite.png" />
   </ItemGroup>
   <ItemGroup>
-    <BundleResource Include="Resources\fiestarosa.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <BundleResource Include="Resources\fondito.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <BundleResource Include="Resources\fondo.jpg" />
-  </ItemGroup>
-  <ItemGroup>
     <BundleResource Include="Resources\fondoframe.jpg" />
   </ItemGroup>
   <ItemGroup>
@@ -307,22 +298,13 @@
     <BundleResource Include="Resources\LogoTelefono.png" />
   </ItemGroup>
   <ItemGroup>
-    <BundleResource Include="Resources\NegociosImage.jpg" />
-  </ItemGroup>
-  <ItemGroup>
     <BundleResource Include="Resources\Parrilladas.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <BundleResource Include="Resources\piscina.jpg" />
   </ItemGroup>
   <ItemGroup>
     <BundleResource Include="Resources\Postres.jpg" />
   </ItemGroup>
   <ItemGroup>
     <BundleResource Include="Resources\Restaurante.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <BundleResource Include="Resources\Suit.jpg" />
   </ItemGroup>
   <ItemGroup>
     <BundleResource Include="Resources\video.png" />
@@ -338,5 +320,8 @@
   </ItemGroup>
   <ItemGroup>
     <BundleResource Include="Resources\Default-Portrait%402x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\habitaciones1.png" />
   </ItemGroup>
 </Project>

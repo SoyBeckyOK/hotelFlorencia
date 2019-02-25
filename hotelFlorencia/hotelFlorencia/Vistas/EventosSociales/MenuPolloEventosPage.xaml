@@ -18,7 +18,7 @@
                         <RowDefinition Height="auto"/>
                         <RowDefinition Height="auto"/>
                     </Grid.RowDefinitions>
-                    <Image Grid.Row="0" Source="Entradas.jpg"></Image>
+                    <Image Grid.Row="0" Source="comidas12.jpg"></Image>
                     <Label Grid.Row="1" Text="Pollo en Salsa de Cilantro... $13.50" FontSize="Medium" HorizontalTextAlignment="Center" FontAttributes="Bold"></Label>
                     <Label Grid.Row="2" Text="Es un exquisito  filete de pollo en salsa  de cilantro, acompañado de arroz primavera y vegetales a la peperonata."></Label>
                 </Grid>
@@ -36,7 +36,7 @@
                         <RowDefinition Height="auto"/>
                         <RowDefinition Height="auto"/>
                     </Grid.RowDefinitions>
-                    <Image Grid.Row="0" Source="Entradas.jpg"></Image>
+                    <Image Grid.Row="0" Source="comidas12.jpg"></Image>
                     <Label Grid.Row="1" Text="Pollo en Salsa de Hongos... $13.50" FontSize="Medium" HorizontalTextAlignment="Center" FontAttributes="Bold"></Label>
                     <Label Grid.Row="2" Text="Es un exquisito filete de pollo en salsa de champiñones al vino tinto, acompañado de vegetales tipo oriental, arroz ecuatoriano."></Label>
                 </Grid>
@@ -54,7 +54,7 @@
                         <RowDefinition Height="auto"/>
                         <RowDefinition Height="auto"/>
                     </Grid.RowDefinitions>
-                    <Image Grid.Row="0" Source="Entradas.jpg"></Image>
+                    <Image Grid.Row="0" Source="comidas12.jpg"></Image>
                     <Label Grid.Row="1" Text="Pollo con Albahaca... $13.95" FontSize="Medium" HorizontalTextAlignment="Center" FontAttributes="Bold"></Label>
                     <Label Grid.Row="2" Text="Es un exquisito filete de pollo relleno de albahaca y queso mozarela bañado con salsa al vino blanco, acompañado con vegetales salteados a la mantequilla y arroz  a la jardinera."></Label>
                 </Grid>
@@ -72,7 +72,7 @@
                         <RowDefinition Height="auto"/>
                         <RowDefinition Height="auto"/>
                     </Grid.RowDefinitions>
-                    <Image Grid.Row="0" Source="Entradas.jpg"></Image>
+                    <Image Grid.Row="0" Source="comidas12.jpg"></Image>
                     <Label Grid.Row="1" Text="Pollo Florentina... $13.95" FontSize="Medium" HorizontalTextAlignment="Center" FontAttributes="Bold"></Label>
                     <Label Grid.Row="2" Text="Es un exquisito filete de pollo relleno de espinaca con queso mozarela bañado en salsa de semilla de marañón, acompañado con vegetales y pimiento relleno de arroz gratinado."></Label>
                 </Grid>
@@ -90,7 +90,7 @@
                         <RowDefinition Height="auto"/>
                         <RowDefinition Height="auto"/>
                     </Grid.RowDefinitions>
-                    <Image Grid.Row="0" Source="Entradas.jpg"></Image>
+                    <Image Grid.Row="0" Source="comidas12.jpg"></Image>
                     <Label Grid.Row="1" Text="Pollo Doña Margarita... $13.95" FontSize="Medium" HorizontalTextAlignment="Center" FontAttributes="Bold"></Label>
                     <Label Grid.Row="2" Text="Es un delicioso filete de pollo marinado con especias y luego rellenado con chipilín, tocino ahumado y queso mozarela, acompañado de una salsa al vino blanco, papa William y vegetales al vapor."></Label>
                 </Grid>
@@ -108,7 +108,7 @@
                         <RowDefinition Height="auto"/>
                         <RowDefinition Height="auto"/>
                     </Grid.RowDefinitions>
-                    <Image Grid.Row="0" Source="Entradas.jpg"></Image>
+                    <Image Grid.Row="0" Source="comidas12.jpg"></Image>
                     <Label Grid.Row="1" Text="Pollo Cordon Blue... $13.95" FontSize="Medium" HorizontalTextAlignment="Center" FontAttributes="Bold"></Label>
                     <Label Grid.Row="2" Text="Es un exquisito filete de pollo relleno de jamón  y queso craff  bañado con salsa de hongo, acompañado con vegetales chinos y arroz ecuatoriano."></Label>
                 </Grid>

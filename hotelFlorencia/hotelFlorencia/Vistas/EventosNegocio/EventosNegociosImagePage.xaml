@@ -9,7 +9,7 @@
                 <Frame.HeightRequest>
                     <OnPlatform x:TypeArguments="x:Double">
                         <On Platform="iOS">530</On>
-                        <On Platform="Android">390</On>
+                        <On Platform="Android">410</On>
                     </OnPlatform>
                 </Frame.HeightRequest>
                 <Grid>
@@ -25,7 +25,7 @@
                         <RowDefinition Height="auto"/>
                         <RowDefinition Height="auto"/>
                     </Grid.RowDefinitions>
-                    <Image Grid.Row="0" Source="bodas.jpg"></Image>
+                    <Image Grid.Row="0" Source="eventos19.jpg"></Image>
                     <Label Grid.Row="1" Text="Beneficios de Realizar tu Evento con Nosotros" FontSize="Small" HorizontalTextAlignment="Center" FontAttributes="Bold"></Label>
                     <Label Grid.Row="2" Text="* Personal calificado y con deseos de servirle."></Label>
                     <Label Grid.Row="3" Text="* Instalaciones con aire acondicionado."></Label>
@@ -45,7 +45,7 @@
                 <Frame.HeightRequest>
                     <OnPlatform x:TypeArguments="x:Double">
                         <On Platform="iOS">460</On>
-                        <On Platform="Android">390</On>
+                        <On Platform="Android">400</On>
                     </OnPlatform>
                 </Frame.HeightRequest>
                 <Grid>
@@ -68,7 +68,7 @@
                 <Frame.HeightRequest>
                     <OnPlatform x:TypeArguments="x:Double">
                         <On Platform="iOS">350</On>
-                        <On Platform="Android">260</On>
+                        <On Platform="Android">320</On>
                     </OnPlatform>
                 </Frame.HeightRequest>
                 <Grid>
@@ -86,7 +86,7 @@
                 <Frame.HeightRequest>
                     <OnPlatform x:TypeArguments="x:Double">
                         <On Platform="iOS">350</On>
-                        <On Platform="Android">260</On>
+                        <On Platform="Android">320</On>
                     </OnPlatform>
                 </Frame.HeightRequest>
                 <Grid>
@@ -95,7 +95,7 @@
                         <RowDefinition Height="auto"/>
                         <RowDefinition Height="auto"/>
                     </Grid.RowDefinitions>
-                    <Image Grid.Row="0" Source="Entradas.jpg"></Image>
+                    <Image Grid.Row="0" Source="comidas8.jpg"></Image>
                     <Label Grid.Row="1" Text="Menu de Cena o Almuerzo de Pollo" FontSize="Small" HorizontalOptions="Center" FontAttributes="Bold"></Label>
                     <Button Grid.Row="2" Text="Ver Menu" TextColor="White" BackgroundColor="DarkBlue" FontSize="Small"  FontAttributes="Bold" HorizontalOptions="Center" Clicked="Button_Clicked_1"></Button>
                 </Grid>
@@ -105,7 +105,7 @@
                 <Frame.HeightRequest>
                     <OnPlatform x:TypeArguments="x:Double">
                         <On Platform="iOS">350</On>
-                        <On Platform="Android">260</On>
+                        <On Platform="Android">320</On>
                     </OnPlatform>
                 </Frame.HeightRequest>
                 <Grid>
@@ -114,7 +114,7 @@
                         <RowDefinition Height="auto"/>
                         <RowDefinition Height="auto"/>
                     </Grid.RowDefinitions>
-                    <Image Grid.Row="0" Source="Entradas.jpg"></Image>
+                    <Image Grid.Row="0" Source="comidas6.jpg"></Image>
                     <Label Grid.Row="1" Text="Menu de Cenas o Almuerzos Carnes" FontSize="Small" HorizontalOptions="Center"  FontAttributes="Bold"></Label>
                     <Button Grid.Row="2" Text="Ver Menu" TextColor="White" BackgroundColor="DarkBlue" FontSize="Small"  FontAttributes="Bold" HorizontalOptions="Center" Clicked="Button_Clicked_2" ></Button>
                 </Grid>
@@ -123,7 +123,7 @@
                 <Frame.HeightRequest>
                     <OnPlatform x:TypeArguments="x:Double">
                         <On Platform="iOS">350</On>
-                        <On Platform="Android">260</On>
+                        <On Platform="Android">320</On>
                     </OnPlatform>
                 </Frame.HeightRequest>
                 <Grid>
@@ -132,7 +132,7 @@
                         <RowDefinition Height="auto"/>
                         <RowDefinition Height="auto"/>
                     </Grid.RowDefinitions>
-                    <Image Grid.Row="0" Source="Entradas.jpg"></Image>
+                    <Image Grid.Row="0" Source="comidas7.jpg"></Image>
                     <Label Grid.Row="1" Text="Menu de Cenas o Almuerzos Mixtos" FontSize="Small" HorizontalOptions="Center" FontAttributes="Bold"></Label>
                     <Button Grid.Row="2" Text="Ver Menu" TextColor="White" BackgroundColor="DarkBlue" FontSize="Small"  FontAttributes="Bold" HorizontalOptions="Center" Clicked="Button_Clicked_3"></Button>
                 </Grid>
@@ -141,7 +141,7 @@
                 <Frame.HeightRequest>
                     <OnPlatform x:TypeArguments="x:Double">
                         <On Platform="iOS">350</On>
-                        <On Platform="Android">260</On>
+                        <On Platform="Android">320</On>
                     </OnPlatform>
                 </Frame.HeightRequest>
                 <Grid>
@@ -150,7 +150,7 @@
                         <RowDefinition Height="auto"/>
                         <RowDefinition Height="auto"/>
                     </Grid.RowDefinitions>
-                    <Image Grid.Row="0" Source="Entradas.jpg"></Image>
+                    <Image Grid.Row="0" Source="comidas5.jpg"></Image>
                     <Label Grid.Row="1" Text="Menu de Cenas o Almuerzos de Mariscos" FontSize="Small" VerticalTextAlignment="Center" HorizontalOptions="Center" FontAttributes="Bold"></Label>
                     <Button Grid.Row="2" Text="Ver Menu" TextColor="White"  BackgroundColor="DarkBlue" FontSize="Small"  FontAttributes="Bold" HorizontalOptions="Center" Clicked="Button_Clicked_4"></Button>
                 </Grid>
@@ -159,7 +159,7 @@
                 <Frame.HeightRequest>
                     <OnPlatform x:TypeArguments="x:Double">
                         <On Platform="iOS">350</On>
-                        <On Platform="Android">260</On>
+                        <On Platform="Android">320</On>
                     </OnPlatform>
                 </Frame.HeightRequest>
                 <Grid>

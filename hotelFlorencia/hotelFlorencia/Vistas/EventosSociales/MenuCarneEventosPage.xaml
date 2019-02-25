@@ -18,7 +18,7 @@
                         <RowDefinition Height="auto"/>
                         <RowDefinition Height="auto"/>
                     </Grid.RowDefinitions>
-                    <Image Grid.Row="0" Source="Entradas.jpg"></Image>
+                    <Image Grid.Row="0" Source="comidas6.jpg"></Image>
                     <Label Grid.Row="1" Text="Lomito en Salsa de Hongo... $14.25" FontSize="Medium" FontAttributes="Bold" HorizontalTextAlignment="Center" VerticalTextAlignment="Center"></Label>
                     <Label Grid.Row="2" Text="Es un exquisito steak de lomito de res en salsa de champiñones al vino tinto, acompañado de arroz primavera, vegetales tipo oriental."></Label>
                 </Grid>
@@ -36,7 +36,7 @@
                         <RowDefinition Height="auto"/>
                         <RowDefinition Height="auto"/>
                     </Grid.RowDefinitions>
-                    <Image Grid.Row="0" Source="Entradas.jpg"></Image>
+                    <Image Grid.Row="0" Source="comidas6.jpg"></Image>
                     <Label Grid.Row="1" Text="Filet Miñog... $15.50" FontSize="Medium" HorizontalTextAlignment="Center" FontAttributes="Bold"></Label>
                     <Label Grid.Row="2" Text="Es un exquisito lomo de aguja (tender loins) al estilo Florencia enrollado con una lasca de tocino ahumado y bañado con una salsa de champiñones, acompañado de vegetales a la mantequilla y papa rellena."></Label>
                 </Grid>
@@ -54,7 +54,7 @@
                         <RowDefinition Height="auto"/>
                         <RowDefinition Height="auto"/>
                     </Grid.RowDefinitions>
-                    <Image Grid.Row="0" Source="Entradas.jpg"></Image>
+                    <Image Grid.Row="0" Source="comidas6.jpg"></Image>
                     <Label Grid.Row="1" Text="Steak con Salsa de Tamarindo... $15.50" FontSize="Medium" HorizontalTextAlignment="Center" FontAttributes="Bold"></Label>
                     <Label Grid.Row="2" Text="Es un delicioso lomo de aguja (tender loins)  con una salsa de tamarindo regional, acompañado con babys patatas al horno con especias y vegetales al ajillo."></Label>
                 </Grid>
@@ -72,7 +72,7 @@
                         <RowDefinition Height="auto"/>
                         <RowDefinition Height="auto"/>
                     </Grid.RowDefinitions>
-                    <Image Grid.Row="0" Source="Entradas.jpg"></Image>
+                    <Image Grid.Row="0" Source="comidas6.jpg"></Image>
                     <Label Grid.Row="1" Text="Steak a la Pimienta... $15.50" FontSize="Medium" HorizontalTextAlignment="Center" FontAttributes="Bold"></Label>
                     <Label Grid.Row="2" Text="Son unos medallones lomo calidad (tender loins),  bañados con una salsa a la pimienta al estilo francés, acompañados de papa al romero y vegetales al vapor."></Label>
                 </Grid>
