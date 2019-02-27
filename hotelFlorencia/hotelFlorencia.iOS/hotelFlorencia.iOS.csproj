@@ -226,12 +226,6 @@
     <BundleResource Include="Resources\fondoframe.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <BundleResource Include="Resources\fondohotel.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <BundleResource Include="Resources\fondoPantalla.jpg" />
-  </ItemGroup>
-  <ItemGroup>
     <BundleResource Include="Resources\FondoPrincipal.jpg" />
   </ItemGroup>
   <ItemGroup>
@@ -323,5 +317,149 @@
   </ItemGroup>
   <ItemGroup>
     <BundleResource Include="Resources\habitaciones1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\eventos1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\eventos2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\eventos3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\eventos4.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\eventos5.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\eventos6.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\eventos7.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\eventos8.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\eventos9.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\eventos10.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\eventos11.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\eventos12.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\eventos13.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\eventos14.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\eventos15.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\eventos16.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\eventos17.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\eventos18.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\eventos19.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\eventos20.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\eventos21.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\eventos22.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\eventos23.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\eventos24.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\eventos25.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\eventos26.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\eventos27.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\eventos28.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\comidas1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\comidas2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\comidas3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\comidas4.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\comidas5.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\comidas6.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\comidas7.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\comidas8.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\comidas9.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\comidas10.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\comidas11.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\comidas12.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\habitaciones2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\habitaciones3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\habitaciones4.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\habitaciones5.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\habitaciones6.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\habitaciones7.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Piscina.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Piscina2.jpg" />
   </ItemGroup>
 </Project>

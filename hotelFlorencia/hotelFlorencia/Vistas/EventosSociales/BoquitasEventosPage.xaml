@@ -9,7 +9,7 @@
             <Frame Padding="10" Margin="10"  BackgroundColor="White">
                 <Frame.HeightRequest>
                     <OnPlatform x:TypeArguments="x:Double">
-                        <On Platform="iOS">250</On>
+                        <On Platform="iOS">300</On>
                         <On Platform="Android">190</On>
                     </OnPlatform>
                 </Frame.HeightRequest> 
@@ -27,7 +27,7 @@
             <Frame Padding="10" Margin="10"  BackgroundColor="White">
                 <Frame.HeightRequest>
                     <OnPlatform x:TypeArguments="x:Double">
-                        <On Platform="iOS">250</On>
+                        <On Platform="iOS">300</On>
                         <On Platform="Android">190</On>
                     </OnPlatform>
                 </Frame.HeightRequest>
@@ -43,7 +43,7 @@
             <Frame Padding="10" Margin="10" BackgroundColor="White">
                 <Frame.HeightRequest>
                     <OnPlatform x:TypeArguments="x:Double">
-                        <On Platform="iOS">250</On>
+                        <On Platform="iOS">300</On>
                         <On Platform="Android">190</On>
                     </OnPlatform>
                 </Frame.HeightRequest>
@@ -59,7 +59,7 @@
             <Frame Padding="10" Margin="10" BackgroundColor="White">
                 <Frame.HeightRequest>
                     <OnPlatform x:TypeArguments="x:Double">
-                        <On Platform="iOS">250</On>
+                        <On Platform="iOS">300</On>
                         <On Platform="Android">190</On>
                     </OnPlatform>
                 </Frame.HeightRequest>
@@ -75,7 +75,7 @@
             <Frame Padding="10" Margin="10" BackgroundColor="White">
                 <Frame.HeightRequest>
                     <OnPlatform x:TypeArguments="x:Double">
-                        <On Platform="iOS">250</On>
+                        <On Platform="iOS">300</On>
                         <On Platform="Android">190</On>
                     </OnPlatform>
                 </Frame.HeightRequest>
@@ -91,7 +91,7 @@
             <Frame Padding="10" Margin="10" BackgroundColor="White">
                 <Frame.HeightRequest>
                     <OnPlatform x:TypeArguments="x:Double">
-                        <On Platform="iOS">250</On>
+                        <On Platform="iOS">300</On>
                         <On Platform="Android">190</On>
                     </OnPlatform>
                 </Frame.HeightRequest>
@@ -107,7 +107,7 @@
             <Frame Padding="10" Margin="10" BackgroundColor="White">
                 <Frame.HeightRequest>
                     <OnPlatform x:TypeArguments="x:Double">
-                        <On Platform="iOS">250</On>
+                        <On Platform="iOS">300</On>
                         <On Platform="Android">190</On>
                     </OnPlatform>
                 </Frame.HeightRequest>
@@ -123,7 +123,7 @@
             <Frame Padding="10" Margin="10" BackgroundColor="White">
                 <Frame.HeightRequest>
                     <OnPlatform x:TypeArguments="x:Double">
-                        <On Platform="iOS">250</On>
+                        <On Platform="iOS">300</On>
                         <On Platform="Android">190</On>
                     </OnPlatform>
                 </Frame.HeightRequest>
@@ -139,7 +139,7 @@
             <Frame Padding="10" Margin="10"  BackgroundColor="White">
                 <Frame.HeightRequest>
                     <OnPlatform x:TypeArguments="x:Double">
-                        <On Platform="iOS">250</On>
+                        <On Platform="iOS">300</On>
                         <On Platform="Android">190</On>
                     </OnPlatform>
                 </Frame.HeightRequest>
@@ -155,7 +155,7 @@
             <Frame Padding="10" Margin="10" BackgroundColor="White">
                 <Frame.HeightRequest>
                     <OnPlatform x:TypeArguments="x:Double">
-                        <On Platform="iOS">250</On>
+                        <On Platform="iOS">300</On>
                         <On Platform="Android">190</On>
                     </OnPlatform>
                 </Frame.HeightRequest>
@@ -171,7 +171,7 @@
             <Frame Padding="10" Margin="10" BackgroundColor="White">
                 <Frame.HeightRequest>
                     <OnPlatform x:TypeArguments="x:Double">
-                        <On Platform="iOS">250</On>
+                        <On Platform="iOS">300</On>
                         <On Platform="Android">190</On>
                     </OnPlatform>
                 </Frame.HeightRequest>
@@ -187,7 +187,7 @@
             <Frame Padding="10" Margin="10" BackgroundColor="White">
                 <Frame.HeightRequest>
                     <OnPlatform x:TypeArguments="x:Double">
-                        <On Platform="iOS">250</On>
+                        <On Platform="iOS">300</On>
                         <On Platform="Android">190</On>
                     </OnPlatform>
                 </Frame.HeightRequest>
@@ -203,7 +203,7 @@
             <Frame Padding="10" Margin="10" BackgroundColor="White">
                 <Frame.HeightRequest>
                     <OnPlatform x:TypeArguments="x:Double">
-                        <On Platform="iOS">250</On>
+                        <On Platform="iOS">300</On>
                         <On Platform="Android">190</On>
                     </OnPlatform>
                 </Frame.HeightRequest>
@@ -219,7 +219,7 @@
             <Frame Padding="10" Margin="10" BackgroundColor="White">
                 <Frame.HeightRequest>
                     <OnPlatform x:TypeArguments="x:Double">
-                        <On Platform="iOS">250</On>
+                        <On Platform="iOS">300</On>
                         <On Platform="Android">190</On>
                     </OnPlatform>
                 </Frame.HeightRequest>
@@ -235,7 +235,7 @@
             <Frame Padding="10" Margin="10" BackgroundColor="White">
                 <Frame.HeightRequest>
                     <OnPlatform x:TypeArguments="x:Double">
-                        <On Platform="iOS">250</On>
+                        <On Platform="iOS">300</On>
                         <On Platform="Android">190</On>
                     </OnPlatform>
                 </Frame.HeightRequest>
