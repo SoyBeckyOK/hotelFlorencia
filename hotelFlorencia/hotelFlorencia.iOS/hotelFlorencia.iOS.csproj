@@ -185,6 +185,46 @@
   <ItemGroup>
     <BundleResource Include="Resources\Default.png" />
     <BundleResource Include="Resources\LogoRestaurante.jpg" />
+    <BundleResource Include="Resources\comidas1.png" />
+    <BundleResource Include="Resources\comidas2.jpg" />
+    <BundleResource Include="Resources\comidas3.jpg" />
+    <BundleResource Include="Resources\comidas4.jpg" />
+    <BundleResource Include="Resources\comidas5.jpg" />
+    <BundleResource Include="Resources\comidas6.jpg" />
+    <BundleResource Include="Resources\comidas7.jpg" />
+    <BundleResource Include="Resources\comidas8.jpg" />
+    <BundleResource Include="Resources\comidas9.jpg" />
+    <BundleResource Include="Resources\comidas10.jpg" />
+    <BundleResource Include="Resources\comidas11.jpg" />
+    <BundleResource Include="Resources\comidas12.png" />
+    <BundleResource Include="Resources\eventos1.jpg" />
+    <BundleResource Include="Resources\eventos2.jpg" />
+    <BundleResource Include="Resources\eventos3.jpg" />
+    <BundleResource Include="Resources\eventos4.jpg" />
+    <BundleResource Include="Resources\eventos5.jpg" />
+    <BundleResource Include="Resources\eventos6.jpg" />
+    <BundleResource Include="Resources\eventos7.jpg" />
+    <BundleResource Include="Resources\eventos8.jpg" />
+    <BundleResource Include="Resources\eventos9.jpg" />
+    <BundleResource Include="Resources\eventos10.jpg" />
+    <BundleResource Include="Resources\eventos11.jpg" />
+    <BundleResource Include="Resources\eventos12.jpg" />
+    <BundleResource Include="Resources\eventos13.jpg" />
+    <BundleResource Include="Resources\eventos14.jpg" />
+    <BundleResource Include="Resources\eventos15.jpg" />
+    <BundleResource Include="Resources\eventos16.jpg" />
+    <BundleResource Include="Resources\eventos17.jpg" />
+    <BundleResource Include="Resources\eventos18.jpg" />
+    <BundleResource Include="Resources\eventos19.jpg" />
+    <BundleResource Include="Resources\eventos20.jpg" />
+    <BundleResource Include="Resources\eventos21.jpg" />
+    <BundleResource Include="Resources\eventos22.jpg" />
+    <BundleResource Include="Resources\eventos23.jpg" />
+    <BundleResource Include="Resources\eventos24.jpg" />
+    <BundleResource Include="Resources\eventos25.jpg" />
+    <BundleResource Include="Resources\eventos26.jpg" />
+    <BundleResource Include="Resources\eventos27.png" />
+    <BundleResource Include="Resources\eventos28.jpg" />
   </ItemGroup>
   <ItemGroup>
     <BundleResource Include="Resources\about.png" />
