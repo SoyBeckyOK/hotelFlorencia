@@ -39,7 +39,7 @@ namespace FormsVideoLibrary
 
         // AutoPlay property
         public static readonly BindableProperty AutoPlayProperty =
-            BindableProperty.Create(nameof(AutoPlay), typeof(bool), typeof(VideoPlayer), true);
+            BindableProperty.Create(nameof(AutoPlay), typeof(bool), typeof(VideoPlayer), false);
 
         public bool AutoPlay
         {
