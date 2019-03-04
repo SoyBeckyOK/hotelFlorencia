@@ -45,7 +45,7 @@
                 <Frame.HeightRequest>
                     <OnPlatform x:TypeArguments="x:Double">
                         <On Platform="iOS">460</On>
-                        <On Platform="Android">400</On>
+                        <On Platform="Android">420</On>
                     </OnPlatform>
                 </Frame.HeightRequest>
                 <Grid>
