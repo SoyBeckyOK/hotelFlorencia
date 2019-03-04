@@ -27,7 +27,7 @@
             <Frame Padding="10" Margin="10"  BackgroundColor="White">
                 <Frame.HeightRequest>
                     <OnPlatform x:TypeArguments="x:Double">
-                        <On Platform="iOS">300</On>
+                        <On Platform="iOS">460</On>
                         <On Platform="Android">330</On>
                     </OnPlatform>
                 </Frame.HeightRequest>
@@ -45,7 +45,7 @@
             <Frame Padding="10" Margin="10"  BackgroundColor="White">
                 <Frame.HeightRequest>
                     <OnPlatform x:TypeArguments="x:Double">
-                        <On Platform="iOS">400</On>
+                        <On Platform="iOS">480</On>
                         <On Platform="Android">350</On>
                     </OnPlatform>
                 </Frame.HeightRequest>
