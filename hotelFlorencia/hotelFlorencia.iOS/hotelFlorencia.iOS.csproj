@@ -357,7 +357,7 @@
     <BundleResource Include="Resources\fondito.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <BundleResource Include="Resources\FondoPrincipal.JPG" />
+    <BundleResource Include="Resources\FondoPrincipal.jpg" />
   </ItemGroup>
   <ItemGroup>
     <BundleResource Include="Resources\HabitacionDoble.jpg" />
