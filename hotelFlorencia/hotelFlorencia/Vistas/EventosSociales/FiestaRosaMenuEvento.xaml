@@ -29,7 +29,7 @@
                 <Frame.HeightRequest>
                     <OnPlatform x:TypeArguments="x:Double">
                         <On Platform="iOS">500</On>
-                        <On Platform="Android">420</On>
+                        <On Platform="Android">400</On>
                     </OnPlatform>
                 </Frame.HeightRequest>
                 <Grid>
@@ -52,7 +52,7 @@
                 <Frame.HeightRequest>
                     <OnPlatform x:TypeArguments="x:Double">
                         <On Platform="iOS">500</On>
-                        <On Platform="Android">450</On>
+                        <On Platform="Android">420</On>
                     </OnPlatform>
                 </Frame.HeightRequest>
                 <Grid>
@@ -75,7 +75,7 @@
                 <Frame.HeightRequest>
                     <OnPlatform x:TypeArguments="x:Double">
                         <On Platform="iOS">500</On>
-                        <On Platform="Android">310</On>
+                        <On Platform="Android">330</On>
                     </OnPlatform>
                 </Frame.HeightRequest>
                 <Grid>
@@ -93,7 +93,7 @@
                 <Frame.HeightRequest>
                     <OnPlatform x:TypeArguments="x:Double">
                         <On Platform="iOS">510</On>
-                        <On Platform="Android">350</On>
+                        <On Platform="Android">330</On>
                     </OnPlatform>
                 </Frame.HeightRequest>
                 <Grid>

@@ -5,12 +5,15 @@
              Title="Boquitas">
     <ScrollView>
         <StackLayout>
-            <Label Text="$70.00 (Cien Unidades) " FontAttributes="Bold" TextColor="Black" FontSize="Medium" VerticalTextAlignment="Center"></Label>
+            <Frame >
+                <Label Text="$70.00 (Cien Unidades) " FontAttributes="Bold" TextColor="Black" FontSize="Medium" HorizontalOptions="Center" VerticalTextAlignment="Center"></Label>
+            </Frame>
+           
             <Frame Padding="10" Margin="10"  BackgroundColor="White">
                 <Frame.HeightRequest>
                     <OnPlatform x:TypeArguments="x:Double">
-                        <On Platform="iOS">300</On>
-                        <On Platform="Android">190</On>
+                        <On Platform="iOS">330</On>
+                        <On Platform="Android">250</On>
                     </OnPlatform>
                 </Frame.HeightRequest> 
                 <Grid>
@@ -27,8 +30,8 @@
             <Frame Padding="10" Margin="10"  BackgroundColor="White">
                 <Frame.HeightRequest>
                     <OnPlatform x:TypeArguments="x:Double">
-                        <On Platform="iOS">300</On>
-                        <On Platform="Android">190</On>
+                        <On Platform="iOS">330</On>
+                        <On Platform="Android">250</On>
                     </OnPlatform>
                 </Frame.HeightRequest>
                 <Grid>
@@ -43,8 +46,8 @@
             <Frame Padding="10" Margin="10" BackgroundColor="White">
                 <Frame.HeightRequest>
                     <OnPlatform x:TypeArguments="x:Double">
-                        <On Platform="iOS">300</On>
-                        <On Platform="Android">190</On>
+                        <On Platform="iOS">330</On>
+                        <On Platform="Android">250</On>
                     </OnPlatform>
                 </Frame.HeightRequest>
                 <Grid>
@@ -59,8 +62,8 @@
             <Frame Padding="10" Margin="10" BackgroundColor="White">
                 <Frame.HeightRequest>
                     <OnPlatform x:TypeArguments="x:Double">
-                        <On Platform="iOS">300</On>
-                        <On Platform="Android">190</On>
+                        <On Platform="iOS">330</On>
+                        <On Platform="Android">250</On>
                     </OnPlatform>
                 </Frame.HeightRequest>
                 <Grid>
@@ -75,8 +78,8 @@
             <Frame Padding="10" Margin="10" BackgroundColor="White">
                 <Frame.HeightRequest>
                     <OnPlatform x:TypeArguments="x:Double">
-                        <On Platform="iOS">300</On>
-                        <On Platform="Android">190</On>
+                        <On Platform="iOS">330</On>
+                        <On Platform="Android">250</On>
                     </OnPlatform>
                 </Frame.HeightRequest>
                 <Grid>
@@ -91,8 +94,8 @@
             <Frame Padding="10" Margin="10" BackgroundColor="White">
                 <Frame.HeightRequest>
                     <OnPlatform x:TypeArguments="x:Double">
-                        <On Platform="iOS">300</On>
-                        <On Platform="Android">190</On>
+                        <On Platform="iOS">330</On>
+                        <On Platform="Android">250</On>
                     </OnPlatform>
                 </Frame.HeightRequest>
                 <Grid>
@@ -107,8 +110,8 @@
             <Frame Padding="10" Margin="10" BackgroundColor="White">
                 <Frame.HeightRequest>
                     <OnPlatform x:TypeArguments="x:Double">
-                        <On Platform="iOS">300</On>
-                        <On Platform="Android">190</On>
+                        <On Platform="iOS">330</On>
+                        <On Platform="Android">250</On>
                     </OnPlatform>
                 </Frame.HeightRequest>
                 <Grid>
@@ -123,8 +126,8 @@
             <Frame Padding="10" Margin="10" BackgroundColor="White">
                 <Frame.HeightRequest>
                     <OnPlatform x:TypeArguments="x:Double">
-                        <On Platform="iOS">300</On>
-                        <On Platform="Android">190</On>
+                        <On Platform="iOS">330</On>
+                        <On Platform="Android">250</On>
                     </OnPlatform>
                 </Frame.HeightRequest>
                 <Grid>
@@ -139,8 +142,8 @@
             <Frame Padding="10" Margin="10"  BackgroundColor="White">
                 <Frame.HeightRequest>
                     <OnPlatform x:TypeArguments="x:Double">
-                        <On Platform="iOS">300</On>
-                        <On Platform="Android">190</On>
+                        <On Platform="iOS">330</On>
+                        <On Platform="Android">250</On>
                     </OnPlatform>
                 </Frame.HeightRequest>
                 <Grid>
@@ -155,8 +158,8 @@
             <Frame Padding="10" Margin="10" BackgroundColor="White">
                 <Frame.HeightRequest>
                     <OnPlatform x:TypeArguments="x:Double">
-                        <On Platform="iOS">300</On>
-                        <On Platform="Android">190</On>
+                        <On Platform="iOS">330</On>
+                        <On Platform="Android">250</On>
                     </OnPlatform>
                 </Frame.HeightRequest>
                 <Grid>
@@ -171,8 +174,8 @@
             <Frame Padding="10" Margin="10" BackgroundColor="White">
                 <Frame.HeightRequest>
                     <OnPlatform x:TypeArguments="x:Double">
-                        <On Platform="iOS">300</On>
-                        <On Platform="Android">190</On>
+                        <On Platform="iOS">330</On>
+                        <On Platform="Android">250</On>
                     </OnPlatform>
                 </Frame.HeightRequest>
                 <Grid>
@@ -187,8 +190,8 @@
             <Frame Padding="10" Margin="10" BackgroundColor="White">
                 <Frame.HeightRequest>
                     <OnPlatform x:TypeArguments="x:Double">
-                        <On Platform="iOS">300</On>
-                        <On Platform="Android">190</On>
+                        <On Platform="iOS">330</On>
+                        <On Platform="Android">250</On>
                     </OnPlatform>
                 </Frame.HeightRequest>
                 <Grid>
@@ -203,8 +206,8 @@
             <Frame Padding="10" Margin="10" BackgroundColor="White">
                 <Frame.HeightRequest>
                     <OnPlatform x:TypeArguments="x:Double">
-                        <On Platform="iOS">300</On>
-                        <On Platform="Android">190</On>
+                        <On Platform="iOS">330</On>
+                        <On Platform="Android">250</On>
                     </OnPlatform>
                 </Frame.HeightRequest>
                 <Grid>
@@ -219,8 +222,8 @@
             <Frame Padding="10" Margin="10" BackgroundColor="White">
                 <Frame.HeightRequest>
                     <OnPlatform x:TypeArguments="x:Double">
-                        <On Platform="iOS">300</On>
-                        <On Platform="Android">190</On>
+                        <On Platform="iOS">330</On>
+                        <On Platform="Android">250</On>
                     </OnPlatform>
                 </Frame.HeightRequest>
                 <Grid>
@@ -235,8 +238,8 @@
             <Frame Padding="10" Margin="10" BackgroundColor="White">
                 <Frame.HeightRequest>
                     <OnPlatform x:TypeArguments="x:Double">
-                        <On Platform="iOS">300</On>
-                        <On Platform="Android">190</On>
+                        <On Platform="iOS">330</On>
+                        <On Platform="Android">250</On>
                     </OnPlatform>
                 </Frame.HeightRequest>
                 <Grid>
