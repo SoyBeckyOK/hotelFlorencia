@@ -5,7 +5,13 @@
              Title="Bebidas">
     <ScrollView>
         <StackLayout>
-            <Frame  Padding="10" Margin="10" HeightRequest="520" BackgroundColor="White">
+            <Frame  Padding="10" Margin="10" BackgroundColor="White">
+                <Frame.HeightRequest>
+                    <OnPlatform x:TypeArguments="x:Double">
+                        <On Platform="iOS">550</On>
+                        <On Platform="Android">520</On>
+                    </OnPlatform>
+                </Frame.HeightRequest>
                 <Grid HorizontalOptions="Center">
                     <Grid.RowDefinitions>
                         <RowDefinition Height="auto"/>
@@ -54,7 +60,13 @@
                     <Label Grid.Row="13" Grid.Column="1" Text="$3.75" HorizontalOptions="End"></Label>
                 </Grid>
             </Frame>
-            <Frame Padding="1.0" Margin="1.0" HeightRequest="300" BackgroundColor="White">
+            <Frame Padding="1.0" Margin="1.0"  BackgroundColor="White">
+                <Frame.HeightRequest>
+                    <OnPlatform x:TypeArguments="x:Double">
+                        <On Platform="iOS">330</On>
+                        <On Platform="Android">300</On>
+                    </OnPlatform>
+                </Frame.HeightRequest>
                 <Grid HorizontalOptions="Center">
                     <Grid.RowDefinitions>
                         <RowDefinition Height="auto"/>
@@ -68,7 +80,13 @@
                     <Label Grid.Row="3" Text="Extranjeras $2.75" FontSize="Small" FontAttributes="Bold"></Label>
                 </Grid>
             </Frame>
-            <Frame Padding="1.0" Margin="1.0" HeightRequest="350" BackgroundColor="White">
+            <Frame Padding="1.0" Margin="1.0"  BackgroundColor="White">
+                <Frame.HeightRequest>
+                    <OnPlatform x:TypeArguments="x:Double">
+                        <On Platform="iOS">380</On>
+                        <On Platform="Android">350</On>
+                    </OnPlatform>
+                </Frame.HeightRequest>
                 <Grid HorizontalOptions="Center">
                     <Grid.RowDefinitions>
                         <RowDefinition Height="auto"/>
@@ -82,7 +100,13 @@
                     <Label Grid.Row="3" Text="Botella de Vino  $_______" FontSize="Small" FontAttributes="Bold"></Label>
                 </Grid>
             </Frame>
-            <Frame Padding="1.0" Margin="1.0" HeightRequest="420" BackgroundColor="White">
+            <Frame Padding="1.0" Margin="1.0" BackgroundColor="White">
+                <Frame.HeightRequest>
+                    <OnPlatform x:TypeArguments="x:Double">
+                        <On Platform="iOS">450</On>
+                        <On Platform="Android">420</On>
+                    </OnPlatform>
+                </Frame.HeightRequest>
                 <Grid HorizontalOptions="Center">
                     <Grid.RowDefinitions>
                         <RowDefinition Height="auto"/>
@@ -125,6 +149,12 @@
                   </Grid>
             </Frame>
             <Frame Padding="1.0" Margin="1.0" HeightRequest="350" BackgroundColor="White">
+                <Frame.HeightRequest>
+                    <OnPlatform x:TypeArguments="x:Double">
+                        <On Platform="iOS">380</On>
+                        <On Platform="Android">350</On>
+                    </OnPlatform>
+                </Frame.HeightRequest>
                 <Grid HorizontalOptions="Center">
                     <Grid.RowDefinitions>
                         <RowDefinition Height="auto"/>
@@ -151,6 +181,12 @@
                 </Grid>
             </Frame>
             <Frame Padding="1.0" Margin="1.0" HeightRequest="520" BackgroundColor="White">
+                <Frame.HeightRequest>
+                    <OnPlatform x:TypeArguments="x:Double">
+                        <On Platform="iOS">550</On>
+                        <On Platform="Android">520</On>
+                    </OnPlatform>
+                </Frame.HeightRequest>
                 <Grid HorizontalOptions="Center">
                     <Grid.RowDefinitions>
                         <RowDefinition Height="auto"/>

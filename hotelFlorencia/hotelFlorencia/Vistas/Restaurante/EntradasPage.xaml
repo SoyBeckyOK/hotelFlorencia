@@ -5,7 +5,13 @@
              Title="Entradas">
     <ScrollView>
         <StackLayout BackgroundColor="LightBlue">
-            <Frame Padding="10" Margin="10" HeightRequest="300" BackgroundColor="White">
+            <Frame Padding="10" Margin="10"  BackgroundColor="White">
+                <Frame.HeightRequest>
+                    <OnPlatform x:TypeArguments="x:Double">
+                        <On Platform="iOS">330</On>
+                        <On Platform="Android">300</On>
+                    </OnPlatform>
+                </Frame.HeightRequest>
                 <Grid>
                     <Grid.RowDefinitions>
                         <RowDefinition Height="auto"/>
@@ -17,7 +23,13 @@
                     <Label Grid.Row="2" Text="Delicioso bombones de Pollo empanizados, acompañados en salsa BBQ y Tartara."></Label>
                 </Grid>
             </Frame>
-            <Frame Padding="10" Margin="10" HeightRequest="300" BackgroundColor="White">
+            <Frame Padding="10" Margin="10" BackgroundColor="White">
+                <Frame.HeightRequest>
+                    <OnPlatform x:TypeArguments="x:Double">
+                        <On Platform="iOS">330</On>
+                        <On Platform="Android">300</On>
+                    </OnPlatform>
+                </Frame.HeightRequest>
                 <Grid>
                     <Grid.RowDefinitions>
                         <RowDefinition Height="auto"/>
@@ -29,7 +41,13 @@
                     <Label Grid.Row="2" Text="Es un exquisito filete de pollo en salsa de champiñones al vino tinto, acompañado de vegetales tipo oriental, arroz ecuatoriano."></Label>
                 </Grid>
             </Frame>
-            <Frame Padding="10" Margin="10" HeightRequest="300" BackgroundColor="White">
+            <Frame Padding="10" Margin="10"  BackgroundColor="White">
+                <Frame.HeightRequest>
+                    <OnPlatform x:TypeArguments="x:Double">
+                        <On Platform="iOS">330</On>
+                        <On Platform="Android">300</On>
+                    </OnPlatform>
+                </Frame.HeightRequest>
                 <Grid>
                     <Grid.RowDefinitions>
                         <RowDefinition Height="auto"/>
@@ -41,7 +59,13 @@
                     <Label Grid.Row="2" Text="Sabrosos hongos gratinados con queso mozzarella."></Label>
                 </Grid>
             </Frame>
-            <Frame Padding="10" Margin="10" HeightRequest="300" BackgroundColor="White">
+            <Frame Padding="10" Margin="10"  BackgroundColor="White">
+                <Frame.HeightRequest>
+                    <OnPlatform x:TypeArguments="x:Double">
+                        <On Platform="iOS">330</On>
+                        <On Platform="Android">300</On>
+                    </OnPlatform>
+                </Frame.HeightRequest>
                 <Grid>
                     <Grid.RowDefinitions>
                         <RowDefinition Height="auto"/>
@@ -53,7 +77,13 @@
                     <Label Grid.Row="2" Text="Chorizo argentino, frijoles, guacamole y tortilla frita salvadoreña."></Label>
                 </Grid>
             </Frame>
-            <Frame Padding="10" Margin="10" HeightRequest="300" BackgroundColor="White">
+            <Frame Padding="10" Margin="10"  BackgroundColor="White">
+                <Frame.HeightRequest>
+                    <OnPlatform x:TypeArguments="x:Double">
+                        <On Platform="iOS">330</On>
+                        <On Platform="Android">300</On>
+                    </OnPlatform>
+                </Frame.HeightRequest>
                 <Grid>
                     <Grid.RowDefinitions>
                         <RowDefinition Height="auto"/>
@@ -65,7 +95,13 @@
                     <Label Grid.Row="2" Text="Trocitos de carne y de pollo empanizados acompañados de salsa BBQ y Tartara."></Label>
                 </Grid>
             </Frame>
-            <Frame Padding="10" Margin="10" HeightRequest="300" BackgroundColor="White">
+            <Frame Padding="10" Margin="10" BackgroundColor="White">
+                <Frame.HeightRequest>
+                    <OnPlatform x:TypeArguments="x:Double">
+                        <On Platform="iOS">330</On>
+                        <On Platform="Android">300</On>
+                    </OnPlatform>
+                </Frame.HeightRequest>
                 <Grid>
                     <Grid.RowDefinitions>
                         <RowDefinition Height="auto"/>

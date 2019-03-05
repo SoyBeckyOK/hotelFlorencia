@@ -5,7 +5,13 @@
              Title="Carnes y Aves">
     <ScrollView>
         <StackLayout BackgroundColor="LightBlue">
-            <Frame Padding="10" Margin="10" HeightRequest="250" BackgroundColor="White">
+            <Frame Padding="10" Margin="10" BackgroundColor="White">
+                <Frame.HeightRequest>
+                    <OnPlatform x:TypeArguments="x:Double">
+                        <On Platform="iOS">280</On>
+                        <On Platform="Android">250</On>
+                    </OnPlatform>
+                </Frame.HeightRequest>
                 <Grid>
                     <Grid.RowDefinitions>
                         <RowDefinition Height="auto"/>
@@ -23,7 +29,13 @@
                     <Label Grid.Row="2" Grid.Column="1" Text="$12.45 (1 Libra)" HorizontalOptions="Start"></Label>
                 </Grid>
             </Frame>
-            <Frame Padding="10" Margin="10" HeightRequest="250" BackgroundColor="White">
+            <Frame Padding="10" Margin="10" BackgroundColor="White">
+                <Frame.HeightRequest>
+                    <OnPlatform x:TypeArguments="x:Double">
+                        <On Platform="iOS">280</On>
+                        <On Platform="Android">250</On>
+                    </OnPlatform>
+                </Frame.HeightRequest>
                 <Grid>
                     <Grid.RowDefinitions>
                         <RowDefinition Height="auto"/>
@@ -41,7 +53,13 @@
                     <Label Grid.Row="2" Grid.Column="1" Text="$12.05 (1 Libra) " HorizontalOptions="Start"></Label>
                 </Grid>
             </Frame>
-            <Frame Padding="10" Margin="10" HeightRequest="250" BackgroundColor="White">
+            <Frame Padding="10" Margin="10" BackgroundColor="White">
+                <Frame.HeightRequest>
+                    <OnPlatform x:TypeArguments="x:Double">
+                        <On Platform="iOS">280</On>
+                        <On Platform="Android">250</On>
+                    </OnPlatform>
+                </Frame.HeightRequest>
                 <Grid>
                     <Grid.RowDefinitions>
                         <RowDefinition Height="auto"/>
@@ -59,7 +77,13 @@
                     <Label Grid.Row="2" Grid.Column="1" Text="$12.45 (1 Libra) " HorizontalOptions="Start"></Label>
                 </Grid>
             </Frame>
-            <Frame Padding="10" Margin="10" HeightRequest="250" BackgroundColor="White">
+            <Frame Padding="10" Margin="10" BackgroundColor="White">
+                <Frame.HeightRequest>
+                    <OnPlatform x:TypeArguments="x:Double">
+                        <On Platform="iOS">280</On>
+                        <On Platform="Android">250</On>
+                    </OnPlatform>
+                </Frame.HeightRequest>
                 <Grid>
                     <Grid.RowDefinitions>
                         <RowDefinition Height="auto"/>
@@ -77,7 +101,13 @@
                     <Label Grid.Row="2" Grid.Column="1" Text="$12.45 (1 Libra) " HorizontalOptions="Start"></Label>
                 </Grid>
             </Frame>
-            <Frame Padding="10" Margin="10" HeightRequest="250" BackgroundColor="White">
+            <Frame Padding="10" Margin="10" BackgroundColor="White">
+                <Frame.HeightRequest>
+                    <OnPlatform x:TypeArguments="x:Double">
+                        <On Platform="iOS">280</On>
+                        <On Platform="Android">250</On>
+                    </OnPlatform>
+                </Frame.HeightRequest>
                 <Grid>
                     <Grid.RowDefinitions>
                         <RowDefinition Height="auto"/>
@@ -95,7 +125,13 @@
                     <Label Grid.Row="2" Grid.Column="1" Text="$12.45 (1 Libra) " HorizontalOptions="Start"></Label>
                 </Grid>
             </Frame>
-            <Frame Padding="10" Margin="10" HeightRequest="250" BackgroundColor="White">
+            <Frame Padding="10" Margin="10" BackgroundColor="White">
+                <Frame.HeightRequest>
+                    <OnPlatform x:TypeArguments="x:Double">
+                        <On Platform="iOS">280</On>
+                        <On Platform="Android">250</On>
+                    </OnPlatform>
+                </Frame.HeightRequest>
                 <Grid>
                     <Grid.RowDefinitions>
                         <RowDefinition Height="auto"/>
@@ -113,7 +149,13 @@
                     <Label Grid.Row="2" Grid.Column="1" Text="$12.45 (1 Libra) " HorizontalOptions="Start"></Label>
                 </Grid>
             </Frame>
-            <Frame Padding="10" Margin="10" HeightRequest="250" BackgroundColor="White">
+            <Frame Padding="10" Margin="10" BackgroundColor="White">
+                <Frame.HeightRequest>
+                    <OnPlatform x:TypeArguments="x:Double">
+                        <On Platform="iOS">280</On>
+                        <On Platform="Android">250</On>
+                    </OnPlatform>
+                </Frame.HeightRequest>
                 <Grid>
                     <Grid.RowDefinitions>
                         <RowDefinition Height="auto"/>

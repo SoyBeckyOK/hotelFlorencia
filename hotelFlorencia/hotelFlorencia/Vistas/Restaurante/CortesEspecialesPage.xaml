@@ -5,7 +5,13 @@
              Title="Cortes Especiales">
     <ScrollView>
         <StackLayout>
-            <Frame  Padding="10" Margin="10" HeightRequest="330" BackgroundColor="White">
+            <Frame  Padding="10" Margin="10"  BackgroundColor="White">
+                <Frame.HeightRequest>
+                    <OnPlatform x:TypeArguments="x:Double">
+                        <On Platform="iOS">360</On>
+                        <On Platform="Android">330</On>
+                    </OnPlatform>
+                </Frame.HeightRequest>
                 <Grid>
                     <Grid.RowDefinitions>
                         <RowDefinition Height="auto"/>
