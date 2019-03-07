@@ -1,10 +1,11 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="hotelFlorencia.Vistas.BebidasPage"
+             BackgroundColor="LightBlue"
              Title="Bebidas">
     <ScrollView>
-        <StackLayout>
+        <StackLayout BackgroundColor="LightBlue">
             <Frame  Padding="10" Margin="10" BackgroundColor="White">
                 <Frame.HeightRequest>
                     <OnPlatform x:TypeArguments="x:Double">
@@ -60,7 +61,7 @@
                     <Label Grid.Row="13" Grid.Column="1" Text="$3.75" HorizontalOptions="End"></Label>
                 </Grid>
             </Frame>
-            <Frame Padding="1.0" Margin="1.0"  BackgroundColor="White">
+            <Frame Padding="10" Margin="10"  BackgroundColor="White">
                 <Frame.HeightRequest>
                     <OnPlatform x:TypeArguments="x:Double">
                         <On Platform="iOS">330</On>
@@ -80,7 +81,7 @@
                     <Label Grid.Row="3" Text="Extranjeras $2.75" FontSize="Small" FontAttributes="Bold"></Label>
                 </Grid>
             </Frame>
-            <Frame Padding="1.0" Margin="1.0"  BackgroundColor="White">
+            <Frame Padding="10" Margin="10"  BackgroundColor="White">
                 <Frame.HeightRequest>
                     <OnPlatform x:TypeArguments="x:Double">
                         <On Platform="iOS">380</On>
@@ -100,7 +101,7 @@
                     <Label Grid.Row="3" Text="Botella de Vino  $_______" FontSize="Small" FontAttributes="Bold"></Label>
                 </Grid>
             </Frame>
-            <Frame Padding="1.0" Margin="1.0" BackgroundColor="White">
+            <Frame Padding="10" Margin="10" BackgroundColor="White">
                 <Frame.HeightRequest>
                     <OnPlatform x:TypeArguments="x:Double">
                         <On Platform="iOS">450</On>
@@ -148,7 +149,7 @@
                     <Label Grid.Row="10" Grid.Column="1" Text="$2.95" HorizontalOptions="End"></Label>
                   </Grid>
             </Frame>
-            <Frame Padding="1.0" Margin="1.0" HeightRequest="350" BackgroundColor="White">
+            <Frame Padding="10" Margin="10" HeightRequest="350" BackgroundColor="White">
                 <Frame.HeightRequest>
                     <OnPlatform x:TypeArguments="x:Double">
                         <On Platform="iOS">380</On>
@@ -180,7 +181,7 @@
                     <Label Grid.Row="5" Grid.Column="1" Text="$5.25" HorizontalOptions="End"></Label>
                 </Grid>
             </Frame>
-            <Frame Padding="1.0" Margin="1.0" HeightRequest="520" BackgroundColor="White">
+            <Frame Padding="10" Margin="10" HeightRequest="520" BackgroundColor="White">
                 <Frame.HeightRequest>
                     <OnPlatform x:TypeArguments="x:Double">
                         <On Platform="iOS">550</On>

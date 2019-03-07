@@ -1,10 +1,11 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="hotelFlorencia.Vistas.Restaurante.CortesEspecialesPage"
+             x:Class="hotelFlorencia.Vistas.Restaurante.CortesEspecialesPage" 
+             BackgroundColor="LightBlue"
              Title="Cortes Especiales">
     <ScrollView>
-        <StackLayout>
+        <StackLayout BackgroundColor="LightBlue">
             <Frame  Padding="10" Margin="10"  BackgroundColor="White">
                 <Frame.HeightRequest>
                     <OnPlatform x:TypeArguments="x:Double">
@@ -25,8 +26,13 @@
                     <Label Grid.Row="3" Text="$13.95" FontAttributes="Bold"></Label>
                 </Grid>
             </Frame>
-            <Frame Padding="1.0" Margin="1.0" HeightRequest="300" BackgroundColor="White">
-                <Grid>
+            <Frame Padding="10" Margin="10" BackgroundColor="White">
+                <Frame.HeightRequest>
+                    <OnPlatform x:TypeArguments="x:Double">
+                        <On Platform="iOS">360</On>
+                        <On Platform="Android">330</On>
+                    </OnPlatform>
+                </Frame.HeightRequest><Grid>
                     <Grid.RowDefinitions>
                         <RowDefinition Height="auto"/>
                         <RowDefinition Height="auto"/>
@@ -39,7 +45,13 @@
                     <Label Grid.Row="3" Text="$13.95" FontAttributes="Bold"/>
                 </Grid>
             </Frame>
-            <Frame Padding="1.0" Margin="1.0" HeightRequest="300" BackgroundColor="White">
+            <Frame Padding="10" Margin="10"  BackgroundColor="White">
+              <Frame.HeightRequest>
+                    <OnPlatform x:TypeArguments="x:Double">
+                        <On Platform="iOS">360</On>
+                        <On Platform="Android">330</On>
+                    </OnPlatform>
+                </Frame.HeightRequest>
                 <Grid>
                     <Grid.RowDefinitions>
                         <RowDefinition Height="auto"/>
@@ -52,7 +64,13 @@
                     <Label Grid.Row="3" Text="$14.95" FontAttributes="Bold"></Label>
                 </Grid>
             </Frame>
-            <Frame Padding="1.0" Margin="1.0" HeightRequest="330" BackgroundColor="White">
+            <Frame Padding="10" Margin="10" BackgroundColor="White">
+               <Frame.HeightRequest>
+                    <OnPlatform x:TypeArguments="x:Double">
+                        <On Platform="iOS">370</On>
+                        <On Platform="Android">330</On>
+                    </OnPlatform>
+                </Frame.HeightRequest>
                 <Grid>
                     <Grid.RowDefinitions>
                         <RowDefinition Height="auto"/>

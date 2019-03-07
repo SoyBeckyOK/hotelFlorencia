@@ -1,14 +1,15 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="hotelFlorencia.Vistas.Restaurante.CarnesPage"
+             BackgroundColor="LightBlue"
              Title="Carnes y Aves">
     <ScrollView>
         <StackLayout BackgroundColor="LightBlue">
             <Frame Padding="10" Margin="10" BackgroundColor="White">
                 <Frame.HeightRequest>
                     <OnPlatform x:TypeArguments="x:Double">
-                        <On Platform="iOS">280</On>
+                        <On Platform="iOS">290</On>
                         <On Platform="Android">250</On>
                     </OnPlatform>
                 </Frame.HeightRequest>
@@ -32,7 +33,7 @@
             <Frame Padding="10" Margin="10" BackgroundColor="White">
                 <Frame.HeightRequest>
                     <OnPlatform x:TypeArguments="x:Double">
-                        <On Platform="iOS">280</On>
+                        <On Platform="iOS">290</On>
                         <On Platform="Android">250</On>
                     </OnPlatform>
                 </Frame.HeightRequest>
@@ -56,7 +57,7 @@
             <Frame Padding="10" Margin="10" BackgroundColor="White">
                 <Frame.HeightRequest>
                     <OnPlatform x:TypeArguments="x:Double">
-                        <On Platform="iOS">280</On>
+                        <On Platform="iOS">290</On>
                         <On Platform="Android">250</On>
                     </OnPlatform>
                 </Frame.HeightRequest>
@@ -80,7 +81,7 @@
             <Frame Padding="10" Margin="10" BackgroundColor="White">
                 <Frame.HeightRequest>
                     <OnPlatform x:TypeArguments="x:Double">
-                        <On Platform="iOS">280</On>
+                        <On Platform="iOS">290</On>
                         <On Platform="Android">250</On>
                     </OnPlatform>
                 </Frame.HeightRequest>
@@ -104,7 +105,7 @@
             <Frame Padding="10" Margin="10" BackgroundColor="White">
                 <Frame.HeightRequest>
                     <OnPlatform x:TypeArguments="x:Double">
-                        <On Platform="iOS">280</On>
+                        <On Platform="iOS">290</On>
                         <On Platform="Android">250</On>
                     </OnPlatform>
                 </Frame.HeightRequest>
@@ -128,7 +129,7 @@
             <Frame Padding="10" Margin="10" BackgroundColor="White">
                 <Frame.HeightRequest>
                     <OnPlatform x:TypeArguments="x:Double">
-                        <On Platform="iOS">280</On>
+                        <On Platform="iOS">290</On>
                         <On Platform="Android">250</On>
                     </OnPlatform>
                 </Frame.HeightRequest>
@@ -152,7 +153,7 @@
             <Frame Padding="10" Margin="10" BackgroundColor="White">
                 <Frame.HeightRequest>
                     <OnPlatform x:TypeArguments="x:Double">
-                        <On Platform="iOS">280</On>
+                        <On Platform="iOS">290</On>
                         <On Platform="Android">250</On>
                     </OnPlatform>
                 </Frame.HeightRequest>
@@ -169,7 +170,7 @@
                     </Grid.ColumnDefinitions>
                     <Image Grid.Row="0" Grid.ColumnSpan="2" Source="Carnes.jpg"></Image>
                     <Label Grid.Row="1" Grid.ColumnSpan="2" Text="Churrasco Brasador" FontSize="Medium" HorizontalTextAlignment="Center" FontAttributes="Bold"></Label>
-                    <Label Grid.Row="2" Grid.Column="0" Text="$10. 55 (1/2 Libra)" HorizontalOptions="End"></Label>
+                    <Label Grid.Row="2" Grid.Column="0" Text="$10. 55 (1/2 Libra)" HorizontalOptions="Center"></Label>
                     <Label Grid.Row="2" Grid.Column="1" Text="" HorizontalOptions="Start"></Label>
                 </Grid>
             </Frame>

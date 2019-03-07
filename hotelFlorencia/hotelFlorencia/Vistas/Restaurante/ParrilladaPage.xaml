@@ -1,11 +1,12 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="hotelFlorencia.Vistas.Restaurante.ParrilladaPage"
+             BackgroundColor="LightBlue"
              Title="Parrilladas para Compartir">
     <ScrollView>
         <StackLayout>
-            <StackLayout>
+            <StackLayout BackgroundColor="LightBlue">
             <Label Text="Parrilladas para tres o cuatro Personas" FontAttributes="Bold" HorizontalOptions="Center" TextColor="Black" FontSize="Medium" HorizontalTextAlignment="Center" VerticalTextAlignment="Center"></Label>
                 <Frame  Padding="10" Margin="10" BackgroundColor="White">
                     <Frame.HeightRequest>
@@ -27,7 +28,7 @@
                         <Label Grid.Row="3" Text="$19.95 ($6.65 por persona)" FontAttributes="Bold"></Label>
                 </Grid>
             </Frame>
-            <Frame Padding="1.0" Margin="1.0" BackgroundColor="White">
+            <Frame Padding="10" Margin="10" BackgroundColor="White">
                     <Frame.HeightRequest>
                         <OnPlatform x:TypeArguments="x:Double">
                             <On Platform="iOS">330</On>
@@ -47,7 +48,7 @@
                         <Label Grid.Row="3" Text="$19.95 ($6.65 por persona)" FontAttributes="Bold"/>
                 </Grid>
             </Frame>
-            <Frame Padding="1.0" Margin="1.0" BackgroundColor="White">
+            <Frame Padding="10" Margin="10" BackgroundColor="White">
                     <Frame.HeightRequest>
                         <OnPlatform x:TypeArguments="x:Double">
                             <On Platform="iOS">330</On>
@@ -66,7 +67,7 @@
                         <Label Grid.Row="3" Text="$23.95 ($7.98 por persona)" FontAttributes="Bold"></Label>
                 </Grid>
             </Frame>
-            <Frame Padding="1.0" Margin="1.0" BackgroundColor="White">
+            <Frame Padding="10" Margin="10" BackgroundColor="White">
                     <Frame.HeightRequest>
                         <OnPlatform x:TypeArguments="x:Double">
                             <On Platform="iOS">380</On>
@@ -86,7 +87,7 @@
                         <Label Grid.Row="3" Text="$24.95 ($8.31 por persona)" FontAttributes="Bold"></Label>
                 </Grid>
             </Frame>
-            <Frame Padding="1.0" Margin="1.0"  BackgroundColor="White">
+            <Frame Padding="10" Margin="10"  BackgroundColor="White">
                     <Frame.HeightRequest>
                         <OnPlatform x:TypeArguments="x:Double">
                             <On Platform="iOS">330</On>
@@ -106,7 +107,7 @@
                         <Label Grid.Row="3" Text="$24.95 ($8.31 por persona)" FontAttributes="Bold"></Label>
                 </Grid>
             </Frame>
-            <Frame Padding="1.0" Margin="1.0" BackgroundColor="White">
+            <Frame Padding="10" Margin="10" BackgroundColor="White">
                     <Frame.HeightRequest>
                         <OnPlatform x:TypeArguments="x:Double">
                             <On Platform="iOS">380</On>
@@ -136,7 +137,7 @@
             <StackLayout>
             <StackLayout>
                 <Label Text="Parrilladas para cuatro o cinco Personas" FontAttributes="Bold" HorizontalOptions="Center" TextColor="Black" FontSize="Medium" HorizontalTextAlignment="Center" VerticalTextAlignment="Center"></Label>
-                <Frame Padding="1.0" Margin="1.0" BackgroundColor="White">
+                <Frame Padding="10" Margin="10" BackgroundColor="White">
                         <Frame.HeightRequest>
                             <OnPlatform x:TypeArguments="x:Double">
                                 <On Platform="iOS">380</On>
@@ -156,7 +157,7 @@
                             <Label Grid.Row="3" Text="$31.95 ($7.98 por persona)" FontAttributes="Bold"></Label>
                     </Grid>
                 </Frame>
-                <Frame Padding="1.0" Margin="1.0"  BackgroundColor="White">
+                <Frame Padding="10" Margin="10"  BackgroundColor="White">
                         <Frame.HeightRequest>
                             <OnPlatform x:TypeArguments="x:Double">
                                 <On Platform="iOS">380</On>

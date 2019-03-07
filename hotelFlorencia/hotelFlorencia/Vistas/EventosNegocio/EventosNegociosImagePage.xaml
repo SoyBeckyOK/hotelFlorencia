@@ -2,6 +2,7 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="hotelFlorencia.Vistas.EventosNegocio.EventosNegociosImagePage"
+             BackgroundColor="LightBlue"
              Title="Eventos de Negocio">
     <ScrollView>
         <StackLayout BackgroundColor="LightBlue">
@@ -44,7 +45,7 @@
             <Frame Padding="1.0" Margin="1.0"  BackgroundColor="White">
                 <Frame.HeightRequest>
                     <OnPlatform x:TypeArguments="x:Double">
-                        <On Platform="iOS">460</On>
+                        <On Platform="iOS">470</On>
                         <On Platform="Android">420</On>
                     </OnPlatform>
                 </Frame.HeightRequest>
@@ -67,7 +68,7 @@
             <Frame Padding="1.0" Margin="1.0" BackgroundColor="White">
                 <Frame.HeightRequest>
                     <OnPlatform x:TypeArguments="x:Double">
-                        <On Platform="iOS">350</On>
+                        <On Platform="iOS">360</On>
                         <On Platform="Android">320</On>
                     </OnPlatform>
                 </Frame.HeightRequest>
@@ -79,13 +80,13 @@
                     </Grid.RowDefinitions>
                     <Image Grid.Row="0" Source="Entradas.jpg"></Image>
                     <Label Grid.Row="1" Text="Boquitas" FontSize="Small" HorizontalOptions="Center" FontAttributes="Bold"></Label>
-                    <Button Grid.Row="2" Text="Ver Menu" FontSize="Small" TextColor="White" FontAttributes="Bold" HorizontalOptions="Center" BackgroundColor="DarkBlue" Clicked="Button_Clicked"></Button>
+                    <Button Grid.Row="2" Text="Ver Menu" FontSize="Small" TextColor="White" FontAttributes="Bold"  BackgroundColor="DarkBlue" Clicked="Button_Clicked"></Button>
                 </Grid>
             </Frame>
             <Frame Padding="1.0" Margin="1.0"  BackgroundColor="White">
                 <Frame.HeightRequest>
                     <OnPlatform x:TypeArguments="x:Double">
-                        <On Platform="iOS">350</On>
+                        <On Platform="iOS">490</On>
                         <On Platform="Android">320</On>
                     </OnPlatform>
                 </Frame.HeightRequest>
@@ -97,14 +98,14 @@
                     </Grid.RowDefinitions>
                     <Image Grid.Row="0" Source="comidas8.jpg"></Image>
                     <Label Grid.Row="1" Text="Menu de Cena o Almuerzo de Pollo" FontSize="Small" HorizontalOptions="Center" FontAttributes="Bold"></Label>
-                    <Button Grid.Row="2" Text="Ver Menu" TextColor="White" BackgroundColor="DarkBlue" FontSize="Small"  FontAttributes="Bold" HorizontalOptions="Center" Clicked="Button_Clicked_1"></Button>
+                    <Button Grid.Row="2" Text="Ver Menu" TextColor="White" BackgroundColor="DarkBlue" FontSize="Small"  FontAttributes="Bold"  Clicked="Button_Clicked_1"></Button>
                 </Grid>
             </Frame>
 
             <Frame Padding="1.0" Margin="1.0" BackgroundColor="White">
                 <Frame.HeightRequest>
                     <OnPlatform x:TypeArguments="x:Double">
-                        <On Platform="iOS">350</On>
+                        <On Platform="iOS">550</On>
                         <On Platform="Android">320</On>
                     </OnPlatform>
                 </Frame.HeightRequest>
@@ -116,13 +117,13 @@
                     </Grid.RowDefinitions>
                     <Image Grid.Row="0" Source="comidas6.jpg"></Image>
                     <Label Grid.Row="1" Text="Menu de Cenas o Almuerzos Carnes" FontSize="Small" HorizontalOptions="Center"  FontAttributes="Bold"></Label>
-                    <Button Grid.Row="2" Text="Ver Menu" TextColor="White" BackgroundColor="DarkBlue" FontSize="Small"  FontAttributes="Bold" HorizontalOptions="Center" Clicked="Button_Clicked_2" ></Button>
+                    <Button Grid.Row="2" Text="Ver Menu" TextColor="White" BackgroundColor="DarkBlue" FontSize="Small"  FontAttributes="Bold" Clicked="Button_Clicked_2" ></Button>
                 </Grid>
             </Frame>
             <Frame Padding="1.0" Margin="1.0" BackgroundColor="White">
                 <Frame.HeightRequest>
                     <OnPlatform x:TypeArguments="x:Double">
-                        <On Platform="iOS">350</On>
+                        <On Platform="iOS">710</On>
                         <On Platform="Android">320</On>
                     </OnPlatform>
                 </Frame.HeightRequest>
@@ -134,13 +135,13 @@
                     </Grid.RowDefinitions>
                     <Image Grid.Row="0" Source="comidas7.jpg"></Image>
                     <Label Grid.Row="1" Text="Menu de Cenas o Almuerzos Mixtos" FontSize="Small" HorizontalOptions="Center" FontAttributes="Bold"></Label>
-                    <Button Grid.Row="2" Text="Ver Menu" TextColor="White" BackgroundColor="DarkBlue" FontSize="Small"  FontAttributes="Bold" HorizontalOptions="Center" Clicked="Button_Clicked_3"></Button>
+                    <Button Grid.Row="2" Text="Ver Menu" TextColor="White" BackgroundColor="DarkBlue" FontSize="Small"  FontAttributes="Bold"  Clicked="Button_Clicked_3"></Button>
                 </Grid>
             </Frame>
             <Frame Padding="1.0" Margin="1.0" BackgroundColor="White">
                 <Frame.HeightRequest>
                     <OnPlatform x:TypeArguments="x:Double">
-                        <On Platform="iOS">350</On>
+                        <On Platform="iOS">390</On>
                         <On Platform="Android">320</On>
                     </OnPlatform>
                 </Frame.HeightRequest>
@@ -152,7 +153,7 @@
                     </Grid.RowDefinitions>
                     <Image Grid.Row="0" Source="comidas5.jpg"></Image>
                     <Label Grid.Row="1" Text="Menu de Cenas o Almuerzos de Mariscos" FontSize="Small" VerticalTextAlignment="Center" HorizontalOptions="Center" FontAttributes="Bold"></Label>
-                    <Button Grid.Row="2" Text="Ver Menu" TextColor="White"  BackgroundColor="DarkBlue" FontSize="Small"  FontAttributes="Bold" HorizontalOptions="Center" Clicked="Button_Clicked_4"></Button>
+                    <Button Grid.Row="2" Text="Ver Menu" TextColor="White"  BackgroundColor="DarkBlue" FontSize="Small"  FontAttributes="Bold" Clicked="Button_Clicked_4"></Button>
                 </Grid>
             </Frame>
             <Frame Padding="1.0" Margin="1.0"  BackgroundColor="White">
