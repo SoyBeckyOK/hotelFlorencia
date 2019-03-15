@@ -1,17 +1,22 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="hotelFlorencia.Vistas.PrincipalPage"
-             BackgroundImage="FondoPrincipal.png"
              NavigationPage.HasNavigationBar="False"
              RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToParent, Property=Width}" 
              RelativeLayout.HeightConstraint="{ConstraintExpression Type=RelativeToParent, Property=Height}"
+
              Icon="home.png">
 
     <ContentPage.Content>
-        <ScrollView>
+        <AbsoluteLayout VerticalOptions="FillAndExpand"
+                    HorizontalOptions="CenterAndExpand">
+            
+             <Image AbsoluteLayout.LayoutFlags="All" AbsoluteLayout.LayoutBounds="0, 0, 1, 1"
+            Source="FondoPrincipal.png" Aspect="AspectFill"/>
+        <ScrollView AbsoluteLayout.LayoutFlags="All" AbsoluteLayout.LayoutBounds="0, 0, 1, 1">
 
-            <StackLayout>
+            <StackLayout Padding="0,20,0,0">
                 <StackLayout >
                     <Image Source="LogoFlorencia.png"
                            HorizontalOptions="Center"
@@ -51,6 +56,7 @@
             </StackLayout>
 
         </ScrollView>
+            </AbsoluteLayout>
     </ContentPage.Content>
 
 </ContentPage>

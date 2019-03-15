@@ -30,6 +30,7 @@ namespace hotelFlorencia
 
             this.BackgroundImage = "FondoPrincipal.png";
             this.Content = sub;
+
         }
 
         protected override async void OnAppearing()
