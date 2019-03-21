@@ -448,4 +448,10 @@
   <ItemGroup>
     <BundleResource Include="Resources\FondoPrincipal.png" />
   </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FondoSplash.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\fondo.png" />
+  </ItemGroup>
 </Project>
