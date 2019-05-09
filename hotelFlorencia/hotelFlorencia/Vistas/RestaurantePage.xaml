@@ -6,182 +6,90 @@
              Title="Restaurante">
     <ScrollView>
         <StackLayout BackgroundColor="LightBlue">
-            <StackLayout.Margin>
-                <OnPlatform x:TypeArguments="Thickness">
-                    <On Platform="iOS" Value="0,0,0,0" />
-                </OnPlatform>
-            </StackLayout.Margin>
+            
             <StackLayout>
                 <Image Source="LogoRestaurante.jpg">
                 </Image>
             </StackLayout>
             <Frame Padding="10" Margin="10" BackgroundColor="White">
-              <Frame.HeightRequest>
-                    <OnPlatform x:TypeArguments="x:Double">
-                        <On Platform="iOS">330</On>
-                        <On Platform="Android">300</On>
-                    </OnPlatform>
-                </Frame.HeightRequest>
-                <Grid>
-                    <Grid.RowDefinitions>
-                        <RowDefinition Height="auto" />
-                        <RowDefinition Height="auto" />
-                        <RowDefinition Height="auto" />
-                    </Grid.RowDefinitions>
+                <StackLayout>
                     <Image Grid.Row="0" Source="Entradas.jpg">
                     </Image>
                     <Label Grid.Row="1" Text="Entradas" FontSize="Small" HorizontalTextAlignment="Center" FontAttributes="Bold">
                     </Label>
                     <Button Grid.Row="2" TextColor="White" Text="Ver Menu" BackgroundColor="DarkBlue" Clicked="Button_Clicked">
                     </Button>
-                </Grid>
+                </StackLayout>
             </Frame>
             <Frame Padding="10" Margin="10" BackgroundColor="White">
-                 <Frame.HeightRequest>
-                    <OnPlatform x:TypeArguments="x:Double">
-                        <On Platform="iOS">360</On>
-                         <On Platform="Android">300</On>
-                    </OnPlatform>
-                </Frame.HeightRequest>
-                <Grid>
-                    <Grid.RowDefinitions>
-                        <RowDefinition Height="auto" />
-                        <RowDefinition Height="auto" />
-                        <RowDefinition Height="auto" />
-                    </Grid.RowDefinitions>
+                <StackLayout>
                     <Image Grid.Row="0" Source="comidas5.jpg">
                     </Image>
                     <Label Grid.Row="1" Text="Cocteles y Ceviches" FontSize="Small" HorizontalTextAlignment="Center" FontAttributes="Bold">
                     </Label>
                     <Button Grid.Row="2" TextColor="White" Text="Ver Menu" BackgroundColor="DarkBlue" Clicked="Button_Clicked_1">
                     </Button>
-                </Grid>
+                </StackLayout>
             </Frame>
             <Frame Padding="10" Margin="10" BackgroundColor="White">
-                 <Frame.HeightRequest>
-                    <OnPlatform x:TypeArguments="x:Double">
-                        <On Platform="iOS">450</On>
-                         <On Platform="Android">310</On>
-                    </OnPlatform>
-                </Frame.HeightRequest>
-                <Grid>
-                    <Grid.RowDefinitions>
-                        <RowDefinition Height="auto" />
-                        <RowDefinition Height="auto" />
-                        <RowDefinition Height="auto" />
-                    </Grid.RowDefinitions>
+                <StackLayout>
                     <Image Grid.Row="0" Source="comidas9.jpg">
                     </Image>
                     <Label Grid.Row="1" Text="Carnes y Aves" HorizontalTextAlignment="Center" FontSize="Small" FontAttributes="Bold">
                     </Label>
                     <Button Grid.Row="2" TextColor="White" Text="Ver Menu" BackgroundColor="DarkBlue" Clicked="Button_Clicked_2">
                     </Button>
-                </Grid>
+                </StackLayout>
             </Frame>
             <Frame Padding="10" Margin="10" BackgroundColor="White">
-                 <Frame.HeightRequest>
-                    <OnPlatform x:TypeArguments="x:Double">
-                        <On Platform="iOS">330</On>
-                         <On Platform="Android">300</On>
-                    </OnPlatform>
-                </Frame.HeightRequest>
-                <Grid>
-                    <Grid.RowDefinitions>
-                        <RowDefinition Height="auto" />
-                        <RowDefinition Height="auto" />
-                        <RowDefinition Height="auto" />
-                    </Grid.RowDefinitions>
+                <StackLayout>
                     <Image Grid.Row="0" Source="Camarones.jpg">
                     </Image>
                     <Label Grid.Row="1" Text="Camarones y Pescado" HorizontalTextAlignment="Center" FontSize="Small" FontAttributes="Bold">
                     </Label>
                     <Button Grid.Row="2" TextColor="White" Text="Ver Menu" BackgroundColor="DarkBlue" Clicked="Button_Clicked_7">
                     </Button>
-                </Grid>
+                </StackLayout>
             </Frame>
             <Frame Padding="10" Margin="10" BackgroundColor="White">
-                 <Frame.HeightRequest>
-                    <OnPlatform x:TypeArguments="x:Double">
-                        <On Platform="iOS">325</On>
-                         <On Platform="Android">300</On>
-                    </OnPlatform>
-                </Frame.HeightRequest>
-                <Grid>
-                    <Grid.RowDefinitions>
-                        <RowDefinition Height="auto" />
-                        <RowDefinition Height="auto" />
-                        <RowDefinition Height="auto" />
-                    </Grid.RowDefinitions>
+                <StackLayout>
                     <Image Grid.Row="0" Source="Carnes.jpg">
                     </Image>
                     <Label Grid.Row="1" Text="Cortes Especiales" HorizontalTextAlignment="Center" FontSize="Small" FontAttributes="Bold">
                     </Label>
                     <Button Grid.Row="2" TextColor="White" Text="Ver Menu" BackgroundColor="DarkBlue" Clicked="Button_Clicked_3">
                     </Button>
-                </Grid>
+                </StackLayout>
             </Frame>
             <Frame Padding="10" Margin="10" BackgroundColor="White">
-                 <Frame.HeightRequest>
-                    <OnPlatform x:TypeArguments="x:Double">
-                        <On Platform="iOS">325</On>
-                         <On Platform="Android">300</On>
-                    </OnPlatform>
-                </Frame.HeightRequest>
-                <Grid>
-                    <Grid.RowDefinitions>
-                        <RowDefinition Height="auto" />
-                        <RowDefinition Height="auto" />
-                        <RowDefinition Height="auto" />
-                    </Grid.RowDefinitions>
+                <StackLayout>
                     <Image Grid.Row="0" Source="Parrilladas.jpg">
                     </Image>
                     <Label Grid.Row="1" Text="Parrilladas para Compartir" FontSize="Small" HorizontalTextAlignment="Center" FontAttributes="Bold">
                     </Label>
                     <Button Grid.Row="2" Text="Ver Menu" TextColor="White" BackgroundColor="DarkBlue" Clicked="Button_Clicked_4">
                     </Button>
-                </Grid>
+                </StackLayout>
             </Frame>
             <Frame Padding="10" Margin="10" BackgroundColor="White">
-                 <Frame.HeightRequest>
-                    <OnPlatform x:TypeArguments="x:Double">
-                        <On Platform="iOS">260</On>
-                         <On Platform="Android">260</On>
-                    </OnPlatform>
-                </Frame.HeightRequest>
-                <Grid>
-                    <Grid.RowDefinitions>
-                        <RowDefinition Height="auto" />
-                        <RowDefinition Height="auto" />
-                        <RowDefinition Height="auto" />
-                    </Grid.RowDefinitions>
+                <StackLayout>
                     <Image Grid.Row="0" Source="Bebidas.jpg">
                     </Image>
                     <Label Grid.Row="1" Text="Bebidas" FontSize="Small" HorizontalTextAlignment="Center" FontAttributes="Bold">
                     </Label>
                     <Button Grid.Row="2" Text="Ver Menu" TextColor="White" BackgroundColor="DarkBlue" Clicked="Button_Clicked_5">
                     </Button>
-                </Grid>
+                </StackLayout>
             </Frame>
             <Frame Padding="10" Margin="10" BackgroundColor="White">
-                 <Frame.HeightRequest>
-                    <OnPlatform x:TypeArguments="x:Double">
-                        <On Platform="iOS">330</On>
-                         <On Platform="Android">300</On>
-                    </OnPlatform>
-                </Frame.HeightRequest>
-                <Grid>
-                    <Grid.RowDefinitions>
-                        <RowDefinition Height="auto" />
-                        <RowDefinition Height="auto" />
-                        <RowDefinition Height="auto" />
-                    </Grid.RowDefinitions>
+                <StackLayout>
                     <Image Grid.Row="0" Source="Postres.jpg">
                     </Image>
                     <Label Grid.Row="1" Text="Postres" FontSize="Small" HorizontalTextAlignment="Center" FontAttributes="Bold">
                     </Label>
                     <Button Grid.Row="2" Text="Ver Menu" TextColor="White" BackgroundColor="DarkBlue" Clicked="Button_Clicked_6">
                     </Button>
-                </Grid>
+                </StackLayout>
             </Frame>
         </StackLayout>
     </ScrollView>

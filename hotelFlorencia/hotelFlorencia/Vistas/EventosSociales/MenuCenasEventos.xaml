@@ -6,112 +6,46 @@
     <ScrollView>
         <StackLayout>
             <Frame Padding="10" Margin="10"  BackgroundColor="White">
-                <Frame.HeightRequest>
-                    <OnPlatform x:TypeArguments="x:Double">
-                        <On Platform="iOS">500</On>
-                        <On Platform="Android">350</On>
-                    </OnPlatform>
-                </Frame.HeightRequest>
-                <Grid>
-                    <Grid.RowDefinitions>
-                        <RowDefinition Height="auto"/>
-                        <RowDefinition Height="auto"/>
-                        <RowDefinition Height="auto"/>
-                    </Grid.RowDefinitions>
+                <StackLayout>
                     <Image Grid.Row="0" Source="comidas10.jpg"></Image>
                     <Label Grid.Row="1" Text="Mixto Florencia... $14.50" FontSize="Medium" HorizontalTextAlignment="Center" FontAttributes="Bold"></Label>
                     <Label Grid.Row="2" Text="Es una deliciosa combinación de lomito de aguja (tender loins) y pollo en salsa forrestiere, acompañado de arroz ecuatoriano, vegetales a la mantequilla."></Label>
-                </Grid>
+                </StackLayout>
             </Frame>
             <Frame Padding="10" Margin="10" BackgroundColor="White">
-                <Frame.HeightRequest>
-                    <OnPlatform x:TypeArguments="x:Double">
-                        <On Platform="iOS">510</On>
-                        <On Platform="Android">380</On>
-                    </OnPlatform>
-                </Frame.HeightRequest>
-                <Grid>
-                    <Grid.RowDefinitions>
-                        <RowDefinition Height="auto"/>
-                        <RowDefinition Height="auto"/>
-                        <RowDefinition Height="auto"/>
-                    </Grid.RowDefinitions>
-                    <Image Grid.Row="0" Source="comidas10.jpg"></Image>
-                    <Label Grid.Row="1" Text="Mixto a la Florencia... $14.95" FontSize="Medium" HorizontalTextAlignment="Center" FontAttributes="Bold"></Label>
-                    <Label Grid.Row="2" Text="Exquisito filete de pollo relleno de chipilín, tocino ahumado, queso mozzarella y carne a la parrilla bañados en dos salsas (bechamel y forrestiere). Acompañados de vegetales salteados y pimiento relleno de arroz gratinado. "></Label>
-                </Grid>
+                <StackLayout>
+                    <Image Source="comidas10.jpg"></Image>
+                    <Label Text="Mixto a la Florencia... $14.95" FontSize="Medium" HorizontalTextAlignment="Center" FontAttributes="Bold"></Label>
+                    <Label Text="Exquisito filete de pollo relleno de chipilín, tocino ahumado, queso mozzarella y carne a la parrilla bañados en dos salsas (bechamel y forrestiere). Acompañados de vegetales salteados y pimiento relleno de arroz gratinado. "></Label>
+                </StackLayout>
             </Frame>
             <Frame Padding="10" Margin="10" BackgroundColor="White">
-                <Frame.HeightRequest>
-                    <OnPlatform x:TypeArguments="x:Double">
-                        <On Platform="iOS">500</On>
-                        <On Platform="Android">350</On>
-                    </OnPlatform>
-                </Frame.HeightRequest>
-                <Grid>
-                    <Grid.RowDefinitions>
-                        <RowDefinition Height="auto"/>
-                        <RowDefinition Height="auto"/>
-                        <RowDefinition Height="auto"/>
-                    </Grid.RowDefinitions>
-                    <Image Grid.Row="0" Source="comidas10.jpg"></Image>
-                    <Label Grid.Row="1" Text="Flamenco a la Florencia... $14.95" FontSize="Medium" HorizontalTextAlignment="Center" FontAttributes="Bold"></Label>
-                    <Label Grid.Row="2" Text="Es  un tierno filete de pollo relleno de camarones con un queso especial bañado con salsa bechamel, acompañado con papa Williams y vegetales al vapor."></Label>
-                </Grid>
+                <StackLayout>
+                    <Image Source="comidas10.jpg"></Image>
+                    <Label Text="Flamenco a la Florencia... $14.95" FontSize="Medium" HorizontalTextAlignment="Center" FontAttributes="Bold"></Label>
+                    <Label Text="Es  un tierno filete de pollo relleno de camarones con un queso especial bañado con salsa bechamel, acompañado con papa Williams y vegetales al vapor."></Label>
+                </StackLayout>
             </Frame>
             <Frame Padding="10" Margin="10" BackgroundColor="White">
-                <Frame.HeightRequest>
-                    <OnPlatform x:TypeArguments="x:Double">
-                        <On Platform="iOS">530</On>
-                        <On Platform="Android">390</On>
-                    </OnPlatform>
-                </Frame.HeightRequest>
-                <Grid>
-                    <Grid.RowDefinitions>
-                        <RowDefinition Height="auto"/>
-                        <RowDefinition Height="auto"/>
-                        <RowDefinition Height="auto"/>
-                    </Grid.RowDefinitions>
-                    <Image Grid.Row="0" Source="comidas10.jpg"></Image>
-                    <Label Grid.Row="1" Text="Lomo relleno de Camarones y Champiñones... $14.95" FontSize="Medium" HorizontalTextAlignment="Center" FontAttributes="Bold"></Label>
-                    <Label Grid.Row="2" Text="Es un delicioso lomo de aguja (tender loins)  relleno de camarones frescos y champiñones. Bañado con una salsa Marcelo, acompañado de arroz con maní  y unos vegetales al estilo oriental."></Label>
-                </Grid>
+                <StackLayout>
+                    <Image Source="comidas10.jpg"></Image>
+                    <Label Text="Lomo relleno de Camarones y Champiñones... $14.95" FontSize="Medium" HorizontalTextAlignment="Center" FontAttributes="Bold"></Label>
+                    <Label Text="Es un delicioso lomo de aguja (tender loins)  relleno de camarones frescos y champiñones. Bañado con una salsa Marcelo, acompañado de arroz con maní  y unos vegetales al estilo oriental."></Label>
+                </StackLayout>
             </Frame>
             <Frame Padding="10" Margin="10" BackgroundColor="White">
-                <Frame.HeightRequest>
-                    <OnPlatform x:TypeArguments="x:Double">
-                        <On Platform="iOS">485</On>
-                        <On Platform="Android">350</On>
-                    </OnPlatform>
-                </Frame.HeightRequest>
-                <Grid>
-                    <Grid.RowDefinitions>
-                        <RowDefinition Height="auto"/>
-                        <RowDefinition Height="auto"/>
-                        <RowDefinition Height="auto"/>
-                    </Grid.RowDefinitions>
-                    <Image Grid.Row="0" Source="comidas10.jpg"></Image>
-                    <Label Grid.Row="1" Text="Mixto de Camarones... $16.50" FontSize="Medium" HorizontalTextAlignment="Center" FontAttributes="Bold"></Label>
-                    <Label Grid.Row="2" Text="Es una deliciosa combinación de 2 camarones jumbo, 4 onzas de lomito a la parrilla, vegetales y arroz con tocino."></Label>
-                </Grid>
+                <StackLayout>
+                    <Image Source="comidas10.jpg"></Image>
+                    <Label Text="Mixto de Camarones... $16.50" FontSize="Medium" HorizontalTextAlignment="Center" FontAttributes="Bold"></Label>
+                    <Label Text="Es una deliciosa combinación de 2 camarones jumbo, 4 onzas de lomito a la parrilla, vegetales y arroz con tocino."></Label>
+                </StackLayout>
             </Frame>
             <Frame Padding="10" Margin="10" BackgroundColor="White">
-                <Frame.HeightRequest>
-                    <OnPlatform x:TypeArguments="x:Double">
-                        <On Platform="iOS">500</On>
-                        <On Platform="Android">360</On>
-                    </OnPlatform>
-                </Frame.HeightRequest>
-                <Grid>
-                    <Grid.RowDefinitions>
-                        <RowDefinition Height="auto"/>
-                        <RowDefinition Height="auto"/>
-                        <RowDefinition Height="auto"/>
-                    </Grid.RowDefinitions>
-                    <Image Grid.Row="0" Source="comidas10.jpg"></Image>
-                    <Label Grid.Row="1" Text="Cielo, Mar y Tierra... $17.50" FontSize="Medium" HorizontalTextAlignment="Center" FontAttributes="Bold"></Label>
-                    <Label Grid.Row="2" Text="Es una combinación de carne de lomo de aguja (tender loins), pollo y camarones jumbos a la parrilla al estilo Florencia, acompañada de ensalada romana y puré de papa."></Label>
-                </Grid>
+                <StackLayout>
+                    <Image Source="comidas10.jpg"></Image>
+                    <Label Text="Cielo, Mar y Tierra... $17.50" FontSize="Medium" HorizontalTextAlignment="Center" FontAttributes="Bold"></Label>
+                    <Label Text="Es una combinación de carne de lomo de aguja (tender loins), pollo y camarones jumbos a la parrilla al estilo Florencia, acompañada de ensalada romana y puré de papa."></Label>
+                </StackLayout>
             </Frame>
         </StackLayout>
 

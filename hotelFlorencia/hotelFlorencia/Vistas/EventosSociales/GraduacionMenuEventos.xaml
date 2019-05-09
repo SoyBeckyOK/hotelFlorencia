@@ -8,54 +8,21 @@
         <StackLayout BackgroundColor="LightBlue">
             <Label Text="Menu para Graduaciones" FontAttributes="Bold" TextColor="Black" FontSize="Large" HorizontalTextAlignment="Center" VerticalTextAlignment="Center"></Label>
             <Frame Padding="1.0" Margin="1.0"  BackgroundColor="White">
-                <Frame.HeightRequest>
-                    <OnPlatform x:TypeArguments="x:Double">
-                        <On Platform="iOS">580</On>
-                        <On Platform="Android">390</On>
-                    </OnPlatform>
-                </Frame.HeightRequest>
-                <Grid>
-                    <Grid.RowDefinitions>
-                        <RowDefinition Height="auto"/>
-                        <RowDefinition Height="auto"/>
-                        <RowDefinition Height="auto"/>
-                        <RowDefinition Height="auto"/>
-                        <RowDefinition Height="auto"/>
-                        <RowDefinition Height="auto"/>
-                        <RowDefinition Height="auto"/>
-                        <RowDefinition Height="auto"/>
-                        <RowDefinition Height="auto"/>
-                        <RowDefinition Height="auto"/>
-                    </Grid.RowDefinitions>
-                    <Image Grid.Row="0" Source="eventos22.jpg"></Image>
-                    <Label Grid.Row="1" Text="Beneficios de Realizar una Graduacion con Nosotros" FontSize="Medium" HorizontalTextAlignment="Center" FontAttributes="Bold"></Label>
-                    <Label Grid.Row="2" Text="* Personal calificado y con deseos de servirle."></Label>
-                    <Label Grid.Row="3" Text="* Instalaciones con aire acondicionado."></Label>
-                    <Label Grid.Row="4" Text="* Mantelería a su elección "></Label>
-                    <Label Grid.Row="5" Text="* Mesas redondas o rectangulares"></Label>
-                    <Label Grid.Row="6" Text="* Micrófono alámbrico"></Label>
-                    <Label Grid.Row="7" Text="* Sonido con música instrumental"></Label>
-                    <Label Grid.Row="8" Text="* Amplio parqueo"></Label>
-                    <Label Grid.Row="9" Text="* Calidad en nuestro menús"></Label>
-                </Grid>
+                <StackLayout>
+                    <Image Source="eventos22.jpg"></Image>
+                    <Label Text="Beneficios de Realizar una Graduacion con Nosotros" FontSize="Medium" HorizontalTextAlignment="Center" FontAttributes="Bold"></Label>
+                    <Label Text="* Personal calificado y con deseos de servirle."></Label>
+                    <Label Text="* Instalaciones con aire acondicionado."></Label>
+                    <Label Text="* Mantelería a su elección "></Label>
+                    <Label Text="* Mesas redondas o rectangulares"></Label>
+                    <Label Text="* Micrófono alámbrico"></Label>
+                    <Label Text="* Sonido con música instrumental"></Label>
+                    <Label Text="* Amplio parqueo"></Label>
+                    <Label Text="* Calidad en nuestro menús"></Label>
+                </StackLayout>
             </Frame>
             <Frame Padding="1.0" Margin="1.0"  BackgroundColor="White">
-                <Frame.HeightRequest>
-                    <OnPlatform x:TypeArguments="x:Double">
-                        <On Platform="iOS">320</On>
-                        <On Platform="Android">260</On>
-                    </OnPlatform>
-                </Frame.HeightRequest>
-                <Grid>
-                    <Grid.RowDefinitions>
-                        <RowDefinition Height="auto"/>
-                        <RowDefinition Height="auto"/>
-                        <RowDefinition Height="auto"/>
-                        <RowDefinition Height="auto"/>
-                        <RowDefinition Height="auto"/>
-                        <RowDefinition Height="auto"/>
-                        <RowDefinition Height="auto"/>
-                    </Grid.RowDefinitions>
+                <StackLayout>
                     <Label Grid.Row="0" Text="Ofrecemos servicio a Domicilio:" FontSize="Medium"  HorizontalTextAlignment="Start" FontAttributes="Bold"></Label>
                     <Label Grid.Row="1" Text="* Mantelería mantel base y  cubre, forros y lazas, cristalería, servicio de meseros, descorche cortesía si es vino o champagne  (si es licor descorche es de  $7.00)."></Label>
                     <Label Grid.Row="2" Text="Cobro adicional:" FontSize="Medium"  HorizontalTextAlignment="Start" FontAttributes="Bold"></Label>
@@ -63,70 +30,31 @@
                     <Label Grid.Row="4" Text="* Botellitas con agua c/u…$0.70 (se le lleva un vaso con hielo)" ></Label>
                     <Label Grid.Row="5" Text="* Renta de copas c/u…$0.50" ></Label>
                     <Label Grid.Row="6" Text="* Laza adicional ...C/u…$0.50" ></Label>
-                </Grid>
+                </StackLayout>
             </Frame >
             <StackLayout>
                 <Label Text="Menus de Platillos y Boquitas" HorizontalOptions="Center" FontAttributes="Bold" FontSize="Large"></Label>
             </StackLayout>
 
             <Frame Padding="1.0" Margin="1.0" BackgroundColor="White">
-                <Frame.HeightRequest>
-                    <OnPlatform x:TypeArguments="x:Double">
-                        <On Platform="iOS">520</On>
-                        <On Platform="Android">420</On>
-                    </OnPlatform>
-                </Frame.HeightRequest>
-                <Grid>
-                    <Grid.RowDefinitions>
-                        <RowDefinition Height="auto"/>
-                        <RowDefinition Height="auto"/>
-                        <RowDefinition Height="auto"/>
-                        <RowDefinition Height="auto"/>
-                        <RowDefinition Height="auto"/>
-                    </Grid.RowDefinitions>
-                    <Image Grid.Row="0" Source="eventos25.jpg"></Image>
-                    <Label Grid.Row="1" Text="Nota: " FontSize="Large"  FontAttributes="Bold"></Label>
-                    <Label Grid.Row="2" Text="* Todos los menús incluyen una entrada: Crema de brócoli con champiñones. Crema de tomate, Crema de esparrago o Consomé." FontSize="Small"  FontAttributes="Bold"></Label>
-                    <Label Grid.Row="3" Text="* Si es domicilio de entrada incluye Dips de Queso con palitos (1 por mesa de 10 pax).." FontSize="Small"  FontAttributes="Bold"></Label>
-                    <Label Grid.Row="4" Text="* Vaso de soda y pan ." FontSize="Small"  FontAttributes="Bold"></Label>
-                    <Label Grid.Row="5" Text="* Todos nuestros precios incluyen IVA, agregar 10 % de servicio." FontSize="Small"  FontAttributes="Bold"></Label>
-                </Grid>
+                <StackLayout>
+                    <Image Source="eventos25.jpg"></Image>
+                    <Label Text="Nota: " FontSize="Large"  FontAttributes="Bold"></Label>
+                    <Label Text="* Todos los menús incluyen una entrada: Crema de brócoli con champiñones. Crema de tomate, Crema de esparrago o Consomé." FontSize="Small"  FontAttributes="Bold"></Label>
+                    <Label Text="* Si es domicilio de entrada incluye Dips de Queso con palitos (1 por mesa de 10 pax).." FontSize="Small"  FontAttributes="Bold"></Label>
+                    <Label Text="* Vaso de soda y pan ." FontSize="Small"  FontAttributes="Bold"></Label>
+                    <Label Text="* Todos nuestros precios incluyen IVA, agregar 10 % de servicio." FontSize="Small"  FontAttributes="Bold"></Label>
+                </StackLayout>
             </Frame>
             <Frame Padding="1.0" Margin="1.0"  BackgroundColor="White">
-                <Frame.HeightRequest>
-                    <OnPlatform x:TypeArguments="x:Double">
-                        <On Platform="iOS">360</On>
-                        <On Platform="Android">300</On>
-                    </OnPlatform>
-                </Frame.HeightRequest>
-                <Grid>
-                    <Grid.RowDefinitions>
-                        <RowDefinition Height="auto"/>
-                        <RowDefinition Height="auto"/>
-                        <RowDefinition Height="auto"/>
-                    </Grid.RowDefinitions>
+                <StackLayout>
                     <Image Grid.Row="0" Source="Entradas.jpg"></Image>
                     <Label Grid.Row="1" Text="Boquitas" FontSize="Medium" HorizontalOptions="Center" FontAttributes="Bold"></Label>
                     <Button Grid.Row="2" Text="Ver Menu" FontSize="Small" TextColor="White" FontAttributes="Bold" BackgroundColor="DarkBlue" Clicked="Button_Clicked"></Button>
-                </Grid>
+                </StackLayout>
             </Frame>
             <Frame Padding="1.0" Margin="1.0" BackgroundColor="White">
-                <Frame.HeightRequest>
-                    <OnPlatform x:TypeArguments="x:Double">
-                        <On Platform="iOS">350</On>
-                        <On Platform="Android">320</On>
-                    </OnPlatform>
-                </Frame.HeightRequest>
-                <Grid>
-                    <Grid.RowDefinitions>
-                        <RowDefinition Height="auto"/>
-                        <RowDefinition Height="auto"/>
-                        <RowDefinition Height="auto"/>
-                        <RowDefinition Height="auto"/>
-                        <RowDefinition Height="auto"/>
-                        <RowDefinition Height="auto"/>
-                        <RowDefinition Height="auto"/>
-                    </Grid.RowDefinitions>
+                <StackLayout>
                     <Image Grid.Row="0" Source="Bebidas.jpg"></Image>
                     <Label Grid.Row="1" Text="Precios de Bebidas" FontSize="Medium" HorizontalTextAlignment="Start" FontAttributes="Bold"></Label>
                     <Label Grid.Row="2" Text="Cerveza Extranjera $2.00" FontSize="Small" HorizontalTextAlignment="Start" ></Label>
@@ -134,98 +62,43 @@
                     <Label Grid.Row="4" Text="Descorche  $7.95 por botella" FontSize="Small" HorizontalTextAlignment="Start" ></Label>
                     <Label Grid.Row="5" Text="Cerveza Nacional  $1.25" FontSize="Small" HorizontalTextAlignment="Start" ></Label>
                     <Label Grid.Row="6" Text="Champagne  $7.95" FontSize="Small" HorizontalTextAlignment="Start" ></Label>
-                </Grid>
+                </StackLayout>
             </Frame>
             <Frame Padding="1.0" Margin="1.0" BackgroundColor="White">
-                <Frame.HeightRequest>
-                    <OnPlatform x:TypeArguments="x:Double">
-                        <On Platform="iOS">490</On>
-                        <On Platform="Android">340</On>
-                    </OnPlatform>
-                </Frame.HeightRequest>
-                <Grid>
-                    <Grid.RowDefinitions>
-                        <RowDefinition Height="auto"/>
-                        <RowDefinition Height="auto"/>
-                        <RowDefinition Height="auto"/>
-                    </Grid.RowDefinitions>
+                <StackLayout>
                     <Image Grid.Row="0" Source="comidas3.jpg"></Image>
                     <Label Grid.Row="1" Text="Menu para Niños" FontSize="Medium" HorizontalOptions="Center" FontAttributes="Bold"></Label>
                     <Button Grid.Row="2" Text="Ver Menu" TextColor="White" BackgroundColor="DarkBlue" FontSize="Small"  FontAttributes="Bold" Clicked="Button_Clicked_1"></Button>
-                </Grid>
+                </StackLayout>
             </Frame>
             <Frame Padding="1.0" Margin="1.0" BackgroundColor="White">
-                <Frame.HeightRequest>
-                    <OnPlatform x:TypeArguments="x:Double">
-                        <On Platform="iOS">500</On>
-                        <On Platform="Android">320</On>
-                    </OnPlatform>
-                </Frame.HeightRequest>
-                <Grid>
-                    <Grid.RowDefinitions>
-                        <RowDefinition Height="auto"/>
-                        <RowDefinition Height="auto"/>
-                        <RowDefinition Height="auto"/>
-                    </Grid.RowDefinitions>
+                <StackLayout>
                     <Image Grid.Row="0" Source="comidas8.jpg"></Image>
                     <Label Grid.Row="1" Text="Menu de Cena o Almuerzo de Pollo" FontSize="Medium" HorizontalOptions="Center" FontAttributes="Bold"></Label>
                     <Button Grid.Row="2" Text="Ver Menu" TextColor="White" BackgroundColor="DarkBlue" FontSize="Small"  FontAttributes="Bold" Clicked="Button_Clicked_2"></Button>
-                </Grid>
+                </StackLayout>
             </Frame>
 
             <Frame Padding="1.0" Margin="1.0" BackgroundColor="White">
-                <Frame.HeightRequest>
-                    <OnPlatform x:TypeArguments="x:Double">
-                        <On Platform="iOS">560</On>
-                        <On Platform="Android">320</On>
-                    </OnPlatform>
-                </Frame.HeightRequest>
-                <Grid>
-                    <Grid.RowDefinitions>
-                        <RowDefinition Height="auto"/>
-                        <RowDefinition Height="auto"/>
-                        <RowDefinition Height="auto"/>
-                    </Grid.RowDefinitions>
+                <StackLayout>
                     <Image Grid.Row="0" Source="comidas6.jpg"></Image>
                     <Label Grid.Row="1" Text="Menu de Cenas o Almuerzos Carnes" FontSize="Medium" HorizontalOptions="Center"  FontAttributes="Bold"></Label>
                     <Button Grid.Row="2" Text="Ver Menu" TextColor="White" BackgroundColor="DarkBlue" FontSize="Small"  FontAttributes="Bold" Clicked="Button_Clicked_3" ></Button>
-                </Grid>
+                </StackLayout>
             </Frame>
             <Frame Padding="1.0" Margin="1.0" BackgroundColor="White">
-                <Frame.HeightRequest>
-                    <OnPlatform x:TypeArguments="x:Double">
-                        <On Platform="iOS">720</On>
-                        <On Platform="Android">320</On>
-                    </OnPlatform>
-                </Frame.HeightRequest>
-                <Grid>
-                    <Grid.RowDefinitions>
-                        <RowDefinition Height="auto"/>
-                        <RowDefinition Height="auto"/>
-                        <RowDefinition Height="auto"/>
-                    </Grid.RowDefinitions>
+                <StackLayout>
                     <Image Grid.Row="0" Source="comidas7.jpg"></Image>
                     <Label Grid.Row="1" Text="Menu de Cenas o Almuerzos Mixtos" FontSize="Medium" HorizontalOptions="Center" FontAttributes="Bold"></Label>
                     <Button Grid.Row="2" Text="Ver Menu" TextColor="White" BackgroundColor="DarkBlue" FontSize="Small"  FontAttributes="Bold" Clicked="Button_Clicked_4"></Button>
-                </Grid>
+                </StackLayout>
             </Frame>
             <Frame Padding="1.0" Margin="1.0" BackgroundColor="White">
-                <Frame.HeightRequest>
-                    <OnPlatform x:TypeArguments="x:Double">
-                        <On Platform="iOS">400</On>
-                        <On Platform="Android">350</On>
-                    </OnPlatform>
-                </Frame.HeightRequest>
-                <Grid>
-                    <Grid.RowDefinitions>
-                        <RowDefinition Height="auto"/>
-                        <RowDefinition Height="auto"/>
-                        <RowDefinition Height="auto"/>
-                    </Grid.RowDefinitions>
+                <StackLayout>
                     <Image Grid.Row="0" Source="comidas5.jpg"></Image>
                     <Label Grid.Row="1" Text="Menu de Cenas o Almuerzos de Mariscos" FontSize="Medium" VerticalTextAlignment="Center" HorizontalOptions="Center" FontAttributes="Bold"></Label>
                     <Button Grid.Row="2" Text="Ver Menu" TextColor="White"  BackgroundColor="DarkBlue" FontSize="Small"  FontAttributes="Bold" Clicked="Button_Clicked_5"></Button>
-                </Grid>
+                </StackLayout>
             </Frame>
 
         </StackLayout>

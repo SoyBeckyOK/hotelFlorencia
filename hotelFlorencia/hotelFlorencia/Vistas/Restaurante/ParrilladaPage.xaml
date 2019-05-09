@@ -9,24 +9,22 @@
             <StackLayout BackgroundColor="LightBlue">
             <Label Text="Parrilladas para tres o cuatro Personas" FontAttributes="Bold" HorizontalOptions="Center" TextColor="Black" FontSize="Medium" HorizontalTextAlignment="Center" VerticalTextAlignment="Center"></Label>
                 <Frame  Padding="10" Margin="10" BackgroundColor="White">
-                    <Frame.HeightRequest>
-                        <OnPlatform x:TypeArguments="x:Double">
-                            <On Platform="iOS">330</On>
-                            <On Platform="Android">300</On>
-                        </OnPlatform>
-                    </Frame.HeightRequest>
-                    <Grid>
-                    <Grid.RowDefinitions>
-                        <RowDefinition Height="auto"/>
-                        <RowDefinition Height="auto"/>
-                        <RowDefinition Height="auto"/>
-                        <RowDefinition Height="auto"/>
-                    </Grid.RowDefinitions>
-                    <Image Grid.Row="0" Source="Parrilladas.jpg"></Image>
-                    <Label Grid.Row="1" Text="Parrillada de Cerdo" FontSize="Medium" FontAttributes="Bold" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" ></Label>
-                    <Label Grid.Row="2" Text="1 1/2 Libra de Cerdo a la Parrilla"></Label>
-                        <Label Grid.Row="3" Text="$19.95 ($6.65 por persona)" FontAttributes="Bold"></Label>
-                </Grid>
+
+                    <StackLayout>
+                        <Grid>
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="auto"/>
+                                <RowDefinition Height="auto"/>
+                                <RowDefinition Height="auto"/>
+                                <RowDefinition Height="auto"/>
+                            </Grid.RowDefinitions>
+                            <Image Grid.Row="0" Source="Parrilladas.jpg"></Image>
+                            <Label Grid.Row="1" Text="Parrillada de Cerdo" FontSize="Medium" FontAttributes="Bold" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" ></Label>
+                            <Label Grid.Row="2" Text="1 1/2 Libra de Cerdo a la Parrilla"></Label>
+                            <Label Grid.Row="3" Text="$19.95 ($6.65 por persona)" FontAttributes="Bold"></Label>
+                        </Grid>
+                    </StackLayout>
+                    
             </Frame>
             <Frame Padding="10" Margin="10" BackgroundColor="White">
                     <Frame.HeightRequest>

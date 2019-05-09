@@ -7,83 +7,37 @@
     <ScrollView>
         <StackLayout BackgroundColor="LightBlue">
             <Frame Padding="10" Margin="10"  BackgroundColor="White">
-                <Frame.HeightRequest>
-                    <OnPlatform x:TypeArguments="x:Double">
-                        <On Platform="iOS">450</On>
-                        <On Platform="Android">330</On>
-                    </OnPlatform>
-                </Frame.HeightRequest>
-                <Grid>
-                    <Grid.RowDefinitions>
-                        <RowDefinition Height="auto"/>
-                        <RowDefinition Height="auto"/>
-                        <RowDefinition Height="auto"/>
-                    </Grid.RowDefinitions>
-                    <Image Grid.Row="0" Source="eventos2.jpg"></Image>
-                    <Label Grid.Row="1" Text="Bodas" FontSize="Small" HorizontalTextAlignment="Center" FontAttributes="Bold"></Label>
-                    <Button Grid.Row="2" TextColor="White" Text="Ver Opciones" BackgroundColor="DarkBlue" x:Name="btn_Boda" Clicked="Btn_Boda_Clicked"></Button>
-                </Grid>
+                <StackLayout>
+                    <Image Source="eventos2.jpg"></Image>
+                    <Label Text="Bodas" FontSize="Small" HorizontalTextAlignment="Center" FontAttributes="Bold"></Label>
+                    <Button TextColor="White" Text="Ver Opciones" BackgroundColor="DarkBlue" x:Name="btn_Boda" Clicked="Btn_Boda_Clicked"></Button>
+                </StackLayout>
             </Frame>
 
             <Frame Padding="10" Margin="10"  BackgroundColor="White">
-                <Frame.HeightRequest>
-                    <OnPlatform x:TypeArguments="x:Double">
-                        <On Platform="iOS">450</On>
-                        <On Platform="Android">330</On>
-                    </OnPlatform>
-                </Frame.HeightRequest>
-                <Grid>
-                    <Grid.RowDefinitions>
-                        <RowDefinition Height="auto"/>
-                        <RowDefinition Height="auto"/>
-                        <RowDefinition Height="auto"/>
-                    </Grid.RowDefinitions>
-                    <Image Grid.Row="0" Source="eventos24.jpg" ></Image>
-                    <Label Grid.Row="1" Text="Fiestas Rosa" HorizontalTextAlignment="Center" FontSize="Small" FontAttributes="Bold"></Label>
-                    <Button Grid.Row="2" TextColor="White" Text="Ver Opciones" BackgroundColor="DarkBlue" x:Name="btn_FiestaRosa" Clicked="Btn_FiestaRosa_Clicked"></Button>
-                </Grid>
+                <StackLayout>
+                    <Image Source="eventos24.jpg" ></Image>
+                    <Label Text="Fiestas Rosa" HorizontalTextAlignment="Center" FontSize="Small" FontAttributes="Bold"></Label>
+                    <Button TextColor="White" Text="Ver Opciones" BackgroundColor="DarkBlue" x:Name="btn_FiestaRosa" Clicked="Btn_FiestaRosa_Clicked"></Button>
+                </StackLayout>
             </Frame>
             <Frame Padding="10" Margin="10"  BackgroundColor="White">
-                <Frame.HeightRequest>
-                    <OnPlatform x:TypeArguments="x:Double">
-                        <On Platform="iOS">370</On>
-                        <On Platform="Android">350</On>
-                    </OnPlatform>
-                </Frame.HeightRequest>
-                <Grid>
-                    <Grid.RowDefinitions>
-                        <RowDefinition Height="auto"/>
-                        <RowDefinition Height="auto"/>
-                        <RowDefinition Height="auto"/>
-                    </Grid.RowDefinitions>
-                    <Image Grid.Row="0" Source="eventos17.jpg" WidthRequest="300"></Image>
-                    <Label Grid.Row="1" Text="Graduaciones" HorizontalTextAlignment="Center" FontSize="Small" FontAttributes="Bold"></Label>
-                    <Button Grid.Row="2" TextColor="White" Text="Ver Opciones" BackgroundColor="DarkBlue" x:Name="btn_Graduaciones" Clicked="Btn_Graduaciones_Clicked"></Button>
-                </Grid>
+                <StackLayout>
+                    <Image Source="eventos17.jpg" WidthRequest="300"></Image>
+                    <Label Text="Graduaciones" HorizontalTextAlignment="Center" FontSize="Small" FontAttributes="Bold"></Label>
+                    <Button TextColor="White" Text="Ver Opciones" BackgroundColor="DarkBlue" x:Name="btn_Graduaciones" Clicked="Btn_Graduaciones_Clicked"></Button>
+                </StackLayout>
             </Frame>
 
             <Frame Padding="10" Margin="10"  BackgroundColor="White">
-                <Frame.HeightRequest>
-                    <OnPlatform x:TypeArguments="x:Double">
-                        <On Platform="iOS">500</On>
-                        <On Platform="Android">400</On>
-                    </OnPlatform>
-                </Frame.HeightRequest>
-                <Grid>
-                    <Grid.RowDefinitions>
-                        <RowDefinition Height="auto"/>
-                        <RowDefinition Height="auto"/>
-                        <RowDefinition Height="auto"/>
-                        <RowDefinition Height="auto"/>
-                        <RowDefinition Height="auto"/>
-                    </Grid.RowDefinitions>
-                    <Image Grid.Row="0" Source="eventos21.jpg"></Image>
-                    <Label Grid.Row="1" Text="Nota: Importante" FontSize="Small" HorizontalTextAlignment="Center" FontAttributes="Bold"></Label>
-                    <Label Grid.Row="2" Text="- Recargo por uso de  Energía  si trae Disco…. $125.00  y  si es Grupo  pequeño……$175.00"></Label>
-                    <Label Grid.Row="3" Text="- Si se pasa de la hora estipulada de su evento habrá un recargo de $75.00 por hora." ></Label>
-                    <Label Grid.Row="4" Text="- Para tener segura su reserva se solicita un anticipo de $500.00 luego tres días antes de su evento cancelar la diferencia del mínimo reservado." ></Label>
-                    <Label Grid.Row="5" Text="- RENTA DE CAÑON POR HORA $10.00" ></Label>
-                </Grid>
+                <StackLayout>
+                    <Image Source="eventos21.jpg"></Image>
+                    <Label Text="Nota: Importante" FontSize="Small" HorizontalTextAlignment="Center" FontAttributes="Bold"></Label>
+                    <Label Text="- Recargo por uso de  Energía  si trae Disco…. $125.00  y  si es Grupo  pequeño……$175.00"></Label>
+                    <Label Text="- Si se pasa de la hora estipulada de su evento habrá un recargo de $75.00 por hora." ></Label>
+                    <Label Text="- Para tener segura su reserva se solicita un anticipo de $500.00 luego tres días antes de su evento cancelar la diferencia del mínimo reservado." ></Label>
+                    <Label Text="- RENTA DE CAÑON POR HORA $10.00" ></Label>
+                </StackLayout>
             </Frame>
 
         </StackLayout>

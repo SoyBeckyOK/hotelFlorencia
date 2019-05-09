@@ -10,246 +10,107 @@
             </Frame>
            
             <Frame Padding="10" Margin="10"  BackgroundColor="White">
-                <Frame.HeightRequest>
+                <!--<Frame.HeightRequest>
                     <OnPlatform x:TypeArguments="x:Double">
                         <On Platform="iOS">330</On>
                         <On Platform="Android">250</On>
                     </OnPlatform>
-                </Frame.HeightRequest> 
-                <Grid>
-                    <Grid.RowDefinitions>
-                        <RowDefinition Height="auto"/>
-                        <RowDefinition Height="auto"/>
-                        <RowDefinition Height="auto"/>
-                        <RowDefinition Height="auto"/>
-                    </Grid.RowDefinitions>
-                    <Image Grid.Row="0" Source="Entradas.jpg"></Image>
-                    <Label Grid.Row="1" Text="Cheeses Sticks" FontSize="Large" HorizontalTextAlignment="Center" FontAttributes="Bold"></Label>
-                </Grid>
+                </Frame.HeightRequest>-->
+                <StackLayout>
+                    <Image Source="Entradas.jpg"></Image>
+                    <Label Text="Cheeses Sticks" FontSize="Large" HorizontalTextAlignment="Center" FontAttributes="Bold"></Label>
+                </StackLayout>
             </Frame>
             <Frame Padding="10" Margin="10"  BackgroundColor="White">
-                <Frame.HeightRequest>
-                    <OnPlatform x:TypeArguments="x:Double">
-                        <On Platform="iOS">330</On>
-                        <On Platform="Android">250</On>
-                    </OnPlatform>
-                </Frame.HeightRequest>
-                <Grid>
-                    <Grid.RowDefinitions>
-                        <RowDefinition Height="auto"/>
-                        <RowDefinition Height="auto"/>
-                    </Grid.RowDefinitions>
-                    <Image Grid.Row="0" Source="Entradas.jpg"></Image>
-                    <Label Grid.Row="1" Text="Rollos de Jamon y Palmito" FontSize="Large" HorizontalTextAlignment="Center" FontAttributes="Bold"></Label>
-                </Grid>
+                <StackLayout>
+                    <Image Source="Entradas.jpg"></Image>
+                    <Label Text="Rollos de Jamon y Palmito" FontSize="Large" HorizontalTextAlignment="Center" FontAttributes="Bold"></Label>
+                </StackLayout>
             </Frame>
             <Frame Padding="10" Margin="10" BackgroundColor="White">
-                <Frame.HeightRequest>
-                    <OnPlatform x:TypeArguments="x:Double">
-                        <On Platform="iOS">330</On>
-                        <On Platform="Android">250</On>
-                    </OnPlatform>
-                </Frame.HeightRequest>
-                <Grid>
-                    <Grid.RowDefinitions>
-                        <RowDefinition Height="auto"/>
-                        <RowDefinition Height="auto"/>
-                    </Grid.RowDefinitions>
-                    <Image Grid.Row="0" Source="Entradas.jpg"></Image>
-                    <Label Grid.Row="1" Text="Pinchos de res" FontSize="Large" HorizontalTextAlignment="Center" FontAttributes="Bold"></Label>
-                </Grid>
+                <StackLayout>
+                    <Image Source="Entradas.jpg"></Image>
+                    <Label Text="Pinchos de res" FontSize="Large" HorizontalTextAlignment="Center" FontAttributes="Bold"></Label>
+                </StackLayout>
             </Frame>
             <Frame Padding="10" Margin="10" BackgroundColor="White">
-                <Frame.HeightRequest>
-                    <OnPlatform x:TypeArguments="x:Double">
-                        <On Platform="iOS">330</On>
-                        <On Platform="Android">250</On>
-                    </OnPlatform>
-                </Frame.HeightRequest>
-                <Grid>
-                    <Grid.RowDefinitions>
-                        <RowDefinition Height="auto"/>
-                        <RowDefinition Height="auto"/>
-                    </Grid.RowDefinitions>
-                    <Image Grid.Row="0" Source="Entradas.jpg"></Image>
-                    <Label Grid.Row="1" Text="Pinchos de Pollo" FontSize="Large" HorizontalTextAlignment="Center" FontAttributes="Bold"></Label>
-                </Grid>
+                <StackLayout>
+                    <Image Source="Entradas.jpg"></Image>
+                    <Label Text="Pinchos de Pollo" FontSize="Large" HorizontalTextAlignment="Center" FontAttributes="Bold"></Label>
+                </StackLayout>
             </Frame>
             <Frame Padding="10" Margin="10" BackgroundColor="White">
-                <Frame.HeightRequest>
-                    <OnPlatform x:TypeArguments="x:Double">
-                        <On Platform="iOS">330</On>
-                        <On Platform="Android">250</On>
-                    </OnPlatform>
-                </Frame.HeightRequest>
-                <Grid>
-                    <Grid.RowDefinitions>
-                        <RowDefinition Height="auto"/>
-                        <RowDefinition Height="auto"/>
-                    </Grid.RowDefinitions>
-                    <Image Grid.Row="0" Source="Entradas.jpg"></Image>
-                    <Label Grid.Row="1" Text="Colas de Camaron empanizados" FontSize="Large" HorizontalTextAlignment="Center" FontAttributes="Bold"></Label>
-                </Grid>
+                <StackLayout>
+                    <Image Source="Entradas.jpg"></Image>
+                    <Label Text="Colas de Camaron empanizados" FontSize="Large" HorizontalTextAlignment="Center" FontAttributes="Bold"></Label>
+                </StackLayout>
+
             </Frame>
             <Frame Padding="10" Margin="10" BackgroundColor="White">
-                <Frame.HeightRequest>
-                    <OnPlatform x:TypeArguments="x:Double">
-                        <On Platform="iOS">330</On>
-                        <On Platform="Android">250</On>
-                    </OnPlatform>
-                </Frame.HeightRequest>
-                <Grid>
-                    <Grid.RowDefinitions>
-                        <RowDefinition Height="auto"/>
-                        <RowDefinition Height="auto"/>
-                    </Grid.RowDefinitions>
-                    <Image Grid.Row="0" Source="Entradas.jpg"></Image>
-                    <Label Grid.Row="1" Text="Suckini empanizado" FontSize="Large" HorizontalTextAlignment="Center" FontAttributes="Bold"></Label>
-                </Grid>
+                <StackLayout>
+                    <Image Source="Entradas.jpg"></Image>
+                    <Label Text="Suckini empanizado" FontSize="Large" HorizontalTextAlignment="Center" FontAttributes="Bold"></Label>
+                </StackLayout>
+              
             </Frame>
             <Frame Padding="10" Margin="10" BackgroundColor="White">
-                <Frame.HeightRequest>
-                    <OnPlatform x:TypeArguments="x:Double">
-                        <On Platform="iOS">330</On>
-                        <On Platform="Android">250</On>
-                    </OnPlatform>
-                </Frame.HeightRequest>
-                <Grid>
-                    <Grid.RowDefinitions>
-                        <RowDefinition Height="auto"/>
-                        <RowDefinition Height="auto"/>
-                    </Grid.RowDefinitions>
-                    <Image Grid.Row="0" Source="Entradas.jpg"></Image>
-                    <Label Grid.Row="1" Text="Hongos al Ajillo" FontSize="Large" HorizontalTextAlignment="Center" FontAttributes="Bold"></Label>
-                </Grid>
+                <StackLayout>
+                    <Image Source="Entradas.jpg"></Image>
+                    <Label Text="Hongos al Ajillo" FontSize="Large" HorizontalTextAlignment="Center" FontAttributes="Bold"></Label>
+                </StackLayout>
             </Frame>
             <Frame Padding="10" Margin="10" BackgroundColor="White">
-                <Frame.HeightRequest>
-                    <OnPlatform x:TypeArguments="x:Double">
-                        <On Platform="iOS">330</On>
-                        <On Platform="Android">250</On>
-                    </OnPlatform>
-                </Frame.HeightRequest>
-                <Grid>
-                    <Grid.RowDefinitions>
-                        <RowDefinition Height="auto"/>
-                        <RowDefinition Height="auto"/>
-                    </Grid.RowDefinitions>
-                    <Image Grid.Row="0" Source="Entradas.jpg"></Image>
-                    <Label Grid.Row="1" Text="Plátanos  Azteca" FontSize="Large" HorizontalTextAlignment="Center" FontAttributes="Bold"></Label>
-                </Grid>
+                <StackLayout>
+                    <Image Source="Entradas.jpg"></Image>
+                    <Label Text="Plátanos  Azteca" FontSize="Large" HorizontalTextAlignment="Center" FontAttributes="Bold"></Label>
+                </StackLayout>
+               
             </Frame>
             <Frame Padding="10" Margin="10"  BackgroundColor="White">
-                <Frame.HeightRequest>
-                    <OnPlatform x:TypeArguments="x:Double">
-                        <On Platform="iOS">330</On>
-                        <On Platform="Android">250</On>
-                    </OnPlatform>
-                </Frame.HeightRequest>
-                <Grid>
-                    <Grid.RowDefinitions>
-                        <RowDefinition Height="auto"/>
-                        <RowDefinition Height="auto"/>
-                    </Grid.RowDefinitions>
-                    <Image Grid.Row="0" Source="Entradas.jpg"></Image>
-                    <Label Grid.Row="1" Text="Rollitos de jamón y queso" FontSize="Large" HorizontalTextAlignment="Center" FontAttributes="Bold"></Label>
-                </Grid>
+                <StackLayout>
+                    <Image Source="Entradas.jpg"></Image>
+                    <Label Text="Rollitos de jamón y queso" FontSize="Large" HorizontalTextAlignment="Center" FontAttributes="Bold"></Label>
+                </StackLayout>
+               
             </Frame>
             <Frame Padding="10" Margin="10" BackgroundColor="White">
-                <Frame.HeightRequest>
-                    <OnPlatform x:TypeArguments="x:Double">
-                        <On Platform="iOS">330</On>
-                        <On Platform="Android">250</On>
-                    </OnPlatform>
-                </Frame.HeightRequest>
-                <Grid>
-                    <Grid.RowDefinitions>
-                        <RowDefinition Height="auto"/>
-                        <RowDefinition Height="auto"/>
-                    </Grid.RowDefinitions>
+                <StackLayout>
                     <Image Grid.Row="0" Source="Entradas.jpg"></Image>
                     <Label Grid.Row="1" Text="Aros de cebolla empanizados" FontSize="Large" HorizontalTextAlignment="Center" FontAttributes="Bold"></Label>
-                </Grid>
+                </StackLayout>
+               
             </Frame>
             <Frame Padding="10" Margin="10" BackgroundColor="White">
-                <Frame.HeightRequest>
-                    <OnPlatform x:TypeArguments="x:Double">
-                        <On Platform="iOS">330</On>
-                        <On Platform="Android">250</On>
-                    </OnPlatform>
-                </Frame.HeightRequest>
-                <Grid>
-                    <Grid.RowDefinitions>
-                        <RowDefinition Height="auto"/>
-                        <RowDefinition Height="auto"/>
-                    </Grid.RowDefinitions>
+                <StackLayout>
                     <Image Grid.Row="0" Source="Entradas.jpg"></Image>
                     <Label Grid.Row="1" Text="Papa ajío" FontSize="Large" HorizontalTextAlignment="Center" FontAttributes="Bold"></Label>
-                </Grid>
+                </StackLayout>
             </Frame>
             <Frame Padding="10" Margin="10" BackgroundColor="White">
-                <Frame.HeightRequest>
-                    <OnPlatform x:TypeArguments="x:Double">
-                        <On Platform="iOS">330</On>
-                        <On Platform="Android">250</On>
-                    </OnPlatform>
-                </Frame.HeightRequest>
-                <Grid>
-                    <Grid.RowDefinitions>
-                        <RowDefinition Height="auto"/>
-                        <RowDefinition Height="auto"/>
-                    </Grid.RowDefinitions>
+                <StackLayout>
                     <Image Grid.Row="0" Source="Entradas.jpg"></Image>
                     <Label Grid.Row="1" Text="Chicken  Wings" FontSize="Large" HorizontalTextAlignment="Center" FontAttributes="Bold"></Label>
-                </Grid>
+                </StackLayout>
+               
             </Frame>
             <Frame Padding="10" Margin="10" BackgroundColor="White">
-                <Frame.HeightRequest>
-                    <OnPlatform x:TypeArguments="x:Double">
-                        <On Platform="iOS">330</On>
-                        <On Platform="Android">250</On>
-                    </OnPlatform>
-                </Frame.HeightRequest>
-                <Grid>
-                    <Grid.RowDefinitions>
-                        <RowDefinition Height="auto"/>
-                        <RowDefinition Height="auto"/>
-                    </Grid.RowDefinitions>
+                <StackLayout>
                     <Image Grid.Row="0" Source="Entradas.jpg"></Image>
                     <Label Grid.Row="1" Text="Canapé de Atún" FontSize="Large" HorizontalTextAlignment="Center" FontAttributes="Bold"></Label>
-                </Grid>
+                </StackLayout>
             </Frame>
             <Frame Padding="10" Margin="10" BackgroundColor="White">
-                <Frame.HeightRequest>
-                    <OnPlatform x:TypeArguments="x:Double">
-                        <On Platform="iOS">330</On>
-                        <On Platform="Android">250</On>
-                    </OnPlatform>
-                </Frame.HeightRequest>
-                <Grid>
-                    <Grid.RowDefinitions>
-                        <RowDefinition Height="auto"/>
-                        <RowDefinition Height="auto"/>
-                    </Grid.RowDefinitions>
+                <StackLayout>
                     <Image Grid.Row="0" Source="Entradas.jpg"></Image>
                     <Label Grid.Row="1" Text="Mini sándwich de jamón y queso" FontSize="Large" HorizontalTextAlignment="Center" FontAttributes="Bold"></Label>
-                </Grid>
+                </StackLayout>
+              
             </Frame>
             <Frame Padding="10" Margin="10" BackgroundColor="White">
-                <Frame.HeightRequest>
-                    <OnPlatform x:TypeArguments="x:Double">
-                        <On Platform="iOS">330</On>
-                        <On Platform="Android">250</On>
-                    </OnPlatform>
-                </Frame.HeightRequest>
-                <Grid>
-                    <Grid.RowDefinitions>
-                        <RowDefinition Height="auto"/>
-                        <RowDefinition Height="auto"/>
-                    </Grid.RowDefinitions>
+                <StackLayout>
                     <Image Grid.Row="0" Source="Entradas.jpg"></Image>
                     <Label Grid.Row="1" Text="Bolitas de carne de res " FontSize="Large" HorizontalTextAlignment="Center" FontAttributes="Bold"></Label>
-                </Grid>
+                </StackLayout>
             </Frame>
         </StackLayout>
 

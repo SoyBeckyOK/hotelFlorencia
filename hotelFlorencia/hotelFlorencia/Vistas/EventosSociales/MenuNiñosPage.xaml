@@ -6,58 +6,26 @@
     <ScrollView>
         <StackLayout>
             <Frame Padding="10" Margin="10" HeightRequest="300" BackgroundColor="White">
-                <Frame.HeightRequest>
-                    <OnPlatform x:TypeArguments="x:Double">
-                        <On Platform="iOS">460</On>
-                        <On Platform="Android">320</On>
-                    </OnPlatform>
-                </Frame.HeightRequest>
-                <Grid>
-                    <Grid.RowDefinitions>
-                        <RowDefinition Height="auto"/>
-                        <RowDefinition Height="auto"/>
-                        <RowDefinition Height="auto"/>
-                    </Grid.RowDefinitions>
+                <StackLayout>
                     <Image Grid.Row="0" Source="comidas3.jpg"></Image>
                     <Label Grid.Row="1" Text="Pollo a la Plancha... $7.95" FontSize="Medium" HorizontalTextAlignment="Center" FontAttributes="Bold"></Label>
                     <Label Grid.Row="2" Text="4 onzas de pollo a la plancha con salsa, arroz, vegetales y soda"></Label>
-                </Grid>
+                </StackLayout>
             </Frame>
             <Frame Padding="10" Margin="10" BackgroundColor="White">
-                <Frame.HeightRequest>
-                    <OnPlatform x:TypeArguments="x:Double">
-                        <On Platform="iOS">460</On>
-                        <On Platform="Android">320</On>
-                    </OnPlatform>
-                </Frame.HeightRequest>
-                <Grid>
-                    <Grid.RowDefinitions>
-                        <RowDefinition Height="auto"/>
-                        <RowDefinition Height="auto"/>
-                        <RowDefinition Height="auto"/>
-                    </Grid.RowDefinitions>
+                <StackLayout>
                     <Image Grid.Row="0" Source="comidas3.jpg"></Image>
                     <Label Grid.Row="1" Text="Carne a la parrilla... $7.95" FontSize="Medium" HorizontalTextAlignment="Center" FontAttributes="Bold"></Label>
                     <Label Grid.Row="2" Text="4 onzas de carne a la parrilla con salsa, arroz, vegetales y soda"></Label>
-                </Grid>
+                </StackLayout>
             </Frame>
             <Frame Padding="10" Margin="10" BackgroundColor="White">
-                <Frame.HeightRequest>
-                    <OnPlatform x:TypeArguments="x:Double">
-                        <On Platform="iOS">460</On>
-                        <On Platform="Android">320</On>
-                    </OnPlatform>
-                </Frame.HeightRequest>
-                <Grid>
-                    <Grid.RowDefinitions>
-                        <RowDefinition Height="auto"/>
-                        <RowDefinition Height="auto"/>
-                        <RowDefinition Height="auto"/>
-                    </Grid.RowDefinitions>
+                <StackLayout>
                     <Image Grid.Row="0" Source="comidas3.jpg"></Image>
                     <Label Grid.Row="1" Text="Hamburguesa de Res... $6.95" FontSize="Medium" HorizontalTextAlignment="Center" FontAttributes="Bold"></Label>
                     <Label Grid.Row="2" Text="Hamburguesa de res acompañada de papas fritas  y soda"></Label>
-                </Grid>
+                </StackLayout>
+                
             </Frame>
         </StackLayout>
 
