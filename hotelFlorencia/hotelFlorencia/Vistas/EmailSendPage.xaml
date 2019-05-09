@@ -12,7 +12,7 @@
          
             
                 <Label Text="Para:" TextColor="Blue" FontSize="Medium"></Label>
-                <Entry Text="hotelflorencia06@yahoo.com" x:Name="EntryRecipients"></Entry>
+                <Entry Text="hotelflorencia06@yahoo.es" x:Name="EntryRecipients"></Entry>
             
             
                 <Label Text="Asunto: " TextColor="Blue" FontSize="Medium"></Label>
