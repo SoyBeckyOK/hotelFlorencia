@@ -7,9 +7,9 @@
         <StackLayout>
             <Frame Padding="10" Margin="10"  BackgroundColor="White">
                 <StackLayout>
-                    <Image Grid.Row="0" Source="comidas10.jpg"></Image>
-                    <Label Grid.Row="1" Text="Mixto Florencia... $14.50" FontSize="Medium" HorizontalTextAlignment="Center" FontAttributes="Bold"></Label>
-                    <Label Grid.Row="2" Text="Es una deliciosa combinación de lomito de aguja (tender loins) y pollo en salsa forrestiere, acompañado de arroz ecuatoriano, vegetales a la mantequilla."></Label>
+                    <Image Source="comidas10.jpg"></Image>
+                    <Label Text="Mixto Florencia... $14.50" FontSize="Medium" HorizontalTextAlignment="Center" FontAttributes="Bold"></Label>
+                    <Label Text="Es una deliciosa combinación de lomito de aguja (tender loins) y pollo en salsa forrestiere, acompañado de arroz ecuatoriano, vegetales a la mantequilla."></Label>
                 </StackLayout>
             </Frame>
             <Frame Padding="10" Margin="10" BackgroundColor="White">

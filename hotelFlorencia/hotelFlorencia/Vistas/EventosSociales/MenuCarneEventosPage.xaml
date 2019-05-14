@@ -23,6 +23,7 @@
             </Frame>
             <Frame Padding="1.0" Margin="1.0" BackgroundColor="White">
                 <StackLayout>
+                    <Image Source="comidas6.jpg"></Image>
                     <Label Text="Steak con Salsa de Tamarindo... $15.50" FontSize="Medium" HorizontalTextAlignment="Center" FontAttributes="Bold"></Label>
                     <Label Text="Es un delicioso lomo de aguja (tender loins)  con una salsa de tamarindo regional, acompañado con babys patatas al horno con especias y vegetales al ajillo."></Label>
                 </StackLayout>

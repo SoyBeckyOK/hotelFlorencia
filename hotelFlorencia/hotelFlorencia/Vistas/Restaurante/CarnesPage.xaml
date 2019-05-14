@@ -10,16 +10,19 @@
                 <StackLayout>
                     <Image Source="Carnes.jpg"></Image>
                     <Label Text="Lomo a la Parrilla" FontSize="Medium" HorizontalTextAlignment="Center" FontAttributes="Bold"></Label>
-                  
-                    <Label Text="$8. 55 (1/2 Lb) " HorizontalOptions="End"></Label>
-                    <Label Text="$12.45 (1 Lb)" HorizontalOptions="Start"></Label>
+                    <StackLayout Orientation="Horizontal">
+                       
+                        <Label Text="$8. 55 (1/2 Lb) " HorizontalOptions="End"></Label>
+                        <Label Text="$12.45 (1 Lb)" HorizontalOptions="Start"></Label>
+                    </StackLayout>
                 </StackLayout>
             </Frame>
             <Frame Padding="10" Margin="10" BackgroundColor="White">
                 <StackLayout>
                     <Image Source="Carnes.jpg"></Image>
                     <Label Text="Filete de pollo a la Parrilla" FontSize="Medium" HorizontalTextAlignment="Center" FontAttributes="Bold"></Label>
-                    <StackLayout O>
+                    <StackLayout Orientation="Horizontal">
+                        
                         <Label Text="$7. 95 (1/2 Lb) " HorizontalOptions="End"></Label>
                         <Label Text="$12.05 (1 Lb) " HorizontalOptions="Start"></Label>
                     </StackLayout>
@@ -31,6 +34,7 @@
                     <Image Source="Carnes.jpg"></Image>
                     <Label Text="Puyaso Importado" FontSize="Medium" HorizontalTextAlignment="Center" FontAttributes="Bold"></Label>
                     <StackLayout Orientation="Horizontal">
+                       
                         <Label Text="$8. 55 (1/2 Lb) " HorizontalOptions="End"></Label>
                         <Label Text="$12.45 (1 Lb) " HorizontalOptions="Start"></Label>
                     </StackLayout>
@@ -38,10 +42,20 @@
             </Frame>
             <Frame Padding="10" Margin="10" BackgroundColor="White">
                 <StackLayout>
-                    <StackLayout>
-                        <Image Source="Carnes.jpg"></Image>
-                        <Label Text="Fajitas de Res" FontSize="Medium" HorizontalTextAlignment="Center" FontAttributes="Bold"></Label>
+                    <Image Source="Carnes.jpg"></Image>
+                    <Label Text="Fajitas de Res" FontSize="Medium" HorizontalTextAlignment="Center" FontAttributes="Bold"></Label>
+                    <StackLayout Orientation="Horizontal">
+                        
+                        <Label Text="$8. 55 (1/2 Lb) " HorizontalOptions="End"></Label>
+                        <Label Text="$12.45 (1 Lb) " HorizontalOptions="Start"></Label>
                     </StackLayout>
+                </StackLayout>
+            </Frame>
+            <Frame Padding="10" Margin="10" BackgroundColor="White">
+                <StackLayout>
+                    <Image Source="Carnes.jpg"></Image>
+                    <Label Text="Lomo de Cerdo Importado" FontSize="Medium" HorizontalTextAlignment="Center" FontAttributes="Bold"></Label>
+                    
                     <StackLayout Orientation="Horizontal">
                         <Label Text="$8. 55 (1/2 Lb) " HorizontalOptions="End"></Label>
                         <Label Text="$12.45 (1 Lb) " HorizontalOptions="Start"></Label>
@@ -50,22 +64,8 @@
             </Frame>
             <Frame Padding="10" Margin="10" BackgroundColor="White">
                 <StackLayout>
-                    <StackLayout>
-                        <Image Source="Carnes.jpg"></Image>
-                        <Label Text="Lomo de Cerdo Importado" FontSize="Medium" HorizontalTextAlignment="Center" FontAttributes="Bold"></Label>
-                    </StackLayout>
-                    <StackLayout Orientation="Horizontal">
-                        <Label Text="$8. 55 (1/2 Lb) " HorizontalOptions="End"></Label>
-                        <Label Text="$12.45 (1 Lb) " HorizontalOptions="Start"></Label>
-                    </StackLayout>
-                </StackLayout>
-            </Frame>
-            <Frame Padding="10" Margin="10" BackgroundColor="White">
-                <StackLayout>
-                    <StackLayout>
-                        <Image Source="Carnes.jpg"></Image>
-                        <Label Text="Lomo de Aguja a la Parrilla" FontSize="Medium" HorizontalTextAlignment="Center" FontAttributes="Bold"></Label>
-                    </StackLayout>
+                    <Image Source="Carnes.jpg"></Image>
+                    <Label Text="Lomo de Aguja a la Parrilla" FontSize="Medium" HorizontalTextAlignment="Center" FontAttributes="Bold"></Label>
                     <StackLayout Orientation="Horizontal">
                         <Label Text="$10.95 (1/2 Lb) " HorizontalOptions="End"></Label>
                         <Label Text="$12.45 (1 Lb) " HorizontalOptions="Start"></Label>

@@ -7,42 +7,30 @@
     <ScrollView>
         <StackLayout BackgroundColor="LightBlue">
             <Frame  Padding="10" Margin="10" BackgroundColor="White">
-                <Frame.HeightRequest>
-                    <OnPlatform x:TypeArguments="x:Double">
-                        <On Platform="iOS">530</On>
-                        <On Platform="Android">500</On>
-                    </OnPlatform>
-                </Frame.HeightRequest>
-                <Grid HorizontalOptions="Center">
-                    <Grid.RowDefinitions>
-                        <RowDefinition Height="auto"/>
-                        <RowDefinition Height="*"/>
-                        <RowDefinition Height="*"/>
-                        <RowDefinition Height="*"/>
-                        <RowDefinition Height="*"/>
-                        <RowDefinition Height="*"/>
-                        <RowDefinition Height="*"/>
-                        <RowDefinition Height="*"/>
-                    </Grid.RowDefinitions>
-                    <Grid.ColumnDefinitions>
-                        <ColumnDefinition Width="*"/>
-                        <ColumnDefinition Width="*"/>
-                    </Grid.ColumnDefinitions>
-                    <Image Grid.Row="0" Grid.ColumnSpan="2" Source="Postres.jpg"></Image>
-                    <Label Grid.Row="1" Grid.ColumnSpan="2" Text="Postres" FontSize="Large" FontAttributes="Bold" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" ></Label>
-                    <Label Grid.Row="2" Grid.Column="0" Text="Flan de Queso" FontSize="Small" FontAttributes="Bold"></Label>
-                    <Label Grid.Row="2" Grid.Column="1" Text="$2.30" HorizontalOptions="End"></Label>
-                    <Label Grid.Row="3" Grid.Column="0" Text="Flan de Caramelo" FontSize="Small" FontAttributes="Bold"></Label>
-                    <Label Grid.Row="3" Grid.Column="1" Text="$2.30" HorizontalOptions="End"></Label>
-                    <Label Grid.Row="4" Grid.Column="0" Text="Pastel de Higo" FontSize="Small" FontAttributes="Bold"></Label>
-                    <Label Grid.Row="4" Grid.Column="1" Text="$2.30" HorizontalOptions="End"></Label>
-                    <Label Grid.Row="5" Grid.Column="0" Text="Tres Leches" FontSize="Small" FontAttributes="Bold"></Label>
-                    <Label Grid.Row="5" Grid.Column="1" Text="$2.30" HorizontalOptions="End"></Label>
-                    <Label Grid.Row="6" Grid.Column="0" Text="Pastel de Queso" FontSize="Small" FontAttributes="Bold"></Label>
-                    <Label Grid.Row="6" Grid.Column="1" Text="$2.30" HorizontalOptions="End"></Label>
-                    <Label Grid.Row="7" Grid.Column="0" Text="Cocktail de Frutas" FontSize="Small" FontAttributes="Bold"></Label>
-                    <Label Grid.Row="7" Grid.Column="1" Text="$2.30" HorizontalOptions="End"></Label>
-                </Grid>
+                <StackLayout>
+                    <Image Source="Postres.jpg"></Image>
+                    <Label Text="Postres" FontSize="Large" FontAttributes="Bold" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" ></Label>
+                    <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand">
+                        <StackLayout Orientation="Vertical" >
+                            <Label Text="Flan de Queso" FontSize="Small" FontAttributes="Bold"></Label>
+                            <Label Text="Flan de Caramelo" FontSize="Small" FontAttributes="Bold"></Label>
+                            <Label Text="Pastel de Higo" FontSize="Small" FontAttributes="Bold"></Label>
+                            <Label Text="Tres Leches" FontSize="Small" FontAttributes="Bold"></Label>
+                            <Label Text="Pastel de Queso" FontSize="Small" FontAttributes="Bold"></Label>
+                            <Label Text="Cocktail de Frutas" FontSize="Small" FontAttributes="Bold"></Label>
+                        </StackLayout>
+                        <StackLayout Orientation="Vertical">
+                            <Label Text="$2.30" VerticalOptions="EndAndExpand"></Label>
+                            <Label Text="$2.30" VerticalOptions="EndAndExpand"></Label>
+                            <Label Text="$2.30" VerticalOptions="EndAndExpand"></Label>
+                            <Label Text="$2.30" VerticalOptions="EndAndExpand"></Label>
+                            <Label Text="$2.30" VerticalOptions="EndAndExpand"></Label>
+                            <Label Text="$2.30" VerticalOptions="EndAndExpand"></Label>
+                        </StackLayout>
+                    </StackLayout>
+                   
+                    
+                </StackLayout>
             </Frame>
             <Frame>
                 <Label  Text="Todos nuestros postres incluyen Café" FontAttributes="Italic" HorizontalOptions="Center" FontSize="Small"></Label>
