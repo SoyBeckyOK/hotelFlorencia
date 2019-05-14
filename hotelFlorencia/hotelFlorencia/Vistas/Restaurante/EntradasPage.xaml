@@ -6,112 +6,46 @@
     <ScrollView>
         <StackLayout BackgroundColor="LightBlue">
             <Frame Padding="10" Margin="10"  BackgroundColor="White">
-                <Frame.HeightRequest>
-                    <OnPlatform x:TypeArguments="x:Double">
-                        <On Platform="iOS">330</On>
-                        <On Platform="Android">300</On>
-                    </OnPlatform>
-                </Frame.HeightRequest>
-                <Grid>
-                    <Grid.RowDefinitions>
-                        <RowDefinition Height="auto"/>
-                        <RowDefinition Height="auto"/>
-                        <RowDefinition Height="auto"/>
-                    </Grid.RowDefinitions>
-                    <Image Grid.Row="0" Source="Entradas.jpg"></Image>
-                    <Label Grid.Row="1" Text="Bombones de Pollo... $5.95" FontSize="Small" HorizontalTextAlignment="Center" FontAttributes="Bold"></Label>
-                    <Label Grid.Row="2" Text="Delicioso bombones de Pollo empanizados, acompañados en salsa BBQ y Tartara."></Label>
-                </Grid>
+                <StackLayout>
+                    <Image Source="Entradas.jpg"></Image>
+                    <Label Text="Bombones de Pollo... $5.95" FontSize="Small" HorizontalTextAlignment="Center" FontAttributes="Bold"></Label>
+                    <Label Text="Delicioso bombones de Pollo empanizados, acompañados en salsa BBQ y Tartara."></Label>
+                </StackLayout>
             </Frame>
             <Frame Padding="10" Margin="10" BackgroundColor="White">
-                <Frame.HeightRequest>
-                    <OnPlatform x:TypeArguments="x:Double">
-                        <On Platform="iOS">340</On>
-                        <On Platform="Android">300</On>
-                    </OnPlatform>
-                </Frame.HeightRequest>
-                <Grid>
-                    <Grid.RowDefinitions>
-                        <RowDefinition Height="auto"/>
-                        <RowDefinition Height="auto"/>
-                        <RowDefinition Height="auto"/>
-                    </Grid.RowDefinitions>
-                    <Image Grid.Row="0" Source="Entradas.jpg"></Image>
-                    <Label Grid.Row="1" Text="Pollo en Salsa de Hongos... $13.50" FontSize="Small" HorizontalTextAlignment="Center" FontAttributes="Bold"></Label>
-                    <Label Grid.Row="2" Text="Es un exquisito filete de pollo en salsa de champiñones al vino tinto, acompañado de vegetales tipo oriental, arroz ecuatoriano."></Label>
-                </Grid>
+                <StackLayout>
+                    <Image Source="Entradas.jpg"></Image>
+                    <Label Text="Pollo en Salsa de Hongos... $13.50" FontSize="Small" HorizontalTextAlignment="Center" FontAttributes="Bold"></Label>
+                    <Label Text="Es un exquisito filete de pollo en salsa de champiñones al vino tinto, acompañado de vegetales tipo oriental, arroz ecuatoriano."></Label>
+                </StackLayout>
             </Frame>
             <Frame Padding="10" Margin="10"  BackgroundColor="White">
-                <Frame.HeightRequest>
-                    <OnPlatform x:TypeArguments="x:Double">
-                        <On Platform="iOS">330</On>
-                        <On Platform="Android">300</On>
-                    </OnPlatform>
-                </Frame.HeightRequest>
-                <Grid>
-                    <Grid.RowDefinitions>
-                        <RowDefinition Height="auto"/>
-                        <RowDefinition Height="auto"/>
-                        <RowDefinition Height="auto"/>
-                    </Grid.RowDefinitions>
-                    <Image Grid.Row="0" Source="Entradas.jpg"></Image>
-                    <Label Grid.Row="1" Text="Hongos al Ajio... $4.95" FontSize="Small" HorizontalTextAlignment="Center" FontAttributes="Bold"></Label>
-                    <Label Grid.Row="2" Text="Sabrosos hongos gratinados con queso mozzarella."></Label>
-                </Grid>
+                <StackLayout>
+                    <Image Source="Entradas.jpg"></Image>
+                    <Label Text="Hongos al Ajio... $4.95" FontSize="Small" HorizontalTextAlignment="Center" FontAttributes="Bold"></Label>
+                    <Label Text="Sabrosos hongos gratinados con queso mozzarella."></Label>
+                </StackLayout>
             </Frame>
             <Frame Padding="10" Margin="10"  BackgroundColor="White">
-                <Frame.HeightRequest>
-                    <OnPlatform x:TypeArguments="x:Double">
-                        <On Platform="iOS">330</On>
-                        <On Platform="Android">300</On>
-                    </OnPlatform>
-                </Frame.HeightRequest>
-                <Grid>
-                    <Grid.RowDefinitions>
-                        <RowDefinition Height="auto"/>
-                        <RowDefinition Height="auto"/>
-                        <RowDefinition Height="auto"/>
-                    </Grid.RowDefinitions>
-                    <Image Grid.Row="0" Source="Entradas.jpg"></Image>
-                    <Label Grid.Row="1" Text="Entrada Tipica... $4.95" FontSize="Small" HorizontalTextAlignment="Center" FontAttributes="Bold"></Label>
-                    <Label Grid.Row="2" Text="Chorizo argentino, frijoles, guacamole y tortilla frita salvadoreña."></Label>
-                </Grid>
+                <StackLayout>
+                    <Image Source="Entradas.jpg"></Image>
+                    <Label Text="Entrada Tipica... $4.95" FontSize="Small" HorizontalTextAlignment="Center" FontAttributes="Bold"></Label>
+                    <Label Text="Chorizo argentino, frijoles, guacamole y tortilla frita salvadoreña."></Label>
+                </StackLayout>
             </Frame>
             <Frame Padding="10" Margin="10"  BackgroundColor="White">
-                <Frame.HeightRequest>
-                    <OnPlatform x:TypeArguments="x:Double">
-                        <On Platform="iOS">330</On>
-                        <On Platform="Android">300</On>
-                    </OnPlatform>
-                </Frame.HeightRequest>
-                <Grid>
-                    <Grid.RowDefinitions>
-                        <RowDefinition Height="auto"/>
-                        <RowDefinition Height="auto"/>
-                        <RowDefinition Height="auto"/>
-                    </Grid.RowDefinitions>
-                    <Image Grid.Row="0" Source="Entradas.jpg"></Image>
-                    <Label Grid.Row="1" Text="Picada Canela... $6.95" FontSize="Small" HorizontalTextAlignment="Center" FontAttributes="Bold"></Label>
-                    <Label Grid.Row="2" Text="Trocitos de carne y de pollo empanizados acompañados de salsa BBQ y Tartara."></Label>
-                </Grid>
+                <StackLayout>
+                    <Image Source="Entradas.jpg"></Image>
+                    <Label Text="Picada Canela... $6.95" FontSize="Small" HorizontalTextAlignment="Center" FontAttributes="Bold"></Label>
+                    <Label Text="Trocitos de carne y de pollo empanizados acompañados de salsa BBQ y Tartara."></Label>
+                </StackLayout>
             </Frame>
             <Frame Padding="10" Margin="10" BackgroundColor="White">
-                <Frame.HeightRequest>
-                    <OnPlatform x:TypeArguments="x:Double">
-                        <On Platform="iOS">330</On>
-                        <On Platform="Android">300</On>
-                    </OnPlatform>
-                </Frame.HeightRequest>
-                <Grid>
-                    <Grid.RowDefinitions>
-                        <RowDefinition Height="auto"/>
-                        <RowDefinition Height="auto"/>
-                        <RowDefinition Height="auto"/>
-                    </Grid.RowDefinitions>
-                    <Image Grid.Row="0" Source="Entradas.jpg"></Image>
-                    <Label Grid.Row="1" Text="Quezadilla Brasador... $3.95" FontSize="Small" HorizontalTextAlignment="Center" FontAttributes="Bold"></Label>
-                    <Label Grid.Row="2" Text="Suave tortilla de harina, rellenas de Queso mozzarella, jamon y aguacate."></Label>
-                </Grid>
+                <StackLayout>
+                    <Image Source="Entradas.jpg"></Image>
+                    <Label Text="Quezadilla Brasador... $3.95" FontSize="Small" HorizontalTextAlignment="Center" FontAttributes="Bold"></Label>
+                    <Label Text="Suave tortilla de harina, rellenas de Queso mozzarella, jamon y aguacate."></Label>
+                </StackLayout>
             </Frame>
         </StackLayout>
 

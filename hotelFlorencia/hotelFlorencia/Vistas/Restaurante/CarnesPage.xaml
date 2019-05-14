@@ -7,172 +7,79 @@
     <ScrollView>
         <StackLayout BackgroundColor="LightBlue">
             <Frame Padding="10" Margin="10" BackgroundColor="White">
-                <Frame.HeightRequest>
-                    <OnPlatform x:TypeArguments="x:Double">
-                        <On Platform="iOS">290</On>
-                        <On Platform="Android">250</On>
-                    </OnPlatform>
-                </Frame.HeightRequest>
-                <Grid>
-                    <Grid.RowDefinitions>
-                        <RowDefinition Height="auto"/>
-                        <RowDefinition Height="auto"/>
-                        <RowDefinition Height="auto"/>
-                        <RowDefinition Height="auto"/>
-                    </Grid.RowDefinitions>
-                    <Grid.ColumnDefinitions>
-                        <ColumnDefinition Width="*"/>
-                        <ColumnDefinition Width="*"/>
-                    </Grid.ColumnDefinitions>
-                    <Image Grid.Row="0" Grid.ColumnSpan="2" Source="Carnes.jpg"></Image>
-                    <Label Grid.Row="1" Grid.ColumnSpan="2" Text="Lomo a la Parrilla" FontSize="Medium" HorizontalTextAlignment="Center" FontAttributes="Bold"></Label>
-                    <Label Grid.Row="2" Grid.Column="0" Text="$8. 55 (1/2 Libra) " HorizontalOptions="End"></Label>
-                    <Label Grid.Row="2" Grid.Column="1" Text="$12.45 (1 Libra)" HorizontalOptions="Start"></Label>
-                </Grid>
+                <StackLayout>
+                    <Image Source="Carnes.jpg"></Image>
+                    <Label Text="Lomo a la Parrilla" FontSize="Medium" HorizontalTextAlignment="Center" FontAttributes="Bold"></Label>
+                  
+                    <Label Text="$8. 55 (1/2 Lb) " HorizontalOptions="End"></Label>
+                    <Label Text="$12.45 (1 Lb)" HorizontalOptions="Start"></Label>
+                </StackLayout>
             </Frame>
             <Frame Padding="10" Margin="10" BackgroundColor="White">
-                <Frame.HeightRequest>
-                    <OnPlatform x:TypeArguments="x:Double">
-                        <On Platform="iOS">290</On>
-                        <On Platform="Android">250</On>
-                    </OnPlatform>
-                </Frame.HeightRequest>
-                <Grid>
-                    <Grid.RowDefinitions>
-                        <RowDefinition Height="auto"/>
-                        <RowDefinition Height="auto"/>
-                        <RowDefinition Height="auto"/>
-                        <RowDefinition Height="auto"/>
-                    </Grid.RowDefinitions>
-                    <Grid.ColumnDefinitions>
-                        <ColumnDefinition Width="*"/>
-                        <ColumnDefinition Width="*"/>
-                    </Grid.ColumnDefinitions>
-                    <Image Grid.Row="0" Grid.ColumnSpan="2" Source="Carnes.jpg"></Image>
-                    <Label Grid.Row="1" Grid.ColumnSpan="2" Text="Filete de pollo a la Parrilla" FontSize="Medium" HorizontalTextAlignment="Center" FontAttributes="Bold"></Label>
-                    <Label Grid.Row="2" Grid.Column="0" Text="$7. 95 (1/2 Libra) " HorizontalOptions="End"></Label>
-                    <Label Grid.Row="2" Grid.Column="1" Text="$12.05 (1 Libra) " HorizontalOptions="Start"></Label>
-                </Grid>
+                <StackLayout>
+                    <Image Source="Carnes.jpg"></Image>
+                    <Label Text="Filete de pollo a la Parrilla" FontSize="Medium" HorizontalTextAlignment="Center" FontAttributes="Bold"></Label>
+                    <StackLayout O>
+                        <Label Text="$7. 95 (1/2 Lb) " HorizontalOptions="End"></Label>
+                        <Label Text="$12.05 (1 Lb) " HorizontalOptions="Start"></Label>
+                    </StackLayout>
+                    
+                </StackLayout>
             </Frame>
             <Frame Padding="10" Margin="10" BackgroundColor="White">
-                <Frame.HeightRequest>
-                    <OnPlatform x:TypeArguments="x:Double">
-                        <On Platform="iOS">290</On>
-                        <On Platform="Android">250</On>
-                    </OnPlatform>
-                </Frame.HeightRequest>
-                <Grid>
-                    <Grid.RowDefinitions>
-                        <RowDefinition Height="auto"/>
-                        <RowDefinition Height="auto"/>
-                        <RowDefinition Height="auto"/>
-                        <RowDefinition Height="auto"/>
-                    </Grid.RowDefinitions>
-                    <Grid.ColumnDefinitions>
-                        <ColumnDefinition Width="*"/>
-                        <ColumnDefinition Width="*"/>
-                    </Grid.ColumnDefinitions>
-                    <Image Grid.Row="0" Grid.ColumnSpan="2" Source="Carnes.jpg"></Image>
-                    <Label Grid.Row="1" Grid.ColumnSpan="2" Text="Puyaso Importado" FontSize="Medium" HorizontalTextAlignment="Center" FontAttributes="Bold"></Label>
-                    <Label Grid.Row="2" Grid.Column="0" Text="$8. 55 (1/2 Libra) " HorizontalOptions="End"></Label>
-                    <Label Grid.Row="2" Grid.Column="1" Text="$12.45 (1 Libra) " HorizontalOptions="Start"></Label>
-                </Grid>
+                <StackLayout>
+                    <Image Source="Carnes.jpg"></Image>
+                    <Label Text="Puyaso Importado" FontSize="Medium" HorizontalTextAlignment="Center" FontAttributes="Bold"></Label>
+                    <StackLayout Orientation="Horizontal">
+                        <Label Text="$8. 55 (1/2 Lb) " HorizontalOptions="End"></Label>
+                        <Label Text="$12.45 (1 Lb) " HorizontalOptions="Start"></Label>
+                    </StackLayout>
+                </StackLayout>
             </Frame>
             <Frame Padding="10" Margin="10" BackgroundColor="White">
-                <Frame.HeightRequest>
-                    <OnPlatform x:TypeArguments="x:Double">
-                        <On Platform="iOS">290</On>
-                        <On Platform="Android">250</On>
-                    </OnPlatform>
-                </Frame.HeightRequest>
-                <Grid>
-                    <Grid.RowDefinitions>
-                        <RowDefinition Height="auto"/>
-                        <RowDefinition Height="auto"/>
-                        <RowDefinition Height="auto"/>
-                        <RowDefinition Height="auto"/>
-                    </Grid.RowDefinitions>
-                    <Grid.ColumnDefinitions>
-                        <ColumnDefinition Width="*"/>
-                        <ColumnDefinition Width="*"/>
-                    </Grid.ColumnDefinitions>
-                    <Image Grid.Row="0" Grid.ColumnSpan="2" Source="Carnes.jpg"></Image>
-                    <Label Grid.Row="1" Grid.ColumnSpan="2" Text="Fajitas de Res" FontSize="Medium" HorizontalTextAlignment="Center" FontAttributes="Bold"></Label>
-                    <Label Grid.Row="2" Grid.Column="0" Text="$8. 55 (1/2 Libra) " HorizontalOptions="End"></Label>
-                    <Label Grid.Row="2" Grid.Column="1" Text="$12.45 (1 Libra) " HorizontalOptions="Start"></Label>
-                </Grid>
+                <StackLayout>
+                    <StackLayout>
+                        <Image Source="Carnes.jpg"></Image>
+                        <Label Text="Fajitas de Res" FontSize="Medium" HorizontalTextAlignment="Center" FontAttributes="Bold"></Label>
+                    </StackLayout>
+                    <StackLayout Orientation="Horizontal">
+                        <Label Text="$8. 55 (1/2 Lb) " HorizontalOptions="End"></Label>
+                        <Label Text="$12.45 (1 Lb) " HorizontalOptions="Start"></Label>
+                    </StackLayout>
+                </StackLayout>
             </Frame>
             <Frame Padding="10" Margin="10" BackgroundColor="White">
-                <Frame.HeightRequest>
-                    <OnPlatform x:TypeArguments="x:Double">
-                        <On Platform="iOS">290</On>
-                        <On Platform="Android">250</On>
-                    </OnPlatform>
-                </Frame.HeightRequest>
-                <Grid>
-                    <Grid.RowDefinitions>
-                        <RowDefinition Height="auto"/>
-                        <RowDefinition Height="auto"/>
-                        <RowDefinition Height="auto"/>
-                        <RowDefinition Height="auto"/>
-                    </Grid.RowDefinitions>
-                    <Grid.ColumnDefinitions>
-                        <ColumnDefinition Width="*"/>
-                        <ColumnDefinition Width="*"/>
-                    </Grid.ColumnDefinitions>
-                    <Image Grid.Row="0" Grid.ColumnSpan="2" Source="Carnes.jpg"></Image>
-                    <Label Grid.Row="1" Grid.ColumnSpan="2" Text="Lomo de Cerdo Importado" FontSize="Medium" HorizontalTextAlignment="Center" FontAttributes="Bold"></Label>
-                    <Label Grid.Row="2" Grid.Column="0" Text="$8. 55 (1/2 Libra) " HorizontalOptions="End"></Label>
-                    <Label Grid.Row="2" Grid.Column="1" Text="$12.45 (1 Libra) " HorizontalOptions="Start"></Label>
-                </Grid>
+                <StackLayout>
+                    <StackLayout>
+                        <Image Source="Carnes.jpg"></Image>
+                        <Label Text="Lomo de Cerdo Importado" FontSize="Medium" HorizontalTextAlignment="Center" FontAttributes="Bold"></Label>
+                    </StackLayout>
+                    <StackLayout Orientation="Horizontal">
+                        <Label Text="$8. 55 (1/2 Lb) " HorizontalOptions="End"></Label>
+                        <Label Text="$12.45 (1 Lb) " HorizontalOptions="Start"></Label>
+                    </StackLayout>
+                </StackLayout>
             </Frame>
             <Frame Padding="10" Margin="10" BackgroundColor="White">
-                <Frame.HeightRequest>
-                    <OnPlatform x:TypeArguments="x:Double">
-                        <On Platform="iOS">290</On>
-                        <On Platform="Android">250</On>
-                    </OnPlatform>
-                </Frame.HeightRequest>
-                <Grid>
-                    <Grid.RowDefinitions>
-                        <RowDefinition Height="auto"/>
-                        <RowDefinition Height="auto"/>
-                        <RowDefinition Height="auto"/>
-                        <RowDefinition Height="auto"/>
-                    </Grid.RowDefinitions>
-                    <Grid.ColumnDefinitions>
-                        <ColumnDefinition Width="*"/>
-                        <ColumnDefinition Width="*"/>
-                    </Grid.ColumnDefinitions>
-                    <Image Grid.Row="0" Grid.ColumnSpan="2" Source="Carnes.jpg"></Image>
-                    <Label Grid.Row="1" Grid.ColumnSpan="2" Text="Lomo de Aguja a la Parrilla" FontSize="Medium" HorizontalTextAlignment="Center" FontAttributes="Bold"></Label>
-                    <Label Grid.Row="2" Grid.Column="0" Text="$10.95 (1/2 Libra) " HorizontalOptions="End"></Label>
-                    <Label Grid.Row="2" Grid.Column="1" Text="$12.45 (1 Libra) " HorizontalOptions="Start"></Label>
-                </Grid>
+                <StackLayout>
+                    <StackLayout>
+                        <Image Source="Carnes.jpg"></Image>
+                        <Label Text="Lomo de Aguja a la Parrilla" FontSize="Medium" HorizontalTextAlignment="Center" FontAttributes="Bold"></Label>
+                    </StackLayout>
+                    <StackLayout Orientation="Horizontal">
+                        <Label Text="$10.95 (1/2 Lb) " HorizontalOptions="End"></Label>
+                        <Label Text="$12.45 (1 Lb) " HorizontalOptions="Start"></Label>
+                    </StackLayout>
+                </StackLayout>
+              
             </Frame>
             <Frame Padding="10" Margin="10" BackgroundColor="White">
-                <Frame.HeightRequest>
-                    <OnPlatform x:TypeArguments="x:Double">
-                        <On Platform="iOS">290</On>
-                        <On Platform="Android">250</On>
-                    </OnPlatform>
-                </Frame.HeightRequest>
-                <Grid>
-                    <Grid.RowDefinitions>
-                        <RowDefinition Height="auto"/>
-                        <RowDefinition Height="auto"/>
-                        <RowDefinition Height="auto"/>
-                        <RowDefinition Height="auto"/>
-                    </Grid.RowDefinitions>
-                    <Grid.ColumnDefinitions>
-                        <ColumnDefinition Width="*"/>
-                        <ColumnDefinition Width="*"/>
-                    </Grid.ColumnDefinitions>
-                    <Image Grid.Row="0" Grid.ColumnSpan="2" Source="Carnes.jpg"></Image>
-                    <Label Grid.Row="1" Grid.ColumnSpan="2" Text="Churrasco Brasador" FontSize="Medium" HorizontalTextAlignment="Center" FontAttributes="Bold"></Label>
-                    <Label Grid.Row="2" Grid.Column="0" Text="$10. 55 (1/2 Libra)" HorizontalOptions="Center"></Label>
-                    <Label Grid.Row="2" Grid.Column="1" Text="" HorizontalOptions="Start"></Label>
-                </Grid>
+                <StackLayout>
+                    <Image Source="Carnes.jpg"/>
+                    <Label Text="Churrasco Brasador" FontSize="Medium" HorizontalTextAlignment="Center" FontAttributes="Bold"></Label>
+                    <Label Text="$10. 55 (1/2 Libra)" HorizontalOptions="Center"></Label>
+                    <Label Text="" HorizontalOptions="Start"></Label>
+                </StackLayout>
             </Frame>
         </StackLayout>
 
