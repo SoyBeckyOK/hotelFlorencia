@@ -19,7 +19,7 @@
                 <StackLayout>
                     <Image Source="Carnes.jpg"></Image>
                     <Label Text="Filete de pollo a la Parrilla" FontSize="Medium" HorizontalTextAlignment="Center" FontAttributes="Bold"></Label>
-                    <StackLayout O>
+                    <StackLayout>
                         <Label Text="$7. 95 (1/2 Lb) " HorizontalOptions="End"></Label>
                         <Label Text="$12.05 (1 Lb) " HorizontalOptions="Start"></Label>
                     </StackLayout>
