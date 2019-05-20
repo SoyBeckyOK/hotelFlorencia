@@ -7,36 +7,82 @@
     <ScrollView>
         <StackLayout BackgroundColor="LightBlue">
             <Frame  Padding="10" Margin="10"  BackgroundColor="White">
-                <StackLayout>
-                    <Image Source="Cortes.jpg"></Image>
-                    <Label Text="Punta Jalapeña" FontSize="Medium" FontAttributes="Bold" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" ></Label>
-                    <Label Text="9 onzas del mejor corte de lomo de aguja, con su tradicional salsa jalapeña"></Label>
-                    <Label Text="$13.95" FontAttributes="Bold"></Label>
-                </StackLayout>
+                <Frame.HeightRequest>
+                    <OnPlatform x:TypeArguments="x:Double">
+                        <On Platform="iOS">360</On>
+                        <On Platform="Android">330</On>
+                    </OnPlatform>
+                </Frame.HeightRequest>
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="auto"/>
+                        <RowDefinition Height="auto"/>
+                        <RowDefinition Height="auto"/>
+                        <RowDefinition Height="auto"/>
+                    </Grid.RowDefinitions>
+                    <Image Grid.Row="0" Source="Cortes.jpg"></Image>
+                    <Label Grid.Row="1" Text="Punta Jalapeña" FontSize="Medium" FontAttributes="Bold" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" ></Label>
+                    <Label Grid.Row="2" Text="9 onzas del mejor corte de lomo de aguja, con su tradicional salsa jalapeña"></Label>
+                    <Label Grid.Row="3" Text="$13.95" FontAttributes="Bold"></Label>
+                </Grid>
             </Frame>
             <Frame Padding="10" Margin="10" BackgroundColor="White">
-                <StackLayout>
+                <Frame.HeightRequest>
+                    <OnPlatform x:TypeArguments="x:Double">
+                        <On Platform="iOS">360</On>
+                        <On Platform="Android">330</On>
+                    </OnPlatform>
+                </Frame.HeightRequest><Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="auto"/>
+                        <RowDefinition Height="auto"/>
+                        <RowDefinition Height="auto"/>
+                        <RowDefinition Height="auto"/>
+                    </Grid.RowDefinitions>
                     <Image Grid.Row="0" Source="Cortes.jpg"></Image>
                     <Label Grid.Row="1" Text="Mixto Florencia" FontSize="Medium" HorizontalTextAlignment="Center" FontAttributes="Bold"></Label>
                     <Label Grid.Row="2" Text="Combinacion de lomo de aguja y pollo a la parrilla"/>
                     <Label Grid.Row="3" Text="$13.95" FontAttributes="Bold"/>
-                </StackLayout>
+                </Grid>
             </Frame>
             <Frame Padding="10" Margin="10"  BackgroundColor="White">
-                <StackLayout>
+              <Frame.HeightRequest>
+                    <OnPlatform x:TypeArguments="x:Double">
+                        <On Platform="iOS">360</On>
+                        <On Platform="Android">330</On>
+                    </OnPlatform>
+                </Frame.HeightRequest>
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="auto"/>
+                        <RowDefinition Height="auto"/>
+                        <RowDefinition Height="auto"/>
+                    </Grid.RowDefinitions>
                     <Image Grid.Row="0" Source="Cortes.jpg"></Image>
                     <Label Grid.Row="1" Text="Mar y Tierra" FontSize="Medium" HorizontalTextAlignment="Center" FontAttributes="Bold"></Label>
                     <Label Grid.Row="2" Text="Camarones y lomo de aguja a la parrilla"></Label>
                     <Label Grid.Row="3" Text="$14.95" FontAttributes="Bold"></Label>
-                </StackLayout>
+                </Grid>
             </Frame>
             <Frame Padding="10" Margin="10" BackgroundColor="White">
-                <StackLayout>
+               <Frame.HeightRequest>
+                    <OnPlatform x:TypeArguments="x:Double">
+                        <On Platform="iOS">370</On>
+                        <On Platform="Android">330</On>
+                    </OnPlatform>
+                </Frame.HeightRequest>
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="auto"/>
+                        <RowDefinition Height="auto"/>
+                        <RowDefinition Height="auto"/>
+                        <RowDefinition Height="auto"/>
+                    </Grid.RowDefinitions>
                     <Image Grid.Row="0" Source="Cortes.jpg"></Image>
                     <Label Grid.Row="1" Text="Medallones en Salsa Marcelo" FontSize="Medium" HorizontalTextAlignment="Center" FontAttributes="Bold"></Label>
                     <Label Grid.Row="2" Text="Deliciosos medallones de filete de pollo, lomo de aguja, y camarones a la parrilla"></Label>
                     <Label Grid.Row="3" Text="$16.95" FontAttributes="Bold"></Label>
-                </StackLayout>
+                </Grid>
             </Frame>
             <StackLayout>
                 <Frame Margin="0.5" BorderColor="Blue">

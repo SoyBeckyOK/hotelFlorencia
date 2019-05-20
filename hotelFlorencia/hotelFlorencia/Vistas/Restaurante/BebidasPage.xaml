@@ -10,233 +10,207 @@
                 <StackLayout >
                     <StackLayout  Orientation="Vertical">
                         <Image Source="Bebidas.jpg"/>
-                        <Label  Text="Aperitivos" FontSize="Medium" FontAttributes="Bold" HorizontalTextAlignment="Center" VerticalTextAlignment="Center"/>
+                        <Label  Text="Aperitivos" FontSize="Large" FontAttributes="Bold" HorizontalTextAlignment="Center" VerticalTextAlignment="Center"/>
                     </StackLayout>
-                    <StackLayout Orientation="Horizontal">
-                        <StackLayout Orientation="Vertical">
-                            <Label Text="Piña Colada sin Licor" FontSize="Small" FontAttributes="Bold"></Label>
-                            <Label Text="Piña colada con Licor" FontSize="Small" FontAttributes="Bold"></Label>
-                            <Label Text="Cuba Libre" FontSize="Small" FontAttributes="Bold"></Label>
-                            <Label Text="Tom Collins" FontSize="Small" FontAttributes="Bold"></Label>
-                            <Label Text="Conga Jalisco" FontSize="Small" FontAttributes="Bold"></Label>
-                            <Label Text="Conga sin Licor" FontSize="Small" FontAttributes="Bold"></Label>
-                            <Label Text="Margarita" FontSize="Small" FontAttributes="Bold"></Label>
-                            <Label Text="Planter Pouch" FontSize="Small" FontAttributes="Bold"></Label>
-                            <Label Text="Daikiry" FontSize="Small" FontAttributes="Bold"></Label>
-                            <Label Text="Screwdriver" FontSize="Small" FontAttributes="Bold"></Label>
-                            <Label Text="Sangria" FontSize="Small" FontAttributes="Bold"></Label>
-                            <Label Text="Bloody Mary" FontSize="Small" FontAttributes="Bold"></Label>
-                        </StackLayout>
-                        <StackLayout Orientation="Vertical">
-                            <Label Grid.Row="2" Grid.Column="1" Text="$2.95" VerticalOptions="EndAndExpand"></Label>
-                            <Label Grid.Row="3" Grid.Column="1" Text="$3.75" VerticalOptions="EndAndExpand"></Label>
-                            <Label Grid.Row="4" Grid.Column="1" Text="$3.75" VerticalOptions="EndAndExpand"></Label>
-                            <Label Grid.Row="5" Grid.Column="1" Text="$3.75" VerticalOptions="EndAndExpand"></Label>
-                            <Label Grid.Row="6" Grid.Column="1" Text="$3.75" VerticalOptions="EndAndExpand"></Label>
-                            <Label Grid.Row="7" Grid.Column="1" Text="$2.95" VerticalOptions="EndAndExpand"></Label>
-                            <Label Grid.Row="8" Grid.Column="1" Text="$3.75" VerticalOptions="EndAndExpand"></Label>
-                            <Label Grid.Row="9" Grid.Column="1" Text="$3.75" VerticalOptions="EndAndExpand"></Label>
-                            <Label Grid.Row="10" Grid.Column="1" Text="$3.75" VerticalOptions="EndAndExpand"></Label>
-                            <Label Grid.Row="11" Grid.Column="1" Text="$3.75" VerticalOptions="EndAndExpand"></Label>
-                            <Label Grid.Row="12" Grid.Column="1" Text="$3.75" VerticalOptions="EndAndExpand"></Label>
-                            <Label Grid.Row="13" Grid.Column="1" Text="$3.75" VerticalOptions="EndAndExpand"></Label>
-                        </StackLayout>
-                    </StackLayout>
-                    <StackLayout>
-                        
+                    <StackLayout Orientation="Vertical" VerticalOptions="EndAndExpand">
+                        <Label Text="Piña Colada sin Licor" FontSize="Small" FontAttributes="Bold"></Label>
+                        <Label Grid.Row="2" Grid.Column="1" Text="$2.95" HorizontalOptions="End"></Label>
+                        <Label Text="Piña colada con Licor" FontSize="Small" FontAttributes="Bold"></Label>
+                        <Label Grid.Row="3" Grid.Column="1" Text="$3.75" HorizontalOptions="End"></Label>
+                        <Label Text="Cuba Libre" FontSize="Small" FontAttributes="Bold"></Label>
+                        <Label Grid.Row="4" Grid.Column="1" Text="$3.75" HorizontalOptions="End"></Label>
+                        <Label Text="Tom Collins" FontSize="Small" FontAttributes="Bold"></Label>
+                        <Label Grid.Row="5" Grid.Column="1" Text="$3.75" HorizontalOptions="End"></Label>
+                        <Label Text="Conga Jalisco" FontSize="Small" FontAttributes="Bold"></Label>
+                        <Label Grid.Row="6" Grid.Column="1" Text="$3.75" HorizontalOptions="End"></Label>
+                        <Label Text="Conga sin Licor" FontSize="Small" FontAttributes="Bold"></Label>
+                        <Label Grid.Row="7" Grid.Column="1" Text="$2.95" HorizontalOptions="End"></Label>
+                        <Label Text="Margarita" FontSize="Small" FontAttributes="Bold"></Label>
+                        <Label Grid.Row="8" Grid.Column="1" Text="$3.75" HorizontalOptions="End"></Label>
+                        <Label Text="Planter Pouch" FontSize="Small" FontAttributes="Bold"></Label>
+                        <Label Grid.Row="9" Grid.Column="1" Text="$3.75" HorizontalOptions="End"></Label>
+                        <Label Text="Daikiry" FontSize="Small" FontAttributes="Bold"></Label>
+                        <Label Grid.Row="10" Grid.Column="1" Text="$3.75" HorizontalOptions="End"></Label>
+                        <Label Text="Screwdriver" FontSize="Small" FontAttributes="Bold"></Label>
+                        <Label Grid.Row="11" Grid.Column="1" Text="$3.75" HorizontalOptions="End"></Label>
+                        <Label Text="Sangria" FontSize="Small" FontAttributes="Bold"></Label>
+                        <Label Grid.Row="12" Grid.Column="1" Text="$3.75" HorizontalOptions="End"></Label>
+                        <Label Text="Bloody Mary" FontSize="Small" FontAttributes="Bold"></Label>
+                        <Label Grid.Row="13" Grid.Column="1" Text="$3.75" HorizontalOptions="End"></Label>
                     </StackLayout>
                 </StackLayout>
             </Frame>
             <Frame Padding="10" Margin="10"  BackgroundColor="White">
-                <StackLayout>
-                    <Image Source="Bebidas.jpg"></Image>
-                    <Label Text="Cervezas" FontSize="Medium" FontAttributes="Bold" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" ></Label>
-                    <Label Text="Nacionales $1.55" FontSize="Small" FontAttributes="Bold"></Label>
-                    <Label Text="Extranjeras $2.75" FontSize="Small" FontAttributes="Bold"></Label>
-                </StackLayout>
+                <Frame.HeightRequest>
+                    <OnPlatform x:TypeArguments="x:Double">
+                        <On Platform="iOS">330</On>
+                        <On Platform="Android">300</On>
+                    </OnPlatform>
+                </Frame.HeightRequest>
+                <Grid HorizontalOptions="Center">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="auto"/>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="*"/>
+                    </Grid.RowDefinitions>
+                    <Image Grid.Row="0" Source="Bebidas.jpg"></Image>
+                    <Label Grid.Row="1" Text="Cervezas" FontSize="Large" FontAttributes="Bold" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" ></Label>
+                    <Label Grid.Row="2" Text="Nacionales $1.55" FontSize="Small" FontAttributes="Bold"></Label>
+                    <Label Grid.Row="3" Text="Extranjeras $2.75" FontSize="Small" FontAttributes="Bold"></Label>
+                </Grid>
             </Frame>
             <Frame Padding="10" Margin="10"  BackgroundColor="White">
-                <StackLayout>
-                    <Image Source="Bebidas.jpg"></Image>
-                    <Label Text="Vinos" FontSize="Medium" FontAttributes="Bold" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" ></Label>
-                    <Label Text="Copa de Vino $2.95" FontSize="Small" FontAttributes="Bold"></Label>
-                    <Label Text="Botella de Vino  $_______" FontSize="Small" FontAttributes="Bold"></Label>
-                </StackLayout>
+                <Frame.HeightRequest>
+                    <OnPlatform x:TypeArguments="x:Double">
+                        <On Platform="iOS">380</On>
+                        <On Platform="Android">350</On>
+                    </OnPlatform>
+                </Frame.HeightRequest>
+                <Grid HorizontalOptions="Center">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="auto"/>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="*"/>
+                    </Grid.RowDefinitions>
+                    <Image Grid.Row="0" Source="Bebidas.jpg"></Image>
+                    <Label Grid.Row="1" Text="Vinos" FontSize="Large" FontAttributes="Bold" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" ></Label>
+                    <Label Grid.Row="2" Text="Copa de Vino $2.95" FontSize="Small" FontAttributes="Bold"></Label>
+                    <Label Grid.Row="3" Text="Botella de Vino  $_______" FontSize="Small" FontAttributes="Bold"></Label>
+                </Grid>
             </Frame>
             <Frame Padding="10" Margin="10" BackgroundColor="White">
-                <StackLayout >
-                    <StackLayout Orientation="Vertical">
-                        <Image Source="Bebidas.jpg"></Image>
-                        <Label Text="Sodas, Jugos y Refrescos" FontSize="Medium" FontAttributes="Bold" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" ></Label>
-                    </StackLayout>
-                    <StackLayout Orientation="Horizontal">
-                        <StackLayout Orientation="Vertical">
-                            <Label Grid.Row="2" Grid.Column="0" Text="Gaseosa" FontSize="Small" FontAttributes="Bold"></Label>
-                            <Label Grid.Row="3" Grid.Column="0" Text="Limonada" FontSize="Small" FontAttributes="Bold"></Label>
-                            <Label Grid.Row="4" Grid.Column="0" Text="Limonada con Soda" FontSize="Small" FontAttributes="Bold"></Label>
-                            <Label Grid.Row="5" Grid.Column="0" Text="Naranjada" FontSize="Small" FontAttributes="Bold"></Label>
-                            <Label Grid.Row="6" Grid.Column="0" Text="Naranjada con Soda" FontSize="Small" FontAttributes="Bold"></Label>
-                            <Label Grid.Row="7" Grid.Column="0" Text="Refresco Natural" FontSize="Small" FontAttributes="Bold"></Label>
-                            <Label Grid.Row="8" Grid.Column="0" Text="Jugo de Naranja" FontSize="Small" FontAttributes="Bold"></Label>
-                            <Label Grid.Row="9" Grid.Column="0" Text="Te helado" FontSize="Small" FontAttributes="Bold"></Label>
-                            <Label Grid.Row="10" Grid.Column="0" Text="Frozen" FontSize="Small" FontAttributes="Bold"></Label>
-                        </StackLayout>
-                        <StackLayout Orientation="Vertical">
-                            <Label Grid.Row="2" Grid.Column="1" Text="$1.55" VerticalOptions="EndAndExpand"></Label>
-                            <Label Grid.Row="3" Grid.Column="1" Text="$1.75" VerticalOptions="EndAndExpand"></Label>
-                            <Label Grid.Row="4" Grid.Column="1" Text="$1.95" VerticalOptions="EndAndExpand"></Label>
-                            <Label Grid.Row="5" Grid.Column="1" Text="$1.75" VerticalOptions="EndAndExpand"></Label>
-                            <Label Grid.Row="6" Grid.Column="1" Text="$1.95" VerticalOptions="EndAndExpand"></Label>
-                            <Label Grid.Row="7" Grid.Column="1" Text="$1.75" VerticalOptions="EndAndExpand"></Label>
-                            <Label Grid.Row="8" Grid.Column="1" Text="$1.75" VerticalOptions="EndAndExpand"></Label>
-                            <Label Grid.Row="9" Grid.Column="1" Text="$1.75" VerticalOptions="EndAndExpand"></Label>
-                            <Label Grid.Row="10" Grid.Column="1" Text="$2.95" VerticalOptions="EndAndExpand"></Label>
-                        </StackLayout>
+                <Frame.HeightRequest>
+                    <OnPlatform x:TypeArguments="x:Double">
+                        <On Platform="iOS">450</On>
+                        <On Platform="Android">420</On>
+                    </OnPlatform>
+                </Frame.HeightRequest>
+                <Grid HorizontalOptions="Center">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="auto"/>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="*"/>
 
-
-
-                    </StackLayout>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+                    <Image Grid.Row="0" Grid.ColumnSpan="2" Source="Bebidas.jpg"></Image>
+                    <Label Grid.Row="1" Grid.ColumnSpan="2" Text="Sodas, Jugos y Refrescos" FontSize="Large" FontAttributes="Bold" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" ></Label>
+                    <Label Grid.Row="2" Grid.Column="0" Text="Gaseosa" FontSize="Small" FontAttributes="Bold"></Label>
+                    <Label Grid.Row="2" Grid.Column="1" Text="$1.55" HorizontalOptions="End"></Label>
+                    <Label Grid.Row="3" Grid.Column="0" Text="Limonada" FontSize="Small" FontAttributes="Bold"></Label>
+                    <Label Grid.Row="3" Grid.Column="1" Text="$1.75" HorizontalOptions="End"></Label>
+                    <Label Grid.Row="4" Grid.Column="0" Text="Limonada con Soda" FontSize="Small" FontAttributes="Bold"></Label>
+                    <Label Grid.Row="4" Grid.Column="1" Text="$1.95" HorizontalOptions="End"></Label>
+                    <Label Grid.Row="5" Grid.Column="0" Text="Naranjada" FontSize="Small" FontAttributes="Bold"></Label>
+                    <Label Grid.Row="5" Grid.Column="1" Text="$1.75" HorizontalOptions="End"></Label>
+                    <Label Grid.Row="6" Grid.Column="0" Text="Naranjada con Soda" FontSize="Small" FontAttributes="Bold"></Label>
+                    <Label Grid.Row="6" Grid.Column="1" Text="$1.95" HorizontalOptions="End"></Label>
+                    <Label Grid.Row="7" Grid.Column="0" Text="Refresco Natural" FontSize="Small" FontAttributes="Bold"></Label>
+                    <Label Grid.Row="7" Grid.Column="1" Text="$1.75" HorizontalOptions="End"></Label>
+                    <Label Grid.Row="8" Grid.Column="0" Text="Jugo de Naranja" FontSize="Small" FontAttributes="Bold"></Label>
+                    <Label Grid.Row="8" Grid.Column="1" Text="$1.75" HorizontalOptions="End"></Label>
+                    <Label Grid.Row="9" Grid.Column="0" Text="Te helado" FontSize="Small" FontAttributes="Bold"></Label>
+                    <Label Grid.Row="9" Grid.Column="1" Text="$1.75" HorizontalOptions="End"></Label>
+                    <Label Grid.Row="10" Grid.Column="0" Text="Frozen" FontSize="Small" FontAttributes="Bold"></Label>
+                    <Label Grid.Row="10" Grid.Column="1" Text="$2.95" HorizontalOptions="End"></Label>
+                  </Grid>
+            </Frame>
+            <Frame Padding="10" Margin="10" HeightRequest="350" BackgroundColor="White">
+                <Frame.HeightRequest>
+                    <OnPlatform x:TypeArguments="x:Double">
+                        <On Platform="iOS">380</On>
+                        <On Platform="Android">350</On>
+                    </OnPlatform>
+                </Frame.HeightRequest>
+                <Grid HorizontalOptions="Center">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="auto"/>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="*"/>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+                    <Image Grid.Row="0" Grid.ColumnSpan="2" Source="Bebidas.jpg"></Image>
+                    <Label Grid.Row="1" Grid.ColumnSpan="2" Text="Picheles" FontSize="Large" FontAttributes="Bold" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" ></Label>
+                    <Label Grid.Row="2" Grid.Column="0" Text="Pichel de gaseosa" FontSize="Small" FontAttributes="Bold"></Label>
+                    <Label Grid.Row="2" Grid.Column="1" Text="$4.75" HorizontalOptions="End"></Label>
+                    <Label Grid.Row="3" Grid.Column="0" Text="Pichel de naranjada" FontSize="Small" FontAttributes="Bold"></Label>
+                    <Label Grid.Row="3" Grid.Column="1" Text="$4.95" HorizontalOptions="End"></Label>
+                    <Label Grid.Row="4" Grid.Column="0" Text="Pichel de limonada" FontSize="Small" FontAttributes="Bold"></Label>
+                    <Label Grid.Row="4" Grid.Column="1" Text="$4.75" HorizontalOptions="End"></Label>
+                    <Label Grid.Row="5" Grid.Column="0" Text="Pichel de Te helado" FontSize="Small" FontAttributes="Bold"></Label>
+                    <Label Grid.Row="5" Grid.Column="1" Text="$5.25" HorizontalOptions="End"></Label>
+                </Grid>
+            </Frame>
+            <Frame Padding="10" Margin="10" HeightRequest="520" BackgroundColor="White">
+                <Frame.HeightRequest>
+                    <OnPlatform x:TypeArguments="x:Double">
+                        <On Platform="iOS">550</On>
+                        <On Platform="Android">520</On>
+                    </OnPlatform>
+                </Frame.HeightRequest>
+                <Grid HorizontalOptions="Center">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="auto"/>
+                        <RowDefinition Height="6*"/>
+                        <RowDefinition Height="9*"/>
+                        <RowDefinition Height="6*"/>
+                        <RowDefinition Height="6*"/>
+                        <RowDefinition Height="6*"/>
+                        <RowDefinition Height="6*"/>
+                        <RowDefinition Height="6*"/>
+                        <RowDefinition Height="6*"/>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+                    <Image Grid.Row="0" Grid.ColumnSpan="3" Source="Bebidas.jpg"></Image>
+                    <Label Grid.Row="1" Grid.Column="0" Text="Licores" FontSize="Medium" FontAttributes="Bold" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" ></Label>
+                    <Label Grid.Row="1" Grid.Column="1" Text="Sencillos" FontSize="Medium" FontAttributes="Bold" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" ></Label>
+                    <Label Grid.Row="1" Grid.Column="2" Text="Dobles" FontSize="Medium" FontAttributes="Bold" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" ></Label>
+                    <Label Grid.Row="2" Grid.Column="0" Text="Ron, Whisky, Vodka (de barra)" FontSize="Small" FontAttributes="Bold" HorizontalOptions="Center"></Label>
+                    <Label Grid.Row="2" Grid.Column="1" Text="$2.95" HorizontalOptions="Center"></Label>
+                    <Label Grid.Row="2" Grid.Column="2" Text="$4.95"  HorizontalOptions="Center"></Label>
+                    <Label Grid.Row="3" Grid.Column="0" Text="Ron, Vodka Premium" HorizontalOptions="Center" FontSize="Small" FontAttributes="Bold"></Label>
+                    <Label Grid.Row="3" Grid.Column="1" Text="$3.55" HorizontalOptions="Center"></Label>
+                    <Label Grid.Row="3" Grid.Column="2" Text="$4.75" HorizontalOptions="Center"></Label>
+                    <Label Grid.Row="4" Grid.Column="0" Text="Whisky Cinta Negra" HorizontalOptions="Center" FontSize="Small" FontAttributes="Bold"></Label>
+                    <Label Grid.Row="4" Grid.Column="1" Text="$4.95" HorizontalOptions="Center"></Label>
+                    <Label Grid.Row="4" Grid.Column="2" Text="$7.95" HorizontalOptions="Center"></Label>
+                    <Label Grid.Row="5" Grid.Column="0" Text="Chivas Regal" HorizontalOptions="Start" FontSize="Small" FontAttributes="Bold"></Label>
+                    <Label Grid.Row="5" Grid.Column="1" Text="$4.95" HorizontalOptions="Center"></Label>
+                    <Label Grid.Row="5" Grid.Column="2" Text="$7.95" HorizontalOptions="Center"></Label>
+                    <Label Grid.Row="6" Grid.Column="0" Text="Tequila José Cuervo" HorizontalOptions="Center" FontSize="Small" FontAttributes="Bold"></Label>
+                    <Label Grid.Row="6" Grid.Column="1" Text="$2.95" HorizontalOptions="Center"></Label>
+                    <Label Grid.Row="6" Grid.Column="2" Text="$4.95" HorizontalOptions="Center"></Label>
+                    <Label Grid.Row="7" Grid.Column="0" Text="Tequila 1800, Herradura" HorizontalOptions="Center" FontSize="Small" FontAttributes="Bold"></Label>
+                    <Label Grid.Row="7" Grid.Column="1" Text="$4.95" HorizontalOptions="Center"></Label>
+                    <Label Grid.Row="7" Grid.Column="2" Text="$6.95" HorizontalOptions="Center"></Label>
+                    <Label Grid.Row="8" Grid.Column="0" Text="Crema Digestiva (Roca ó Frapé)"  HorizontalOptions="Center" FontSize="Small" FontAttributes="Bold"></Label>
+                    <Label Grid.Row="8" Grid.Column="1" Text="$3.55" HorizontalOptions="Center"></Label>
+                    <Label Grid.Row="8" Grid.Column="2" Text="$4.75" HorizontalOptions="Center"></Label>
                     
-                </StackLayout>
-            </Frame>
-            <Frame Padding="10" Margin="10" BackgroundColor="White">
-                <StackLayout >
-                    <StackLayout Orientation="Vertical">
-                        <Image Grid.Row="0" Grid.ColumnSpan="2" Source="Bebidas.jpg"></Image>
-                        <Label Grid.Row="1" Grid.ColumnSpan="2" Text="Picheles" FontSize="Medium" FontAttributes="Bold" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" ></Label>
-                    </StackLayout>
-                    <StackLayout Orientation="Horizontal">
-                        <StackLayout Orientation="Vertical">
-                            <Label Grid.Row="2" Grid.Column="0" Text="Pichel de gaseosa" FontSize="Small" FontAttributes="Bold"></Label>
-                            <Label Grid.Row="3" Grid.Column="0" Text="Pichel de naranjada" FontSize="Small" FontAttributes="Bold"></Label>
-                            <Label Grid.Row="4" Grid.Column="0" Text="Pichel de limonada" FontSize="Small" FontAttributes="Bold"></Label>
-                            <Label Grid.Row="5" Grid.Column="0" Text="Pichel de Te helado" FontSize="Small" FontAttributes="Bold"></Label>
-                        </StackLayout>
-                        <StackLayout Orientation="Vertical">
-                            <Label Grid.Row="2" Grid.Column="1" Text="$4.75" VerticalOptions="EndAndExpand"></Label>
-                            <Label Grid.Row="3" Grid.Column="1" Text="$4.95" VerticalOptions="EndAndExpand"></Label>
-                            <Label Grid.Row="4" Grid.Column="1" Text="$4.75" VerticalOptions="EndAndExpand"></Label>
-                            <Label Grid.Row="5" Grid.Column="1" Text="$5.25" VerticalOptions="EndAndExpand"></Label>
-                        </StackLayout>
-                    </StackLayout>
-                    
-                </StackLayout>
-            </Frame>
-            <Frame Padding="10" Margin="10" BackgroundColor="White">
-                <StackLayout >
-                    <StackLayout Orientation="Vertical">
-                        <Image Source="Bebidas.jpg"></Image>
-                        <Label Text="Licores" FontAttributes="Bold" HorizontalTextAlignment="Center" FontSize="Medium" VerticalTextAlignment="Center" ></Label>
-                    </StackLayout>
-                    <StackLayout >
-                        <StackLayout>
-                            <Label Text="Ron, Whisky, Vodka (de barra)" FontSize="Small" FontAttributes="Bold"></Label>
-                            <StackLayout Orientation="Horizontal" HorizontalOptions="EndAndExpand">
-                                <StackLayout Orientation="Vertical" >
-                                    <Label Text="Sencillos" FontAttributes="Bold" HorizontalTextAlignment="Start" VerticalTextAlignment="Start" ></Label>
-                                    <Label Text="$2.95" VerticalOptions="Center"></Label>
-
-                                </StackLayout>
-                                <StackLayout Orientation="Vertical">
-                                    <Label Text="Dobles" FontAttributes="Bold" HorizontalTextAlignment="Start" VerticalTextAlignment="Start" ></Label>
-                                    <Label Text="$4.95"  VerticalOptions="Center"></Label>
-                                </StackLayout>
-                            </StackLayout>
-                        </StackLayout>
-                     
-                            <StackLayout>
-                            <Label Text="Ron, Vodka Premium" FontSize="Small" FontAttributes="Bold"></Label>
-                            <StackLayout Orientation="Horizontal" HorizontalOptions="EndAndExpand">
-                                <StackLayout Orientation="Vertical">
-                                    <Label Text="Sencillos" FontAttributes="Bold" HorizontalTextAlignment="Start" VerticalTextAlignment="Start" ></Label>
-                                    <Label Text="$3.55" VerticalOptions="Center"></Label>
-                                </StackLayout>
-                                <StackLayout Orientation="Vertical">
-                                    <Label Text="Dobles" FontAttributes="Bold" HorizontalTextAlignment="Start" VerticalTextAlignment="Start" ></Label>
-                                    <Label Text="$4.75" VerticalOptions="Center"></Label>
-                                </StackLayout>
-                            </StackLayout>
-                        </StackLayout>
-                        
-                        <StackLayout>
-                            <Label Text="Whisky Cinta Negra" FontSize="Small" FontAttributes="Bold"></Label>
-                            <StackLayout Orientation="Horizontal" HorizontalOptions="EndAndExpand">
-                                <StackLayout Orientation="Vertical">
-                                    <Label Text="Sencillos" FontAttributes="Bold" HorizontalTextAlignment="Start" VerticalTextAlignment="Start" ></Label>
-                                    <Label Text="$4.95" VerticalOptions="Center"></Label>
-
-                                </StackLayout>
-                                <StackLayout Orientation="Vertical">
-                                    <Label Text="Dobles" FontAttributes="Bold" HorizontalTextAlignment="Start" VerticalTextAlignment="Start" ></Label>
-                                    <Label Text="$7.95" VerticalOptions="Center"></Label>
-                                </StackLayout>
-                            </StackLayout>
-                        </StackLayout>
-                        
-                            <StackLayout>
-                            <Label Grid.Row="5" Grid.Column="0" Text="Chivas Regal" FontSize="Small" FontAttributes="Bold"></Label>
-                            <StackLayout Orientation="Horizontal" HorizontalOptions="EndAndExpand">
-                                <StackLayout Orientation="Vertical">
-                                    <Label Text="Sencillos" FontAttributes="Bold" HorizontalTextAlignment="Start" VerticalTextAlignment="Start" ></Label>
-                                    <Label Text="$4.95" VerticalOptions="Center"></Label>
-
-                                </StackLayout>
-                                <StackLayout Orientation="Vertical">
-                                    <Label Text="Dobles" FontAttributes="Bold" HorizontalTextAlignment="Start" VerticalTextAlignment="Start" ></Label>
-                                    <Label Text="$7.95" VerticalOptions="Center"></Label>
-                                </StackLayout>
-                            </StackLayout>
-                        </StackLayout>
-
-                            <StackLayout>
-                            <Label Text="Tequila José Cuervo" FontSize="Small" FontAttributes="Bold"></Label>
-                            <StackLayout Orientation="Horizontal" HorizontalOptions="EndAndExpand">
-                                <StackLayout Orientation="Vertical">
-                                    <Label Text="Sencillos" FontAttributes="Bold" HorizontalTextAlignment="Start" VerticalTextAlignment="Start" ></Label>
-                                    <Label Text="$2.95" VerticalOptions="Center"></Label>
-
-                                </StackLayout>
-                                <StackLayout Orientation="Vertical">
-                                    <Label Text="Dobles" FontAttributes="Bold" HorizontalTextAlignment="Start" VerticalTextAlignment="Start" ></Label>
-                                    <Label Text="$4.95" VerticalOptions="Center"></Label>
-                                </StackLayout>
-                            </StackLayout>
-                        </StackLayout>
-                        
-                            <StackLayout>
-                            <Label Text="Tequila 1800, Herradura" FontSize="Small" FontAttributes="Bold"></Label>
-                            <StackLayout Orientation="Horizontal" HorizontalOptions="EndAndExpand">
-                                <StackLayout Orientation="Vertical">
-                                    <Label Text="Sencillos" FontAttributes="Bold" HorizontalTextAlignment="Start" VerticalTextAlignment="Start" ></Label>
-                                    <Label Text="$4.95" VerticalOptions="Center"></Label>
-
-                                </StackLayout>
-                                <StackLayout Orientation="Vertical">
-                                    <Label Text="Dobles" FontAttributes="Bold" HorizontalTextAlignment="Start" VerticalTextAlignment="Start" ></Label>
-                                    <Label Text="$6.95" VerticalOptions="Center"></Label>
-                                </StackLayout>
-                            </StackLayout>
-                        </StackLayout>
-
-                        <StackLayout>
-                            <Label Text="Crema Digestiva (Roca ó Frapé)" FontSize="Small" FontAttributes="Bold"></Label>
-                            <StackLayout Orientation="Horizontal" HorizontalOptions="EndAndExpand">
-                                <StackLayout Orientation="Vertical">
-                                    <Label Text="Sencillos" FontAttributes="Bold" HorizontalTextAlignment="Start" VerticalTextAlignment="Start" ></Label>
-                                    <Label Text="$3.55" VerticalOptions="Center"></Label>
-
-                                </StackLayout>
-                                <StackLayout Orientation="Vertical">
-                                    <Label Text="Dobles" FontAttributes="Bold" HorizontalTextAlignment="Start" VerticalTextAlignment="Start" ></Label>
-                                    <Label Text="$4.75" VerticalOptions="Center"></Label>
-                                </StackLayout>
-                            </StackLayout>
-                           
-                        </StackLayout>
-                    </StackLayout>
-                    </StackLayout>
-                
-                
+                </Grid>
             </Frame>
         </StackLayout>
 

@@ -7,30 +7,74 @@
     <ScrollView>
         <StackLayout BackgroundColor="LightBlue">
             <Frame Padding="10" Margin="10"  BackgroundColor="White">
-                <StackLayout>
-                    <Image Source="Camarones.jpg"></Image>
-                    <Label Text="Filete de Pescado" FontSize="Medium" HorizontalTextAlignment="Center" FontAttributes="Bold"></Label>
-                    <StackLayout Orientation="Horizontal">
-                        <Label Text="$10.95 (1/2 de Libra de Filete)" HorizontalOptions="StartAndExpand"></Label>
-                        <Label Text="$14.95 (1 de Libra de Filete)"  HorizontalOptions="EndAndExpand"></Label>
-                    </StackLayout>
-                    <Label Text="A su gusto: Al ajio, empanizado o a la parrilla" FontAttributes="Bold"></Label>
-                </StackLayout>
+                <Frame.HeightRequest>
+                    <OnPlatform x:TypeArguments="x:Double">
+                        <On Platform="iOS">340</On>
+                        <On Platform="Android">300</On>
+                    </OnPlatform>
+                </Frame.HeightRequest>
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="auto"/>
+                        <RowDefinition Height="auto"/>
+                        <RowDefinition Height="auto"/>
+                        <RowDefinition Height="auto"/>
+                        <RowDefinition Height="auto"/>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+                    <Image Grid.Row="0" Grid.ColumnSpan="2" Source="Camarones.jpg"></Image>
+                    <Label Grid.Row="1" Grid.ColumnSpan="2" Text="Filete de Pescado" FontSize="Medium" HorizontalTextAlignment="Center" FontAttributes="Bold"></Label>
+                    <Label Grid.Row="2" Grid.Column="0" Text="$10.95 (1/2 de Libra de Filete)"></Label>
+                    <Label Grid.Row="2" Grid.Column="1" Text="$14.95 (1 de Libra de Filete)" ></Label>
+                    <Label Grid.Row="3" Grid.ColumnSpan="2" Text="A su gusto: Al ajio, empanizado o a la parrilla" FontAttributes="Bold"></Label>
+                </Grid>
             </Frame>
             <Frame Padding="10" Margin="10" BackgroundColor="White">
-                <StackLayout>
-                    <Image Source="Camarones.jpg"></Image>
-                    <Label Text="Camarones" FontSize="Medium" HorizontalTextAlignment="Center" FontAttributes="Bold"></Label>
-                    <Label Text="$10.95 (1/2 de Libra de Filete)"></Label>
-                    <Label Text="A su gusto: Al ajio, BBQ, empanizado o a la parrilla" FontAttributes="Bold"></Label>
-                </StackLayout>
+                <Frame.HeightRequest>
+                    <OnPlatform x:TypeArguments="x:Double">
+                        <On Platform="iOS">340</On>
+                        <On Platform="Android">300</On>
+                    </OnPlatform>
+                </Frame.HeightRequest>
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="auto"/>
+                        <RowDefinition Height="auto"/>
+                        <RowDefinition Height="auto"/>
+                        <RowDefinition Height="auto"/>
+                        <RowDefinition Height="auto"/>
+                    </Grid.RowDefinitions>
+                    <Image Grid.Row="0"  Source="Camarones.jpg"></Image>
+                    <Label Grid.Row="1"  Text="Camarones" FontSize="Medium" HorizontalTextAlignment="Center" FontAttributes="Bold"></Label>
+                    <Label Grid.Row="2"  Text="$10.95 (1/2 de Libra de Filete)"></Label>
+                    <Label Grid.Row="3"  Text="A su gusto: Al ajio, BBQ, empanizado o a la parrilla" FontAttributes="Bold"></Label>
+                </Grid>
             </Frame>
             <Frame Padding="10" Margin="10" BackgroundColor="White">
-                <StackLayout>
-                    <Image Source="Camarones.jpg"></Image>
-                    <Label Text="Pescado Frito Entero" FontSize="Medium" HorizontalTextAlignment="Center" FontAttributes="Bold"></Label>
-                    <Label Text="$8.25 (1 Libra)" FontSize="Medium" HorizontalTextAlignment="Center" FontAttributes="Bold"></Label>
-                </StackLayout>
+                <Frame.HeightRequest>
+                    <OnPlatform x:TypeArguments="x:Double">
+                        <On Platform="iOS">340</On>
+                        <On Platform="Android">300</On>
+                    </OnPlatform>
+                </Frame.HeightRequest>
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="auto"/>
+                        <RowDefinition Height="auto"/>
+
+
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+                    <Image Grid.Row="0" Grid.ColumnSpan="2" Source="Camarones.jpg"></Image>
+                    <Label Grid.Row="1" Grid.Column="0" Text="Pescado Frito Entero" FontSize="Medium" HorizontalTextAlignment="Center" FontAttributes="Bold"></Label>
+                    <Label Grid.Row="1" Grid.Column="1" Text="$8.25 (1 Libra)" FontSize="Medium" HorizontalTextAlignment="Center" FontAttributes="Bold"></Label>
+                </Grid>
             </Frame>
             <StackLayout>
                 <Frame>

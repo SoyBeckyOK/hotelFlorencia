@@ -6,63 +6,55 @@
     <ScrollView>
         <StackLayout BackgroundColor="LightBlue">
             <Frame Padding="10" Margin="10" BackgroundColor="White">
-                <StackLayout>
-                    <Image Source="Coctel.jpg"></Image>
-                    <Label Text="Coctel de Camarones" FontSize="Small" FontAttributes="Bold"></Label>
-                    <StackLayout Orientation="Horizontal">
-                        <Label Text="Mediano $6.95" HorizontalOptions="StartAndExpand"></Label>
-                        <Label Text="Grande $8.95" HorizontalOptions="EndAndExpand"></Label>
-                    </StackLayout>
-                   
-                </StackLayout>
+                <Frame.HeightRequest>
+                    <OnPlatform x:TypeArguments="x:Double">
+                        <On Platform="iOS">360</On>
+                        <On Platform="Android">300</On>
+                    </OnPlatform>
+                </Frame.HeightRequest>
+                <Grid  HorizontalOptions="Center">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="auto"/>
+                        <RowDefinition Height="auto"/>
+                        <RowDefinition Height="auto"/>
+                        <RowDefinition Height="auto"/>
+                    </Grid.RowDefinitions>
+                    <Image Grid.Row="0" Source="Coctel.jpg"></Image>
+                    <Label Grid.Row="1" Text="Coctel de Camarones" FontSize="Small" FontAttributes="Bold"></Label>
+                    <Label Grid.Row="2" Text="Mediano $6.95"></Label>
+                    <Label Grid.Row="3" Text="Grande $8.95"></Label>
+                </Grid>
             </Frame>
-            <Frame Padding="10" Margin="10" BackgroundColor="White">
-
-                <StackLayout>
-                    <Image Source="Coctel.jpg"></Image>
-                    <Label Text="Cocteles" FontSize="Medium" HorizontalTextAlignment="Center"  FontAttributes="Bold"></Label>
-                    <StackLayout>
-                        <Label Text="Camaron en Salsa Rosada" FontAttributes="Bold"></Label>
-                        <StackLayout Orientation="Vertical">
-                            
-                            <StackLayout Orientation="Horizontal">
-                                <StackLayout Orientation="Horizontal" HorizontalOptions="StartAndExpand">
-                                    <Label Text="Mediano"></Label>
-                                    <Label Text="$6.95"></Label>
-                                </StackLayout>
-                                <StackLayout Orientation="Horizontal" HorizontalOptions="EndAndExpand">
-                                    <Label Text="Grande"></Label>
-                                    <Label Text="$8.95"></Label>
-                                </StackLayout>
-                            </StackLayout>
-                            <Label Text="Camaron en Salsa Roja" FontAttributes="Bold" ></Label>
-                            <StackLayout Orientation="Horizontal">
-                              
-                                <StackLayout Orientation="Horizontal" HorizontalOptions="StartAndExpand">
-                                    <Label Text="Mediano"></Label>
-                                    <Label Text="$6.95"></Label>
-                                </StackLayout>
-                                <StackLayout Orientation="Horizontal" HorizontalOptions="EndAndExpand">
-                                    <Label Text="Grande"></Label>
-                                    <Label Text="$8.95"></Label>
-                                </StackLayout>
-                            </StackLayout>
-                            <Label Text="Camaron en Salsa Rosada con Aguacate" FontAttributes="Bold" ></Label>
-                            <StackLayout Orientation="Horizontal">
-                                
-                                <StackLayout Orientation="Horizontal" HorizontalOptions="StartAndExpand">
-                                    <Label Text="Mediano"></Label>
-                                    <Label Text="$7.95"></Label>
-                                </StackLayout>
-                                <StackLayout Orientation="Horizontal" HorizontalOptions="EndAndExpand">
-                                    <Label Text="Grande"></Label>
-                                    <Label Text="$8.95"></Label>
-                                </StackLayout>
-                            </StackLayout>
-                           
-                        </StackLayout>
-                </StackLayout>
-              </StackLayout>
+            <Frame Padding="10" Margin="10" HeightRequest="470" BackgroundColor="White">
+               
+                <Grid HorizontalOptions="Center">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="2*"/>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+                    <Image Grid.Row="0" Grid.ColumnSpan="3" Source="Coctel.jpg"></Image>
+                    <Label Grid.Row="1" Grid.Column="0" Text="Cocteles" FontSize="Small"  FontAttributes="Bold"></Label>
+                    <Label Grid.Row="1" Grid.Column="1" Text="Mediano"></Label>
+                    <Label Grid.Row="1" Grid.Column="2" Text="Grande"></Label>
+                    <Label Grid.Row="3" Grid.Column="0"  Text="Camaron en Salsa Rosada" FontAttributes="Bold"></Label>
+                    <Label Grid.Row="3" Grid.Column="1"  Text="$6.95"></Label>
+                    <Label Grid.Row="3" Grid.Column="2"  Text="$8.95"></Label>
+                    <Label Grid.Row="4" Grid.Column="0"  Text="Camaron en Salsa Roja" FontAttributes="Bold"></Label>
+                    <Label Grid.Row="4" Grid.Column="1"  Text="$6.95"></Label>
+                    <Label Grid.Row="4" Grid.Column="2"  Text="$8.95"></Label>
+                    <Label Grid.Row="5" Grid.Column="0"  Text="Camaron en Salsa Rosada con Aguacate" FontAttributes="Bold"></Label>
+                    <Label Grid.Row="5" Grid.Column="1"  Text="$7.95"></Label>
+                    <Label Grid.Row="5" Grid.Column="2"  Text="$8.95"></Label>
+                </Grid>
             </Frame>
           
         </StackLayout>
